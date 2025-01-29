@@ -111,35 +111,35 @@ local T1_SET_SOD = {
 		{ 2, 1699 }, -- Druid
 		{ 3, 1701 }, -- Druid
 		{ 4, 1700 }, -- Druid
-		
+
 		{ 6, 1702 }, -- Hunter
 		{ 7, 1703 }, -- Hunter
-		
+
 		{ 9, 1704 }, -- Mage
 		{ 10, 1705 }, -- Mage
-		
+
 		{ 12, 1713 }, -- Shaman
 		{ 13, 1715 }, -- Shaman
 		{ 14, 1714 }, -- Shaman
 		{ 15, 1716 }, -- Shaman
-		
+
 		{ 16, 1708 }, -- Paladin
 		{ 17, 1707 }, -- Paladin
 		{ 18, 1706 }, -- Paladin
-		
+
 		{ 20, 1709 }, -- Priest
 		{ 21, 1710 }, -- Priest
-		
+
 		{ 23, 1711 }, -- Rogue
 		{ 24, 1712 }, -- Rogue
-		
+
 		{ 26, 1717 }, -- Warlock
 		{ 27, 1718 }, -- Warlock
-		
+
 		{ 29, 1719 }, -- Warrior
 		{ 30, 1720 }, -- Warrior
 	},
-	
+
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
 	},
@@ -157,35 +157,35 @@ local T2_SET_SOD = {
 		{ 2, 1803 }, --Feral
 		{ 3, 1804 }, --Tank
 		{ 4, 1802 }, --Resto
-		
+
 		{ 6, 1805 }, --Ranged Hunter
 		{ 7, 1806 }, --Melee Hunter
-		
+
 		{ 9, 1807 }, --Damage Mage
 		{ 10, 1808 }, --Healer Mage
-		
+
 		{ 12, 1816 }, -- Healer Sham
 		{ 13, 1818 }, -- Melee Sham
 		{ 14, 1817 }, -- Ranged Sham
 		{ 15, 1819 }, -- Tank Sham
-		
+
 		{ 16, 1809 }, -- Holy Pally
 		{ 17, 1810 }, -- Ret Pally
 		{ 18, 1811 }, -- Tank Pally
-		
+
 		{ 20, 1812 }, -- Healer Priest
 		{ 21, 1813 }, -- DPS Priest
-		
+
 		{ 23, 1814 }, -- DPS Rogue
 		{ 24, 1815 }, -- Tank Rogue
-		
+
 		{ 26, 1820 }, -- DPS Lock
 		{ 27, 1821 }, -- Tank Lock
-		
+
 		{ 29, 1822 }, -- Tank Warr
 		{ 30, 1823 }, -- Dps Warr
 	},
-	
+
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
 	},
@@ -223,7 +223,7 @@ local T2_5_SET_SOD = {
 		{ 29, 1856 }, -- Tank Warr
 		{ 30, 1857 }, -- Dps Warr
 	},
-	
+
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
 	},
@@ -241,35 +241,35 @@ local T3_SET_SOD = {
 		{ 2, 1903 }, --Feral
 		{ 3, 1901 }, --Tank
 		{ 4, 1902 }, --Resto
-		
+
 		{ 6, 1899 }, --Ranged Hunter
 		{ 7, 1900 }, --Melee Hunter
-		
+
 		{ 9, 1898 }, --Damage Mage
 		{ 10, 1897 }, --Healer Mage
-		
+
 		{ 12, 1887 }, -- Healer Sham
 		{ 13, 1889 }, -- Ele Sham
 		{ 14, 1886 }, -- Tank Sham
 		{ 15, 1888 }, -- Melee Sham
-		
+
 		{ 16, 1895 }, -- Holy Pally
 		{ 17, 1894 }, -- Tank Pally
 		{ 18, 1896 }, -- Ret Pally
-		
+
 		{ 20, 1892 }, -- Healer Priest
 		{ 21, 1893 }, -- DPS Priest
-		
+
 		{ 23, 1891 }, -- DPS Rogue
 		{ 24, 1890 }, -- Tank Rogue
-		
+
 		{ 26, 1885 }, -- DPS Lock
 		{ 27, 1884 }, -- Tank Lock
-		
+
 		{ 29, 1882 }, -- Tank Warr
 		{ 30, 1883 }, -- Dps Warr
 	},
-	
+
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
 	},
@@ -416,30 +416,30 @@ local KARA_CRYPTS_LOOT = {
 	{ 2, 235874 },
 	{ 3, 235878 },
 	{ 4, 235880 },
-	
+
 	-- Leather
 	{ 7, "INV_Box_01", nil, AL["Leather"], nil },
 	{ 8, 235869 },
 	{ 9, 235872 },
 	{ 10, 235875 },
 	{ 11, 235881 },
-	
+
 	-- Mail
 	{ 16, "INV_Box_01", nil, AL["Mail"], nil },
 	{ 17, 235876 },
 	{ 18, 235870 },
 	{ 19, 235879 },
 	{ 20, 235882 },
-	
+
 	-- Plate
 	{ 22, "INV_Box_01", nil, AL["Plate"], nil },
 	{ 23, 235871 },
 	{ 24, 235873 },
 	{ 25, 235873 },
 	{ 26, 235883 },
-	
+
 	{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-	
+
 	{ 101, "INV_Box_01", nil, AL["Weapons"], nil },
 	{ 102, 235891 },
 	{ 103, 235892 },
@@ -448,7 +448,7 @@ local KARA_CRYPTS_LOOT = {
 	{ 106, 235894 },
 	{ 107, 235893 },
 	{ 108, 235868 },
-	
+
 	-- Jewelery
 	{ 116, "INV_Box_01", nil, AL["Jewelery"], nil },
 	{ 117, 235884 },
@@ -5803,7 +5803,7 @@ AtlasMapBossID = 5,
 	{ 8, 14531 }, -- Frightskull Shaft
 	{ 10, 18782 }, -- Top Half of Advanced Armorsmithing: Volume II
 	{ 12, 13873 }, -- Viewing Room Key
-	
+
 },
 },
 { -- SCHOLODeathKnight
@@ -9663,9 +9663,9 @@ AtlasMapBossID = 4,
 	{ 11, 230276 }, -- Claw of the Black Drake
 	--{ 12, 230271 }, -- Drake Talon Cleaver
 	{ 12, 230270 }, -- Shadow Wing Focus Staff
-	
+
 	{ 16, 226404 }, -- Tarnished Undermine Real
-	
+
 	{ 18, 230256 }, -- Drake Talon Pauldrons
 	{ 19, 230277 }, -- Cloak of Firemaw
 	{ 20, 230274 }, -- Black Ash Robe
@@ -9675,7 +9675,7 @@ AtlasMapBossID = 4,
 	{ 24, 230278 }, -- Legguards of the Fallen Crusader
 	{ 25, 230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
 	{ 26, 230257 }, -- Ring of Blackrock
-	
+
 	{ 28, 230269 }, -- Rejuvenating Gem
 },
 [NORMAL_DIFF] = {
@@ -9810,7 +9810,7 @@ AtlasMapBossID = 7,
 	{ 1, 231726 }, -- Ancient Shoulderpads
 	{ 2, 231717 }, -- Primeval Shoulderpads
 	{ 3, 231709 }, -- Draconian Shoulderpads
-	
+
 	{ 5, 230740 }, -- Taut Dragonhide Shoulderpads
 	{ 6, 230744 }, -- Elementium Threaded Cloak
 	{ 7, 230742 }, -- Taut Dragonhide Gloves
@@ -9820,12 +9820,12 @@ AtlasMapBossID = 7,
 	{ 11, 230746 }, -- Empowered Leggings
 	{ 12, 230743 }, -- Shimmering Geta
 	{ 13, 230741 }, -- Chromatic Boots
-	
+
 	{ 16, 226404 }, -- Tarnished Undermine Real
-	
+
 	{ 18, 231814 }, -- Chromatic Heart
 	{ 19, 229906 }, -- Tarnished Bronze Scale
-	
+
 	{ 21, 230801 }, -- Ashjre'thul, Crossbow of Smiting
 	{ 22, 230802 }, -- Elementium Reinforced Bulwark
 	{ 23, 230794 }, -- Claw of Chromaggus
@@ -9884,19 +9884,19 @@ AtlasMapBossID = 8,
 	{ 0, 17965 }, -- Yellow Sack of Gems
 	{ 0, 17969 }, -- Red Sack of Gems
 	{ 16, 226404 }, -- Tarnished Undermine Real
-	
+
 	{ 18, 231726 }, -- Ancient Shoulderpads
 	{ 19, 231717 }, -- Primeval Shoulderpads
 	{ 20, 231709 }, -- Draconian Shoulderpads
-	
+
 	{ 22, 231731 }, -- Ancient Chest
 	{ 23, 231723 }, -- Primeval Chest
 	{ 24, 231714 }, -- Draconian Robe
-	
+
 	{ 26, 231727 }, -- Ancient Leggings
 	{ 27, 231718 }, -- Primeval Leggings
 	{ 28, 231710 }, -- Draconian Leggings
-	
+
 	{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
 	{ 101, 231724 }, -- Ancient Bindings
 	{ 102, 231715 }, -- Primeval Bindings
