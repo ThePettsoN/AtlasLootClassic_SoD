@@ -1753,6 +1753,9 @@ data["Mounts"] = {
 			{ 4,  GetForVersion(18243,29465) }, -- Black Battlestrider
 			{ 5,  GetForVersion(18241,29468) }, -- Black War Steed Bridle
 			{ 6,  GetForVersion(18242,29471) }, -- Reins of the Black War Tiger
+
+				{ 8, 234960 }, -- Reins of the Blood-Caked Tiger
+				{ 9, 234961 }, -- Whistle of the Blood-Caked Raptor
 		},
 		[HORDE_DIFF] = {
 			{ 1, 19029 }, -- Horn of the Frostwolf Howler
@@ -1760,6 +1763,9 @@ data["Mounts"] = {
 			{ 4, GetForVersion(18247,29466) }, -- Black War Kodo
 			{ 5, GetForVersion(18246,29472) }, -- Whistle of the Black War Raptor
 			{ 6, GetForVersion(18248,29470) }, -- Red Skeletal Warhorse
+				{ 8, 234960 }, -- Reins of the Blood-Caked Tiger
+				{ 9, 234961 }, -- Whistle of the Blood-Caked Raptor
+				
 		},
 	},
 	{ -- Drops
