@@ -2666,9 +2666,9 @@ data["ScourgeInvasion"] = {
 			{ 102, 236710 }, -- Wristguards of Undead Slaying
 			{ 103, 236715 }, -- Handguards of Undead Slaying
 
-			{ 106, 236736 }, -- Chestguard of Undead Cleansing
-			{ 107, 236734 }, -- Wristguards of Undead Cleansing
-			{ 108, 236735 }, -- Handguards of Undead Cleansing
+			{ 105, 236736 }, -- Chestguard of Undead Cleansing
+			{ 106, 236734 }, -- Wristguards of Undead Cleansing
+			{ 107, 236735 }, -- Handguards of Undead Cleansing
 
 			{ 109, 236739 }, -- Chestguard of Undead Warding
 			{ 110, 236737 }, -- Wristguards of Undead Warding
