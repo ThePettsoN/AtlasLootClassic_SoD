@@ -453,7 +453,7 @@ TOKEN_DATA.CLASSIC = {
 	[15410] = { "prof19106", "prof19093", type = 5 }, -- Scale of Onyxia
 
 	-- Atiesh
-	[22727] = { { 22726, 40 }, 22727, 22734, 22733, 0, 22631, 22589, 22630, 22632 }, -- Frame of Atiesh
+	[22727] = { { 22726, 40 }, 22727, 22734, 22733, 0, {236401, "SoD"}, {236400, "SoD"}, {236399, "SoD"}, {236398, "SoD"} }, -- Frame of Atiesh
 	[22726] = 22727, -- Splinter of Atiesh
 	[22734] = 22727, -- Base of Atiesh
 	[22733] = 22727, -- Staff Head of Atiesh

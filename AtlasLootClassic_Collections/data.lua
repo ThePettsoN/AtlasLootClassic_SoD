@@ -24,6 +24,7 @@ local ALIL = AtlasLoot.IngameLocales
 
 local GetForVersion = AtlasLoot.ReturnForGameVersion
 
+local SOD_DIFF = data:AddDifficulty("SoD")
 local NORMAL_DIFF = data:AddDifficulty("NORMAL", nil, nil, nil, true)
 local HEROIC_DIFF = data:AddDifficulty("HEROIC", nil, nil, nil, true)
 local RAID10_DIFF = data:AddDifficulty("10RAID")
@@ -104,30 +105,6 @@ data["SoD Collections"] = {
 			},
 		},
 		{
-			name = AL["Ahn'Qiraj Ruins Sets"],
-			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, AL["Mage"], nil },
-				{ 2, 1860 },
-				{ 4, "INV_Box_01", nil, AL["Priest"], nil },
-				{ 5, 1862 },
-				{ 7, "INV_Box_01", nil, AL["Warlock"], nil },
-				{ 8, 1865 },
-				{ 10, "INV_Box_01", nil, AL["Druid"], nil },
-				{ 11, 1858 },
-				{ 13, "INV_Box_01", nil, AL["Rogue"], nil },
-				{ 14, 1863 },
-				{ 16, "INV_Box_01", nil, AL["Hunter"], nil },
-				{ 17, 1859 },
-				{ 19, "INV_Box_01", nil, AL["Shaman"], nil },
-				{ 20, 1864 },
-				{ 22, "INV_Box_01", nil, AL["Paladin"], nil },
-				{ 23, 1861 },
-				{ 25, "INV_Box_01", nil, AL["Warrior"], nil },
-				{ 26, 1866 },
-
-			},
-		},
-		{
 			name = AL["Level 60 Tier 2"],
 			[NORMAL_DIFF] = {
 				{ 1, 1801 }, --Balance
@@ -181,6 +158,30 @@ data["SoD Collections"] = {
 				{ 27, 1718 }, -- Tank Lock
 				{ 29, 1719 }, -- Tank Warr
 				{ 30, 1720 }, -- Dps Warr				
+			},
+		},
+		{
+			name = AL["Ahn'Qiraj Ruins Sets"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["Mage"], nil },
+				{ 2, 1860 },
+				{ 4, "INV_Box_01", nil, AL["Priest"], nil },
+				{ 5, 1862 },
+				{ 7, "INV_Box_01", nil, AL["Warlock"], nil },
+				{ 8, 1865 },
+				{ 10, "INV_Box_01", nil, AL["Druid"], nil },
+				{ 11, 1858 },
+				{ 13, "INV_Box_01", nil, AL["Rogue"], nil },
+				{ 14, 1863 },
+				{ 16, "INV_Box_01", nil, AL["Hunter"], nil },
+				{ 17, 1859 },
+				{ 19, "INV_Box_01", nil, AL["Shaman"], nil },
+				{ 20, 1864 },
+				{ 22, "INV_Box_01", nil, AL["Paladin"], nil },
+				{ 23, 1861 },
+				{ 25, "INV_Box_01", nil, AL["Warrior"], nil },
+				{ 26, 1866 },
+				
 			},
 		},
 		{
@@ -2561,38 +2562,127 @@ data["AQOpening"] = {
 data["ScourgeInvasion"] = {
 	name = AL["Scourge Invasion"],
 	ContentType = WORLD_EVENT_CONTENT,
-	LoadDifficulty = NORMAL_DIFF,
+	-- LoadDifficulty = NORMAL_DIFF,
 	TableType = NORMAL_ITTYPE,
 	ContentPhase = 6,
 	gameVersion = AtlasLoot.CLASSIC_VERSION_NUM,
 	CorrespondingFields = private.SCOURGE_INVASION,
 	items = {
 		{ -- ScourgeInvasionEvent1
-			name = AL["Scourge Invasion"],
+			name = AL["Scourge Invasion - Equipment"],
+			[SOD_DIFF] = {
+				-- Cloth
+				{ 1,  236718 }, -- Robe of Undead Cleansing
+				{ 2,  236716 }, -- Bracers of Undead Cleansing
+				{ 3,  236717 }, -- Gloves of Undead Cleansing
+				
+				{ 5, 236721 }, -- Robe of Undead Purification
+				{ 6, 236719 }, -- Bracers of Undead Purification
+				{ 7, 236720 }, -- Gloves of Undead Purification
+				
+				{ 9, 236724 }, -- Robe of Undead Warding
+				{ 10, 236722 }, -- Bracers of Undead Warding
+				{ 11, 236723 }, -- Gloves of Undead Warding
+				
+				-- Leather
+				{ 13, 236707 }, -- Tunic of Undead Slaying
+				{ 14, 236711 }, -- Wristwraps of Undead Slaying
+				{ 15, 236713 }, -- Handwraps of Undead Slaying
+				
+				{ 16, 236730 }, -- Tunic of Undead Purification
+				{ 17, 236728 }, -- Wristwraps of Undead Purification
+				{ 18, 236729 }, -- Handwraps of Undead Purification
+				
+				{ 20, 236733 },  -- Tunic of Undead Warding
+				{ 21, 236731 },  -- Wristwraps of Undead Warding
+				{ 22, 236732 },  -- Handwraps of Undead Warding
+				
+				{ 24, 236727 }, -- Tunic of Undead Cleansing
+				{ 25, 236725 }, -- Wristwraps of Undead Cleansing
+				{ 26, 236726 }, -- Handwraps of Undead Cleansing
+				
+				{ 30, "INV_Box_01", nil, AL["Continued -->"], nil },
+				
+				-- Mail
+				{ 101, 236709 }, -- Chestguard of Undead Slaying
+				{ 102, 236710 }, -- Wristguards of Undead Slaying
+				{ 103, 236715 }, -- Handguards of Undead Slaying
+				
+				{ 106, 236736 }, -- Chestguard of Undead Cleansing
+				{ 107, 236734 }, -- Wristguards of Undead Cleansing
+				{ 108, 236735 }, -- Handguards of Undead Cleansing
+				
+				{ 109, 236739 }, -- Chestguard of Undead Warding
+				{ 110, 236737 }, -- Wristguards of Undead Warding
+				{ 111, 236738 }, -- Handguards of Undead Warding
+				
+				{ 113, 236742 }, -- Chestguard of Undead Purification
+				{ 114, 236741 }, -- Handguards of Undead Purification
+				{ 115, 236740 }, -- Wristguards of Undead Purification
+				
+				-- Plate
+				{ 116, 236708 }, -- Breastplate of Undead Slaying
+				{ 117, 236712 }, -- Bracers of Undead Slaying
+				{ 118, 236714 }, -- Gauntlets of Undead Slaying			
+				
+				{ 120, 236748 }, -- Breastplate of Undead Warding
+				{ 121, 236746 }, -- Bracers of Undead Warding			
+				{ 122, 236747 }, -- Gauntlets of Undead Warding
+				
+				{ 124, 236745 }, -- Breastplate of Undead Purification
+				{ 125, 236743 }, -- Bracers of Undead Purification				
+				{ 126, 236744 }, -- Gauntlets of Undead Purification
+			},
 			[NORMAL_DIFF] = {
-				{ 1,  23123 }, -- Blessed Wizard Oil
-				{ 2,  23122 }, -- Consecrated Sharpening Stone
-				{ 3,  22999 }, -- Tabard of the Argent Dawn
-				{ 4,  22484 }, -- Necrotic Rune
-				{ 7,  23085 }, -- Robe of Undead Cleansing
-				{ 8,  23091 }, -- Bracers of Undead Cleansing
-				{ 9,  23084 }, -- Gloves of Undead Cleansing
-				{ 12, 23089 }, -- Tunic of Undead Slaying
-				{ 13, 23093 }, -- Wristwraps of Undead Slaying
-				{ 14, 23081 }, -- Handwraps of Undead Slaying
+				{ 1,  23085 }, -- Robe of Undead Cleansing
+				{ 2,  23091 }, -- Bracers of Undead Cleansing
+				{ 3,  23084 }, -- Gloves of Undead Cleansing
+
+				{ 5, 23089 }, -- Tunic of Undead Slaying
+				{ 6, 23093 }, -- Wristwraps of Undead Slaying
+				{ 7, 23081 }, -- Handwraps of Undead Slaying
+
+				{ 16, 23088 }, -- Chestguard of Undead Slaying
+				{ 17, 23092 }, -- Wristguards of Undead Slaying
+				{ 18, 23082 }, -- Handguards of Undead Slaying
+
+				{ 20, 23087 }, -- Breastplate of Undead Slaying
+				{ 21, 23090 }, -- Bracers of Undead Slaying
+				{ 22, 23078 }, -- Gauntlets of Undead Slaying
+			},
+		},
+		{
+			name = AL["Scourge Invasion - Misc"],
+			[SOD_DIFF] = {
+				{ 1,  238234 }, -- Blessed Wizard Oil
+				{ 2,  238241 }, -- Consecrated Sharpening Stone
+				{ 3,  22484 }, -- Necrotic Rune
+
+				{ 5,  22999 }, -- Tabard of the Argent Dawn
+				
 				{ 16, 23194 }, -- Lesser Mark of the Dawn
 				{ 17, 23195 }, -- Mark of the Dawn
 				{ 18, 23196 }, -- Greater Mark of the Dawn
-				{ 22, 23088 }, -- Chestguard of Undead Slaying
-				{ 23, 23092 }, -- Wristguards of Undead Slaying
-				{ 24, 23082 }, -- Handguards of Undead Slaying
-				{ 27, 23087 }, -- Breastplate of Undead Slaying
-				{ 28, 23090 }, -- Bracers of Undead Slaying
-				{ 29, 23078 }, -- Gauntlets of Undead Slaying
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  23123 }, -- Blessed Wizard Oil
+				{ 2,  23122 }, -- Consecrated Sharpening Stone
+				{ 3,  22484 }, -- Necrotic Rune
+				
+				{ 5,  22999 }, -- Tabard of the Argent Dawn
+
+				{ 16, 23194 }, -- Lesser Mark of the Dawn
+				{ 17, 23195 }, -- Mark of the Dawn
+				{ 18, 23196 }, -- Greater Mark of the Dawn
 			},
 		},
 		{
 			name = C_Map_GetAreaInfo(2017).." - "..AL["Balzaphon"],
+			[SOD_DIFF] = {
+				{ 1,  238356 }, -- Waistband of Balzaphon
+				{ 2,  238355 }, -- Chains of the Lich
+				{ 3,  238357 }, -- Staff of Balzaphon
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23126 }, -- Waistband of Balzaphon
 				{ 2,  23125 }, -- Chains of the Lich
@@ -2601,6 +2691,11 @@ data["ScourgeInvasion"] = {
 		},
 		{
 			name = C_Map_GetAreaInfo(2057).." - "..AL["Lord Blackwood"],
+			[SOD_DIFF] = {
+				{ 1,  238361 }, -- Lord Blackwood's Blade
+				{ 2,  238358 }, -- Blackwood's Thigh
+				{ 3,  238360 }, -- Lord Blackwood's Buckler
+			},
 			[NORMAL_DIFF] = {
 				{ 1,  23132 }, -- Lord Blackwood's Blade
 				{ 2,  23156 }, -- Blackwood's Thigh
@@ -2609,6 +2704,11 @@ data["ScourgeInvasion"] = {
 		},
 		{
 			name = C_Map_GetAreaInfo(2557).." - "..AL["Revanchion"],
+			[SOD_DIFF] = {
+				{ 1, 238364 }, -- Cloak of Revanchion
+				{ 2, 238362 }, -- Bracers of Mending
+				{ 3, 238363 }, -- The Shadow's Grasp
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 23127 }, -- Cloak of Revanchion
 				{ 2, 23129 }, -- Bracers of Mending
@@ -2617,6 +2717,11 @@ data["ScourgeInvasion"] = {
 		},
 		{
 			name = AL["Scarlet Monastery - Graveyard"].." - "..AL["Scorn"],
+			[SOD_DIFF] = {
+				{ 1, 238352 }, -- Scorn's Icy Choker
+				{ 2, 238351 }, -- The Frozen Clutch
+				{ 3, 238350 }, -- Scorn's Focal Dagger
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 23169 }, -- Scorn's Icy Choker
 				{ 2, 23170 }, -- The Frozen Clutch
@@ -2625,6 +2730,10 @@ data["ScourgeInvasion"] = {
 		},
 		{
 			name = C_Map_GetAreaInfo(209).." - "..AL["Sever"],
+			[SOD_DIFF] = {
+				{ 1, 238349 }, -- Abomination Skin Leggings
+				{ 2, 238348 }, -- The Axe of Severing
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 23173 }, -- Abomination Skin Leggings
 				{ 2, 23171 }, -- The Axe of Severing
@@ -2632,6 +2741,10 @@ data["ScourgeInvasion"] = {
 		},
 		{
 			name = C_Map_GetAreaInfo(722).." - "..AL["Lady Falther'ess"],
+			[SOD_DIFF] = {
+				{ 1, 238353 }, -- Mantle of Lady Falther'ess
+				{ 2, 238354 }, -- Lady Falther'ess' Finger
+			},
 			[NORMAL_DIFF] = {
 				{ 1, 23178 }, -- Mantle of Lady Falther'ess
 				{ 2, 23177 }, -- Lady Falther'ess' Finger
