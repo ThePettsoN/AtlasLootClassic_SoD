@@ -273,7 +273,7 @@ TOKEN_DATA.CLASSIC = {
 	[18564] = { 19019,{230224, "SoD"}, 0, 18563, 18564, 19017 }, -- Bindings of the Windseeker <right>
 	[18563] = 18564,{230224, "SoD"}, -- Bindings of the Windseeker <left>
 	[19017] = 18564, -- Essence of the Firelord
-	[17204] = { 17182, type = 4 }, -- Eye of Sulfuras
+	[17204] = { 17182, {227683, "SoD"}, type = 4 }, -- Eye of Sulfuras
 	[18703] = { 18714, 18713, 18715,0,nil,{228334, "SoD"},{228332, "SoD"}}, -- Ancient Petrified Leaf
 	[18646] = { 18665, 18646, 0, 18608, 18609,0,{228335, "SoD"},{228336, "SoD"}}, -- The Eye of Divinity
 	[18665] = 18646, -- The Eye of Shadow

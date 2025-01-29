@@ -1986,14 +1986,14 @@ data["Legendarys"] = {
 		{
 			name = AL["Legendarys"],
 			[NORMAL_ITTYPE] = {
-				{ 1,  19019 }, -- Thunderfury, Blessed Blade of the Windseeker
+				{ 1,  230224 }, -- Thunderfury, Blessed Blade of the Windseeker
 				
-				{ 3,  22631 }, -- Atiesh, Greatstaff of the Guardian / Priest
-				{ 4,  22589 }, -- Atiesh, Greatstaff of the Guardian / Mage
-				{ 5,  22630 }, -- Atiesh, Greatstaff of the Guardian / Warlock
-				{ 6,  22632 }, -- Atiesh, Greatstaff of the Guardian / Druid
+				{ 3,  236399 }, -- Atiesh, Greatstaff of the Guardian / Priest
+				{ 4,  236400 }, -- Atiesh, Greatstaff of the Guardian / Mage
+				{ 5,  236398 }, -- Atiesh, Greatstaff of the Guardian / Warlock
+				{ 6,  236401 }, -- Atiesh, Greatstaff of the Guardian / Druid
 				
-				{ 16,  17182 }, -- Sulfuras, Hand of Ragnaros
+				{ 16,  227683 }, -- Sulfuras, Hand of Ragnaros
 				
 				{ 18,  21176 }, -- Black Qiraji Resonating Crystal
 			},
