@@ -702,7 +702,7 @@ data["BroodOfNozdormu"] = {
 				{ 4, 21200 }, --Signet Ring of the Bronze Dragonflight / 80
 				{ 16, "INV_Box_01", nil, AL["SoD Exclusive"], nil },
 				{ 17, "INV_Box_01", nil, AL["Physical Damage"], nil },
-				{ 18, 234034 }, --Signet Ring of the Bronze Dragonflight / 80				
+				{ 18, 234034 }, --Signet Ring of the Bronze Dragonflight / 80
 				{ 19, 234202 }, --Signet Ring of the Bronze Dragonflight / 80
 				{ 20, "INV_Box_01", nil, AL["Spell Damage"], nil },
 				{ 21, 234032 }, --Signet Ring of the Bronze Dragonflight / 80
@@ -723,7 +723,7 @@ data["BroodOfNozdormu"] = {
 				{ 4, 21199 }, --Signet Ring of the Bronze Dragonflight / 75
 				{ 16, "INV_Box_01", nil, AL["SoD Exclusive"], nil },
 				{ 17, "INV_Box_01", nil, AL["Physical Damage"], nil },
-				{ 18, 234030 }, --Signet Ring of the Bronze Dragonflight / 75				
+				{ 18, 234030 }, --Signet Ring of the Bronze Dragonflight / 75
 				{ 19, 234201 }, --Signet Ring of the Bronze Dragonflight / 75
 				{ 20, "INV_Box_01", nil, AL["Spell Damage"], nil },
 				{ 21, 234028 }, --Signet Ring of the Bronze Dragonflight / 75
@@ -744,7 +744,7 @@ data["BroodOfNozdormu"] = {
 				{ 4, 21198 }, --Signet Ring of the Bronze Dragonflight / 70
 				{ 16, "INV_Box_01", nil, AL["SoD Exclusive"], nil },
 				{ 17, "INV_Box_01", nil, AL["Physical Damage"], nil },
-				{ 18, 234026 }, --Signet Ring of the Bronze Dragonflight / 70				
+				{ 18, 234026 }, --Signet Ring of the Bronze Dragonflight / 70
 				{ 19, 234200 }, --Signet Ring of the Bronze Dragonflight / 70
 				{ 20, "INV_Box_01", nil, AL["Spell Damage"], nil },
 				{ 21, 234024 }, --Signet Ring of the Bronze Dragonflight / 70
@@ -765,7 +765,7 @@ data["BroodOfNozdormu"] = {
 				{ 4, 21197 }, --Signet Ring of the Bronze Dragonflight / 65
 				{ 16, "INV_Box_01", nil, AL["SoD Exclusive"], nil },
 				{ 17, "INV_Box_01", nil, AL["Physical Damage"], nil },
-				{ 18, 234021 }, --Signet Ring of the Bronze Dragonflight / 65				
+				{ 18, 234021 }, --Signet Ring of the Bronze Dragonflight / 65
 				{ 19, 234199 }, --Signet Ring of the Bronze Dragonflight / 65
 				{ 20, "INV_Box_01", nil, AL["Spell Damage"], nil },
 				{ 21, 234020 }, --Signet Ring of the Bronze Dragonflight / 65
@@ -786,7 +786,7 @@ data["BroodOfNozdormu"] = {
 				{ 4, 21196 }, --Signet Ring of the Bronze Dragonflight / 60
 				{ 16, "INV_Box_01", nil, AL["SoD Exclusive"], nil },
 				{ 17, "INV_Box_01", nil, AL["Physical Damage"], nil },
-				{ 18, 234017 }, --Signet Ring of the Bronze Dragonflight / 60				
+				{ 18, 234017 }, --Signet Ring of the Bronze Dragonflight / 60
 				{ 19, 234198 }, --Signet Ring of the Bronze Dragonflight / 60
 				{ 20, "INV_Box_01", nil, AL["Spell Damage"], nil },
 				{ 21, 234016 }, --Signet Ring of the Bronze Dragonflight / 60

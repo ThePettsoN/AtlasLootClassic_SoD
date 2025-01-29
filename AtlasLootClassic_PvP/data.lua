@@ -145,7 +145,7 @@ data["SoD PvP"] = {
 			name = AL["Level 60 Rank 14 Weapons"],
 			TableType = NORMAL_ITTYPE,
 			[ALLIANCE_DIFF] = {
-				{ 1, 234580 }, -- Grand Marshal's Handaxe 
+				{ 1, 234580 }, -- Grand Marshal's Handaxe
 				{ 2, 234566 }, -- Grand Marshal's Sunderer
 				{ 3, 234582 }, -- Grand Marshal's Dirk
 				{ 4, 235479 }, -- Grand Marshal's Shiv
@@ -241,7 +241,7 @@ data["SoD PvP"] = {
 				{ 1, "INV_Box_01", nil, AL["Alliance"], nil },
 				{ 2, 1767 }, --mage
 				{ 3, 1768 }, --priest
-				{ 4, 1769 }, --priest 
+				{ 4, 1769 }, --priest
 				{ 5, 1774 }, --warlock
 				{ 6, 1762 }, --Druid
 				{ 7, 1763 }, --Druid
@@ -282,7 +282,7 @@ data["SoD PvP"] = {
 				{ 9, 233738 }, -- Blood-Caked Cape
 				{ 10, 233737 }, -- Blood-Caked Cloak
 				{ 12, 233736 }, -- Blood-Caked Band
-				{ 13, 233735 }, -- Blood-Caked Loop 
+				{ 13, 233735 }, -- Blood-Caked Loop
 				{ 14, 233734 }, -- Blood-Caked Circle
 				{ 15, 233733 }, -- Blood-Caked Ring
 				{ 16, 233732 }, -- Blood-Caked Necklace
@@ -310,7 +310,7 @@ data["SoD PvP"] = {
 				{ 8, 221450 }, -- Gurubashi Pit Fighter's Bow
 				{ 10, "INV_Box_01", nil, AL["Mage"], nil },
 				{ 11, 221452 }, -- Bloodfocused Arcane Band
-				{ 12, 221453 }, -- Band of Boiling Blood 
+				{ 12, 221453 }, -- Band of Boiling Blood
 				{ 13, 221454 }, -- Glacial Blood Band
 				{ 16, "INV_Box_01", nil, AL["Paladin"], nil },
 				{ 17, 221457 }, -- Libram of Draconic Destruction
@@ -348,8 +348,8 @@ data["SoD PvP"] = {
 				{ 5, 216570 }, -- Reins of the Golden Sabercat
 				{ 6, 216492 }, -- Whistle of the Mottled Blood Raptor
 				{ 8, "INV_Box_01", nil, AL["Druid"], nil },
-				{ 9, 216498 }, -- Enchanted Sanguine Grimoire 
-				{ 10, 216499 }, -- Bloodbark Crusher 
+				{ 9, 216498 }, -- Enchanted Sanguine Grimoire
+				{ 10, 216499 }, -- Bloodbark Crusher
 				{ 11, 216500 }, -- Bloodbonded Grove Talisman
 				{ 16, "INV_Box_01", nil, AL["Hunter"], nil },
 				{ 17, 216513 }, -- Tigerblood Talisman
@@ -357,36 +357,36 @@ data["SoD PvP"] = {
 				{ 19, 216515 }, -- Sanguine Ammo Pouch
 				{ 20, 216516 }, -- Bloodlash Bow
 				{ 22, "INV_Box_01", nil, AL["Mage"], nil },
-				{ 23, 216510 }, -- Blood Resonance Circle 
-				{ 24, 216511 }, -- Emberblood Seal 
-				{ 25, 216512 }, -- Loop of Chilled Veins 
+				{ 23, 216510 }, -- Blood Resonance Circle
+				{ 24, 216511 }, -- Emberblood Seal
+				{ 25, 216512 }, -- Loop of Chilled Veins
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
 				{ 101, "INV_Box_01", nil, AL["Paladin"], nil },
-				{ 102, 216504 }, -- Eclipsed Bloodlight Saber 
-				{ 103, 216505 }, -- Bloodlight Crusader's Radiance 
-				{ 104, 216506 }, -- Bloodlight Avenger's Edge 
-				{ 105, 216607 }, -- Bloodlight Offering 
+				{ 102, 216504 }, -- Eclipsed Bloodlight Saber
+				{ 103, 216505 }, -- Bloodlight Crusader's Radiance
+				{ 104, 216506 }, -- Bloodlight Avenger's Edge
+				{ 105, 216607 }, -- Bloodlight Offering
 				{ 107, "INV_Box_01", nil, AL["Priest"], nil },
-				{ 108, 216517 }, -- Sanguine Sanctuary 
+				{ 108, 216517 }, -- Sanguine Sanctuary
 				{ 109, 216518 }, -- Blood Covenant Seal
-				{ 110, 216519 }, -- Sanguine Shadow Band 
+				{ 110, 216519 }, -- Sanguine Shadow Band
 				{ 112, "INV_Box_01", nil, AL["Rogue"], nil },
 				{ 113, 216520 }, -- Bloodharvest Blade
 				{ 114, 216521 }, -- Swift Sanguine Strikers
-				{ 115, 216522 }, -- Blood Spattered Stiletto 
+				{ 115, 216522 }, -- Blood Spattered Stiletto
 				{ 116, "INV_Box_01", nil, AL["Shaman"], nil },
 				{ 117, 216501 }, -- Bloodstorm Barrier
-				{ 118, 216502 }, -- Bloodstorm War Totem 
-				{ 119, 216503 }, -- Bloodstorm Jewel 
-				{ 120, 216615 }, -- Ancestral Bloodstorm Beacon 
+				{ 118, 216502 }, -- Bloodstorm War Totem
+				{ 119, 216503 }, -- Bloodstorm Jewel
+				{ 120, 216615 }, -- Ancestral Bloodstorm Beacon
 				{ 122, "INV_Box_01", nil, AL["Warlock"], nil },
 				{ 123, 216507 }, -- Umbral Bloodseal
 				{ 124, 216508 }, -- Infernal Bloodcoil Band
-				{ 125, 216509 }, -- Infernal Pact Essence 
+				{ 125, 216509 }, -- Infernal Pact Essence
 				{ 127, "INV_Box_01", nil, AL["Warrior"], nil },
-				{ 128, 216495 }, -- Sanguine Crusher 
-				{ 129, 216496 }, -- Sanguine Skullcrusher 
-				{ 130, 216497 }, -- Exsanguinar 
+				{ 128, 216495 }, -- Sanguine Crusher
+				{ 129, 216496 }, -- Sanguine Skullcrusher
+				{ 130, 216497 }, -- Exsanguinar
 			},
 		},
 		{

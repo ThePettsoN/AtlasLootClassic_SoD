@@ -83,33 +83,33 @@ data["SoD Collections"] = {
 				{ 2, 1903 }, --Feral
 				{ 3, 1901 }, --Tank
 				{ 4, 1902 }, --Resto
-				
+
 				{ 6, 1899 }, --Ranged Hunter
 				{ 7, 1900 }, --Melee Hunter
-				
+
 				{ 9, 1898 }, --Damage Mage
 				{ 10, 1897 }, --Healer Mage
-				
+
 				{ 12, 1887 }, -- Healer Sham
 				{ 13, 1889 }, -- Ele Sham
 				{ 14, 1886 }, -- Tank Sham
 				{ 15, 1888 }, -- Melee Sham
-				
+
 				{ 16, 1895 }, -- Holy Pally
 				{ 17, 1894 }, -- Tank Pally
 				{ 18, 1896 }, -- Ret Pally
-				
+
 				{ 20, 1892 }, -- Healer Priest
 				{ 21, 1893 }, -- DPS Priest
-				
+
 				{ 23, 1891 }, -- DPS Rogue
 				{ 24, 1890 }, -- Tank Rogue
-				
+
 				{ 26, 1885 }, -- DPS Lock
 				{ 27, 1884 }, -- Tank Lock
-				
+
 				{ 29, 1882 }, -- Tank Warr
-				{ 30, 1883 }, -- Dps Warr				
+				{ 30, 1883 }, -- Dps Warr
 			},
 		},
 		{
@@ -129,15 +129,15 @@ data["SoD Collections"] = {
 				{ 15, 1853 }, -- Melee Sham
 				{ 16, 1843 }, -- Holy Pally
 				{ 17, 1844 }, -- Tank Pally
-				{ 18, 1845 }, -- Ret Pally 
+				{ 18, 1845 }, -- Ret Pally
 				{ 20, 1846 }, -- Healer Priest
-				{ 21, 1847 }, -- DPS Priest 
+				{ 21, 1847 }, -- DPS Priest
 				{ 23, 1848 }, -- DPS Rogue
-				{ 24, 1849 }, -- Tank Rogue  
+				{ 24, 1849 }, -- Tank Rogue
 				{ 26, 1854 }, -- DPS Lock
 				{ 27, 1855 }, -- Tank Lock
 				{ 29, 1856 }, -- Tank Warr
-				{ 30, 1857 }, -- Dps Warr				
+				{ 30, 1857 }, -- Dps Warr
 			},
 		},
 		{
@@ -161,11 +161,11 @@ data["SoD Collections"] = {
 				{ 20, 1812 }, -- Healer Priest
 				{ 21, 1813 }, -- DPS Priest -
 				{ 23, 1814 }, -- DPS Rogue
-				{ 24, 1815 }, -- Tank Rogue - 
+				{ 24, 1815 }, -- Tank Rogue -
 				{ 26, 1820 }, -- DPS Lock
 				{ 27, 1821 }, -- Tank Lock
 				{ 29, 1822 }, -- Tank Warr
-				{ 30, 1823 }, -- Dps Warr				
+				{ 30, 1823 }, -- Dps Warr
 			},
 		},
 		{
@@ -193,7 +193,7 @@ data["SoD Collections"] = {
 				{ 26, 1717 }, -- DPS Lock
 				{ 27, 1718 }, -- Tank Lock
 				{ 29, 1719 }, -- Tank Warr
-				{ 30, 1720 }, -- Dps Warr				
+				{ 30, 1720 }, -- Dps Warr
 			},
 		},
 		{
@@ -217,7 +217,7 @@ data["SoD Collections"] = {
 				{ 23, 1861 },
 				{ 25, "INV_Box_01", nil, AL["Warrior"], nil },
 				{ 26, 1866 },
-				
+
 			},
 		},
 		{
@@ -309,18 +309,18 @@ data["SoD Collections"] = {
 		{
 			name = AL["Level 50 Raid"],
 			[NORMAL_DIFF] = {
-				{ 1, 1637 }, 
-				{ 2, 1638 }, 
-				{ 3, 1639 }, 
-				{ 5, 1640 }, 
-				{ 6, 1641 }, 
-				{ 7, 1642 }, 
-				{ 8, 1643 }, 
-				{ 10, 1644 }, 
-				{ 11, 1645 }, 
-				{ 12, 1646 }, 
-				{ 13, 1647 }, 
-				{ 16, 1648 }, 
+				{ 1, 1637 },
+				{ 2, 1638 },
+				{ 3, 1639 },
+				{ 5, 1640 },
+				{ 6, 1641 },
+				{ 7, 1642 },
+				{ 8, 1643 },
+				{ 10, 1644 },
+				{ 11, 1645 },
+				{ 12, 1646 },
+				{ 13, 1647 },
+				{ 16, 1648 },
 				{ 17, 1649 },
 				{ 18, 1650 },
 			},
@@ -343,9 +343,9 @@ data["SoD Collections"] = {
 			name = AL["Level 25 Raid"],
 			[NORMAL_DIFF] = {
 				{ 1, 1570 }, -- Twilight Invoker's Vestments
-				{ 3, 1578 }, -- 
-				{ 4, 1579 }, -- 
-				{ 6, 1577 }, -- 
+				{ 3, 1578 }, --
+				{ 4, 1579 }, --
+				{ 6, 1577 }, --
 			},
 		},
 	},
@@ -365,34 +365,34 @@ data["SoD Currency"] = {
 				{ 2, 231708 }, -- Draconian Belt
 				{ 3, 231712 }, -- Draconian Gloves
 				{ 4, 231713 }, -- Draconian Boots
-				
+
 				{ 6, 231715 }, -- Primeval Bindings
 				{ 7, 231716 }, -- Primeval Belt
 				{ 8, 231720 }, -- Primeval Gloves
 				{ 9, 231721 }, -- Primeval Boots
-				
+
 				{ 11, 231724 }, -- Ancient Bindings
 				{ 12, 231725 }, -- Ancient Belt
 				{ 13, 231729 }, -- Ancient Gloves
 				{ 14, 231730 }, -- Ancient Boots
-				
+
 				{ 16, 232390 }, -- Idol of Celestial Focus
 				{ 17, 232391 }, -- Idol of Feline Focus
 				{ 18, 232423 }, -- Idol of Nurture
 				{ 19, 232424 }, -- Idol of Cruelty
-				
+
 				{ 21, 231811 }, -- Libram of Awe
 				{ 22, 232389 }, -- Libram of Plenty
 				{ 23, 232420 }, -- Libram of Wrath
 				{ 24, 232421 }, -- Libram of Avenging
-				
+
 				{ 26, 232392 }, -- Totem of Relentless Thunder
 				{ 27, 232409 }, -- Totem of the Elements
 				{ 28, 232416 }, -- Totem of Astral Flow
 				{ 29, 232419 }, -- Totem of Conductive Elements
-				
+
 				{ 30, "INV_Box_01", nil, AL["Phase 4 Rewards-->"], nil },
-				
+
 				{ 101, 227532 }, -- Incandescent Hood
 				{ 102, 227534 }, -- Incandescent Leggings
 				{ 103, 227535 }, -- Incandescent Robe
@@ -401,7 +401,7 @@ data["SoD Currency"] = {
 				{ 106, 227530 }, -- Incandescent Belt
 				{ 107, 227531 }, -- Incandescent Bindings
 				{ 108, 227533 }, -- Incandescent Gloves
-				
+
 				{ 110, 227755 }, -- Molten Scaled Helm
 				{ 111, 227754 }, -- Molten Scaled Leggings
 				{ 112, 227758 }, -- Molten Scaled Chest
@@ -410,7 +410,7 @@ data["SoD Currency"] = {
 				{ 115, 227751 }, -- Molten Scaled Belt
 				{ 116, 227750 }, -- Molten Scaled Bindings
 				{ 117, 227756 }, -- Molten Scaled Gloves
-				
+
 				{ 119, 227764 }, -- Scorched Core Helm
 				{ 120, 227763 }, -- Scorched Core Leggings
 				{ 121, 227766 }, -- Scorched Core Chest
@@ -419,9 +419,9 @@ data["SoD Currency"] = {
 				{ 124, 227761 }, -- Scorched Core Belt
 				{ 125, 227760 }, -- Scorched Core Bindings
 				{ 126, 227759 }, -- Scorched Core Gloves
-				
+
 				{ 130, "INV_Box_01", nil, AL["Continued -->"], nil },
-				
+
 				{ 201, 227284 }, -- Band of the Beast 50
 				{ 202, 227279 }, -- Loop of the Magister 50
 				{ 203, 227280 }, -- Craft of the Shadows 50
@@ -432,33 +432,33 @@ data["SoD Currency"] = {
 				{ 208, 228170 }, -- Makeshift South Sea Oar 50
 				{ 209, 228185 }, -- Broken Bottle of Goblino Noir 50
 				{ 210, 228184 }, -- Goblin Clothesline 25
-				
+
 				{ 212, 228186 }, -- Abandoned Wedding Band 25
 				{ 213, 228187 }, -- Stick of the South Sea 50
-				
+
 				{ 216, 227990 }, -- Hand of Injustice 50
 				{ 217, 228171 }, -- Kezan Cash Carrier 25
-				
+
 				{ 219, 220597 }, -- Drakestone of the Dream Harbinger
 				{ 220, 220598 }, -- Drakestone of the Nightmare Harbinger
 				{ 221, 220599 }, -- Drakestone of the Blood Prophet
-				
+
 				{ 230, "INV_Box_01", nil, AL["Continued -->"], nil },
-				
+
 				{ 301, 228173 }, -- Libram of the Consecrated 15
 				{ 302, 228174 }, -- Libram of the Devoted 15
 				{ 303, 228175 }, -- Libram of Holy Alacrity 15
-				
+
 				{ 305, 228176 }, -- Totem of Thunder 15
 				{ 306, 228177 }, -- Totem of Raging Fire 15
 				{ 307, 228178 }, -- Totem of Earthen Vitality 15
 				{ 308, 228179 }, -- Totem of the Plains 15
-				
+
 				{ 310, 228180 }, -- Idol of the Swarm 15
 				{ 311, 228181 }, -- Idol of Exsanguination (Cat) 15
 				{ 312, 228182 }, -- Idol of Exsanguination (Bear) 15
 				{ 313, 228183 }, -- Idol of the Grove 15
-				
+
 				{ 316, "INV_Box_01", nil, AL["Dungeon Sets:"], nil },
 				{ 317, "INV_Box_01", nil, AL["Bracers: 15 Reals"], nil },
 				{ 318, "INV_Box_01", nil, AL["Boots, Gloves: 25 Reals"], nil },
@@ -482,15 +482,15 @@ data["SoD Currency"] = {
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 7"], nil },
 				{ 2, 236414 }, -- Damaged Undermine Supply Crate Phase 7
-				
+
 				{ 4, "INV_Box_01", nil, AL["Phase 4"], nil },
 				{ 5, 226405 }, -- Damaged Undermine Supply Crate Phase 4
-				
+
 				{ 7, 17011 }, -- Lava Core 15
 				{ 8, 17010 }, -- Fiery Core 15
 				{ 9, 17012 }, -- Core Leather 10
 			},
-			
+
 		},
 		{
 			name = AL["Toys"],
@@ -581,7 +581,7 @@ data["SoD PvP"] = {
 		name = AL["Level 60 Rank 14 Sets"],
 		TableType = NORMAL_ITTYPE,
 		[ALLIANCE_DIFF] = {
-			{ 1, 234580 }, -- Grand Marshal's Handaxe 
+			{ 1, 234580 }, -- Grand Marshal's Handaxe
 			{ 2, 234566 }, -- Grand Marshal's Sunderer
 			{ 3, 234582 }, -- Grand Marshal's Dirk
 			{ 4, 235479 }, -- Grand Marshal's Shiv
@@ -677,7 +677,7 @@ data["SoD PvP"] = {
 			{ 1, "INV_Box_01", nil, AL["Alliance"], nil },
 			{ 2, 1767 }, --mage
 			{ 3, 1768 }, --priest
-			{ 4, 1769 }, --priest 
+			{ 4, 1769 }, --priest
 			{ 5, 1774 }, --warlock
 			{ 6, 1762 }, --Druid
 			{ 7, 1763 }, --Druid
@@ -718,7 +718,7 @@ data["SoD PvP"] = {
 			{ 9, 233738 }, -- Blood-Caked Cape
 			{ 10, 233737 }, -- Blood-Caked Cloak
 			{ 12, 233736 }, -- Blood-Caked Band
-			{ 13, 233735 }, -- Blood-Caked Loop 
+			{ 13, 233735 }, -- Blood-Caked Loop
 			{ 14, 233734 }, -- Blood-Caked Circle
 			{ 15, 233733 }, -- Blood-Caked Ring
 			{ 16, 233732 }, -- Blood-Caked Necklace
@@ -746,7 +746,7 @@ data["SoD PvP"] = {
 			{ 8, 221450 }, -- Gurubashi Pit Fighter's Bow
 			{ 10, "INV_Box_01", nil, AL["Mage"], nil },
 			{ 11, 221452 }, -- Bloodfocused Arcane Band
-			{ 12, 221453 }, -- Band of Boiling Blood 
+			{ 12, 221453 }, -- Band of Boiling Blood
 			{ 13, 221454 }, -- Glacial Blood Band
 			{ 16, "INV_Box_01", nil, AL["Paladin"], nil },
 			{ 17, 221457 }, -- Libram of Draconic Destruction
@@ -784,8 +784,8 @@ data["SoD PvP"] = {
 			{ 5, 216570 }, -- Reins of the Golden Sabercat
 			{ 6, 216492 }, -- Whistle of the Mottled Blood Raptor
 			{ 8, "INV_Box_01", nil, AL["Druid"], nil },
-			{ 9, 216498 }, -- Enchanted Sanguine Grimoire 
-			{ 10, 216499 }, -- Bloodbark Crusher 
+			{ 9, 216498 }, -- Enchanted Sanguine Grimoire
+			{ 10, 216499 }, -- Bloodbark Crusher
 			{ 11, 216500 }, -- Bloodbonded Grove Talisman
 			{ 16, "INV_Box_01", nil, AL["Hunter"], nil },
 			{ 17, 216513 }, -- Tigerblood Talisman
@@ -793,36 +793,36 @@ data["SoD PvP"] = {
 			{ 19, 216515 }, -- Sanguine Ammo Pouch
 			{ 20, 216516 }, -- Bloodlash Bow
 			{ 22, "INV_Box_01", nil, AL["Mage"], nil },
-			{ 23, 216510 }, -- Blood Resonance Circle 
-			{ 24, 216511 }, -- Emberblood Seal 
-			{ 25, 216512 }, -- Loop of Chilled Veins 
+			{ 23, 216510 }, -- Blood Resonance Circle
+			{ 24, 216511 }, -- Emberblood Seal
+			{ 25, 216512 }, -- Loop of Chilled Veins
 			{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
 			{ 101, "INV_Box_01", nil, AL["Paladin"], nil },
-			{ 102, 216504 }, -- Eclipsed Bloodlight Saber 
-			{ 103, 216505 }, -- Bloodlight Crusader's Radiance 
-			{ 104, 216506 }, -- Bloodlight Avenger's Edge 
-			{ 105, 216607 }, -- Bloodlight Offering 
+			{ 102, 216504 }, -- Eclipsed Bloodlight Saber
+			{ 103, 216505 }, -- Bloodlight Crusader's Radiance
+			{ 104, 216506 }, -- Bloodlight Avenger's Edge
+			{ 105, 216607 }, -- Bloodlight Offering
 			{ 107, "INV_Box_01", nil, AL["Priest"], nil },
-			{ 108, 216517 }, -- Sanguine Sanctuary 
+			{ 108, 216517 }, -- Sanguine Sanctuary
 			{ 109, 216518 }, -- Blood Covenant Seal
-			{ 110, 216519 }, -- Sanguine Shadow Band 
+			{ 110, 216519 }, -- Sanguine Shadow Band
 			{ 112, "INV_Box_01", nil, AL["Rogue"], nil },
 			{ 113, 216520 }, -- Bloodharvest Blade
 			{ 114, 216521 }, -- Swift Sanguine Strikers
-			{ 115, 216522 }, -- Blood Spattered Stiletto 
+			{ 115, 216522 }, -- Blood Spattered Stiletto
 			{ 116, "INV_Box_01", nil, AL["Shaman"], nil },
 			{ 117, 216501 }, -- Bloodstorm Barrier
-			{ 118, 216502 }, -- Bloodstorm War Totem 
-			{ 119, 216503 }, -- Bloodstorm Jewel 
-			{ 120, 216615 }, -- Ancestral Bloodstorm Beacon 
+			{ 118, 216502 }, -- Bloodstorm War Totem
+			{ 119, 216503 }, -- Bloodstorm Jewel
+			{ 120, 216615 }, -- Ancestral Bloodstorm Beacon
 			{ 122, "INV_Box_01", nil, AL["Warlock"], nil },
 			{ 123, 216507 }, -- Umbral Bloodseal
 			{ 124, 216508 }, -- Infernal Bloodcoil Band
-			{ 125, 216509 }, -- Infernal Pact Essence 
+			{ 125, 216509 }, -- Infernal Pact Essence
 			{ 127, "INV_Box_01", nil, AL["Warrior"], nil },
-			{ 128, 216495 }, -- Sanguine Crusher 
-			{ 129, 216496 }, -- Sanguine Skullcrusher 
-			{ 130, 216497 }, -- Exsanguinar 
+			{ 128, 216495 }, -- Sanguine Crusher
+			{ 129, 216496 }, -- Sanguine Skullcrusher
+			{ 130, 216497 }, -- Exsanguinar
 		},
 	},
 	{
@@ -1765,7 +1765,7 @@ data["Mounts"] = {
 				{ 6, GetForVersion(18248,29470) }, -- Red Skeletal Warhorse
 				{ 8, 234960 }, -- Reins of the Blood-Caked Tiger
 				{ 9, 234961 }, -- Whistle of the Blood-Caked Raptor
-				
+
 			},
 		},
 		{ -- Drops
@@ -2009,14 +2009,14 @@ data["Legendarys"] = {
 			name = AL["Legendarys"],
 			[NORMAL_ITTYPE] = {
 				{ 1,  230224 }, -- Thunderfury, Blessed Blade of the Windseeker
-				
+
 				{ 3,  236399 }, -- Atiesh, Greatstaff of the Guardian / Priest
 				{ 4,  236400 }, -- Atiesh, Greatstaff of the Guardian / Mage
 				{ 5,  236398 }, -- Atiesh, Greatstaff of the Guardian / Warlock
 				{ 6,  236401 }, -- Atiesh, Greatstaff of the Guardian / Druid
-				
+
 				{ 16,  227683 }, -- Sulfuras, Hand of Ragnaros
-				
+
 				{ 18,  21176 }, -- Black Qiraji Resonating Crystal
 			},
 		},
@@ -2633,77 +2633,77 @@ data["ScourgeInvasion"] = {
 			{ 1,  236718 }, -- Robe of Undead Cleansing
 			{ 2,  236716 }, -- Bracers of Undead Cleansing
 			{ 3,  236717 }, -- Gloves of Undead Cleansing
-			
+
 			{ 5, 236721 }, -- Robe of Undead Purification
 			{ 6, 236719 }, -- Bracers of Undead Purification
 			{ 7, 236720 }, -- Gloves of Undead Purification
-			
+
 			{ 9, 236724 }, -- Robe of Undead Warding
 			{ 10, 236722 }, -- Bracers of Undead Warding
 			{ 11, 236723 }, -- Gloves of Undead Warding
-			
+
 			-- Leather
 			{ 13, 236707 }, -- Tunic of Undead Slaying
 			{ 14, 236711 }, -- Wristwraps of Undead Slaying
 			{ 15, 236713 }, -- Handwraps of Undead Slaying
-			
+
 			{ 16, 236730 }, -- Tunic of Undead Purification
 			{ 17, 236728 }, -- Wristwraps of Undead Purification
 			{ 18, 236729 }, -- Handwraps of Undead Purification
-			
+
 			{ 20, 236733 },  -- Tunic of Undead Warding
 			{ 21, 236731 },  -- Wristwraps of Undead Warding
 			{ 22, 236732 },  -- Handwraps of Undead Warding
-			
+
 			{ 24, 236727 }, -- Tunic of Undead Cleansing
 			{ 25, 236725 }, -- Wristwraps of Undead Cleansing
 			{ 26, 236726 }, -- Handwraps of Undead Cleansing
-			
+
 			{ 30, "INV_Box_01", nil, AL["Continued -->"], nil },
-			
+
 			-- Mail
 			{ 101, 236709 }, -- Chestguard of Undead Slaying
 			{ 102, 236710 }, -- Wristguards of Undead Slaying
 			{ 103, 236715 }, -- Handguards of Undead Slaying
-			
+
 			{ 106, 236736 }, -- Chestguard of Undead Cleansing
 			{ 107, 236734 }, -- Wristguards of Undead Cleansing
 			{ 108, 236735 }, -- Handguards of Undead Cleansing
-			
+
 			{ 109, 236739 }, -- Chestguard of Undead Warding
 			{ 110, 236737 }, -- Wristguards of Undead Warding
 			{ 111, 236738 }, -- Handguards of Undead Warding
-			
+
 			{ 113, 236742 }, -- Chestguard of Undead Purification
 			{ 114, 236741 }, -- Handguards of Undead Purification
 			{ 115, 236740 }, -- Wristguards of Undead Purification
-			
+
 			-- Plate
 			{ 116, 236708 }, -- Breastplate of Undead Slaying
 			{ 117, 236712 }, -- Bracers of Undead Slaying
-			{ 118, 236714 }, -- Gauntlets of Undead Slaying			
-			
+			{ 118, 236714 }, -- Gauntlets of Undead Slaying
+
 			{ 120, 236748 }, -- Breastplate of Undead Warding
-			{ 121, 236746 }, -- Bracers of Undead Warding			
+			{ 121, 236746 }, -- Bracers of Undead Warding
 			{ 122, 236747 }, -- Gauntlets of Undead Warding
-			
+
 			{ 124, 236745 }, -- Breastplate of Undead Purification
-			{ 125, 236743 }, -- Bracers of Undead Purification				
+			{ 125, 236743 }, -- Bracers of Undead Purification
 			{ 126, 236744 }, -- Gauntlets of Undead Purification
 		},
 		[NORMAL_DIFF] = {
 			{ 1,  23085 }, -- Robe of Undead Cleansing
 			{ 2,  23091 }, -- Bracers of Undead Cleansing
 			{ 3,  23084 }, -- Gloves of Undead Cleansing
-			
+
 			{ 5, 23089 }, -- Tunic of Undead Slaying
 			{ 6, 23093 }, -- Wristwraps of Undead Slaying
 			{ 7, 23081 }, -- Handwraps of Undead Slaying
-			
+
 			{ 16, 23088 }, -- Chestguard of Undead Slaying
 			{ 17, 23092 }, -- Wristguards of Undead Slaying
 			{ 18, 23082 }, -- Handguards of Undead Slaying
-			
+
 			{ 20, 23087 }, -- Breastplate of Undead Slaying
 			{ 21, 23090 }, -- Bracers of Undead Slaying
 			{ 22, 23078 }, -- Gauntlets of Undead Slaying
@@ -2715,9 +2715,9 @@ data["ScourgeInvasion"] = {
 			{ 1,  238234 }, -- Blessed Wizard Oil
 			{ 2,  238241 }, -- Consecrated Sharpening Stone
 			{ 3,  22484 }, -- Necrotic Rune
-			
+
 			{ 5,  22999 }, -- Tabard of the Argent Dawn
-			
+
 			{ 16, 23194 }, -- Lesser Mark of the Dawn
 			{ 17, 23195 }, -- Mark of the Dawn
 			{ 18, 23196 }, -- Greater Mark of the Dawn
@@ -2726,9 +2726,9 @@ data["ScourgeInvasion"] = {
 			{ 1,  23123 }, -- Blessed Wizard Oil
 			{ 2,  23122 }, -- Consecrated Sharpening Stone
 			{ 3,  22484 }, -- Necrotic Rune
-			
+
 			{ 5,  22999 }, -- Tabard of the Argent Dawn
-			
+
 			{ 16, 23194 }, -- Lesser Mark of the Dawn
 			{ 17, 23195 }, -- Mark of the Dawn
 			{ 18, 23196 }, -- Greater Mark of the Dawn

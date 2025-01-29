@@ -298,7 +298,7 @@ data["Blacksmithing"] = {
 			{ 24, 461675 }, -- Refined Arcanite Reaper
 			{ 25, 460460 }, -- Sulfuron Hammer
 			{ 26, 461647 }, -- Skyrider's Masterwork Stormhammer
-			{ 27, 461669 }, -- Refined Arcanite Champion 
+			{ 27, 461669 }, -- Refined Arcanite Champion
 			--{ 107, }, --Hammer of the Wild Gods 227858
 			--{ 108, }, -- Ebon Fist 227842
 			--{ 109, }, -- Implacable Blackguard 227840
@@ -718,7 +718,7 @@ data["Enchanting"] = {
 				{ 27, 1217203 }, -- Enchant Bracer - Agility
 			}
 		},
-	
+
 		{
 			name = AL["SoD Phase 1-5"],
 			[NORMAL_DIFF] = {
@@ -963,7 +963,7 @@ data["Engineering"] = {
 				{ 4, "INV_Box_01", nil, AL["Phase 2"], nil },
 				{ 5, 435956 }, --Polished Truesilver Gears
 				{ 6, 431362 }, -- Soul Vessel
-				{ 7, 435966 }, -- Ez-Thro Radiation Bomb 
+				{ 7, 435966 }, -- Ez-Thro Radiation Bomb
 				{ 8, 435964 }, -- High-Yield Radiation Bomb
 				{ 9, 435960 }, -- Hyperconductive Goldwrap
 				{ 10, 435958 }, -- Whirling Truesilver Gearwall
@@ -1586,7 +1586,7 @@ data["Leatherworking"] = {
 			{ 16, 1213513 }, -- Pattern: Glowing Chitin Armor Kit
 			{ 17, 1213519 }, -- Pattern: Sharpened Chitin Armor Kit
 			}
-		},	
+		},
 			{
 			name = AL["SoD Phase 4"],
 			[NORMAL_DIFF] = {

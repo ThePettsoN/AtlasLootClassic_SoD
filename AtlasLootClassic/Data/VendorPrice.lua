@@ -305,7 +305,7 @@ VENDOR_PRICES_RAW.CLASSIC = {
 	 [11382] = "firelandsember:30",
 	 [231642] = "emeraldchip:5",
 	 [231644] = "emeraldchip:5",
-	 
+
 	 [231707] = "TUR:35",
 	 [231708] = "TUR:35",
 	 [231712] = "TUR:35",
@@ -404,7 +404,7 @@ VENDOR_PRICES_RAW.CLASSIC = {
 	 [234464] = "TUR:75",
 	 [234142] = "NE:200",
 	 [234143] = "OoD:1",
-	 
+
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

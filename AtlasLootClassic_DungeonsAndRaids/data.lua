@@ -177,13 +177,13 @@ local T2_SET_SOD = {
 		{ 21, 1813 }, -- DPS Priest
 
 		{ 23, 1814 }, -- DPS Rogue
-		{ 24, 1815 }, -- Tank Rogue 
+		{ 24, 1815 }, -- Tank Rogue
 
 		{ 26, 1820 }, -- DPS Lock
 		{ 27, 1821 }, -- Tank Lock
 
 		{ 29, 1822 }, -- Tank Warr
-		{ 30, 1823 }, -- Dps Warr	
+		{ 30, 1823 }, -- Dps Warr
 	},
 
 	[HORDE_DIFF] = {
@@ -213,15 +213,15 @@ local T2_5_SET_SOD = {
 		{ 15, 1853 }, -- Melee Sham
 		{ 16, 1843 }, -- Holy Pally
 		{ 17, 1844 }, -- Tank Pally
-		{ 18, 1845 }, -- Ret Pally 
+		{ 18, 1845 }, -- Ret Pally
 		{ 20, 1846 }, -- Healer Priest
-		{ 21, 1847 }, -- DPS Priest 
+		{ 21, 1847 }, -- DPS Priest
 		{ 23, 1848 }, -- DPS Rogue
-		{ 24, 1849 }, -- Tank Rogue  
+		{ 24, 1849 }, -- Tank Rogue
 		{ 26, 1854 }, -- DPS Lock
 		{ 27, 1855 }, -- Tank Lock
 		{ 29, 1856 }, -- Tank Warr
-		{ 30, 1857 }, -- Dps Warr				
+		{ 30, 1857 }, -- Dps Warr
 	},
 
 	[HORDE_DIFF] = {
@@ -267,7 +267,7 @@ local T3_SET_SOD = {
 		{ 27, 1884 }, -- Tank Lock
 
 		{ 29, 1882 }, -- Tank Warr
-		{ 30, 1883 }, -- Dps Warr				
+		{ 30, 1883 }, -- Dps Warr
 	},
 
 	[HORDE_DIFF] = {
@@ -1044,7 +1044,7 @@ data["BlackfathomDeeps2"] = {
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16782 }, -- Strange Water Globe
-			},			
+			},
 		},
 		{ -- BFDGhamoora
 			name = AL["Ghamoo-ra"],
@@ -1120,7 +1120,7 @@ data["BlackfathomDeeps2"] = {
 				{ 21,  211509 }, -- Twilight Elementalist's Robe
 				{ 22,  211508 }, -- Twilight Elementalist's Footpads
 				{ 24,  211510 }, -- Twilight Slayer's Cowl
-				{ 25,  211512 }, -- Twilight Slayer's Tunic 
+				{ 25,  211512 }, -- Twilight Slayer's Tunic
 				{ 26,  211511 }, -- Twilight Slayer's Footpads
 				{ 28,  209683 }, -- Twilight Invoker's Shawl
 				{ 29,  209671 }, -- Twilight Invoker's Robes
@@ -1155,7 +1155,7 @@ data["BlackfathomDeeps2"] = {
 				{ 21,  211509 }, -- Twilight Elementalist's Robe
 				{ 22,  211508 }, -- Twilight Elementalist's Footpads
 				{ 24,  211510 }, -- Twilight Slayer's Cowl
-				{ 25,  211512 }, -- Twilight Slayer's Tunic 
+				{ 25,  211512 }, -- Twilight Slayer's Tunic
 				{ 26,  211511 }, -- Twilight Slayer's Footpads
 				{ 28,  209683 }, -- Twilight Invoker's Shawl
 				{ 29,  209671 }, -- Twilight Invoker's Robes
@@ -1193,7 +1193,7 @@ data["BlackfathomDeeps2"] = {
 				{ 21,  211509 }, -- Twilight Elementalist's Robe
 				{ 22,  211508 }, -- Twilight Elementalist's Footpads
 				{ 24,  211510 }, -- Twilight Slayer's Cowl
-				{ 25,  211512 }, -- Twilight Slayer's Tunic 
+				{ 25,  211512 }, -- Twilight Slayer's Tunic
 				{ 26,  211511 }, -- Twilight Slayer's Footpads
 				{ 28,  209683 }, -- Twilight Invoker's Shawl
 				{ 29,  209671 }, -- Twilight Invoker's Robes
@@ -1247,7 +1247,7 @@ data["BlackfathomDeeps2"] = {
 				{ 21,  211509 }, -- Twilight Elementalist's Robe
 				{ 22,  211508 }, -- Twilight Elementalist's Footpads
 				{ 24,  211510 }, -- Twilight Slayer's Cowl
-				{ 25,  211512 }, -- Twilight Slayer's Tunic 
+				{ 25,  211512 }, -- Twilight Slayer's Tunic
 				{ 26,  211511 }, -- Twilight Slayer's Footpads
 				{ 28,  209683 }, -- Twilight Invoker's Shawl
 				{ 29,  209671 }, -- Twilight Invoker's Robes
@@ -1439,8 +1439,8 @@ data["Gnomeregan2"] = {
 				{ 16,  215380 }, -- Power-Assisted Lifting Belt
 				{ 17,  213410 }, -- Glimmering Gizmoblade
 				{ 19,  217008 }, -- Power Depleted Chest
-				{ 20,  217009 }, -- Power Depleted Legs	
-				{ 21,  217007 }, -- Power Depleted Boots		
+				{ 20,  217009 }, -- Power Depleted Legs
+				{ 21,  217007 }, -- Power Depleted Boots
 			},
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Unavailable in Classic"], nil },
@@ -7867,26 +7867,26 @@ data["MoltenCore2"] = {
 				{ 23, 227535 },	-- Incandescent Robe
 				{ 24, 227766 },	-- Scorched Core Chest
 				{ 25, 227758 },	-- Molten Scaled Chest
-				{ 27, 227537 }, -- 
-				{ 28, 227752 }, -- 
-				{ 29, 227762 }, -- 
+				{ 27, 227537 }, --
+				{ 28, 227752 }, --
+				{ 29, 227762 }, --
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
+				{ 101, 227533 }, --
+				{ 102, 227756 }, --
+				{ 103, 227759 }, --
+				{ 105, 227531 }, --
+				{ 106, 227750 }, --
+				{ 107, 227760 }, --
+				{ 109, 227530 }, --
+				{ 110, 227751 }, --
+				{ 111, 227761 }, --
 				{ 113, 226404 }, -- Tarnished Undermine Real
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 116, 227534 }, --
+				{ 117, 227754 }, --
+				{ 118, 227763 }, --
+				{ 120, 227536 }, --
+				{ 121, 227757 }, --
+				{ 122, 227765 }, --
 				{ 124, 227532 }, -- Incandescent Hood
 				{ 125, 227764 }, -- Scorched Core Helm
 				{ 126, 227755 }, -- Molten Scaled Helm
@@ -7946,26 +7946,26 @@ data["MoltenCore2"] = {
 				{ 22, 227535 },	-- Incandescent Robe
 				{ 23, 227766 },	-- Scorched Core Chest
 				{ 24, 227758 },	-- Molten Scaled Chest
-				{ 26, 227537 }, -- 
-				{ 27, 227752 }, -- 
-				{ 28, 227762 }, -- 
+				{ 26, 227537 }, --
+				{ 27, 227752 }, --
+				{ 28, 227762 }, --
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
+				{ 101, 227533 }, --
+				{ 102, 227756 }, --
+				{ 103, 227759 }, --
+				{ 105, 227531 }, --
+				{ 106, 227750 }, --
+				{ 107, 227760 }, --
+				{ 109, 227530 }, --
+				{ 110, 227751 }, --
+				{ 111, 227761 }, --
 				{ 113, 226404 }, -- Tarnished Undermine Real
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 116, 227534 }, --
+				{ 117, 227754 }, --
+				{ 118, 227763 }, --
+				{ 120, 227536 }, --
+				{ 121, 227757 }, --
+				{ 122, 227765 }, --
 				{ 124, 227532 }, -- Incandescent Hood
 				{ 125, 227764 }, -- Scorched Core Helm
 				{ 126, 227755 }, -- Molten Scaled Helm
@@ -8017,26 +8017,26 @@ data["MoltenCore2"] = {
 				{ 23, 227535 },	-- Incandescent Robe
 				{ 24, 227766 },	-- Scorched Core Chest
 				{ 25, 227758 },	-- Molten Scaled Chest
-				{ 27, 227537 }, -- 
-				{ 28, 227752 }, -- 
-				{ 29, 227762 }, -- 
+				{ 27, 227537 }, --
+				{ 28, 227752 }, --
+				{ 29, 227762 }, --
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
+				{ 101, 227533 }, --
+				{ 102, 227756 }, --
+				{ 103, 227759 }, --
+				{ 105, 227531 }, --
+				{ 106, 227750 }, --
+				{ 107, 227760 }, --
+				{ 109, 227530 }, --
+				{ 110, 227751 }, --
+				{ 111, 227761 }, --
 				{ 113, 226404 }, -- Tarnished Undermine Real
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 116, 227534 }, --
+				{ 117, 227754 }, --
+				{ 118, 227763 }, --
+				{ 120, 227536 }, --
+				{ 121, 227757 }, --
+				{ 122, 227765 }, --
 				{ 124, 227532 }, -- Incandescent Hood
 				{ 125, 227764 }, -- Scorched Core Helm
 				{ 126, 227755 }, -- Molten Scaled Helm
@@ -8083,26 +8083,26 @@ data["MoltenCore2"] = {
 				{ 20, 227535 },	-- Incandescent Robe
 				{ 21, 227766 },	-- Scorched Core Chest
 				{ 22, 227758 },	-- Molten Scaled Chest
-				{ 24, 227537 }, -- 
-				{ 25, 227752 }, -- 
-				{ 26, 227762 }, -- 
+				{ 24, 227537 }, --
+				{ 25, 227752 }, --
+				{ 26, 227762 }, --
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
+				{ 101, 227533 }, --
+				{ 102, 227756 }, --
+				{ 103, 227759 }, --
+				{ 105, 227531 }, --
+				{ 106, 227750 }, --
+				{ 107, 227760 }, --
+				{ 109, 227530 }, --
+				{ 110, 227751 }, --
+				{ 111, 227761 }, --
 				{ 113, 226404 }, -- Tarnished Undermine Real
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 116, 227534 }, --
+				{ 117, 227754 }, --
+				{ 118, 227763 }, --
+				{ 120, 227536 }, --
+				{ 121, 227757 }, --
+				{ 122, 227765 }, --
 				{ 124, 227532 }, -- Incandescent Hood
 				{ 125, 227764 }, -- Scorched Core Helm
 				{ 126, 227755 }, -- Molten Scaled Helm
@@ -8146,35 +8146,35 @@ data["MoltenCore2"] = {
 				{ 6, "INV_Box_01", nil, AL["This list may be incomplete"], nil },
 				{ 7, 228286 }, -- Band of Accuria
 				{ 8, 228287 }, -- Band of Sulfuras
-				{ 9, 228296 }, -- Perdition's Blade 
+				{ 9, 228296 }, -- Perdition's Blade
 				{ 10, 228288 }, -- Bonereaver's Edge
 				{ 11, 228299 }, -- Spinal Reaper
 				{ 16, 227535 },	-- Incandescent Robe
 				{ 17, 227766 },	-- Scorched Core Chest
 				{ 18, 227758 },	-- Molten Scaled Chest
-				{ 20, 227537 }, -- 
-				{ 21, 227752 }, -- 
-				{ 22, 227762 }, -- 
+				{ 20, 227537 }, --
+				{ 21, 227752 }, --
+				{ 22, 227762 }, --
 				{ 24, 227532 }, -- Incandescent Hood
 				{ 25, 227764 }, -- Scorched Core Helm
 				{ 26, 227755 }, -- Molten Scaled Helm
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
+				{ 101, 227533 }, --
+				{ 102, 227756 }, --
+				{ 103, 227759 }, --
+				{ 105, 227531 }, --
+				{ 106, 227750 }, --
+				{ 107, 227760 }, --
+				{ 109, 227530 }, --
+				{ 110, 227751 }, --
+				{ 111, 227761 }, --
 				{ 113, 226404 }, -- Tarnished Undermine Real
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 116, 227534 }, --
+				{ 117, 227754 }, --
+				{ 118, 227763 }, --
+				{ 120, 227536 }, --
+				{ 121, 227757 }, --
+				{ 122, 227765 }, --
 			},
 		},
 		{ -- MCTrashMobs
@@ -8278,30 +8278,30 @@ data["Onyxia2"] = {
 				{ 16, 15410 }, -- Scale of Onyxia
 				{ 17, 11938 }, -- Sack of Gems
 				{ 19, 227532 }, -- These are just tier tokens below..
-				{ 20, 227755 }, -- 
-				{ 21, 227764 }, -- 
-				{ 23, 227537 }, -- 
-				{ 24, 227752 }, -- 
-				{ 25, 227762 }, -- 
-				{ 27, 227535 }, -- 
-				{ 28, 227758 }, -- 
-				{ 29, 227766 }, -- 
+				{ 20, 227755 }, --
+				{ 21, 227764 }, --
+				{ 23, 227537 }, --
+				{ 24, 227752 }, --
+				{ 25, 227762 }, --
+				{ 27, 227535 }, --
+				{ 28, 227758 }, --
+				{ 29, 227766 }, --
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-				{ 101, 227533 }, -- 
-				{ 102, 227756 }, -- 
-				{ 103, 227759 }, -- 
-				{ 105, 227531 }, -- 
-				{ 106, 227750 }, -- 
-				{ 107, 227760 }, -- 
-				{ 109, 227530 }, -- 
-				{ 110, 227751 }, -- 
-				{ 111, 227761 }, -- 
-				{ 116, 227534 }, -- 
-				{ 117, 227754 }, -- 
-				{ 118, 227763 }, -- 
-				{ 120, 227536 }, -- 
-				{ 121, 227757 }, -- 
-				{ 122, 227765 }, -- 
+				{ 101, 227533 }, --
+				{ 102, 227756 }, --
+				{ 103, 227759 }, --
+				{ 105, 227531 }, --
+				{ 106, 227750 }, --
+				{ 107, 227760 }, --
+				{ 109, 227530 }, --
+				{ 110, 227751 }, --
+				{ 111, 227761 }, --
+				{ 116, 227534 }, --
+				{ 117, 227754 }, --
+				{ 118, 227763 }, --
+				{ 120, 227536 }, --
+				{ 121, 227757 }, --
+				{ 122, 227765 }, --
 				-- Hidden items
 				{ 0, 17962 }, -- Blue Sack of Gems
 				{ 0, 17963 }, -- Green Sack of Gems
@@ -9663,9 +9663,9 @@ data["BlackwingLair"] = {
 				{ 11, 230276 }, -- Claw of the Black Drake
 				--{ 12, 230271 }, -- Drake Talon Cleaver
 				{ 12, 230270 }, -- Shadow Wing Focus Staff
-				
+
 				{ 16, 226404 }, -- Tarnished Undermine Real
-				
+
 				{ 18, 230256 }, -- Drake Talon Pauldrons
 				{ 19, 230277 }, -- Cloak of Firemaw
 				{ 20, 230274 }, -- Black Ash Robe
@@ -9675,7 +9675,7 @@ data["BlackwingLair"] = {
 				{ 24, 230278 }, -- Legguards of the Fallen Crusader
 				{ 25, 230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
 				{ 26, 230257 }, -- Ring of Blackrock
-				
+
 				{ 28, 230269 }, -- Rejuvenating Gem
 			},
 			[NORMAL_DIFF] = {
@@ -9703,7 +9703,7 @@ data["BlackwingLair"] = {
 				{ 28, 19397 }, -- Ring of Blackrock
 				{ 29, 19395 }, -- Rejuvenating Gem
 			},
-			
+
 		},
 		{ -- BWLEbonroc
 			name = AL["Ebonroc"],
@@ -9884,19 +9884,19 @@ data["BlackwingLair"] = {
 				{ 0, 17965 }, -- Yellow Sack of Gems
 				{ 0, 17969 }, -- Red Sack of Gems
 				{ 16, 226404 }, -- Tarnished Undermine Real
-				
+
 				{ 18, 231726 }, -- Ancient Shoulderpads
 				{ 19, 231717 }, -- Primeval Shoulderpads
 				{ 20, 231709 }, -- Draconian Shoulderpads
-				
+
 				{ 22, 231731 }, -- Ancient Chest
 				{ 23, 231723 }, -- Primeval Chest
 				{ 24, 231714 }, -- Draconian Robe
-				
+
 				{ 26, 231727 }, -- Ancient Leggings
 				{ 27, 231718 }, -- Primeval Leggings
 				{ 28, 231710 }, -- Draconian Leggings
-				
+
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
 				{ 101, 231724 }, -- Ancient Bindings
 				{ 102, 231715 }, -- Primeval Bindings
