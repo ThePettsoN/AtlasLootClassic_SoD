@@ -1,18 +1,17 @@
 name: CI
 
 on:
+  workflow_dispatch:
   push:
     tags:
-      - '*'
-      - '!**-bcc**'
-      - '!**-classic**'
+        - "[0-9]+.[0-9]+.[0-9]+"
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
 
     - name: Install and run Luacheck
       uses: nebularg/actions-luacheck@v1
@@ -25,7 +24,7 @@ jobs:
         CF_API_KEY: ${{ secrets.CF_API_KEY }}
 
     - name: Create Package
-      uses: BigWigsMods/packager@master
+      uses: BigWigsMods/packager@v2
       env:
         CF_API_KEY: ${{ secrets.CF_API_KEY }}
         GITHUB_OAUTH: ${{ secrets.GITHUB_TOKEN }}
