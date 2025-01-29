@@ -228,7 +228,8 @@ local T2_5_SET_SOD = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
 	},
 }
-local T3_SET = {
+
+local T3_SET_SOD = {
 	name = format(AL["Tier %s Sets"], "3"),
 	ExtraList = true,
 	LoadDifficulty = LOAD_DIFF,
@@ -236,20 +237,41 @@ local T3_SET = {
 	ContentPhase = 6,
 	IgnoreAsSource = true,
 	[ALLIANCE_DIFF] = {
-		{ 1, 529 }, -- Warlock
-		{ 3, 525 }, -- Priest
-		{ 16, 526 }, -- Mage
-		{ 5, 524 }, -- Rogue
-		{ 20, 521 }, -- Druid
-		{ 7, 530 }, -- Hunter
-		{ 9, 523 }, -- Warrior
-		{ 24, 528 }, -- Paladin
+		{ 1, 1904 }, --Balance
+		{ 2, 1903 }, --Feral
+		{ 3, 1901 }, --Tank
+		{ 4, 1902 }, --Resto
+
+		{ 6, 1899 }, --Ranged Hunter
+		{ 7, 1900 }, --Melee Hunter
+
+		{ 9, 1898 }, --Damage Mage
+		{ 10, 1897 }, --Healer Mage
+
+		{ 12, 1887 }, -- Healer Sham
+		{ 13, 1889 }, -- Ele Sham
+		{ 14, 1886 }, -- Tank Sham
+		{ 15, 1888 }, -- Melee Sham
+
+		{ 16, 1895 }, -- Holy Pally
+		{ 17, 1894 }, -- Tank Pally
+		{ 18, 1896 }, -- Ret Pally
+
+		{ 20, 1892 }, -- Healer Priest
+		{ 21, 1893 }, -- DPS Priest
+
+		{ 23, 1891 }, -- DPS Rogue
+		{ 24, 1890 }, -- Tank Rogue
+
+		{ 26, 1885 }, -- DPS Lock
+		{ 27, 1884 }, -- Tank Lock
+
+		{ 29, 1882 }, -- Tank Warr
+		{ 30, 1883 }, -- Dps Warr				
 	},
 
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
-		{ 22, 527 }, -- Shaman
-		{ 24 }, -- Paladin
 	},
 }
 
@@ -2547,239 +2569,239 @@ data["Zul'Farrak"] = {
 	LevelRange = GetForVersion({39, 44, 54},{35, 42, 46}),
 	items = {
 		{ -- ZFAntusul
-	name = AL["Antu'sul"],
-	npcID = 8127,
-	Level = GetForVersion(48,46),
-	DisplayIDs = {{7353}},
-	AtlasMapBossID = 1,
-	[SOD_DIFF] = {
-		{ 1,  9640 }, -- Vice Grips
-		{ 2,  223532 }, -- Lifeblood Amulet
-		{ 3,  9639 }, -- The Hand of Antu'sul
-		{ 5,  9379 }, -- Sang'thraze the Deflector
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9640 }, -- Vice Grips
-		{ 2,  9641 }, -- Lifeblood Amulet
-		{ 3,  9639 }, -- The Hand of Antu'sul
-		{ 5,  9379 }, -- Sang'thraze the Deflector
-	},
-},
-{ -- ZFThekatheMartyr
-	name = AL["Theka the Martyr"],
-	npcID = 7272,
-	Level = GetForVersion({45, 46},46),
-	DisplayIDs = {{6696}},
-	AtlasMapBossID = 2,
-	specialType = "quest",
-	[SOD_DIFF] = {
-		{ 1,  10660 }, -- First Mosh'aru Tablet
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  10660 }, -- First Mosh'aru Tablet
-	},
-},
-{ -- ZFSandarrDunereaver
-	name = AL["Sandarr Dunereaver"],
-	npcID = 10080,
-	Level = 45,
-	DisplayIDs = {{9291}},
-	IgnoreAsSource = true,
-	specialType = "rare",
-	[SOD_DIFF] = {
-		{ 1,  9523, [ATLASLOOT_IT_AMOUNT1] = "2-4" }, -- First Mosh'aru Tablet
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9523, [ATLASLOOT_IT_AMOUNT1] = "2-4" }, -- First Mosh'aru Tablet
-	},
-},
-{ -- ZFWitchDoctorZumrah
-	name = AL["Witch Doctor Zum'rah"],
-	npcID = 7271,
-	Level = 46,
-	DisplayIDs = {{6434}},
-	AtlasMapBossID = 3,
-	[SOD_DIFF] = {
-		{ 1,  223534 }, -- Jumanza Grips
-		{ 2,  18082 }, -- Zum'rah's Vexing Cane
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  18083 }, -- Jumanza Grips
-		{ 2,  18082 }, -- Zum'rah's Vexing Cane
-	},
-},
-{ -- ZFNekrumGutchewer
-	name = AL["Nekrum Gutchewer"],
-	npcID = 7796,
-	Level = GetForVersion({45, 46},45),
-	DisplayIDs = {{6690}},
-	AtlasMapBossID = 4,
-	specialType = "quest",
-	[SOD_DIFF] = {
-		{ 1,  9471 }, -- Nekrum's Medallion
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9471 }, -- Nekrum's Medallion
-	},
-},
-{ -- ZFSezzziz
-	name = AL["Shadowpriest Sezz'ziz"],
-	npcID = 7275,
-	Level = GetForVersion(47,46),
-	DisplayIDs = {{6441}},
-	AtlasMapBossID = 4,
-	[SOD_DIFF] = {
-		{ 1,  9470 }, -- Bad Mojo Mask
-		{ 2,  223529 }, -- Jinxed Hoodoo Skin
-		{ 3,  223530 }, -- Jinxed Hoodoo Kilt
-		{ 4,  9475 }, -- Diabolic Skiver
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9470 }, -- Bad Mojo Mask
-		{ 2,  9473 }, -- Jinxed Hoodoo Skin
-		{ 3,  9474 }, -- Jinxed Hoodoo Kilt
-		{ 4,  9475 }, -- Diabolic Skiver
-	},
-},
-{ -- ZFDustwraith
-	name = AL["Dustwraith"],
-	npcID = 10081,
-	Level = GetForVersion(47,46),
-	DisplayIDs = {{9292}},
-	AtlasMapBossID = 4,
-	specialType = "rare",
-	[SOD_DIFF] = {
-		{ 1, 223533 }, -- Desertwalker Cane
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  12471 }, -- Desertwalker Cane
-	},
-},
-{ -- ZFSandfury
-	name = AL["Sandfury Executioner"],
-	npcID = 7274,
-	Level = 46,
-	DisplayIDs = {{6440}},
-	AtlasMapBossID = 5,
-	[SOD_DIFF] = {
-		{ 1,  8444 }, -- Executioner's Key
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  8444 }, -- Executioner's Key
-	},
-},
-{ -- ZFSergeantBly
-	name = AL["Sergeant Bly"],
-	npcID = 7604,
-	Level = 45,
-	DisplayIDs = {{6433}},
-	AtlasMapBossID = 5,
-	specialType = "quest",
-	[SOD_DIFF] = {
-		{ 1,  8548 }, -- Divino-matic Rod
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  8548 }, -- Divino-matic Rod
-	},
-},
-{ -- ZFHydromancerVelratha
-	name = AL["Hydromancer Velratha"],
-	npcID = 7795,
-	Level = 46,
-	DisplayIDs = {{6685}},
-	AtlasMapBossID = 6,
-	specialType = "quest",
-	[SOD_DIFF] = {
-		{ 1,  9234 }, -- Tiara of the Deep
-		{ 2,  10661 }, -- Second Mosh'aru Tablet
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9234 }, -- Tiara of the Deep
-		{ 2,  10661 }, -- Second Mosh'aru Tablet
-	},
-},
-{ -- ZFGahzrilla
-	name = AL["Gahz'rilla"],
-	npcID = 7273,
-	Level = 46,
-	DisplayIDs = {{7271}},
-	AtlasMapBossID = 6,
-	[SOD_DIFF] = {
-		{ 1, 223528 }, -- Gahz'rilla Scale Armor
-		{ 3, 223527 }, -- Gahz'rilla Fang
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9469 }, -- Gahz'rilla Scale Armor
-		{ 3,  9467 }, -- Gahz'rilla Fang
-	},
-},
-{ -- ZFChiefUkorzSandscalp
-	name = AL["Chief Ukorz Sandscalp"],
-	npcID = 7267,
-	Level = GetForVersion(48,46),
-	DisplayIDs = {{6439}},
-	AtlasMapBossID = 7,
-	[SOD_DIFF] = {
-		{ 1, 223963 }, -- Embrace of the Lycan
-		{ 2, 223531 }, -- Big Bad Pauldrons
-		{ 3,  9478 }, -- Ripsaw
-		{ 4,  9477 }, -- The Chief's Enforcer
-		{ 6,  11086 }, -- Jang'thraze the Protector
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9479 }, -- Embrace of the Lycan
-		{ 2,  9476 }, -- Big Bad Pauldrons
-		{ 3,  9478 }, -- Ripsaw
-		{ 4,  9477 }, -- The Chief's Enforcer
-		{ 6,  11086 }, -- Jang'thraze the Protector
-	},
-},
-{ -- ZFZerillis
-	name = AL["Zerillis"],
-	npcID = 10082,
-	Level = 45,
-	DisplayIDs = {{9293}},
-	AtlasMapBossID = 8,
-	specialType = "rare",
-	[SOD_DIFF] = {
-		{ 1,  12470 }, -- Sandstalker Ankleguards
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  12470 }, -- Sandstalker Ankleguards
-	},
-},
-{ -- ZFTrash
-	name = AL["Trash"],
-	ExtraList = true,
-	[SOD_DIFF] = {
-		{ 1,  9512 }, -- Blackmetal Cape
-		{ 2,  9484 }, -- Spellshock Leggings
-		{ 3,  862 }, -- Runed Ring
-		{ 4,  6440 }, -- Brainlash
-		{ 5,  9483 }, -- Flaming Incinerator
-		{ 6,  2040 }, -- Troll Protector
-		{ 7,  5616 }, -- Gutwrencher
-		{ 8,  9511 }, -- Bloodletter Scalpel
-		{ 9,  9481 }, -- The Minotaur
-		{ 10, 9480 }, -- Eyegouger
-		{ 11, 9482 }, -- Witch Doctor's Cane
-		{ 13, 9243 }, -- Shriveled Heart
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  9512 }, -- Blackmetal Cape
-		{ 2,  9484 }, -- Spellshock Leggings
-		{ 3,  862 }, -- Runed Ring
-		{ 4,  6440 }, -- Brainlash
-		{ 5,  9483 }, -- Flaming Incinerator
-		{ 6,  2040 }, -- Troll Protector
-		{ 7,  5616 }, -- Gutwrencher
-		{ 8,  9511 }, -- Bloodletter Scalpel
-		{ 9,  9481 }, -- The Minotaur
-		{ 10, 9480 }, -- Eyegouger
-		{ 11, 9482 }, -- Witch Doctor's Cane
-		{ 13, 9243 }, -- Shriveled Heart
-	},
-},
+			name = AL["Antu'sul"],
+			npcID = 8127,
+			Level = GetForVersion(48,46),
+			DisplayIDs = {{7353}},
+			AtlasMapBossID = 1,
+			[SOD_DIFF] = {
+				{ 1,  9640 }, -- Vice Grips
+				{ 2,  223532 }, -- Lifeblood Amulet
+				{ 3,  9639 }, -- The Hand of Antu'sul
+				{ 5,  9379 }, -- Sang'thraze the Deflector
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9640 }, -- Vice Grips
+				{ 2,  9641 }, -- Lifeblood Amulet
+				{ 3,  9639 }, -- The Hand of Antu'sul
+				{ 5,  9379 }, -- Sang'thraze the Deflector
+			},
+		},
+		{ -- ZFThekatheMartyr
+			name = AL["Theka the Martyr"],
+			npcID = 7272,
+			Level = GetForVersion({45, 46},46),
+			DisplayIDs = {{6696}},
+			AtlasMapBossID = 2,
+			specialType = "quest",
+			[SOD_DIFF] = {
+				{ 1,  10660 }, -- First Mosh'aru Tablet
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  10660 }, -- First Mosh'aru Tablet
+			},
+		},
+		{ -- ZFSandarrDunereaver
+			name = AL["Sandarr Dunereaver"],
+			npcID = 10080,
+			Level = 45,
+			DisplayIDs = {{9291}},
+			IgnoreAsSource = true,
+			specialType = "rare",
+			[SOD_DIFF] = {
+				{ 1,  9523, [ATLASLOOT_IT_AMOUNT1] = "2-4" }, -- First Mosh'aru Tablet
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9523, [ATLASLOOT_IT_AMOUNT1] = "2-4" }, -- First Mosh'aru Tablet
+			},
+		},
+		{ -- ZFWitchDoctorZumrah
+			name = AL["Witch Doctor Zum'rah"],
+			npcID = 7271,
+			Level = 46,
+			DisplayIDs = {{6434}},
+			AtlasMapBossID = 3,
+			[SOD_DIFF] = {
+				{ 1,  223534 }, -- Jumanza Grips
+				{ 2,  18082 }, -- Zum'rah's Vexing Cane
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  18083 }, -- Jumanza Grips
+				{ 2,  18082 }, -- Zum'rah's Vexing Cane
+			},
+		},
+		{ -- ZFNekrumGutchewer
+			name = AL["Nekrum Gutchewer"],
+			npcID = 7796,
+			Level = GetForVersion({45, 46},45),
+			DisplayIDs = {{6690}},
+			AtlasMapBossID = 4,
+			specialType = "quest",
+			[SOD_DIFF] = {
+				{ 1,  9471 }, -- Nekrum's Medallion
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9471 }, -- Nekrum's Medallion
+			},
+		},
+		{ -- ZFSezzziz
+			name = AL["Shadowpriest Sezz'ziz"],
+			npcID = 7275,
+			Level = GetForVersion(47,46),
+			DisplayIDs = {{6441}},
+			AtlasMapBossID = 4,
+			[SOD_DIFF] = {
+				{ 1,  9470 }, -- Bad Mojo Mask
+				{ 2,  223529 }, -- Jinxed Hoodoo Skin
+				{ 3,  223530 }, -- Jinxed Hoodoo Kilt
+				{ 4,  9475 }, -- Diabolic Skiver
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9470 }, -- Bad Mojo Mask
+				{ 2,  9473 }, -- Jinxed Hoodoo Skin
+				{ 3,  9474 }, -- Jinxed Hoodoo Kilt
+				{ 4,  9475 }, -- Diabolic Skiver
+			},
+		},
+		{ -- ZFDustwraith
+			name = AL["Dustwraith"],
+			npcID = 10081,
+			Level = GetForVersion(47,46),
+			DisplayIDs = {{9292}},
+			AtlasMapBossID = 4,
+			specialType = "rare",
+			[SOD_DIFF] = {
+				{ 1, 223533 }, -- Desertwalker Cane
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  12471 }, -- Desertwalker Cane
+			},
+		},
+		{ -- ZFSandfury
+			name = AL["Sandfury Executioner"],
+			npcID = 7274,
+			Level = 46,
+			DisplayIDs = {{6440}},
+			AtlasMapBossID = 5,
+			[SOD_DIFF] = {
+				{ 1,  8444 }, -- Executioner's Key
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  8444 }, -- Executioner's Key
+			},
+		},
+		{ -- ZFSergeantBly
+			name = AL["Sergeant Bly"],
+			npcID = 7604,
+			Level = 45,
+			DisplayIDs = {{6433}},
+			AtlasMapBossID = 5,
+			specialType = "quest",
+			[SOD_DIFF] = {
+				{ 1,  8548 }, -- Divino-matic Rod
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  8548 }, -- Divino-matic Rod
+			},
+		},
+		{ -- ZFHydromancerVelratha
+			name = AL["Hydromancer Velratha"],
+			npcID = 7795,
+			Level = 46,
+			DisplayIDs = {{6685}},
+			AtlasMapBossID = 6,
+			specialType = "quest",
+			[SOD_DIFF] = {
+				{ 1,  9234 }, -- Tiara of the Deep
+				{ 2,  10661 }, -- Second Mosh'aru Tablet
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9234 }, -- Tiara of the Deep
+				{ 2,  10661 }, -- Second Mosh'aru Tablet
+			},
+		},
+		{ -- ZFGahzrilla
+			name = AL["Gahz'rilla"],
+			npcID = 7273,
+			Level = 46,
+			DisplayIDs = {{7271}},
+			AtlasMapBossID = 6,
+			[SOD_DIFF] = {
+				{ 1, 223528 }, -- Gahz'rilla Scale Armor
+				{ 3, 223527 }, -- Gahz'rilla Fang
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9469 }, -- Gahz'rilla Scale Armor
+				{ 3,  9467 }, -- Gahz'rilla Fang
+			},
+		},
+		{ -- ZFChiefUkorzSandscalp
+			name = AL["Chief Ukorz Sandscalp"],
+			npcID = 7267,
+			Level = GetForVersion(48,46),
+			DisplayIDs = {{6439}},
+			AtlasMapBossID = 7,
+			[SOD_DIFF] = {
+				{ 1, 223963 }, -- Embrace of the Lycan
+				{ 2, 223531 }, -- Big Bad Pauldrons
+				{ 3,  9478 }, -- Ripsaw
+				{ 4,  9477 }, -- The Chief's Enforcer
+				{ 6,  11086 }, -- Jang'thraze the Protector
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9479 }, -- Embrace of the Lycan
+				{ 2,  9476 }, -- Big Bad Pauldrons
+				{ 3,  9478 }, -- Ripsaw
+				{ 4,  9477 }, -- The Chief's Enforcer
+				{ 6,  11086 }, -- Jang'thraze the Protector
+			},
+		},
+		{ -- ZFZerillis
+			name = AL["Zerillis"],
+			npcID = 10082,
+			Level = 45,
+			DisplayIDs = {{9293}},
+			AtlasMapBossID = 8,
+			specialType = "rare",
+			[SOD_DIFF] = {
+				{ 1,  12470 }, -- Sandstalker Ankleguards
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  12470 }, -- Sandstalker Ankleguards
+			},
+		},
+		{ -- ZFTrash
+			name = AL["Trash"],
+			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1,  9512 }, -- Blackmetal Cape
+				{ 2,  9484 }, -- Spellshock Leggings
+				{ 3,  862 }, -- Runed Ring
+				{ 4,  6440 }, -- Brainlash
+				{ 5,  9483 }, -- Flaming Incinerator
+				{ 6,  2040 }, -- Troll Protector
+				{ 7,  5616 }, -- Gutwrencher
+				{ 8,  9511 }, -- Bloodletter Scalpel
+				{ 9,  9481 }, -- The Minotaur
+				{ 10, 9480 }, -- Eyegouger
+				{ 11, 9482 }, -- Witch Doctor's Cane
+				{ 13, 9243 }, -- Shriveled Heart
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  9512 }, -- Blackmetal Cape
+				{ 2,  9484 }, -- Spellshock Leggings
+				{ 3,  862 }, -- Runed Ring
+				{ 4,  6440 }, -- Brainlash
+				{ 5,  9483 }, -- Flaming Incinerator
+				{ 6,  2040 }, -- Troll Protector
+				{ 7,  5616 }, -- Gutwrencher
+				{ 8,  9511 }, -- Bloodletter Scalpel
+				{ 9,  9481 }, -- The Minotaur
+				{ 10, 9480 }, -- Eyegouger
+				{ 11, 9482 }, -- Witch Doctor's Cane
+				{ 13, 9243 }, -- Shriveled Heart
+			},
+		},
 	},
 }
 
@@ -9361,127 +9383,127 @@ data["TheRuinsofAhnQiraj"] = { -- AQ20
 			},
 		},
 		{ -- AQ20Trash
-	name = AL["Trash"],
-	ExtraList = true,
-	[SOD_DIFF] = {
-		{ 1,  234123 }, -- Coif of Elemental Fury
-		{ 2,  234120 }, -- Helm of the Holy Avenger
-		{ 3,  21805 }, -- Polished Obsidian Pauldrons
-		{ 5,  20873 }, -- Alabaster Idol
-		{ 6,  20869 }, -- Amber Idol
-		{ 7,  20866 }, -- Azure Idol
-		{ 8,  20870 }, -- Jasper Idol
-		{ 9,  20868 }, -- Lambent Idol
-		{ 10, 20871 }, -- Obsidian Idol
-		{ 11, 20867 }, -- Onyx Idol
-		{ 12, 20872 }, -- Vermillion Idol
-		{ 14, 21761 }, -- Scarab Coffer Key
-		{ 15, 21156 }, -- Scarab Bag
-		{ 16, 234119 }, -- Antenna of Invigoration
-		{ 17, 234121 }, -- Silithid Husked Launcher
-		{ 18, 234122 }, -- The Lost Kris of Zedd
-		{ 20, 20864 }, -- Bone Scarab
-		{ 21, 20861 }, -- Bronze Scarab
-		{ 22, 20863 }, -- Clay Scarab
-		{ 23, 20862 }, -- Crystal Scarab
-		{ 24, 20859 }, -- Gold Scarab
-		{ 25, 20865 }, -- Ivory Scarab
-		{ 26, 20860 }, -- Silver Scarab
-		{ 27, 20858 }, -- Stone Scarab
-		{ 29, 22203 }, -- Large Obsidian Shard
-		{ 30, 22202 }, -- Small Obsidian Shard
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  21804, [ATLASLOOT_IT_ALLIANCE] = 21803 }, -- Coif of Elemental Fury
-		{ 2,  21803 }, -- Helm of the Holy Avenger
-		{ 3,  21805 }, -- Polished Obsidian Pauldrons
-		{ 5,  20873 }, -- Alabaster Idol
-		{ 6,  20869 }, -- Amber Idol
-		{ 7,  20866 }, -- Azure Idol
-		{ 8,  20870 }, -- Jasper Idol
-		{ 9,  20868 }, -- Lambent Idol
-		{ 10, 20871 }, -- Obsidian Idol
-		{ 11, 20867 }, -- Onyx Idol
-		{ 12, 20872 }, -- Vermillion Idol
-		{ 14, 21761 }, -- Scarab Coffer Key
-		{ 15, 21156 }, -- Scarab Bag
-		{ 16, 21801 }, -- Antenna of Invigoration
-		{ 17, 21800 }, -- Silithid Husked Launcher
-		{ 18, 21802 }, -- The Lost Kris of Zedd
-		{ 20, 20864 }, -- Bone Scarab
-		{ 21, 20861 }, -- Bronze Scarab
-		{ 22, 20863 }, -- Clay Scarab
-		{ 23, 20862 }, -- Crystal Scarab
-		{ 24, 20859 }, -- Gold Scarab
-		{ 25, 20865 }, -- Ivory Scarab
-		{ 26, 20860 }, -- Silver Scarab
-		{ 27, 20858 }, -- Stone Scarab
-		{ 29, 22203 }, -- Large Obsidian Shard
-		{ 30, 22202 }, -- Small Obsidian Shard
-	},
-},
-{ -- AQ20ClassBooks
-	name = AL["Class books"],
-	ExtraList = true,
-	[SOD_DIFF] = {
-		{ 1,  21284 }, -- Codex of Greater Heal V
-		{ 2,  21287 }, -- Codex of Prayer of Healing V
-		{ 3,  21285 }, -- Codex of Renew X
-		{ 4,  21279 }, -- Tome of Fireball XII
-		{ 5,  21214 }, -- Tome of Frostbolt XI
-		{ 6,  21280 }, -- Tome of Arcane Missiles VIII
-		{ 7,  21281 }, -- Grimoire of Shadow Bolt X
-		{ 8,  21283 }, -- Grimoire of Corruption VII
-		{ 9,  21282 }, -- Grimoire of Immolate VIII
-		{ 10, 21300 }, -- Handbook of Backstab IX
-		{ 11, 21303 }, -- Handbook of Feint V
-		{ 12, 21302 }, -- Handbook of Deadly Poison V
-		{ 13, 21294 }, -- Book of Healing Touch XI
-		{ 14, 21296 }, -- Book of Rejuvenation XI
-		{ 15, 21295 }, -- Book of Starfire VII
-		{ 16, 21306 }, -- Guide: Serpent Sting IX
-		{ 17, 21304 }, -- Guide: Multi-Shot V
-		{ 18, 21307 }, -- Guide: Aspect of the Hawk VII
-		{ 19, 21291 }, -- Tablet of Healing Wave X
-		{ 20, 21292 }, -- Tablet of Strength of Earth Totem V
-		{ 21, 21293 }, -- Tablet of Grace of Air Totem III
-		{ 22, 21288 }, -- Libram: Blessing of Wisdom VI
-		{ 23, 21289 }, -- Libram: Blessing of Might VII
-		{ 24, 21290 }, -- Libram: Holy Light IX
-		{ 25, 21298 }, -- Manual of Battle Shout VII
-		{ 26, 21299 }, -- Manual of Revenge VI
-		{ 27, 21297 }, -- Manual of Heroic Strike IX
-	},
-	[NORMAL_DIFF] = {
-		{ 1,  21284 }, -- Codex of Greater Heal V
-		{ 2,  21287 }, -- Codex of Prayer of Healing V
-		{ 3,  21285 }, -- Codex of Renew X
-		{ 4,  21279 }, -- Tome of Fireball XII
-		{ 5,  21214 }, -- Tome of Frostbolt XI
-		{ 6,  21280 }, -- Tome of Arcane Missiles VIII
-		{ 7,  21281 }, -- Grimoire of Shadow Bolt X
-		{ 8,  21283 }, -- Grimoire of Corruption VII
-		{ 9,  21282 }, -- Grimoire of Immolate VIII
-		{ 10, 21300 }, -- Handbook of Backstab IX
-		{ 11, 21303 }, -- Handbook of Feint V
-		{ 12, 21302 }, -- Handbook of Deadly Poison V
-		{ 13, 21294 }, -- Book of Healing Touch XI
-		{ 14, 21296 }, -- Book of Rejuvenation XI
-		{ 15, 21295 }, -- Book of Starfire VII
-		{ 16, 21306 }, -- Guide: Serpent Sting IX
-		{ 17, 21304 }, -- Guide: Multi-Shot V
-		{ 18, 21307 }, -- Guide: Aspect of the Hawk VII
-		{ 19, 21291 }, -- Tablet of Healing Wave X
-		{ 20, 21292 }, -- Tablet of Strength of Earth Totem V
-		{ 21, 21293 }, -- Tablet of Grace of Air Totem III
-		{ 22, 21288 }, -- Libram: Blessing of Wisdom VI
-		{ 23, 21289 }, -- Libram: Blessing of Might VII
-		{ 24, 21290 }, -- Libram: Holy Light IX
-		{ 25, 21298 }, -- Manual of Battle Shout VII
-		{ 26, 21299 }, -- Manual of Revenge VI
-		{ 27, 21297 }, -- Manual of Heroic Strike IX
-	},
-},
+			name = AL["Trash"],
+			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1,  234123 }, -- Coif of Elemental Fury
+				{ 2,  234120 }, -- Helm of the Holy Avenger
+				{ 3,  21805 }, -- Polished Obsidian Pauldrons
+				{ 5,  20873 }, -- Alabaster Idol
+				{ 6,  20869 }, -- Amber Idol
+				{ 7,  20866 }, -- Azure Idol
+				{ 8,  20870 }, -- Jasper Idol
+				{ 9,  20868 }, -- Lambent Idol
+				{ 10, 20871 }, -- Obsidian Idol
+				{ 11, 20867 }, -- Onyx Idol
+				{ 12, 20872 }, -- Vermillion Idol
+				{ 14, 21761 }, -- Scarab Coffer Key
+				{ 15, 21156 }, -- Scarab Bag
+				{ 16, 234119 }, -- Antenna of Invigoration
+				{ 17, 234121 }, -- Silithid Husked Launcher
+				{ 18, 234122 }, -- The Lost Kris of Zedd
+				{ 20, 20864 }, -- Bone Scarab
+				{ 21, 20861 }, -- Bronze Scarab
+				{ 22, 20863 }, -- Clay Scarab
+				{ 23, 20862 }, -- Crystal Scarab
+				{ 24, 20859 }, -- Gold Scarab
+				{ 25, 20865 }, -- Ivory Scarab
+				{ 26, 20860 }, -- Silver Scarab
+				{ 27, 20858 }, -- Stone Scarab
+				{ 29, 22203 }, -- Large Obsidian Shard
+				{ 30, 22202 }, -- Small Obsidian Shard
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  21804, [ATLASLOOT_IT_ALLIANCE] = 21803 }, -- Coif of Elemental Fury
+				{ 2,  21803 }, -- Helm of the Holy Avenger
+				{ 3,  21805 }, -- Polished Obsidian Pauldrons
+				{ 5,  20873 }, -- Alabaster Idol
+				{ 6,  20869 }, -- Amber Idol
+				{ 7,  20866 }, -- Azure Idol
+				{ 8,  20870 }, -- Jasper Idol
+				{ 9,  20868 }, -- Lambent Idol
+				{ 10, 20871 }, -- Obsidian Idol
+				{ 11, 20867 }, -- Onyx Idol
+				{ 12, 20872 }, -- Vermillion Idol
+				{ 14, 21761 }, -- Scarab Coffer Key
+				{ 15, 21156 }, -- Scarab Bag
+				{ 16, 21801 }, -- Antenna of Invigoration
+				{ 17, 21800 }, -- Silithid Husked Launcher
+				{ 18, 21802 }, -- The Lost Kris of Zedd
+				{ 20, 20864 }, -- Bone Scarab
+				{ 21, 20861 }, -- Bronze Scarab
+				{ 22, 20863 }, -- Clay Scarab
+				{ 23, 20862 }, -- Crystal Scarab
+				{ 24, 20859 }, -- Gold Scarab
+				{ 25, 20865 }, -- Ivory Scarab
+				{ 26, 20860 }, -- Silver Scarab
+				{ 27, 20858 }, -- Stone Scarab
+				{ 29, 22203 }, -- Large Obsidian Shard
+				{ 30, 22202 }, -- Small Obsidian Shard
+			},
+		},
+		{ -- AQ20ClassBooks
+			name = AL["Class books"],
+			ExtraList = true,
+			[SOD_DIFF] = {
+				{ 1,  21284 }, -- Codex of Greater Heal V
+				{ 2,  21287 }, -- Codex of Prayer of Healing V
+				{ 3,  21285 }, -- Codex of Renew X
+				{ 4,  21279 }, -- Tome of Fireball XII
+				{ 5,  21214 }, -- Tome of Frostbolt XI
+				{ 6,  21280 }, -- Tome of Arcane Missiles VIII
+				{ 7,  21281 }, -- Grimoire of Shadow Bolt X
+				{ 8,  21283 }, -- Grimoire of Corruption VII
+				{ 9,  21282 }, -- Grimoire of Immolate VIII
+				{ 10, 21300 }, -- Handbook of Backstab IX
+				{ 11, 21303 }, -- Handbook of Feint V
+				{ 12, 21302 }, -- Handbook of Deadly Poison V
+				{ 13, 21294 }, -- Book of Healing Touch XI
+				{ 14, 21296 }, -- Book of Rejuvenation XI
+				{ 15, 21295 }, -- Book of Starfire VII
+				{ 16, 21306 }, -- Guide: Serpent Sting IX
+				{ 17, 21304 }, -- Guide: Multi-Shot V
+				{ 18, 21307 }, -- Guide: Aspect of the Hawk VII
+				{ 19, 21291 }, -- Tablet of Healing Wave X
+				{ 20, 21292 }, -- Tablet of Strength of Earth Totem V
+				{ 21, 21293 }, -- Tablet of Grace of Air Totem III
+				{ 22, 21288 }, -- Libram: Blessing of Wisdom VI
+				{ 23, 21289 }, -- Libram: Blessing of Might VII
+				{ 24, 21290 }, -- Libram: Holy Light IX
+				{ 25, 21298 }, -- Manual of Battle Shout VII
+				{ 26, 21299 }, -- Manual of Revenge VI
+				{ 27, 21297 }, -- Manual of Heroic Strike IX
+			},
+			[NORMAL_DIFF] = {
+				{ 1,  21284 }, -- Codex of Greater Heal V
+				{ 2,  21287 }, -- Codex of Prayer of Healing V
+				{ 3,  21285 }, -- Codex of Renew X
+				{ 4,  21279 }, -- Tome of Fireball XII
+				{ 5,  21214 }, -- Tome of Frostbolt XI
+				{ 6,  21280 }, -- Tome of Arcane Missiles VIII
+				{ 7,  21281 }, -- Grimoire of Shadow Bolt X
+				{ 8,  21283 }, -- Grimoire of Corruption VII
+				{ 9,  21282 }, -- Grimoire of Immolate VIII
+				{ 10, 21300 }, -- Handbook of Backstab IX
+				{ 11, 21303 }, -- Handbook of Feint V
+				{ 12, 21302 }, -- Handbook of Deadly Poison V
+				{ 13, 21294 }, -- Book of Healing Touch XI
+				{ 14, 21296 }, -- Book of Rejuvenation XI
+				{ 15, 21295 }, -- Book of Starfire VII
+				{ 16, 21306 }, -- Guide: Serpent Sting IX
+				{ 17, 21304 }, -- Guide: Multi-Shot V
+				{ 18, 21307 }, -- Guide: Aspect of the Hawk VII
+				{ 19, 21291 }, -- Tablet of Healing Wave X
+				{ 20, 21292 }, -- Tablet of Strength of Earth Totem V
+				{ 21, 21293 }, -- Tablet of Grace of Air Totem III
+				{ 22, 21288 }, -- Libram: Blessing of Wisdom VI
+				{ 23, 21289 }, -- Libram: Blessing of Might VII
+				{ 24, 21290 }, -- Libram: Holy Light IX
+				{ 25, 21298 }, -- Manual of Battle Shout VII
+				{ 26, 21299 }, -- Manual of Revenge VI
+				{ 27, 21297 }, -- Manual of Heroic Strike IX
+			},
+		},
 		AQ_SCARABS,
 		AQ_ENCHANTS,
 		AQ_OPENING,
@@ -11009,6 +11031,6 @@ data["Naxxramas"] = {
 				{ 22, 22682 }, -- Frozen Rune
 			},
 		},
-		T3_SET,
+		T3_SET_SOD,
 	},
 }
