@@ -324,74 +324,136 @@ data["SoD Currency"] = {
 		{
 			name = AL["Tarnished Undermine Real Rewards"],
 			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, AL["Phase 5"], nil },
-				{ 2, 231707 }, -- Draconian Bindings
-				{ 3, 231715 }, -- Primeval Bindings
-				{ 4, 231724 }, -- Ancient Bindings
-				{ 5, 231996 }, -- Supercharged Gobmogrifier
-				{ 7, 232454 }, -- Emblem of the Wild Gods
-				{ 8, 232455 }, -- Emblem of Dishonor
-				{ 9, 232456 }, -- Emblem of the Violet Eye
-				{ 10, 232457 }, -- Emblem of the Worldcore
-				{ 12, 232390 }, -- Idol of Celestial Focus
-				{ 13, 232391 }, -- Idol of Feline Focus
-				{ 14, 232423 }, -- Idol of Nurture
-				{ 15, 232424 }, -- Idol of Cruelty
-				{ 16, 231811 }, -- Libram of Awe
-				{ 17, 232389 }, -- Libram of Plenty
-				{ 18, 232420 }, -- Libram of Wrath
-				{ 19, 232421 }, -- Libram of Avenging
-				{ 21, 232392 }, -- Totem of Relentless Thunder
-				{ 22, 232409 }, -- Totem of the Elements
-				{ 23, 232416 }, -- Totem of Astral Flow
-				{ 24, 232419 }, -- Totem of Conductive Elements
+				{ 1, 231707 }, -- Draconian Bindings
+				{ 2, 231708 }, -- Draconian Belt
+				{ 3, 231712 }, -- Draconian Gloves
+				{ 4, 231713 }, -- Draconian Boots
+				
+				{ 6, 231715 }, -- Primeval Bindings
+				{ 7, 231716 }, -- Primeval Belt
+				{ 8, 231720 }, -- Primeval Gloves
+				{ 9, 231721 }, -- Primeval Boots
+				
+				{ 11, 231724 }, -- Ancient Bindings
+				{ 12, 231725 }, -- Ancient Belt
+				{ 13, 231729 }, -- Ancient Gloves
+				{ 14, 231730 }, -- Ancient Boots
+				
+				{ 16, 232390 }, -- Idol of Celestial Focus
+				{ 17, 232391 }, -- Idol of Feline Focus
+				{ 18, 232423 }, -- Idol of Nurture
+				{ 19, 232424 }, -- Idol of Cruelty
+				
+				{ 21, 231811 }, -- Libram of Awe
+				{ 22, 232389 }, -- Libram of Plenty
+				{ 23, 232420 }, -- Libram of Wrath
+				{ 24, 232421 }, -- Libram of Avenging
+				
+				{ 26, 232392 }, -- Totem of Relentless Thunder
+				{ 27, 232409 }, -- Totem of the Elements
+				{ 28, 232416 }, -- Totem of Astral Flow
+				{ 29, 232419 }, -- Totem of Conductive Elements
+				
 				{ 30, "INV_Box_01", nil, AL["Phase 4 Rewards-->"], nil },
-				{ 101, 226405 }, -- Damaged Undermine Supply Crate 5
-				{ 102, 227284 }, -- Band of the Beast 50
-				{ 103, 227279 }, -- Loop of the Magister 50
-				{ 104, 227280 }, -- Craft of the Shadows 50
-				{ 105, 227282 }, -- Ring of the Dreaded Mist 50
-				{ 106, 228432 }, -- Whistle of the Beast 50
-				{ 107, 228168 }, -- Goblin Gear Grinder 50
-				{ 108, 228169 }, -- The Attitude Adjustor 50
-				{ 109, 228170 }, -- Makeshift South Sea Oar 50
-				{ 110, 228185 }, -- Broken Bottle of Goblino Noir 50
-				{ 111, 228184 }, -- Goblin Clothesline 25
-				{ 113, 228186 }, -- Abandoned Wedding Band 25
-				{ 114, 228187 }, -- Stick of the South Sea 50
-				{ 115, 228189 }, -- Gift of Gob 25
-				{ 116, 228173 }, -- Libram of the Consecrated 15
-				{ 117, 228174 }, -- Libram of the Devoted 15
-				{ 118, 228175 }, -- Libram of Holy Alacrity 15
-				{ 119, 228176 }, -- Totem of Thunder 15
-				{ 120, 228177 }, -- Totem of Raging Fire 15
-				{ 121, 228178 }, -- Totem of Earthen Vitality 15
-				{ 122, 228179 }, -- Totem of the Plains 15
-				{ 123, 228180 }, -- Idol of the Swarm 15
-				{ 124, 228181 }, -- Idol of Exsanguination (Cat) 15
-				{ 125, 228182 }, -- Idol of Exsanguination (Bear) 15
-				{ 126, 228183 }, -- Idol of the Grove 15
-				{ 128, 227990 }, -- Hand of Injustice 50
-				{ 129, 228171 }, -- Kezan Cash Carrier 25
+				
+				{ 101, 227532 }, -- Incandescent Hood
+				{ 102, 227534 }, -- Incandescent Leggings
+				{ 103, 227535 }, -- Incandescent Robe
+				{ 104, 227536 }, -- Incandescent Boots
+				{ 105, 227537 }, -- Incandescent Shoulderpads
+				{ 106, 227530 }, -- Incandescent Belt
+				{ 107, 227531 }, -- Incandescent Bindings
+				{ 108, 227533 }, -- Incandescent Gloves
+				
+				{ 110, 227755 }, -- Molten Scaled Helm
+				{ 111, 227754 }, -- Molten Scaled Leggings
+				{ 112, 227758 }, -- Molten Scaled Chest
+				{ 113, 227752 }, -- Molten Scaled Boots
+				{ 114, 227757 }, -- Molten Scaled Shoulderpads
+				{ 115, 227751 }, -- Molten Scaled Belt
+				{ 116, 227750 }, -- Molten Scaled Bindings
+				{ 117, 227756 }, -- Molten Scaled Gloves
+				
+				{ 119, 227764 }, -- Scorched Core Helm
+				{ 120, 227763 }, -- Scorched Core Leggings
+				{ 121, 227766 }, -- Scorched Core Chest
+				{ 122, 227762 }, -- Scorched Core Shoulderpads
+				{ 123, 227765 }, -- Scorched Core Boots
+				{ 124, 227761 }, -- Scorched Core Belt
+				{ 125, 227760 }, -- Scorched Core Bindings
+				{ 126, 227759 }, -- Scorched Core Gloves
+				
 				{ 130, "INV_Box_01", nil, AL["Continued -->"], nil },
-				{ 201, 228121 }, -- Pattern: Leather-Reinforced Runecloth Bag 50
-				{ 202, 13518 }, -- Recipe: Flask of Petrification 50
-				{ 203, 13519 }, -- Recipe: Flask of the Titans 50
-				{ 204, 13520 }, -- Recipe: Flask of Distilled Wisdom 50
-				{ 205, 13521 }, -- Recipe: Flask of Supreme Power 50
-				{ 206, 13522 }, -- Recipe: Flask of Chromatic Resistance 50
-				{ 207, 17011 }, -- Lava Core 15
-				{ 208, 17010 }, -- Fiery Core 15
-				{ 209, 17012 }, -- Core Leather 10
-				{ 211, 220597 }, -- Drakestone of the Dream Harbinger
-				{ 212, 220598 }, -- Drakestone of the Nightmare Harbinger
-				{ 213, 220599 }, -- Drakestone of the Blood Prophet
-				{ 216, "INV_Box_01", nil, AL["Dungeon Sets:"], nil },
-				{ 217, "INV_Box_01", nil, AL["Bracers: 15 Reals"], nil },
-				{ 218, "INV_Box_01", nil, AL["Boots, Gloves: 25 Reals"], nil },
-				{ 219, "INV_Box_01", nil, AL["Shoulders, Belt: 25 Reals"], nil },
-				{ 220, "INV_Box_01", nil, AL["Helm, Chest, Legs: 50 Reals"], nil },
+				
+				{ 201, 227284 }, -- Band of the Beast 50
+				{ 202, 227279 }, -- Loop of the Magister 50
+				{ 203, 227280 }, -- Craft of the Shadows 50
+				{ 204, 227282 }, -- Ring of the Dreaded Mist 50
+				{ 205, 228432 }, -- Whistle of the Beast 50
+				{ 206, 228168 }, -- Goblin Gear Grinder 50
+				{ 207, 228169 }, -- The Attitude Adjustor 50
+				{ 208, 228170 }, -- Makeshift South Sea Oar 50
+				{ 209, 228185 }, -- Broken Bottle of Goblino Noir 50
+				{ 210, 228184 }, -- Goblin Clothesline 25
+				
+				{ 212, 228186 }, -- Abandoned Wedding Band 25
+				{ 213, 228187 }, -- Stick of the South Sea 50
+				
+				{ 216, 227990 }, -- Hand of Injustice 50
+				{ 217, 228171 }, -- Kezan Cash Carrier 25
+				
+				{ 219, 220597 }, -- Drakestone of the Dream Harbinger
+				{ 220, 220598 }, -- Drakestone of the Nightmare Harbinger
+				{ 221, 220599 }, -- Drakestone of the Blood Prophet
+				
+				{ 230, "INV_Box_01", nil, AL["Continued -->"], nil },
+				
+				{ 301, 228173 }, -- Libram of the Consecrated 15
+				{ 302, 228174 }, -- Libram of the Devoted 15
+				{ 303, 228175 }, -- Libram of Holy Alacrity 15
+				
+				{ 305, 228176 }, -- Totem of Thunder 15
+				{ 306, 228177 }, -- Totem of Raging Fire 15
+				{ 307, 228178 }, -- Totem of Earthen Vitality 15
+				{ 308, 228179 }, -- Totem of the Plains 15
+				
+				{ 310, 228180 }, -- Idol of the Swarm 15
+				{ 311, 228181 }, -- Idol of Exsanguination (Cat) 15
+				{ 312, 228182 }, -- Idol of Exsanguination (Bear) 15
+				{ 313, 228183 }, -- Idol of the Grove 15
+				
+				{ 316, "INV_Box_01", nil, AL["Dungeon Sets:"], nil },
+				{ 317, "INV_Box_01", nil, AL["Bracers: 15 Reals"], nil },
+				{ 318, "INV_Box_01", nil, AL["Boots, Gloves: 25 Reals"], nil },
+				{ 319, "INV_Box_01", nil, AL["Shoulders, Belt: 25 Reals"], nil },
+				{ 320, "INV_Box_01", nil, AL["Helm, Chest, Legs: 50 Reals"], nil },
 			},
+		},
+		{
+			name = AL["Recipes"],
+			[NORMAL_DIFF] = {
+				{ 1, 228121 }, -- Pattern: Leather-Reinforced Runecloth Bag 50
+				{ 2, 13518 }, -- Recipe: Flask of Petrification 50
+				{ 3, 13519 }, -- Recipe: Flask of the Titans 50
+				{ 4, 13520 }, -- Recipe: Flask of Distilled Wisdom 50
+				{ 5, 13521 }, -- Recipe: Flask of Supreme Power 50
+				{ 6, 13522 }, -- Recipe: Flask of Chromatic Resistance 50
+			},
+		},
+		{
+			name = AL["Trade Goods"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["Phase 7"], nil },
+				{ 2, 236414 }, -- Damaged Undermine Supply Crate Phase 7
+				
+				{ 4, "INV_Box_01", nil, AL["Phase 4"], nil },
+				{ 5, 226405 }, -- Damaged Undermine Supply Crate Phase 4
+				
+				{ 7, 17011 }, -- Lava Core 15
+				{ 8, 17010 }, -- Fiery Core 15
+				{ 9, 17012 }, -- Core Leather 10
+			},
+			
 		},
 		{
 			name = AL["Toys"],
@@ -413,6 +475,8 @@ data["SoD Currency"] = {
 				{ 19, 234464 }, -- Bubbles' Rod of Bubbles
 				{ 20, 234142 }, -- Bottomless Noggenfogger Elixir
 				{ 21, 234143 }, -- Globe of Deception
+				{ 22, 228189 }, -- Gift of Gob 25
+				{ 23, 231996 }, -- Supercharged Gobmogrifier
 			},
 		},
 		{
@@ -435,6 +499,15 @@ data["SoD Currency"] = {
 				{ 3, 7082 }, -- Essence of Air
 				{ 4, 7078 }, -- Essence of Fire
 				{ 5, 11382 }, -- Blood of the Mountain
+			},
+		},
+		{
+			name = AL["Runes"],
+			[NORMAL_DIFF] = {
+				{ 1, 232454 }, -- Emblem of the Wild Gods
+				{ 2, 232455 }, -- Emblem of Dishonor
+				{ 3, 232456 }, -- Emblem of the Violet Eye
+				{ 4, 232457 }, -- Emblem of the Worldcore
 			},
 		},
 	},
@@ -1115,7 +1188,6 @@ data["SoD Factions"] = {
 		},
 	},
 }
-
 
 data["Sod Exclusives"] = {
 	name = AL["Waylaid Supplies"],

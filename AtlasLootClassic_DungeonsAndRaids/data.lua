@@ -100,31 +100,52 @@ local KEYS = {	-- Keys
 	},
 }
 
-local T1_SET = {
+local T1_SET_SOD = {
 	name = format(AL["Tier %s Sets"], "1"),
 	ExtraList = true,
 	LoadDifficulty = LOAD_DIFF,
 	TableType = SET_ITTYPE,
 	IgnoreAsSource = true,
 	[ALLIANCE_DIFF] = {
-		{ 1, 203 }, -- Warlock
-		{ 3, 202 }, -- Priest
-		{ 16, 201 }, -- Mage
-		{ 5, 204 }, -- Rogue
-		{ 20, 205 }, -- Druid
-		{ 7, 206 }, -- Hunter
-		{ 9, 209 }, -- Warrior
-		{ 24, 208 }, -- Paladin
+		{ 1, 1698 }, -- Druid
+		{ 2, 1699 }, -- Druid
+		{ 3, 1701 }, -- Druid
+		{ 4, 1700 }, -- Druid
+
+		{ 6, 1702 }, -- Hunter
+		{ 7, 1703 }, -- Hunter
+
+		{ 9, 1704 }, -- Mage
+		{ 10, 1705 }, -- Mage
+
+		{ 12, 1713 }, -- Shaman
+		{ 13, 1715 }, -- Shaman
+		{ 14, 1714 }, -- Shaman
+		{ 15, 1716 }, -- Shaman
+
+		{ 16, 1708 }, -- Paladin
+		{ 17, 1707 }, -- Paladin
+		{ 18, 1706 }, -- Paladin
+
+		{ 20, 1709 }, -- Priest
+		{ 21, 1710 }, -- Priest
+
+		{ 23, 1711 }, -- Rogue
+		{ 24, 1712 }, -- Rogue
+
+		{ 26, 1717 }, -- Warlock
+		{ 27, 1718 }, -- Warlock
+
+		{ 29, 1719 }, -- Warrior
+		{ 30, 1720 }, -- Warrior
 	},
 
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
-		{ 22, 207 }, -- Shaman
-		{ 24 }, -- Paladin
 	},
 }
 
-local T2_SET = {
+local T2_SET_SOD = {
 	name = format(AL["Tier %s Sets"], "2"),
 	ExtraList = true,
 	LoadDifficulty = LOAD_DIFF,
@@ -132,23 +153,81 @@ local T2_SET = {
 	ContentPhase = 3,
 	IgnoreAsSource = true,
 	[ALLIANCE_DIFF] = {
-		{ 1, 212 }, -- Warlock
-		{ 3, 211 }, -- Priest
-		{ 16, 210 }, -- Mage
-		{ 5, 213 }, -- Rogue
-		{ 20, 214 }, -- Druid
-		{ 7, 215 }, -- Hunter
-		{ 9, 218 }, -- Warrior
-		{ 24, 217 }, -- Paladin
+		{ 1, 1801 }, --Balance
+		{ 2, 1803 }, --Feral
+		{ 3, 1804 }, --Tank
+		{ 4, 1802 }, --Resto
+
+		{ 6, 1805 }, --Ranged Hunter
+		{ 7, 1806 }, --Melee Hunter
+
+		{ 9, 1807 }, --Damage Mage
+		{ 10, 1808 }, --Healer Mage
+
+		{ 12, 1816 }, -- Healer Sham
+		{ 13, 1818 }, -- Melee Sham
+		{ 14, 1817 }, -- Ranged Sham
+		{ 15, 1819 }, -- Tank Sham
+
+		{ 16, 1809 }, -- Holy Pally
+		{ 17, 1810 }, -- Ret Pally
+		{ 18, 1811 }, -- Tank Pally
+
+		{ 20, 1812 }, -- Healer Priest
+		{ 21, 1813 }, -- DPS Priest
+
+		{ 23, 1814 }, -- DPS Rogue
+		{ 24, 1815 }, -- Tank Rogue 
+
+		{ 26, 1820 }, -- DPS Lock
+		{ 27, 1821 }, -- Tank Lock
+
+		{ 29, 1822 }, -- Tank Warr
+		{ 30, 1823 }, -- Dps Warr	
 	},
 
 	[HORDE_DIFF] = {
 		GetItemsFromDiff = ALLIANCE_DIFF,
-		{ 22, 216 }, -- Shaman
-		{ 24 }, -- Paladin
 	},
 }
 
+local T2_5_SET_SOD = {
+	name = format(AL["Tier %s Sets"], "2.5"),
+	ExtraList = true,
+	LoadDifficulty = LOAD_DIFF,
+	TableType = SET_ITTYPE,
+	ContentPhase = 6,
+	IgnoreAsSource = true,
+	[ALLIANCE_DIFF] = {
+		{ 1, 1835 }, --Balance
+		{ 2, 1836 }, --Feral
+		{ 3, 1837 }, --Tank
+		{ 4, 1838 }, --Resto
+		{ 6, 1839 }, --Ranged Hunter
+		{ 7, 1840 }, --Melee Hunter
+		{ 9, 1841 }, --Damage Mage
+		{ 10, 1842 }, --Healer Mage
+		{ 12, 1850 }, -- Healer Sham
+		{ 13, 1851 }, -- Ele Sham
+		{ 14, 1852 }, -- Tank Sham
+		{ 15, 1853 }, -- Melee Sham
+		{ 16, 1843 }, -- Holy Pally
+		{ 17, 1844 }, -- Tank Pally
+		{ 18, 1845 }, -- Ret Pally 
+		{ 20, 1846 }, -- Healer Priest
+		{ 21, 1847 }, -- DPS Priest 
+		{ 23, 1848 }, -- DPS Rogue
+		{ 24, 1849 }, -- Tank Rogue  
+		{ 26, 1854 }, -- DPS Lock
+		{ 27, 1855 }, -- Tank Lock
+		{ 29, 1856 }, -- Tank Warr
+		{ 30, 1857 }, -- Dps Warr				
+	},
+
+	[HORDE_DIFF] = {
+		GetItemsFromDiff = ALLIANCE_DIFF,
+	},
+}
 local T3_SET = {
 	name = format(AL["Tier %s Sets"], "3"),
 	ExtraList = true,
@@ -860,6 +939,7 @@ data["TheStockade"] = {
 		},
 	},
 }
+
 data["BlackfathomDeeps2"] = {
 	MapID = 719,
 	InstanceID = 48,
@@ -2640,7 +2720,6 @@ data["Zul'Farrak"] = {
 		{ 13, 9243 }, -- Shriveled Heart
 	},
 },
-
 	},
 }
 
@@ -3603,6 +3682,7 @@ data["BlackrockDepths"] = {
 				{ 3,  11842 }, -- Lead Surveyor's Mantle
 				{ 4,  11841 }, -- Senior Designer's Pantaloons
 				{ 6,  11840 }, -- Master Builder's Shirt
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11839 }, -- Chief Architect's Monocle
@@ -3626,6 +3706,7 @@ data["BlackrockDepths"] = {
 				{ 4,  11767 }, -- Emberplate Armguards
 				{ 6,  19268 }, -- Ace of Elementals
 				{ 8,  11768 }, -- Incendic Bracers
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11766 }, -- Flameweave Cuffs
@@ -3648,6 +3729,7 @@ data["BlackrockDepths"] = {
 				{ 2,  11802 }, -- Lavacrest Leggings
 				{ 3,  11805 }, -- Rubidium Hammer
 				{ 4,  11803 }, -- Force of Magma
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11807 }, -- Sash of the Burning Heart
@@ -3670,6 +3752,7 @@ data["BlackrockDepths"] = {
 				{ 4, 227940 }, -- Lord General's Sword
 				{ 5, 227948 }, -- Angerforge's Battle Axe
 				{ 6,  11841 }, -- Senior Designer's Pantaloons
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11820 }, -- Royal Decorated Armor
@@ -3692,6 +3775,7 @@ data["BlackrockDepths"] = {
 				{ 2, 227965 }, -- Omnicast Boots
 				{ 3,  11669 }, -- Naglering
 				{ 4, 227967 }, -- Second Wind
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11823 }, -- Luminary Kilt
@@ -3713,11 +3797,12 @@ data["BlackrockDepths"] = {
 				{ 3,  18043 }, -- Coal Miner Boots
 				{ 4,  22275 }, -- Firemoss Boots
 				{ 5,  18044 }, -- Hurley's Tankard
-				{ 7, "INV_Box_01", nil, AL["Ribbly Screwspigot"], nil },
-				{ 8, 227901 }, -- Plans: Tempered Dark Iron Plate
-				{ 9, 2662 }, -- Ribbly's Quiver
-				{ 10, 2663 }, -- Ribbly's Bandolier
-				{ 11, 11742 }, -- Wayfarer's Knapsack
+				{ 6, 226404 }, -- Tarnished Undermine Real
+				{ 8, "INV_Box_01", nil, AL["Ribbly Screwspigot"], nil },
+				{ 9, 227901 }, -- Plans: Tempered Dark Iron Plate
+				{ 10, 2662 }, -- Ribbly's Quiver
+				{ 11, 2663 }, -- Ribbly's Bandolier
+				{ 12, 11742 }, -- Wayfarer's Knapsack
 				{ 16, "INV_Box_01", nil, AL["Lokhtos Darkbargainer"], nil },
 				{ 17, 18592 }, -- Plans: Sulfuron Hammer
 				{ 22, "INV_Box_01", nil, AL["Plugger Spazzring"], nil },
@@ -3764,6 +3849,7 @@ data["BlackrockDepths"] = {
 				{ 2,  11745 }, -- Fists of Phalanx
 				{ 3, 11744 }, -- Bloodfist
 				{ 4, 11743 }, -- Rockfist
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  22212 }, -- Golem Fitted Pauldrons
@@ -3786,6 +3872,7 @@ data["BlackrockDepths"] = {
 				{ 5, 227972 }, -- Burst of Knowledge
 				{ 6,  11809 }, -- Flame Wrath
 				{ 8,  23320 }, -- Tablet of Flame Shock VI
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11808 }, -- Circle of Flame
@@ -3859,6 +3946,7 @@ data["BlackrockDepths"] = {
 				{ 3,  22395 }, -- Totem of Rage
 				{ 4, 227974 }, -- Lavastone Hammer
 				{ 5,  22400 }, -- Libram of Truth
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11746 }, -- Golem Skull Helm
@@ -3908,6 +3996,7 @@ data["BlackrockDepths"] = {
 				{ 11, 227982 }, -- Guiding Stave of Wisdom
 				{ 12,  11815 }, -- Hand of Justice
 				{ 14, 12033 }, -- Thaurissan Family Jewels
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  11684 }, -- Ironfoe
@@ -4061,6 +4150,7 @@ data["LowerBlackrockSpire"] = {
 				{ 7, 228570 }, -- Fist of Omokk
 				{ 8,  12336 }, -- Gemstone of Spirestone
 				{ 10, 12534 }, -- Omokk's Head
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16670 }, -- Boots of Elements
@@ -4122,6 +4212,7 @@ data["LowerBlackrockSpire"] = {
 				{ 6, 12653 }, -- Riphook
 				{ 7, 228559 }, -- Blackcrow
 				{ 8, 12654 }, -- Doomshot
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16712 }, -- Shadowcraft Gloves
@@ -4148,6 +4239,7 @@ data["LowerBlackrockSpire"] = {
 				{ 6, 13173 }, -- Flightblade Throwing Axe
 				{ 7, 12582 }, -- Keris of Zul'Serak
 				{ 9, 12335 }, -- Gemstone of Smolderthorn
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16676 }, -- Beaststalker's Gloves
@@ -4191,6 +4283,7 @@ data["LowerBlackrockSpire"] = {
 				{ 3, 228577 }, -- Gilded Gauntlets
 				{ 4, 228576 }, -- Smolderweb's Eye
 				{ 5, 228573 }, -- Venomspitter
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16715 }, -- Wildheart Boots
@@ -4230,6 +4323,7 @@ data["LowerBlackrockSpire"] = {
 				{ 3,  13259 }, -- Ribsteel Footguards
 				{ 4,  13178 }, -- Rosewine Circle
 				{ 6,  18784 }, -- Top Half of Advanced Armorsmithing: Volume III
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  13258 }, -- Slaghide Gauntlets
@@ -4271,6 +4365,7 @@ data["LowerBlackrockSpire"] = {
 				{ 2, 228575 }, -- Slashclaw Bracers
 				{ 3,  13210 }, -- Pads of the Dread Wolf
 				{ 4,  13212 }, -- Halycon's Spiked Collar
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  13212 }, -- Halycon's Spiked Collar
@@ -4291,6 +4386,7 @@ data["LowerBlackrockSpire"] = {
 				{ 3,  13208 }, -- Bleak Howler Armguards
 				{ 4,  13206 }, -- Wolfshear Leggings
 				{ 5, 228591 }, -- Rhombeard Protector
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16718 }, -- Wildheart Spaulders
@@ -4335,6 +4431,7 @@ data["LowerBlackrockSpire"] = {
 				{ 10, 228587 }, -- Trindlehaven Staff
 				{ 12, 12337 }, -- Gemstone of Bloodaxe
 				{ 14, 12780 }, -- General Drakkisath's Command
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  13143 }, -- Mark of the Dragon Lord
@@ -4446,6 +4543,7 @@ data["UpperBlackrockSpire"] = {
 				{ 5,  12905 }, -- Wildfire Cape
 				{ 6,  12926 }, -- Flaming Band
 				{ 8,  23320 }, -- Tablet of Flame Shock VI
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16672 }, -- Gauntlets of Elements
@@ -4578,6 +4676,7 @@ data["UpperBlackrockSpire"] = {
 				{ 13, 12940 }, -- Dal'Rend's Sacred Charge
 				{ 14, 12939 }, -- Dal'Rend's Tribal Guardian
 				{ 15, 228603 }, -- Blackhand Doomsaw
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  12590 }, -- Felstriker
@@ -4661,6 +4760,7 @@ data["UpperBlackrockSpire"] = {
 				{ 25, 226749 }, -- Vest of Elements
 				{ 26, 226734 }, -- Lightforge Breastplate
 				{ 27, 226770 }, -- Breastplate of Valor
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  12592 }, -- Blackblade of Shahram
@@ -4775,6 +4875,7 @@ data["DireMaulEast"] = {
 			[SOD_DIFF] = {
 				{ 1,  18267 }, -- Recipe: Runn Tum Tuber Surprise
 				{ 3,  18249 }, -- Crescent Key
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  18267 }, -- Recipe: Runn Tum Tuber Surprise
@@ -4793,6 +4894,7 @@ data["DireMaulEast"] = {
 				{ 3, 228050 }, -- Satyr's Bow
 				{ 5, 18308 }, -- Clever Hat
 				{ 6, 18306 }, -- Gloves of Shadowy Mist
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  18319 }, -- Fervent Helm
@@ -4815,6 +4917,7 @@ data["DireMaulEast"] = {
 				{ 5, 19268 }, -- Ace of Elementals
 				{ 7, 18305 }, -- Breakwater Legguards
 				{ 8, 18307 }, -- Riptide Shoes
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  18317 }, -- Tempest Talisman
@@ -4836,6 +4939,7 @@ data["DireMaulEast"] = {
 				{ 2, 228051 }, -- Quel'dorai Channeling Rod
 				{ 4, 18301 }, -- Lethtendris's Wand
 				{ 5, 18302 }, -- Band of Vigor
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  18325 }, -- Felhide Cap
@@ -4862,6 +4966,7 @@ data["DireMaulEast"] = {
 				{ 8, 228056 }, -- Fiendish Machete
 				{ 9, 18314 }, -- Ring of Demonic Guile
 				{ 10, 228057 }, -- Ring of Demonic Potency
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  18328 }, -- Shadewood Cloak
@@ -4954,6 +5059,7 @@ data["DireMaulWest"] = {
 				{ 2, 18390 }, -- Tanglemoss Leggings
 				{ 4, 18352 }, -- Petrified Bark Shield
 				{ 5, 18353 }, -- Stoneflower Staff
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18393 }, -- Warpwood Binding
@@ -4974,6 +5080,7 @@ data["DireMaulWest"] = {
 				{ 2, 18386 }, -- Padre's Trousers
 				{ 4, 18349 }, -- Gauntlets of Accuracy
 				{ 5, 18347 }, -- Well Balanced Axe
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18383 }, -- Force Imbued Gauntlets
@@ -4996,6 +5103,7 @@ data["DireMaulWest"] = {
 				{ 5, 18350 }, -- Amplifying Cloak
 				{ 6, 18351 }, -- Magically Sealed Bracers
 				{ 8, 22309 }, -- Pattern: Big Bag of Enchantment
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18374 }, -- Flamescarred Shoulders
@@ -5044,6 +5152,7 @@ data["DireMaulWest"] = {
 				{ 8, 18379 }, -- Odious Greaves
 				{ 9, 18370 }, -- Vigilance Charm
 				{ 10, 18372 }, -- Blade of the New Moon
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18381 }, -- Evil Eye Pendant
@@ -5075,6 +5184,7 @@ data["DireMaulWest"] = {
 				{ 8, 18396 }, -- Mind Carver
 				{ 9, 18376 }, -- Timeworn Mace
 				{ 10, 228472 }, -- Distracting Dagger
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18382 }, -- Fluctuating Cloak
@@ -5406,6 +5516,7 @@ data["DireMaulNorth"] = {
 				{ 8, 228478 }, -- Barbarous Blade
 				{ 10, 19258 }, -- Ace of Warlords
 				{ 11, 18780 }, -- Top Half of Advanced Armorsmithing: Volume I
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18526 }, -- Crown of the Ogre King
@@ -5537,6 +5648,7 @@ data["Scholomance"] = {
 				{ 8, 228004 }, -- Windreaver Greaves
 				{ 9, 228005 }, -- Clutch of Andros
 				{ 10, 228029 }, -- Gravestone War Axe
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16734 }, -- Boots of Valor
@@ -5566,6 +5678,7 @@ data["Scholomance"] = {
 				{ 8, 227997 }, -- Barovian Family Sword
 				{ 9, 22394 }, -- Staff of Metanoia
 				{ 12, 13523 }, -- Blood of Innocents
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16701 }, -- Dreadmist Mantle
@@ -5596,6 +5709,7 @@ data["Scholomance"] = {
 				{ 8, 227994 }, -- Frightskull Shaft
 				{ 10, 18782 }, -- Top Half of Advanced Armorsmithing: Volume II
 				{ 12, 13873 }, -- Viewing Room Key
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16711 }, -- Shadowcraft Boots
@@ -5607,6 +5721,7 @@ data["Scholomance"] = {
 				{ 8, 14531 }, -- Frightskull Shaft
 				{ 10, 18782 }, -- Top Half of Advanced Armorsmithing: Volume II
 				{ 12, 13873 }, -- Viewing Room Key
+
 			},
 		},
 		{ -- SCHOLODeathKnight
@@ -5639,6 +5754,7 @@ data["Scholomance"] = {
 			[SOD_DIFF] = {
 				{ 1, 227992 }, -- Death Knight Sabatons
 				{ 2, 227993 }, -- Ebon Hilt of Marduk
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18692 }, -- Death Knight Sabatons
@@ -5655,6 +5771,7 @@ data["Scholomance"] = {
 			[SOD_DIFF] = {
 				{ 1, 228017 }, -- Skullsmoke Pants
 				{ 2, 18691 }, -- Dark Advisor's Pendant
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18691 }, -- Dark Advisor's Pendant
@@ -5683,6 +5800,7 @@ data["Scholomance"] = {
 				{ 13, 13952 }, -- Iceblade Hacker
 				{ 14, 14487 }, -- Bonechill Hammer
 				{ 15, 13521 }, -- Recipe: Flask of Supreme Power
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 13314 }, -- Alanna's Embrace
@@ -5726,13 +5844,14 @@ data["Scholomance"] = {
 				{ 15, 228008 }, -- Deathbone Legguards
 				{ 16, 227999 }, -- Deathbone Sabatons
 				{ 17, 228016 }, -- Dimly Opalescent Ring
-				{ 18, 18683 }, -- Hammer of the Vesper
-				{ 19, 18681 }, -- Burial Shawl
-				{ 20, 18684 }, -- Dimly Opalescent Ring
-				{ 21, 18682 }, -- Ghoul Skin Leggings
-				{ 22, 226704 }, -- Shadowcraft Bracers
-				{ 23, 23201 }, -- Libram of Divinity
-				{ 24, 23200 }, -- Totem of Sustaining
+				{ 19, 18683 }, -- Hammer of the Vesper
+				{ 20, 18681 }, -- Burial Shawl
+				{ 21, 18684 }, -- Dimly Opalescent Ring
+				{ 22, 18682 }, -- Ghoul Skin Leggings
+				{ 23, 226704 }, -- Shadowcraft Bracers
+				{ 24, 23201 }, -- Libram of Divinity
+				{ 25, 23200 }, -- Totem of Sustaining
+				{ 27, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18680 }, -- Ancient Bone Bow
@@ -5793,6 +5912,7 @@ data["Scholomance"] = {
 				{ 23, 23201 }, -- Libram of Divinity
 				{ 24, 23200 }, -- Totem of Sustaining
 				{ 25, 14617 }, -- Sawbones Shirt
+				{ 27, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18680 }, -- Ancient Bone Bow
@@ -5846,12 +5966,13 @@ data["Scholomance"] = {
 				{ 15, 228008 }, -- Deathbone Legguards
 				{ 16, 227999 }, -- Deathbone Sabatons
 				{ 17, 228016 }, -- Dimly Opalescent Ring
-				{ 18, 226758 }, -- Dreadmist Wraps
-				{ 19, 23201 }, -- Libram of Divinity
-				{ 20, 23200 }, -- Totem of Sustaining
-				{ 21, 18683 }, -- Hammer of the Vesper
-				{ 22, 18682 }, -- Ghoul Skin Leggings
-				{ 23, 18681 }, -- Burial Shawl
+				{ 19, 226758 }, -- Dreadmist Wraps
+				{ 20, 23201 }, -- Libram of Divinity
+				{ 21, 23200 }, -- Totem of Sustaining
+				{ 22, 18683 }, -- Hammer of the Vesper
+				{ 23, 18682 }, -- Ghoul Skin Leggings
+				{ 24, 18681 }, -- Burial Shawl
+				{ 26, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18680 }, -- Ancient Bone Bow
@@ -5893,17 +6014,17 @@ data["Scholomance"] = {
 				{ 4, 228011 }, -- Necropile Cuffs
 				{ 5, 228018 }, -- Necropile Leggings
 				{ 6, 228009 }, -- Necropile Boots
-				{ 8, 228012 }, -- Bloodmail Hauberk
-				{ 9, 228020 }, -- Bloodmail Gauntlets
-				{ 10, 228014 }, -- Bloodmail Belt
-				{ 11, 228003 }, -- Bloodmail Legguards
-				{ 12, 227998 }, -- Bloodmail Boots
-				{ 13, 228000 }, -- Deathbone Chestplate
-				{ 14, 228006 }, -- Deathbone Gauntlets
-				{ 15, 228002 }, -- Deathbone Girdle
-				{ 16, 228008 }, -- Deathbone Legguards
-				{ 17, 227999 }, -- Deathbone Sabatons
-				{ 18, 228016 }, -- Dimly Opalescent Ring
+				{ 7, 228012 }, -- Bloodmail Hauberk
+				{ 8, 228020 }, -- Bloodmail Gauntlets
+				{ 9, 228014 }, -- Bloodmail Belt
+				{ 10, 228003 }, -- Bloodmail Legguards
+				{ 11, 227998 }, -- Bloodmail Boots
+				{ 12, 228000 }, -- Deathbone Chestplate
+				{ 13, 228006 }, -- Deathbone Gauntlets
+				{ 14, 228002 }, -- Deathbone Girdle
+				{ 15, 228008 }, -- Deathbone Legguards
+				{ 16, 227999 }, -- Deathbone Sabatons
+				{ 17, 228016 }, -- Dimly Opalescent Ring
 				{ 19, 226712 }, -- Wildheart Belt
 				{ 20, 14637 }, -- Cadaverous Armor
 				{ 21, 14640 }, -- Cadaverous Gloves
@@ -5915,6 +6036,7 @@ data["Scholomance"] = {
 				{ 27, 18683 }, -- Hammer of the Vesper
 				{ 28, 18682 }, -- Ghoul Skin Leggings
 				{ 29, 18681 }, -- Burial Shawl
+				{ 30, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18680 }, -- Ancient Bone Bow
@@ -5961,17 +6083,17 @@ data["Scholomance"] = {
 				{ 4, 228011 }, -- Necropile Cuffs
 				{ 5, 228018 }, -- Necropile Leggings
 				{ 6, 228009 }, -- Necropile Boots
-				{ 8, 228012 }, -- Bloodmail Hauberk
-				{ 9, 228020 }, -- Bloodmail Gauntlets
-				{ 10, 228014 }, -- Bloodmail Belt
-				{ 11, 228003 }, -- Bloodmail Legguards
-				{ 12, 227998 }, -- Bloodmail Boots
-				{ 13, 228000 }, -- Deathbone Chestplate
-				{ 14, 228006 }, -- Deathbone Gauntlets
-				{ 15, 228002 }, -- Deathbone Girdle
-				{ 16, 228008 }, -- Deathbone Legguards
-				{ 17, 227999 }, -- Deathbone Sabatons
-				{ 18, 228016 }, -- Dimly Opalescent Ring
+				{ 7, 228012 }, -- Bloodmail Hauberk
+				{ 8, 228020 }, -- Bloodmail Gauntlets
+				{ 9, 228014 }, -- Bloodmail Belt
+				{ 10, 228003 }, -- Bloodmail Legguards
+				{ 11, 227998 }, -- Bloodmail Boots
+				{ 12, 228000 }, -- Deathbone Chestplate
+				{ 13, 228006 }, -- Deathbone Gauntlets
+				{ 14, 228002 }, -- Deathbone Girdle
+				{ 15, 228008 }, -- Deathbone Legguards
+				{ 16, 227999 }, -- Deathbone Sabatons
+				{ 17, 228016 }, -- Dimly Opalescent Ring
 				{ 19, 226739 }, -- Lightforge Bracers
 				{ 20, 14637 }, -- Cadaverous Armor
 				{ 21, 14640 }, -- Cadaverous Gloves
@@ -5983,6 +6105,7 @@ data["Scholomance"] = {
 				{ 27, 18683 }, -- Hammer of the Vesper
 				{ 28, 18682 }, -- Ghoul Skin Leggings
 				{ 29, 18681 }, -- Burial Shawl
+				{ 30, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18680 }, -- Ancient Bone Bow
@@ -6029,27 +6152,28 @@ data["Scholomance"] = {
 				{ 4, 228011 }, -- Necropile Cuffs
 				{ 5, 228018 }, -- Necropile Leggings
 				{ 6, 228009 }, -- Necropile Boots
-				{ 8, 228012 }, -- Bloodmail Hauberk
-				{ 9, 228020 }, -- Bloodmail Gauntlets
-				{ 10, 228014 }, -- Bloodmail Belt
-				{ 11, 228003 }, -- Bloodmail Legguards
-				{ 12, 227998 }, -- Bloodmail Boots
-				{ 13, 228000 }, -- Deathbone Chestplate
-				{ 14, 228006 }, -- Deathbone Gauntlets
-				{ 15, 228002 }, -- Deathbone Girdle
-				{ 16, 228008 }, -- Deathbone Legguards
-				{ 17, 227999 }, -- Deathbone Sabatons
-				{ 18, 228016 }, -- Dimly Opalescent Ring
-				{ 20, 14637 }, -- Cadaverous Armor
-				{ 21, 14640 }, -- Cadaverous Gloves
-				{ 22, 14636 }, -- Cadaverous Belt
-				{ 23, 14638 }, -- Cadaverous Leggings
-				{ 24, 14641 }, -- Cadaverous Walkers
-				{ 25, 23201 }, -- Libram of Divinity
-				{ 26, 23200 }, -- Totem of Sustaining
-				{ 27, 18683 }, -- Hammer of the Vesper
-				{ 28, 18682 }, -- Ghoul Skin Leggings
-				{ 29, 18681 }, -- Burial Shawl
+				{ 7, 228012 }, -- Bloodmail Hauberk
+				{ 8, 228020 }, -- Bloodmail Gauntlets
+				{ 9, 228014 }, -- Bloodmail Belt
+				{ 10, 228003 }, -- Bloodmail Legguards
+				{ 11, 227998 }, -- Bloodmail Boots
+				{ 12, 228000 }, -- Deathbone Chestplate
+				{ 13, 228006 }, -- Deathbone Gauntlets
+				{ 14, 228002 }, -- Deathbone Girdle
+				{ 15, 228008 }, -- Deathbone Legguards
+				{ 16, 227999 }, -- Deathbone Sabatons
+				{ 17, 228016 }, -- Dimly Opalescent Ring
+				{ 18, 14637 }, -- Cadaverous Armor
+				{ 19, 14640 }, -- Cadaverous Gloves
+				{ 20, 14636 }, -- Cadaverous Belt
+				{ 21, 14638 }, -- Cadaverous Leggings
+				{ 22, 14641 }, -- Cadaverous Walkers
+				{ 23, 23201 }, -- Libram of Divinity
+				{ 24, 23200 }, -- Totem of Sustaining
+				{ 25, 18683 }, -- Hammer of the Vesper
+				{ 26, 18682 }, -- Ghoul Skin Leggings
+				{ 27, 18681 }, -- Burial Shawl
+				{ 29, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18680 }, -- Ancient Bone Bow
@@ -6110,6 +6234,7 @@ data["Scholomance"] = {
 				{ 19, 19276 }, -- Ace of Portals
 				{ 20, 13501 }, -- Recipe: Major Mana Potion
 				{ 21, 14514 }, -- Pattern: Robe of the Void
+				{ 23, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 13964 }, -- Witchblade
@@ -6335,6 +6460,7 @@ data["Stratholme"] = {
 				{ 4, 13405 }, -- Wailing Nightbane Pauldrons
 				{ 5, 13409 }, -- Tearfall Bracers
 				{ 6, 13408 }, -- Soul Breaker
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16717 }, -- Wildheart Gloves
@@ -6358,6 +6484,7 @@ data["Stratholme"] = {
 				{ 4, 228529 }, -- The Postmaster's Treads
 				{ 5, 228524 }, -- The Postmaster's Seal
 				{ 6, 13393 }, -- Malown's Slam
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 13390 }, -- The Postmaster's Band
@@ -6382,6 +6509,7 @@ data["Stratholme"] = {
 				{ 4, 228515 }, -- Grimgore Noose
 				{ 5, 228514 }, -- Timmy's Galoshes
 				{ 6, 13401 }, -- The Cruel Hand of Timmy
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16724 }, -- Lightforge Gauntlets
@@ -6446,6 +6574,7 @@ data["Stratholme"] = {
 				{ 11, 22404 }, -- Willey's Back Scratcher
 				{ 12, 22406 }, -- Redemption
 				{ 14, 12839 }, -- Plans: Heartseeker
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16708 }, -- Shadowcraft Spaulders
@@ -6478,6 +6607,7 @@ data["Stratholme"] = {
 				{ 6, 13385 }, -- Tome of Knowledge
 				{ 8, 12811 }, -- Righteous Orb
 				{ 10, 22897 }, -- Tome of Conjure Food VII
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16692 }, -- Devout Gloves
@@ -6513,6 +6643,7 @@ data["Stratholme"] = {
 				{ 13, 13348 }, -- Demonshear
 				{ 14, 13520 }, -- Recipe: Flask of Distilled Wisdom
 				{ 15, 13250 }, -- Head of Balnazzar
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 13353 }, -- Book of the Dead
@@ -6548,6 +6679,7 @@ data["Stratholme"] = {
 				{ 5, 23198 }, -- Idol of Brutality
 				{ 6, 228516 }, -- Peacemaker
 				{ 8, 12382 }, -- Key to the City
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 18727 }, -- Crimson Felt Hat
@@ -6598,6 +6730,7 @@ data["Stratholme"] = {
 				{ 10, 13537 }, -- Chillhide Bracers
 				{ 11, 13539 }, -- Banshee's Touch
 				{ 12, 13514 }, -- Wail of the Banshee
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16704 }, -- Dreadmist Sandals
@@ -6654,6 +6787,7 @@ data["Stratholme"] = {
 				{ 10, 13531 }, -- Crypt Stalker Leggings
 				{ 11, 13530 }, -- Fangdrip Runners
 				{ 12, 13508 }, -- Eye of Arachnida
+				{ 16, 226404 }, -- Tarnished Undermine Re
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16675 }, -- Beaststalker's Boots
@@ -6688,6 +6822,7 @@ data["Stratholme"] = {
 				{ 11, 13527 }, -- Lavawalker Greaves
 				{ 12, 13509 }, -- Clutch of Foresight
 				{ 14, 12833 }, -- Plans: Hammer of the Titans
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16691 }, -- Devout Sandals
@@ -6719,6 +6854,7 @@ data["Stratholme"] = {
 				{ 6, 13515 }, -- Ramstein's Lightning Bolts
 				{ 7, 13375 }, -- Crest of Retribution
 				{ 8, 13372 }, -- Slavedriver's Cane
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16737 }, -- Gauntlets of Valor
@@ -6753,15 +6889,16 @@ data["Stratholme"] = {
 				{ 13, 13349 }, -- Scepter of the Unholy
 				{ 14, 13368 }, -- Bonescraper
 				{ 15, 228542 }, -- Skullforge Reaver
-				{ 16, 226747 }, -- Devout Skirt
-				{ 17, 226727 }, -- Magister's Leggings
-				{ 18, 226760 }, -- Dreadmist Leggings
-				{ 19, 226705 }, -- Shadowcraft Pants
-				{ 20, 226709 }, -- Wildheart Kilt
-				{ 21, 226719 }, -- Beaststalker's Pants
-				{ 22, 226750 }, -- Kilt of Elements
-				{ 23, 226736 }, -- Lightforge Legplates
-				{ 24, 226767 }, -- Legplates of Valor
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 226747 }, -- Devout Skirt
+				{ 19, 226727 }, -- Magister's Leggings
+				{ 20, 226760 }, -- Dreadmist Leggings
+				{ 21, 226705 }, -- Shadowcraft Pants
+				{ 22, 226709 }, -- Wildheart Kilt
+				{ 23, 226719 }, -- Beaststalker's Pants
+				{ 24, 226750 }, -- Kilt of Elements
+				{ 25, 226736 }, -- Lightforge Legplates
+				{ 26, 226767 }, -- Legplates of Valor
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 13335 }, -- Deathcharger's Reins
@@ -6954,8 +7091,9 @@ data["WorldBosses2"] = {
 				{ 8,  228382 }, -- Fang of the Mystics
 				{ 9,  228349 }, -- Eskhandar's Left Claw
 				{ 10, 228347 }, -- Typhoon
-				{ 16, 18704 }, -- Mature Blue Dragon Sinew
-				{ 18, 11938 }, -- Sack of Gems
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 18704 }, -- Mature Blue Dragon Sinew
+				{ 20, 11938 }, -- Sack of Gems
 				-- Hidden items
 				{ 0, 17962 }, -- Blue Sack of Gems
 				{ 0, 17963 }, -- Green Sack of Gems
@@ -7003,8 +7141,9 @@ data["WorldBosses2"] = {
 				{ 8, 228359 }, -- Ring of Entropy
 				{ 9, 228397 }, -- Empyrean Demolisher
 				{ 10, 228356 }, -- Amberseal Keeper
-				{ 16, 18665 }, -- The Eye of Shadow
-				{ 18, 11938 }, -- Sack of Gems
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 18665 }, -- The Eye of Shadow
+				{ 20, 11938 }, -- Sack of Gems
 				-- Hidden items
 				{ 0, 17962 }, -- Blue Sack of Gems
 				{ 0, 17963 }, -- Green Sack of Gems
@@ -7043,18 +7182,19 @@ data["WorldBosses2"] = {
 				{ 2, 231716 }, -- Primeval Belt
 				{ 3, 231708 }, -- Draconian Belt
 				{ 5, 19018 }, -- Dormant Wind Kissed Blade
-				{ 16, 231782 }, -- Crown of the Successor
-				{ 17, 231783 }, -- Drape of the Windlord
-				{ 18, 231785 }, -- Echoes of Betrayal
-				{ 19, 231815 }, -- Fleshrend
-				{ 20, 231784 }, -- Lighhtning's Call
-				{ 21, 231753 }, -- Skywall's Solace
-				{ 22, 231777 }, -- Crystallized Qiraji Limb
-				{ 23, 231387 }, -- Stormwrath, Snactified Shortblade of the Galefinder
-				{ 24, 231781 }, -- Soul of Thunder
-				{ 25, 231823 }, -- Geddon's Glaive
-				{ 26, 231817 }, -- Windstriker
-				{ 27, 231779 }, -- Wrath of Wray
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 231782 }, -- Crown of the Successor
+				{ 19, 231783 }, -- Drape of the Windlord
+				{ 20, 231785 }, -- Echoes of Betrayal
+				{ 21, 231815 }, -- Fleshrend
+				{ 22, 231784 }, -- Lighhtning's Call
+				{ 23, 231753 }, -- Skywall's Solace
+				{ 24, 231777 }, -- Crystallized Qiraji Limb
+				{ 25, 231387 }, -- Stormwrath, Snactified Shortblade of the Galefinder
+				{ 26, 231781 }, -- Soul of Thunder
+				{ 27, 231823 }, -- Geddon's Glaive
+				{ 28, 231817 }, -- Windstriker
+				{ 29, 231779 }, -- Wrath of Wray
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 19018 }, -- Dormant Wind Kissed Blade
@@ -7081,8 +7221,9 @@ data["WorldBosses2"] = {
 				{ 13, 234147 }, -- Ancient Corroded Leggings
 				{ 14, 234146 }, -- Acid Inscribed Greaves
 				{ 15, 234154 }, -- Trance Stone
-				{ 16, 235049 }, -- Nightmare Engulfed Object
-				{ 17, 234155 }, -- Malfurion's Signet Ring
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 235049 }, -- Nightmare Engulfed Object
+				{ 19, 234155 }, -- Malfurion's Signet Ring
 				{ 24, 234152 }, -- Hammer of Bestial Fury
 				{ 25, 234153 }, -- Staff of Rampant Growth
 				{ 29, 20381 }, -- Dreamscale
@@ -7142,8 +7283,9 @@ data["WorldBosses2"] = {
 				{ 13, 234147 }, -- Ancient Corroded Leggings
 				{ 14, 234146 }, -- Acid Inscribed Greaves
 				{ 15, 234154 }, -- Trance Stone
-				{ 16, 235049 }, -- Nightmare Engulfed Object
-				{ 17, 234155 }, -- Malfurion's Signet Ring
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 235049 }, -- Nightmare Engulfed Object
+				{ 19, 234155 }, -- Malfurion's Signet Ring
 				{ 24, 234152 }, -- Hammer of Bestial Fury
 				{ 25, 234153 }, -- Staff of Rampant Growth
 				{ 29, 20381 }, -- Dreamscale
@@ -7201,8 +7343,9 @@ data["WorldBosses2"] = {
 				{ 13, 234147 }, -- Ancient Corroded Leggings
 				{ 14, 234146 }, -- Acid Inscribed Greaves
 				{ 15, 234154 }, -- Trance Stone
-				{ 16, 235049 }, -- Nightmare Engulfed Object
-				{ 17, 234155 }, -- Malfurion's Signet Ring
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 235049 }, -- Nightmare Engulfed Object
+				{ 19, 234155 }, -- Malfurion's Signet Ring
 				{ 24, 234152 }, -- Hammer of Bestial Fury
 				{ 25, 234153 }, -- Staff of Rampant Growth
 				{ 29, 20381 }, -- Dreamscale
@@ -7261,8 +7404,9 @@ data["WorldBosses2"] = {
 				{ 13, 234147 }, -- Ancient Corroded Leggings
 				{ 14, 234146 }, -- Acid Inscribed Greaves
 				{ 15, 234154 }, -- Trance Stone
-				{ 16, 235049 }, -- Nightmare Engulfed Object
-				{ 17, 234155 }, -- Malfurion's Signet Ring
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 235049 }, -- Nightmare Engulfed Object
+				{ 19, 234155 }, -- Malfurion's Signet Ring
 				{ 24, 234152 }, -- Hammer of Bestial Fury
 				{ 25, 234153 }, -- Staff of Rampant Growth
 				{ 29, 20381 }, -- Dreamscale
@@ -7324,6 +7468,7 @@ data["MoltenCore2"] = {
 				{ 1, 227533 },	-- Incandescent Gloves
 				{ 2, 227759 },	-- Scorched Core Gloves
 				{ 3, 227756 },	-- Molten Scaled Gloves
+				{ 5, 226404 }, -- Tarnished Undermine Real
 				{ 16, 228285 },	-- Helm of the Lifegiver
 				{ 17, 228247 },	-- Choker of Enlightenment
 				{ 18, 228239 },	-- Robe of Volatile Power
@@ -7336,7 +7481,7 @@ data["MoltenCore2"] = {
 				{ 25, 228262 },	-- Crimson Shocker
 				{ 26, 228263 },	-- Sorcerous Dagger
 				{ 27, 228127 },	-- Wristguards of Instability
-				{ 30, 16665 },	-- Tome of Tranquilizing Shot
+				{ 29, 16665 },	-- Tome of Tranquilizing Shot
 			},
 			[NORMAL_DIFF] = {
 				{ 1, 16800 },	-- Arcanist Boots
@@ -7369,8 +7514,9 @@ data["MoltenCore2"] = {
 				{ 1, 227763 },	-- Scorched Core Leggings
 				{ 2, 227534 },	-- Incandescent Leggings
 				{ 3, 227754 },	-- Molten Scaled Leggings
-				{ 5, 228146 },	-- Magmadar's Left Claw
-				{ 6, 228101 },	-- Hide of the Behemoth
+				{ 5, 226404 }, -- Tarnished Undermine Real
+				{ 7, 228146 },	-- Magmadar's Left Claw
+				{ 8, 228101 },	-- Hide of the Behemoth
 				{ 16, 228249 },	-- Medallion of Steadfast Might
 				{ 17, 228258 },	-- Deep Earth Spaulders
 				{ 18, 228257 },	-- Aged Core Leather Gloves
@@ -7423,7 +7569,8 @@ data["MoltenCore2"] = {
 				{ 1, 227765 },	-- Scorched Core Boots
 				{ 2, 227757 },	-- Molten Scaled Boots
 				{ 3, 227533 },	-- Incandescent Gloves
-				{ 5, 228350 },	-- Eskhandar's Right Claw
+				{ 5, 226404 }, -- Tarnished Undermine Real
+				{ 7, 228350 },	-- Eskhandar's Right Claw
    				{ 16, 228285 },	-- Helm of the Lifegiver
 				{ 17, 228239 },	-- Robe of Volatile Power
 				{ 18, 228246 },	-- Wristguards of Stability
@@ -7466,9 +7613,10 @@ data["MoltenCore2"] = {
 				{ 3, 227532 },	-- Incandescent Hood
 				{ 4, 227764 },	-- Scorched Core Helm
 				{ 5, 227755 },	-- Molten Scaled Helm
-				{ 7, 228139 },	-- Fist of the Firesworn
-				{ 8, 228142 },	-- Earth and Fire
-				{ 9, 228160 },	-- Faithbringer
+				{ 7, 226404 }, -- Tarnished Undermine Real
+				{ 9, 228139 },	-- Fist of the Firesworn
+				{ 10, 228142 },	-- Earth and Fire
+				{ 11, 228160 },	-- Faithbringer
 				{ 16, 228258 },	-- Deep Earth Spaulders
 				{ 17, 228257 },	-- Aged Core Leather Gloves
 				{ 18, 228260 },	-- Flameguard Gauntlets
@@ -7523,8 +7671,9 @@ data["MoltenCore2"] = {
 				{ 1, 227531 },	-- Incandescent Bindings
 				{ 2, 227760 },	-- Scorched Core Bindings
 				{ 3, 227750 },	-- Molten Scaled Bindings
-				{ 5, "INV_Box_01", nil, AL["Heat 3 Only"], nil },
-				{ 6, 228286 }, -- Band of Accuria
+				{ 5, 226404 }, -- Tarnished Undermine Real
+				{ 7, "INV_Box_01", nil, AL["Heat 3 Only"], nil },
+				{ 8, 228286 }, -- Band of Accuria
 				{ 16, 228285},	-- Helm of the Lifegiver
 				{ 17, 228239 },	-- Robe of Volatile Power
 				{ 18, 228246 },	-- Wristguards of Stability
@@ -7568,6 +7717,7 @@ data["MoltenCore2"] = {
 				{ 3, 227530 },	-- Incandescent Belt
 				{ 4, 227761 },	-- Scorched Core Belt
 				{ 5, 227751 },	-- Molten Scaled Belt
+				{ 7, 226404 }, -- Tarnished Undermine Real
 				{ 16, 228258 },	-- Deep Earth Spaulders
 				{ 17, 228257 },	-- Aged Core Leather Gloves
 				{ 18, 228260 },	-- Flameguard Gauntlets
@@ -7648,6 +7798,7 @@ data["MoltenCore2"] = {
 				{ 109, 227530 }, -- 
 				{ 110, 227751 }, -- 
 				{ 111, 227761 }, -- 
+				{ 113, 226404 }, -- Tarnished Undermine Real
 				{ 116, 227534 }, -- 
 				{ 117, 227754 }, -- 
 				{ 118, 227763 }, -- 
@@ -7726,6 +7877,7 @@ data["MoltenCore2"] = {
 				{ 109, 227530 }, -- 
 				{ 110, 227751 }, -- 
 				{ 111, 227761 }, -- 
+				{ 113, 226404 }, -- Tarnished Undermine Real
 				{ 116, 227534 }, -- 
 				{ 117, 227754 }, -- 
 				{ 118, 227763 }, -- 
@@ -7796,6 +7948,7 @@ data["MoltenCore2"] = {
 				{ 109, 227530 }, -- 
 				{ 110, 227751 }, -- 
 				{ 111, 227761 }, -- 
+				{ 113, 226404 }, -- Tarnished Undermine Real
 				{ 116, 227534 }, -- 
 				{ 117, 227754 }, -- 
 				{ 118, 227763 }, -- 
@@ -7861,6 +8014,7 @@ data["MoltenCore2"] = {
 				{ 109, 227530 }, -- 
 				{ 110, 227751 }, -- 
 				{ 111, 227761 }, -- 
+				{ 113, 226404 }, -- Tarnished Undermine Real
 				{ 116, 227534 }, -- 
 				{ 117, 227754 }, -- 
 				{ 118, 227763 }, -- 
@@ -7932,6 +8086,7 @@ data["MoltenCore2"] = {
 				{ 109, 227530 }, -- 
 				{ 110, 227751 }, -- 
 				{ 111, 227761 }, -- 
+				{ 113, 226404 }, -- Tarnished Undermine Real
 				{ 116, 227534 }, -- 
 				{ 117, 227754 }, -- 
 				{ 118, 227763 }, -- 
@@ -8002,7 +8157,7 @@ data["MoltenCore2"] = {
 				{ 21, 18257 }, -- Recipe: Major Rejuvenation Potion
 			},
 		},
-		SoD_T1_SET
+		T1_SET_SOD
 	},
 }
 
@@ -8119,6 +8274,7 @@ data["DemonFallCanyon"] = {
 				{ 3, 228079}, -- Cloak of Leaves
 				{ 4, 228082}, -- Warsong Axe
 				{ 5, 228083}, -- Gloaming Treeheart
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 		{ -- DFCDiathorus
@@ -8129,6 +8285,7 @@ data["DemonFallCanyon"] = {
 				{ 3, 228094}, -- Dreadlord's Blade
 				{ 4, 228104}, -- Robes of Elune
 				{ 5, 228103}, -- Nathrezim's Greaves
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 		{ -- DFCDestructor
@@ -8139,6 +8296,7 @@ data["DemonFallCanyon"] = {
 				{ 3, 228077}, -- Dreambough
 				{ 4, 228078}, -- Accursed Chalice
 				{ 5, 228076}, -- Burning Ring of Fire
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 		{ -- DFCZilbagob
@@ -8149,6 +8307,7 @@ data["DemonFallCanyon"] = {
 				{ 3, 228087}, -- Supercharged Silver Moebius
 				{ 4, 228084}, -- Miniaturized Fire Extinguisher
 				{ 5, 228085}, -- Phaseshifted Legion Band
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 		{ -- DFCPyranis
@@ -8159,6 +8318,7 @@ data["DemonFallCanyon"] = {
 				{ 3, 228090}, -- Cenarion Ritual Dagger
 				{ 4, 228092}, -- Druidic Mantle
 				{ 5, 228089}, -- Woodcarved Moonstalker
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 		{ -- DFCHellscream
@@ -8170,6 +8330,7 @@ data["DemonFallCanyon"] = {
 				{ 4, 228109}, -- Legguards of Sacrifice
 				{ 5, 228108}, -- Shadow of Gorehowl
 				{ 7, 228410}, -- Dreadblade of the Destructor
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 		{ -- DFCHellscream
@@ -8180,6 +8341,7 @@ data["DemonFallCanyon"] = {
 				{ 3, 231913}, -- Eye of the Observer
 				{ 4, 231460}, -- Planebreaker of Azgaloth
 				{ 5, 231912}, -- Blade of the Pit
+				{ 16, 226404 }, -- Tarnished Undermine Real
 			},
 		},
 	},
@@ -8212,6 +8374,7 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 11, 226404 }, -- Tarnished Undermine Real
 				{ 15, "INV_Box_01", nil, AL["Loot unconfirmed"], nil },
 				{ 16, 230911 }, -- Jeklik's Crusher
 				{ 18, 230913 }, -- Jeklik's Opaline Talisman
@@ -8256,6 +8419,7 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 11, 226404 }, -- Tarnished Undermine Real
 				{ 16, 230864 }, -- Runed Bloodstained Hauberk
 				{ 17, 230865 }, -- Fang of Venoxis
 				{ 19, 232311 }, -- Zulian Tigerhide Cloak
@@ -8297,6 +8461,7 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 11, 226404 }, -- Tarnished Undermine Real
 				{ 16, 230917 }, -- Flowing Ritual Robes
 				{ 17, 230918 }, -- Mar'li's Touch
 				{ 19, 230922 }, -- Talisman of Protection
@@ -8338,6 +8503,7 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 11, 226404 }, -- Tarnished Undermine Real
 				{ 16, 19872 }, -- Swift Razzashi Raptor
 				{ 17, 230993 }, -- Mandokir's Sting
 				{ 18, 230989 }, -- Bloodlord's Defender
@@ -8388,6 +8554,7 @@ data["Zul'Gurub"] = {
 				{ 1, 231274 }, -- Gri'lek's Grinder
 				{ 2, 231273 }, -- Gri'lek's Carver
 				{ 4,  19939 }, -- Gri'lek's Blood
+				{ 6, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19961 }, -- Gri'lek's Grinder
@@ -8405,6 +8572,7 @@ data["Zul'Gurub"] = {
 				{ 1, 231276 }, -- Thoughtblighter
 				{ 2, 231275 }, -- Fiery Retributer
 				{ 4,  19942 }, -- Hazza'rah's Dream Thread
+				{ 6, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19967 }, -- Thoughtblighter
@@ -8422,6 +8590,7 @@ data["Zul'Gurub"] = {
 				{ 1, 232309 }, -- Renataki's Soul Conduit
 				{ 2, 231277 }, -- Pitchfork of Madness
 				{ 4,  19940 }, -- Renataki's Tooth
+				{ 6, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19964 }, -- Renataki's Soul Conduit
@@ -8439,6 +8608,7 @@ data["Zul'Gurub"] = {
 				{ 1, 231278 }, -- Hoodoo Hunting Bow
 				{ 2, 231279 }, -- Wushoolay's Poker
 				{ 4,  19941 }, -- Wushoolay's Mane
+				{ 6, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19993 }, -- Hoodoo Hunting Bow
@@ -8458,6 +8628,7 @@ data["Zul'Gurub"] = {
 				{ 4, 231271 }, -- Nat Pagle's Broken Reel
 				{ 5, 231272 }, -- Tigule's Harpoon
 				{ 7, 22739 }, -- Tome of Polymorph: Turtle
+				{ 9, 226404 }, -- Tarnished Undermine Real
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  19945 }, -- Foror's Eyepatch
@@ -8483,6 +8654,7 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 11, 226404 }, -- Tarnished Undermine Real
 				{ 16, 19902 }, -- Swift Zulian Tiger
 				{ 17, 230923 }, -- Betrayer's Boots
 				{ 18, 230925 }, -- Thekal's Grasp
@@ -8528,6 +8700,7 @@ data["Zul'Gurub"] = {
 				{ 7,  19718 }, -- Primal Hakkari Stanchion
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
+				{ 11, 226404 }, -- Tarnished Undermine Real
 				{ 16, 230934 }, -- Arlokk's Grasp
 				{ 17, 230939 }, -- Will of Arlokk
 				{ 19, 230942 }, -- Bloodsoaked Greaves
@@ -8570,6 +8743,7 @@ data["Zul'Gurub"] = {
 				{ 8,  19719 }, -- Primal Hakkari Girdle
 				{ 9,  19720 }, -- Primal Hakkari Sash
 				{ 11, 22637 }, -- Primal Hakkari Idol
+				{ 13, 226404 }, -- Tarnished Undermine Real
 				{ 16, 231003 }, -- Jin'do's Evil Eye
 				{ 17, 231005 }, -- Jin'do's Bag of Whammies
 				{ 18, 231002 }, -- Jin'do's Hexxer
@@ -8622,6 +8796,7 @@ data["Zul'Gurub"] = {
 				{ 5,  231306 }, -- Soul Corrupter's Necklace
 				{ 6,  231307 }, -- The Eye of Hakkar
 				{ 8, 19802 }, -- Heart of Hakkar
+				{ 10, 226404 }, -- Tarnished Undermine Real
 				{ 16,  231308 }, -- Touch of Chaos
 				{ 17,  231302 }, -- Gurubashi Dwarf Destroyer
 				{ 18, 231289 }, -- Aegis of the Blood God
@@ -9252,12 +9427,13 @@ data["BlackwingLair"] = {
 				{ 3, 231712 }, -- Draconian Gloves
 				{ 5, 231722 }, -- Depleted Scythe of Chaos
 				{ 6, 229352 }, -- Intelligence Findings
-				{ 16, 230237 }, -- Arcane Infused Gem
-				{ 17, 230238 }, -- The Black Book
-				{ 19, 230240 }, -- Mantle of the Blackwing Cabal
-				{ 20, 230239 }, -- Gloves of Rapid Evolution
-				{ 21, 230241 }, -- Spineshatter
-				{ 22, 230242 }, -- The Untamed Blade
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 230237 }, -- Arcane Infused Gem
+				{ 19, 230238 }, -- The Black Book
+				{ 21, 230240 }, -- Mantle of the Blackwing Cabal
+				{ 22, 230239 }, -- Gloves of Rapid Evolution
+				{ 23, 230241 }, -- Spineshatter
+				{ 24, 230242 }, -- The Untamed Blade
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16926 }, -- Bindings of Transcendence
@@ -9290,17 +9466,18 @@ data["BlackwingLair"] = {
 				{ 5, 230243 }, -- Mind Quickening Gem
 				{ 7, 230904 }, -- Scroll: SEENECS FO RIEF
 				{ 8, 231378 }, -- Shimmering Golden Disk
-				{ 16, 230244 }, -- Shapeshifter's Sigil
-				{ 17, 230246 }, -- Helm of Endless Rage
-				{ 18, 230245 }, -- Pendant of the Fallen Dragon
-				{ 19, 230248 }, -- Red Dragonscale Protector
-				{ 20, 230247 }, -- Dragonfang Blade
-				{ 21, 230848 }, -- Interlaced Shadow Jerkin
-				{ 22, 230843 }, -- Boots of Pure Thought
-				{ 23, 230849 }, -- Ringo's Blizzard Boots
-				{ 24, 230846 }, -- Band of Dark Dominion
-				{ 25, 230845 }, -- Doom's Edge
-				{ 26, 232357 }, -- Draconic Avenger
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 230244 }, -- Shapeshifter's Sigil
+				{ 19, 230246 }, -- Helm of Endless Rage
+				{ 20, 230245 }, -- Pendant of the Fallen Dragon
+				{ 21, 230248 }, -- Red Dragonscale Protector
+				{ 22, 230247 }, -- Dragonfang Blade
+				{ 23, 230848 }, -- Interlaced Shadow Jerkin
+				{ 24, 230843 }, -- Boots of Pure Thought
+				{ 25, 230849 }, -- Ringo's Blizzard Boots
+				{ 26, 230846 }, -- Band of Dark Dominion
+				{ 27, 230845 }, -- Doom's Edge
+				{ 28, 232357 }, -- Draconic Avenger
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16925 }, -- Belt of Transcendence
@@ -9333,13 +9510,14 @@ data["BlackwingLair"] = {
 				{ 5, 231452 }, -- Blood of the Lightbringer
 				{ 6, 231882 }, -- Suppression Device Receipt
 				{ 7, 231995 }, -- Hardened Elementium Slag
-				{ 16, 230249 }, -- Lifegiving Gem
-				{ 17, 230250 }, -- Venomous Totem
-				{ 19, 230251 }, -- Black Brood Pauldrons
-				{ 20, 230252 }, -- Bracers of Arcane Accuracy
-				{ 21, 230253 }, -- Heartstriker
-				{ 22, 230254 }, -- Maladath, Runed Blade of the Black Flight
-				{ 24, 20383 }, -- Head of the Broodlord Lashlayer
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 230249 }, -- Lifegiving Gem
+				{ 19, 230250 }, -- Venomous Totem
+				{ 21, 230251 }, -- Black Brood Pauldrons
+				{ 22, 230252 }, -- Bracers of Arcane Accuracy
+				{ 23, 230253 }, -- Heartstriker
+				{ 24, 230254 }, -- Maladath, Runed Blade of the Black Flight
+				{ 26, 20383 }, -- Head of the Broodlord Lashlayer
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16919 }, -- Boots of Transcendence
@@ -9378,16 +9556,20 @@ data["BlackwingLair"] = {
 				{ 11, 230276 }, -- Claw of the Black Drake
 				--{ 12, 230271 }, -- Drake Talon Cleaver
 				{ 12, 230270 }, -- Shadow Wing Focus Staff
-				{ 16, 230256 }, -- Drake Talon Pauldrons
-				{ 17, 230277 }, -- Cloak of Firemaw
-				{ 18, 230274 }, -- Black Ash Robe
-				{ 19, 230275 }, -- Firemaw's Clutch
-				{ 20, 230255 }, -- Taut Dragonhide Belt
-				{ 21, 230279 }, -- Primalist's Linked Legguards
-				{ 22, 230278 }, -- Legguards of the Fallen Crusader
-				{ 23, 230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
-				{ 25, 230257 }, -- Ring of Blackrock
-				{ 26, 230269 }, -- Rejuvenating Gem
+				
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				
+				{ 18, 230256 }, -- Drake Talon Pauldrons
+				{ 19, 230277 }, -- Cloak of Firemaw
+				{ 20, 230274 }, -- Black Ash Robe
+				{ 21, 230275 }, -- Firemaw's Clutch
+				{ 22, 230255 }, -- Taut Dragonhide Belt
+				{ 23, 230279 }, -- Primalist's Linked Legguards
+				{ 24, 230278 }, -- Legguards of the Fallen Crusader
+				{ 25, 230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
+				{ 26, 230257 }, -- Ring of Blackrock
+				
+				{ 28, 230269 }, -- Rejuvenating Gem
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16920 }, -- Handguards of Transcendence
@@ -9428,15 +9610,16 @@ data["BlackwingLair"] = {
 				{ 3, 231711 }, -- Draconian Hood
 				{ 5, 230280 }, -- Aegis of Preservation
 				{ 7, 230269 }, -- Rejuvenating Gem
-				{ 16, 230256 }, -- Drake Talon Pauldrons
-				{ 17, 19407 }, -- Ebony Flame Gloves
-				{ 18, 230255 }, -- Taut Dragonhide Belt
-				{ 19, 230725 }, -- Malfurion's Blessed Bulwark
-				{ 20, 230726 }, -- Dragonbreath Hand Cannon
-				{ 21, 230271 }, -- Drake Talon Cleaver
-				{ 22, 230270 }, -- Shadow Wing Focus Staff
-				{ 23, 230281 }, -- Band of Forced Concentration
-				{ 24, 230257 }, -- Ring of Blackrock
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 230256 }, -- Drake Talon Pauldrons
+				{ 19, 19407 }, -- Ebony Flame Gloves
+				{ 20, 230255 }, -- Taut Dragonhide Belt
+				{ 21, 230725 }, -- Malfurion's Blessed Bulwark
+				{ 22, 230726 }, -- Dragonbreath Hand Cannon
+				{ 23, 230271 }, -- Drake Talon Cleaver
+				{ 24, 230270 }, -- Shadow Wing Focus Staff
+				{ 25, 230281 }, -- Band of Forced Concentration
+				{ 26, 230257 }, -- Ring of Blackrock
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16920 }, -- Handguards of Transcendence
@@ -9479,11 +9662,12 @@ data["BlackwingLair"] = {
 				{ 9,  230842 }, -- Cloak of Draconic Might (firemaw Flamegor)
 				{ 11, 230734 }, -- Circle of Applied Force
 				{ 12, 230257 }, -- Ring of Blackrock
-				{ 16, 230737 }, -- Dragon's Touch
-				{ 17, 230738 }, -- Herald of Woe
-				{ 18, 230844 }, -- Draconic Maul
-				{ 19, 230847 }, -- Essence Gatherer (firemaw Flamegor)
-				{ 20, 230270 }, -- Shadow Wing Focus Staff
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				{ 18, 230737 }, -- Dragon's Touch
+				{ 19, 230738 }, -- Herald of Woe
+				{ 20, 230844 }, -- Draconic Maul
+				{ 21, 230847 }, -- Essence Gatherer (firemaw Flamegor)
+				{ 22, 230270 }, -- Shadow Wing Focus Staff
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16920 }, -- Handguards of Transcendence
@@ -9519,21 +9703,26 @@ data["BlackwingLair"] = {
 				{ 1, 231726 }, -- Ancient Shoulderpads
 				{ 2, 231717 }, -- Primeval Shoulderpads
 				{ 3, 231709 }, -- Draconian Shoulderpads
-				{ 5, 231814 }, -- Chromatic Heart
-				{ 6, 229906 }, -- Tarnished Bronze Scale
-				{ 16, 230740 }, -- Taut Dragonhide Shoulderpads
-				{ 17, 230744 }, -- Elementium Threaded Cloak
-				{ 18, 230742 }, -- Taut Dragonhide Gloves
-				{ 19, 230739 }, -- Angelista's Grasp
-				{ 20, 230800 }, -- Primalist's Linked Waistguard
-				{ 21, 230745 }, -- Girdle of the Fallen Crusader
-				{ 22, 230746 }, -- Empowered Leggings
-				{ 23, 230743 }, -- Shimmering Geta
-				{ 24, 230741 }, -- Chromatic Boots
-				{ 26, 230801 }, -- Ashjre'thul, Crossbow of Smiting
-				{ 27, 230802 }, -- Elementium Reinforced Bulwark
-				{ 28, 230794 }, -- Claw of Chromaggus
-				{ 29, 230747 }, -- Chromatically Tempered Sword
+
+				{ 5, 230740 }, -- Taut Dragonhide Shoulderpads
+				{ 6, 230744 }, -- Elementium Threaded Cloak
+				{ 7, 230742 }, -- Taut Dragonhide Gloves
+				{ 8, 230739 }, -- Angelista's Grasp
+				{ 9, 230800 }, -- Primalist's Linked Waistguard
+				{ 10, 230745 }, -- Girdle of the Fallen Crusader
+				{ 11, 230746 }, -- Empowered Leggings
+				{ 12, 230743 }, -- Shimmering Geta
+				{ 13, 230741 }, -- Chromatic Boots
+
+				{ 16, 226404 }, -- Tarnished Undermine Real
+
+				{ 18, 231814 }, -- Chromatic Heart
+				{ 19, 229906 }, -- Tarnished Bronze Scale
+
+				{ 21, 230801 }, -- Ashjre'thul, Crossbow of Smiting
+				{ 22, 230802 }, -- Elementium Reinforced Bulwark
+				{ 23, 230794 }, -- Claw of Chromaggus
+				{ 24, 230747 }, -- Chromatically Tempered Sword
 			},
 			[NORMAL_DIFF] = {
 				{ 1,  16924 }, -- Pauldrons of Transcendence
@@ -9587,15 +9776,20 @@ data["BlackwingLair"] = {
 				{ 0, 17964 }, -- Gray Sack of Gems
 				{ 0, 17965 }, -- Yellow Sack of Gems
 				{ 0, 17969 }, -- Red Sack of Gems
-				{ 16, 231726 }, -- Ancient Shoulderpads
-				{ 17, 231717 }, -- Primeval Shoulderpads
-				{ 18, 231709 }, -- Draconian Shoulderpads
-				{ 20, 231731 }, -- Ancient Chest
-				{ 21, 231723 }, -- Primeval Chest
-				{ 22, 231714 }, -- Draconian Robe
-				{ 24, 231727 }, -- Ancient Leggings
-				{ 25, 231718 }, -- Primeval Leggings
-				{ 26, 231710 }, -- Draconian Leggings
+				{ 16, 226404 }, -- Tarnished Undermine Real
+				
+				{ 18, 231726 }, -- Ancient Shoulderpads
+				{ 19, 231717 }, -- Primeval Shoulderpads
+				{ 20, 231709 }, -- Draconian Shoulderpads
+				
+				{ 22, 231731 }, -- Ancient Chest
+				{ 23, 231723 }, -- Primeval Chest
+				{ 24, 231714 }, -- Draconian Robe
+				
+				{ 26, 231727 }, -- Ancient Leggings
+				{ 27, 231718 }, -- Primeval Leggings
+				{ 28, 231710 }, -- Draconian Leggings
+				
 				{ 30, "INV_Box_01", nil, AL["Continued-->"], nil },
 				{ 101, 231724 }, -- Ancient Bindings
 				{ 102, 231715 }, -- Primeval Bindings
@@ -9675,6 +9869,7 @@ data["BlackwingLair"] = {
 				{ 29, 231713 }, -- Draconian Boots
 			},
 		},
+		T2_SET_SOD,
 		{ -- BWLTrashMobs
 			name = AL["Trash"],
 			ExtraList = true,
@@ -10098,6 +10293,7 @@ data["TheTempleofAhnQiraj"] = { -- AQ40
 				{ 21, 22734 }, -- Base of Atiesh
 			},
 		},
+		T2_5_SET_SOD,
 		{ -- AQ40Trash1
 			name = AL["Trash"],
 			ExtraList = true,
