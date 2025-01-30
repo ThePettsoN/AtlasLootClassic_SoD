@@ -13,3 +13,6 @@ data.lua
 # from @Blackwidow-sudo
 make.sh
 DevBuild
+
+*.code-workspace
+*.exe
