@@ -8743,21 +8743,33 @@ data["KarazhanCrypts"] = {
     LevelRange = {60, 60, 60},
     items = {
         {
+            name = AL["The Failed Apprentice"],
+            [SOD_DIFF] = KARA_CRYPTS_LOOT
+        },
+        {
+            name = AL["Creeping Malison"], -- Spider
+            [SOD_DIFF] = KARA_CRYPTS_LOOT
+        },
+        {
             name = AL["Harbinger of Sin"],
             [SOD_DIFF] = KARA_CRYPTS_LOOT
         },
         {
-            name = AL["Dark Riders"],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Creeping Malison"],
+            name = AL["Opera of Malediction"],
             [SOD_DIFF] = KARA_CRYPTS_LOOT
         },
         {
             name = AL["Kharon"],
             [SOD_DIFF] = KARA_CRYPTS_LOOT
-        }
+        },
+        {
+            name = AL["Unk'omon "],
+            [SOD_DIFF] = KARA_CRYPTS_LOOT
+        },
+        {
+            name = AL["Dark Rider"],
+            [SOD_DIFF] = KARA_CRYPTS_LOOT
+        },
     }
 }
 
