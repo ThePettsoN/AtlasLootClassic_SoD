@@ -295,8 +295,7 @@ local function PopulateListBiS(db, dest)
             for _, itemId in ipairs(itemIds) do
                 if destList.bestInSlot[itemEquipLoc] then
                     local bestId, bestLink, bestLevel, secondBestLevel, bestType, bestSubType = unpack(destList.bestInSlot[itemEquipLoc])
-                    local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType,
-                        itemSubType, itemStackCount, itemEquipLoc = GetItemInfo(itemId)
+                    local itemName, itemLink, itemRarity, itemLevel, itemMinLevel, itemType, itemSubType, itemStackCount, _ = GetItemInfo(itemId)
                     if (bestLevel > itemLevel) and not mainItems[itemId] then
                         destList.obsolete[itemId] = true
                     end
@@ -913,8 +912,8 @@ function Favourites:IsItemEquippedOrObsolete(itemId, listId)
         self:UpdateDb()
     end
     if not listId then
-        for listId, listData in pairs(self.db.lists) do
-            local obsoleteType = self:IsItemEquippedOrObsolete(itemId, listId)
+        for dbListId, listData in pairs(self.db.lists) do
+            local obsoleteType = self:IsItemEquippedOrObsolete(itemId, dbListId)
             if obsoleteType then
                 return obsoleteType
             end

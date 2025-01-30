@@ -105,10 +105,10 @@ function Button:AddChatLink(link)
 	end
 end
 
-function Button:OpenWoWHeadLink(button, type, id)
-	if id and type and AtlasLoot.db.enableWoWHeadIntegration and type then
+function Button:OpenWoWHeadLink(button, linkType, id)
+	if id and linkType and AtlasLoot.db.enableWoWHeadIntegration and linkType then
 		if AtlasLoot.db.useEnglishWoWHead or not WOW_HEAD_LOCALE then
-			Button:CopyBox_Show(button, format(WOW_HEAD_LINK, type, id))
+			Button:CopyBox_Show(button, format(WOW_HEAD_LINK, linkType, id))
 		else
 			Button:CopyBox_Show(button, format(WOW_HEAD_LINK_LOC, WOW_HEAD_LOCALE, type, id))
 		end
@@ -1143,7 +1143,7 @@ function Button:ExtraItemFrame_GetFrame(button, itemList)
 			-- if we have a new line we must create some empty buttons
 			local newButtonCount = ( line * MAX_ITEMS_PER_LINE ) - fixedCounter
 			fixedCounter = fixedCounter + newButtonCount
-			for i = 1, newButtonCount do
+			for j = 1, newButtonCount do
 				frame:AddButton():Hide()
 			end
 			skipScaling = true

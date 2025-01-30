@@ -845,9 +845,9 @@ function GUI:Create()
             hideOnEscape = true,
             maxLetters = 100,
             hasEditBox = true,
-            OnAccept = function(self, data, data2)
+            OnAccept = function(this, data, data2)
                 if gui.popupNoteId then
-                    Favourites:SetItemNote(gui.popupNoteId, self.editBox:GetText())
+                    Favourites:SetItemNote(gui.popupNoteId, this.editBox:GetText())
                     gui.popupNoteId = nil
                 end
             end,

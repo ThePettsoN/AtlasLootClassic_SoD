@@ -74,10 +74,10 @@ function Search:Open()
 		frame.NameBox:SetAutoFocus(false)
 		--frame.NameBox:SetTextInsets(0, 8, 0, 0)
 		frame.NameBox:SetMaxLetters(100)
-		frame.NameBox:SetScript("OnEnterPressed",function(self)
-								print(frame.NameBox:GetText())
-								frame.NameBox:ClearFocus()
-							end)
+		frame.NameBox:SetScript("OnEnterPressed", function()
+			print(frame.NameBox:GetText())
+			frame.NameBox:ClearFocus()
+		end)
 
 
 		Search.GUI = frame
