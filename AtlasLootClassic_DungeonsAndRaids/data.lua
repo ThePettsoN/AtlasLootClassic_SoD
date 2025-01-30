@@ -449,12 +449,15 @@ local KARA_CRYPTS_LOOT = {
 	{ 107, 235893 },
 	{ 108, 235868 },
 
+	{ 110, 226404 }, -- Tarnished Undermine Real
+
 	-- Jewelery
 	{ 116, "INV_Box_01", nil, AL["Jewelery"], nil },
 	{ 117, 235884 },
 	{ 118, 235885 },
 	{ 119, 235886 },
 	{ 120, 235887 },
+
 }
 
 data["Ragefire"] = {
