@@ -3,7 +3,8 @@ max_line_length = false
 exclude_files = {
 	"README.md",
 	"**/Libs/",
-	".luacheckrc"
+	".luacheckrc",
+	"babelfish.lua",
 }
 ignore = {
 	"11./SLASH_.*", -- Setting an undefined (Slash handler) global variable
@@ -21,15 +22,55 @@ ignore = {
 }
 read_globals = {
 	-- Third Party AddOns / Libs
+	Atlas = {
+		other_fields = true,
+		fields = {
+			db = {
+				fields = {
+					profile = {
+						fields = {
+							options = {
+								fields = {
+									dropdowns = {
+										fields = {
+											module = {
+												read_only = false,
+											},
+											zone = {
+												read_only = false,
+											},
+										},
+									},
+								},
+							},
+						}
+					}
+				},
+			}
+		},
+	},
+	"ATLAS_DROPDOWNS",
+	"AtlasFrameLarge",
+	"AtlasFrame",
+	"AtlasFrameSmall",
+	"AtlasFrameDropDownType_OnShow",
+	"AtlasFrameDropDown_OnShow",
+	"Atlas_Refresh",
 	"AddOnSkins",
 	"BigWigsLoader",
 	"DBM",
 	"ElvUI",
+	"ElvPrivateDB",
+
+	"AceGUIWidgetLSMlists",
+
 	"LibStub",
 	"TukUI",
 	"Outfitter",
 	"string.utf8len",
 	"string.utf8sub",
+
+	"WorldMapTitleButton",
 
 	-- Misc Custom
 	"CUSTOM_CLASS_COLORS",
@@ -2266,6 +2307,9 @@ read_globals = {
 	"GetIconForRole",
 	"GetIconForRoleEnum",
 	"GetIsPVPInactive",
+	"GetSpellLink",
+	"GetItemSetInfo",
+	"GetItemCount",
 	"GetItemInfoInstant",
 	"GetItemStats",
 	"GetItemButtonBackgroundTexture",
@@ -10489,6 +10533,19 @@ read_globals = {
 	"GMSurveyNumAnswers",
 	"GMSurveyQuestion",
 	"GMSurveySubmit",
+	"GetAddOnInfo",
+	"GetItemInfo",
+	"GetAddOnInfo",
+	"GetAddOnEnableState",
+	"GetMapNameByID",
+	"GetNumAddOns",
+	"GetSpellInfo",
+	"GetCoinTextureString",
+	"GetItemSubClassInfo",
+	"GetItemClassInfo",
+	"GetFactionInfoByID",
+	"GetItemQualityColor",
+	"GetFriendshipReputation",
 	"GetAccountExpansionLevel",
 	"GetAchievementCategory",
 	"GetAchievementComparisonInfo",
@@ -13342,6 +13399,9 @@ read_globals = {
 	"AUCTION_CATEGORY_RECIPES",
 	"AUCTION_CATEGORY_TRADE_GOODS",
 	"AUCTION_CATEGORY_WEAPONS",
+	"AUCTION_CATEGORY_QUIVER",
+	"AUCTION_CATEGORY_PROJECTILE",
+	"AUCTION_CATEGORY_REAGENT",
 	"AUCTION_CREATING",
 	"AUCTION_CREATOR",
 	"AUCTION_DURATION",
@@ -43748,6 +43808,7 @@ read_globals = {
 	"ChatEdit_UnregisterForStickyFocus",
 	"ChatEdit_UpdateHeader",
 	"ChatEdit_UpdateNewcomerEditBoxHint",
+	"ChatFrameEditBox",
 	"ChatFrameMenuButtonMixin",
 	"ChatFrameUtil",
 	"ChatFrame_ActivateCombatMessages",
@@ -50737,7 +50798,13 @@ read_globals = {
 	"SimpleTooltipConstants",
 	"SkillLineSpecsUnlockedAlertFrameMixin",
 	"SkillLineSpecsUnlockedAlertSystem",
-	"SlashCmdList",
+	SlashCmdList = {
+		fields = {
+			ATLASLOOT = {
+				read_only = false,
+			},
+		}
+	},
 	"SliderAndEditControlMixin",
 	"SliderControlFrameMixin",
 	"SliderWithButtonsAndLabelMixin",
@@ -53259,6 +53326,7 @@ read_globals = {
 
 globals = {
 	"AtlasLoot",
+	"AtlasLootScanTooltip",
 	"ATLASLOOT_ITEM_BACKGROUND_ALPHA",
 	"ATLASLOOT_IT_FILTERIGNORE",
 	"ATLASLOOT_IT_HORDE",
@@ -53283,4 +53351,10 @@ globals = {
 	"ATLASLOOT_UNKNOWN_COLOR",
 	"ATLASLOOT_HORDE_COLOR",
 	"ATLASLOOT_ALLIANCE_COLOR",
+	"HasAlternateForm",
+	"AtlasLootClassicDB",
+	"DROPRATE_OV",
+
+	"ATLAS_SMALLFRAME_SELECTED",
+	"ATLAS_SMALLFRAME_SELECTED_ORIG",
 }

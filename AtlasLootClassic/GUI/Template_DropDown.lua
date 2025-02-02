@@ -198,12 +198,12 @@ do
 		end
 	end
 
-	local function GetFromCache(type)
-		if not cache[type] then return end
+	local function GetFromCache(cacheType)
+		if not cache[cacheType] then return end
 
-		local frame = next(cache[type])
+		local frame = next(cache[cacheType])
 		if frame then
-			cache[type][frame] = nil
+			cache[cacheType][frame] = nil
 		end
 		return frame
 	end

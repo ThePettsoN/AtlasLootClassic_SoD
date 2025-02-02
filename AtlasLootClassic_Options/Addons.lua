@@ -306,12 +306,12 @@ local function CreateFavouriteOptions()
     -- icons
     local args = t.args.iconSelection.args
     local iconList = FavAddon.IconList
-    local count = 1
+    local iconCount = 1
     for i = 3, #iconList do
         local icon = iconList[i]
-        count = count + 1
+        iconCount = iconCount + 1
         args[icon] = {
-            order = count,
+            order = iconCount,
             type = "execute",
             name = function(info)
                 return FavAddon:GetIcon() == info[#info] and "^" or ""

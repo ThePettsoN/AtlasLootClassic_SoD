@@ -223,7 +223,7 @@ local function loadItemsFromOtherModule(moduleLoader, loadString, contentTable, 
 		currentModuleLoadingInfo = nil
 	elseif ItemDB.Storage[addonName] then
 		-- getBossID by name
-		local bossID = contentTable[curContentName]:GetNameForItemTable(curBossID)
+		bossID = contentTable[curContentName]:GetNameForItemTable(curBossID)
 		for i=1, #ItemDB.Storage[addonName][curContentName].items do
 			--print(ItemDB.Storage[addonName][curContentName]:GetNameForItemTable(i), bossID)
 			if ItemDB.Storage[addonName][curContentName]:GetNameForItemTable(i) == bossID then

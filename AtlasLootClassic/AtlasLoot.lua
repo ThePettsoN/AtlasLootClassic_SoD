@@ -155,8 +155,8 @@ function AtlasLoot:GetGameVersionDataTable()
     local useTable = {}
     local dataTable = setmetatable({}, {
         __newindex = function(t,k,v)
-			for k,v in pairs(v) do
-				useTable[k] = v
+			for k2, v2 in pairs(v) do
+				useTable[k2] = v2
 			end
         end,
     })

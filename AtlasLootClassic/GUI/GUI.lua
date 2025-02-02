@@ -1350,10 +1350,10 @@ function GUI:Create()
 	frame.contentFrame.mapButton:RegisterForClicks("AnyDown")
 	frame.contentFrame.mapButton:SetPoint("RIGHT", frame.contentFrame.nextPageButton, "LEFT", 0, 0)
 	frame.contentFrame.mapButton:SetScript("OnClick", MapButtonOnClick)
-	frame.contentFrame.mapButton:SetScript("OnMouseDown", function(self) self.texture:SetTexCoord(0.125, 0.875, 0.5, 1.0) end)
-	frame.contentFrame.mapButton:SetScript("OnMouseUp", function(self) self.texture:SetTexCoord(0.125, 0.875, 0.0, 0.5) end)
+	frame.contentFrame.mapButton:SetScript("OnMouseDown", function(this) this.texture:SetTexCoord(0.125, 0.875, 0.5, 1.0) end)
+	frame.contentFrame.mapButton:SetScript("OnMouseUp", function(this) this.texture:SetTexCoord(0.125, 0.875, 0.0, 0.5) end)
 	frame.contentFrame.mapButton:SetScript("OnEnter", MapButtonOnEnter)
-	frame.contentFrame.mapButton:SetScript("OnLeave", function(self) GetAlTooltip():Hide() end)
+	frame.contentFrame.mapButton:SetScript("OnLeave", function(this) GetAlTooltip():Hide() end)
 	frame.contentFrame.mapButton.mapData = frame.contentFrame.map
 	frame.contentFrame.mapButton:Hide()
 

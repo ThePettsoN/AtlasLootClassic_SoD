@@ -79,9 +79,9 @@ function SlashCommands:PrintSlash()
 	for k in pairs(CommandList) do
 		if k == "reset" then
 			local resetCommands = "all, frames"
-			for k,v in pairs(resetFunctions) do
-				if k ~= "frames" then
-					resetCommands = resetCommands..", "..k
+			for k2, v2 in pairs(resetFunctions) do
+				if k2 ~= "frames" then
+					resetCommands = resetCommands..", ".. k2
 				end
 			end
 			resetCommands = "|cff33ff99<"..resetCommands..">|r"
