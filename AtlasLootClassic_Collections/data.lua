@@ -396,8 +396,8 @@ data["SoD Currency"] = {
 				{ 101, 227532 }, -- Incandescent Hood
 				{ 102, 227534 }, -- Incandescent Leggings
 				{ 103, 227535 }, -- Incandescent Robe
-				{ 104, 227536 }, -- Incandescent Boots
-				{ 105, 227537 }, -- Incandescent Shoulderpads
+				{ 104, 227537 }, -- Incandescent Shoulderpads
+				{ 105, 227536 }, -- Incandescent Boots
 				{ 106, 227530 }, -- Incandescent Belt
 				{ 107, 227531 }, -- Incandescent Bindings
 				{ 108, 227533 }, -- Incandescent Gloves
