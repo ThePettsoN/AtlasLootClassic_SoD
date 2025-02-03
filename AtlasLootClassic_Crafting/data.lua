@@ -322,7 +322,7 @@ data["Blacksmithing"] = {
 				{ 12, 446179 }, --Shoulderplates of Dread
 				{ 13, 446188 }, --Fearmonger's Shoulderguards
 				{ 14, 446191 }, --Baleful Pauldrons
-				{ 16, "INV_Box_01", nil, AL["Updated in SoD"], nil },
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
 				{ 17, 439122 }, --Golden Scale Boots
 				{ 18, 439126 }, --Golden Scale Coif
 				{ 19, 439124 }, --Golden Scale Cuirass
@@ -735,7 +735,7 @@ data["Enchanting"] = {
 				{ 17, 463866 }, -- Sigil of Flowing Waters
 				{ 18, 463869 }, -- Conductive Shield Coating
 				{ 19, 463871 }, -- Law of Nature
-				{ 21, "INV_Box_01", nil, AL["Updated in SoD"], nil },
+				{ 21, "INV_Box_01", nil, AL["Updated for SoD"], nil },
 				{ 22, 439134 }, -- Greater Mystic Wand
 			}
 		},
@@ -1210,66 +1210,81 @@ data["Tailoring"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.TAILORING_LINK,
 	items = {
-			{
+		{
+			name = AL["SoD Phase 7"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1223770 }, -- Frosty Gloves
+				{ 3, 1223768 }, -- Frosty Vest
+				{ 4, 1223772 }, -- Frosty Wrists
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+				{ 17, 1223762 }, -- Glacial Cloak
+				{ 18, 1223764 }, -- Glacial Gloves
+				{ 19, 1223760 }, -- Glacial Vest
+				{ 20, 1223766 }, -- Glacial Wrists
+			}
+		},
+		{
 			name = AL["SoD Phase 4-6"],
 			[NORMAL_DIFF] = {
-			{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
-			{ 2, 461747 }, -- Incandescent Mooncloth Vest
-			{ 3, 461708 }, -- Incandescent Mooncloth Robe
-			--{ 4, 461708 }, -- Incandescent Mooncloth Boots
-			{ 4, 461750 }, -- Incandescent Mooncloth Circlet
-			{ 5, 461752 }, -- Incandescent Mooncloth Leggings
-			{ 6, 462282 }, -- Embroidered Belt of the Archmage
-			--{ 8, }, -- Fine Flarecore Leggings
-			--{ 9, }, -- Fine Flarecore Robe
-			--{ 10, }, -- Fine Flarecore Mantle
-			--{ 11, }, -- Fine Flarecore Gloves
-			--{ 12, }, -- Argent Elite Boots
-			--{ 13, }, -- Rugged Mantle of the Timbermaw
-			{ 16, "INV_Box_01", nil, AL["Phase 6"], nil },
-			{ 17, 1214173 }, -- Bolt of Qiraji Silk
-			{ 18, 1213740 }, -- Sylvan Shoulders
-			{ 19, 1213742 }, -- Sylvan Crown
-			{ 20, 1213744 }, -- Sylvan Vest
-			{ 21, 1213527 }, -- Vampiric Cowl
-			{ 22, 1213530 }, -- Vampiric Shawl
-			{ 23, 1213532 }, -- Vampiric Robe
-			{ 24, 1214307 }, -- Dreamscale Mitts
-			{ 25, 1214306 }, -- Dreamscale Bracers
-			{ 26, 1213536 }, -- Qiraji Silk Cape
-			{ 27, 1213538 }, -- Qiraji Silk Cloak
-			{ 28, 1213540 }, -- Qiraji Silk Drape
-			{ 29, 1213534 }, -- Qiraji Silk Scarf
+				{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
+				{ 2, 461747 }, -- Incandescent Mooncloth Vest
+				{ 3, 461708 }, -- Incandescent Mooncloth Robe
+				--{ 4, 461708 }, -- Incandescent Mooncloth Boots
+				{ 4, 461750 }, -- Incandescent Mooncloth Circlet
+				{ 5, 461752 }, -- Incandescent Mooncloth Leggings
+				{ 6, 462282 }, -- Embroidered Belt of the Archmage
+				--{ 8, }, -- Fine Flarecore Leggings
+				--{ 9, }, -- Fine Flarecore Robe
+				--{ 10, }, -- Fine Flarecore Mantle
+				--{ 11, }, -- Fine Flarecore Gloves
+				--{ 12, }, -- Argent Elite Boots
+				--{ 13, }, -- Rugged Mantle of the Timbermaw
+				{ 16, "INV_Box_01", nil, AL["Phase 6"], nil },
+				{ 17, 1214173 }, -- Bolt of Qiraji Silk
+				{ 18, 1213740 }, -- Sylvan Shoulders
+				{ 19, 1213742 }, -- Sylvan Crown
+				{ 20, 1213744 }, -- Sylvan Vest
+				{ 21, 1213527 }, -- Vampiric Cowl
+				{ 22, 1213530 }, -- Vampiric Shawl
+				{ 23, 1213532 }, -- Vampiric Robe
+				{ 24, 1214307 }, -- Dreamscale Mitts
+				{ 25, 1214306 }, -- Dreamscale Bracers
+				{ 26, 1213536 }, -- Qiraji Silk Cape
+				{ 27, 1213538 }, -- Qiraji Silk Cloak
+				{ 28, 1213540 }, -- Qiraji Silk Drape
+				{ 29, 1213534 }, -- Qiraji Silk Scarf
 			}
 		},
 		{
 			name = AL["SoD Phase 1-3"],
 			[NORMAL_DIFF] = {
-			{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
-			{ 2, 429351 }, --Extraplanar Spidersilk Boots
-			{ 3, 428424 }, --Phoenix Bindings
-			{ 4, 435841 }, --Invoker's Cord
-			{ 5, 435848 }, --Invoker's Mantle
-			{ 7, "INV_Box_01", nil, AL["Phase 2"], nil },
-			{ 8, 435827 }, -- Hyperconductive Arcano-Filament
-			{ 9, 435610 }, -- Gneuro-Linked Arcano-Filament Monocle
-			{ 11, "INV_Box_01", nil, AL["Phase 3"], nil },
-			{ 12, 446194 }, --Invoker's Cord
-			{ 13, 446195 }, --Invoker's Cord
-			{ 14, 446193 }, --Invoker's Cord
-			{ 16, "INV_Box_01", nil, AL["Updated in SoD"], nil },
-			{ 17, 439105 }, -- Big Voodoo Mask
-			{ 18, 439108 }, -- Big Voodoo Robe
-			{ 19, 439088 }, -- Black Mageweave Leggings
-			{ 20, 439086 }, -- Black Mageweave Vest
-			{ 21, 439097 }, -- Boots of the Enchanter
-			{ 22, 439098 }, -- Crimson Silk Belt
-			{ 23, 439085 }, -- Crimson Silk Robe
-			{ 24, 439093 }, -- Crimson Silk Shoulders
-			{ 25, 439091 }, -- Earthen Silk Belt
-			{ 26, 439100 }, -- Earthen Vest
-			{ 27, 439102 }, -- Enchanter's Cowl
-			{ 28, 439094 }, -- Long Silken Cloak
+				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
+				{ 2, 429351 }, --Extraplanar Spidersilk Boots
+				{ 3, 428424 }, --Phoenix Bindings
+				{ 4, 435841 }, --Invoker's Cord
+				{ 5, 435848 }, --Invoker's Mantle
+				{ 7, "INV_Box_01", nil, AL["Phase 2"], nil },
+				{ 8, 435827 }, -- Hyperconductive Arcano-Filament
+				{ 9, 435610 }, -- Gneuro-Linked Arcano-Filament Monocle
+				{ 11, "INV_Box_01", nil, AL["Phase 3"], nil },
+				{ 12, 446194 }, --Invoker's Cord
+				{ 13, 446195 }, --Invoker's Cord
+				{ 14, 446193 }, --Invoker's Cord
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+				{ 17, 439105 }, -- Big Voodoo Mask
+				{ 18, 439108 }, -- Big Voodoo Robe
+				{ 19, 439088 }, -- Black Mageweave Leggings
+				{ 20, 439086 }, -- Black Mageweave Vest
+				{ 21, 439097 }, -- Boots of the Enchanter
+				{ 22, 439098 }, -- Crimson Silk Belt
+				{ 23, 439085 }, -- Crimson Silk Robe
+				{ 24, 439093 }, -- Crimson Silk Shoulders
+				{ 25, 439091 }, -- Earthen Silk Belt
+				{ 26, 439100 }, -- Earthen Vest
+				{ 27, 439102 }, -- Enchanter's Cowl
+				{ 28, 439094 }, -- Long Silken Cloak
 			}
 		},
 		{
@@ -1570,89 +1585,89 @@ data["Leatherworking"] = {
 		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
-			{ 1, 1213717 }, -- Sandstalker Bracers
-			{ 2, 1213728 }, -- Spitfire Gauntlets
-			{ 3, 1213734 }, -- Bramblewood Belt
-			{ 4, 1213720 }, -- Sandstalker Gauntlets
-			{ 5, 1213723 }, -- Sandstalker Breastplate
-			{ 6, 1213731 }, -- Spitfire Breastplate
-			{ 7, 1213738 }, -- Bramblewood Helm
-			{ 8, 1213736 }, -- Bramblewood Boots
-			{ 9, 1213751 }, -- Dreamscale Breastplate
-			{ 10, 1213523 }, -- Razorbramble Shoulderpads
-			{ 11, 1213521 }, -- Razorbramble Cowl
-			{ 12, 1213525 }, -- Razorbramble Leathers
-			{ 13, 1214303 }, -- Dreamscale Kilt
-			{ 16, 1213513 }, -- Pattern: Glowing Chitin Armor Kit
-			{ 17, 1213519 }, -- Pattern: Sharpened Chitin Armor Kit
+				{ 1, 1213717 }, -- Sandstalker Bracers
+				{ 2, 1213728 }, -- Spitfire Gauntlets
+				{ 3, 1213734 }, -- Bramblewood Belt
+				{ 4, 1213720 }, -- Sandstalker Gauntlets
+				{ 5, 1213723 }, -- Sandstalker Breastplate
+				{ 6, 1213731 }, -- Spitfire Breastplate
+				{ 7, 1213738 }, -- Bramblewood Helm
+				{ 8, 1213736 }, -- Bramblewood Boots
+				{ 9, 1213751 }, -- Dreamscale Breastplate
+				{ 10, 1213523 }, -- Razorbramble Shoulderpads
+				{ 11, 1213521 }, -- Razorbramble Cowl
+				{ 12, 1213525 }, -- Razorbramble Leathers
+				{ 13, 1214303 }, -- Dreamscale Kilt
+				{ 16, 1213513 }, -- Pattern: Glowing Chitin Armor Kit
+				{ 17, 1213519 }, -- Pattern: Sharpened Chitin Armor Kit
 			}
 		},
 			{
 			name = AL["SoD Phase 4"],
 			[NORMAL_DIFF] = {
-			{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
-			{ 2, "INV_Box_01", nil, AL["Armor"], nil },
-			{ 3, 461754 }, -- Girdle of Arcane Insight
-			{ 4, 461706 }, -- Swift Flight Vambraces
-			{ 5, 461653 }, -- Brilliant Chromatic Cloak 227869
-			{ 6, 461645 }, -- Honed Blue Dragonscale Shoulders 227873
-			{ 7, 462227 }, -- Honed Blue Dragonscale Leggings
-			{ 8, 461673 }, -- Honed Blue Dragonscale Breastplate
-			{ 9, 461649 }, -- Living Green Dragonscale Leggings
-			{ 10, 461677 }, -- Living Green Dragonscale Gauntlets
-			{ 11, 461720 }, -- Living Green Dragonscale Breastplate
-			{ 12, 461754 }, -- Girdle of Arcane Insight
-			{ 13, 461706 }, -- Swift Flight Vambraces
-			--{ 14, }, -- Knowledge of the Timbermaw
-			{ 14, 461657 }, -- Hardened Black Dragonscale Leggings
-			{ 16, 461690 }, -- Mastercrafted Shifting Cloak
-			{ 17, 461722 }, -- Devilcore Gauntlets
-			{ 18, 461724 }, -- Devilcore Leggings
-			--{ 20, }, -- Shining Chromatic Gauntlets
-			--{ 21, }, -- Glowing Mantle of the Dawn
-			--{ 22, }, -- Fine Dawn Treaders
-			--{ 23, }, -- Studded Timbermaw Brawlers
-			--{ 24, }, -- Ferocity of the Timbermaw
-			--{ 25, }, -- Dire Warbear Woolies
-			--{ 26, }, -- Dire Warbear Harness
-			{ 20, "INV_Box_01", nil, AL["Fire Resist"], nil },
-			{ 21, 461663 }, -- Masterwork Volcanic Shoulders
-			{ 22, 461665 }, -- Masterwork Volcanic Leggings
-			{ 23, 461661 }, -- Masterwork Volcanic Breastplate
-			{ 24, 461659 }, -- Hardened Black Dragonscale Shoulders
-			{ 25, 461655 }, -- Hardened Black Dragonscale Breastplate
-			--{ 107, }, -- Thick Corehound Belt
-			--{ 108, }, -- Hardened Black Dragonscale Boots
-			--{ 109, }, -- Lavawalker Belt
-			--{ 110, }, -- Thick Corehound Boots
-			--{ 111, }, -- Flamekissed Molten Helm
-			}
+				{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
+				{ 2, "INV_Box_01", nil, AL["Armor"], nil },
+				{ 3, 461754 }, -- Girdle of Arcane Insight
+				{ 4, 461706 }, -- Swift Flight Vambraces
+				{ 5, 461653 }, -- Brilliant Chromatic Cloak 227869
+				{ 6, 461645 }, -- Honed Blue Dragonscale Shoulders 227873
+				{ 7, 462227 }, -- Honed Blue Dragonscale Leggings
+				{ 8, 461673 }, -- Honed Blue Dragonscale Breastplate
+				{ 9, 461649 }, -- Living Green Dragonscale Leggings
+				{ 10, 461677 }, -- Living Green Dragonscale Gauntlets
+				{ 11, 461720 }, -- Living Green Dragonscale Breastplate
+				{ 12, 461754 }, -- Girdle of Arcane Insight
+				{ 13, 461706 }, -- Swift Flight Vambraces
+				--{ 14, }, -- Knowledge of the Timbermaw
+				{ 14, 461657 }, -- Hardened Black Dragonscale Leggings
+				{ 16, 461690 }, -- Mastercrafted Shifting Cloak
+				{ 17, 461722 }, -- Devilcore Gauntlets
+				{ 18, 461724 }, -- Devilcore Leggings
+				--{ 20, }, -- Shining Chromatic Gauntlets
+				--{ 21, }, -- Glowing Mantle of the Dawn
+				--{ 22, }, -- Fine Dawn Treaders
+				--{ 23, }, -- Studded Timbermaw Brawlers
+				--{ 24, }, -- Ferocity of the Timbermaw
+				--{ 25, }, -- Dire Warbear Woolies
+				--{ 26, }, -- Dire Warbear Harness
+				{ 20, "INV_Box_01", nil, AL["Fire Resist"], nil },
+				{ 21, 461663 }, -- Masterwork Volcanic Shoulders
+				{ 22, 461665 }, -- Masterwork Volcanic Leggings
+				{ 23, 461661 }, -- Masterwork Volcanic Breastplate
+				{ 24, 461659 }, -- Hardened Black Dragonscale Shoulders
+				{ 25, 461655 }, -- Hardened Black Dragonscale Breastplate
+				--{ 107, }, -- Thick Corehound Belt
+				--{ 108, }, -- Hardened Black Dragonscale Boots
+				--{ 109, }, -- Lavawalker Belt
+				--{ 110, }, -- Thick Corehound Boots
+				--{ 111, }, -- Flamekissed Molten Helm
+				}
 		},
 			{
 			name = AL["SoD Phase 1-3"],
 			[NORMAL_DIFF] = {
-			{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
-			{ 2, 429869 }, --Void-Touched Leather Gauntlets
-			{ 3, 429354 }, --Void-Touched Leather Gloves
-			{ 5, "INV_Box_01", nil, AL["Phase 2"], nil },
-			{ 6, 435819 }, -- Faintly Glowing Leather
-			{ 7, 435904 }, -- Glowing Gneuro-Linked Cowl
-			{ 8, 435949 }, -- Glowing Hyperconductive Scale Coif
-			{ 9, 435951 }, -- Gneuro-Conductive Channeler's Hood
-			{ 10, 435953 }, -- Rad-Resistant Scale Hood
-			{ 16, "INV_Box_01", nil, AL["Updated in SoD"], nil },
-			{ 17, 439112 }, -- Guardian Belt
-			{ 18, 439110 }, -- Guardian Leather Bracers
-			{ 19, 439114 }, -- Guardian Pants
-			{ 20, 439116 }, -- Turtle Scale Breastplate
-			{ 21, 439118 }, -- Turtle Scale Gloves
-			{ 23, "INV_Box_01", nil, AL["Phase 3"], nil },
-			{ 24, 446183 }, --Paranoia Mantle
-			{ 25, 446185 }, --Shrieking Spaulders
-			{ 26, 446190 }, --Wailing Chain Mantle
-			{ 27, 446189 }, --Shoulderpads of Obsession
-			{ 28, 446192 }, --Membrane of Dark Neurosis
-			{ 29, 446186 }, --Cacophonous Chain Shoulderguards
+				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
+				{ 2, 429869 }, --Void-Touched Leather Gauntlets
+				{ 3, 429354 }, --Void-Touched Leather Gloves
+				{ 5, "INV_Box_01", nil, AL["Phase 2"], nil },
+				{ 6, 435819 }, -- Faintly Glowing Leather
+				{ 7, 435904 }, -- Glowing Gneuro-Linked Cowl
+				{ 8, 435949 }, -- Glowing Hyperconductive Scale Coif
+				{ 9, 435951 }, -- Gneuro-Conductive Channeler's Hood
+				{ 10, 435953 }, -- Rad-Resistant Scale Hood
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+				{ 17, 439112 }, -- Guardian Belt
+				{ 18, 439110 }, -- Guardian Leather Bracers
+				{ 19, 439114 }, -- Guardian Pants
+				{ 20, 439116 }, -- Turtle Scale Breastplate
+				{ 21, 439118 }, -- Turtle Scale Gloves
+				{ 23, "INV_Box_01", nil, AL["Phase 3"], nil },
+				{ 24, 446183 }, --Paranoia Mantle
+				{ 25, 446185 }, --Shrieking Spaulders
+				{ 26, 446190 }, --Wailing Chain Mantle
+				{ 27, 446189 }, --Shoulderpads of Obsession
+				{ 28, 446192 }, --Membrane of Dark Neurosis
+				{ 29, 446186 }, --Cacophonous Chain Shoulderguards
 			}
 		},
 		{
