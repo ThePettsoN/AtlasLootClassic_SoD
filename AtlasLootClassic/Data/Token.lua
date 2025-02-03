@@ -472,6 +472,7 @@ TOKEN_DATA.CLASSIC = {
 
 	-- Naxxramas
 	[22520] = { 23207, 23206, type = 3 }, -- The Phylactery of Kel'Thuzad
+	[236350] = { 236351, 236352, type = 3 }, -- The Phylactery of Kel'Thuzad
 
 	-- AQ40
 	[21221] = { 21712, 21710, 21709,0,{234801, "SoD" },{234802, "SoD" },{234803, "SoD" }, type = 3 }, -- Eye of C'thun

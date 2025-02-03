@@ -11362,17 +11362,20 @@ data["Naxxramas"] = {
             ExtraList = true,
             [SOD_DIFF] = {
                 {1, 236226}, -- Pauldrons of Elemental Fury
-                {2, 236228}, -- Spaulders of the Grand Crusader
-                {3, 236220}, -- Necro-Knight's Garb
-                {4, 236222}, -- Ghoul Skin Tunic
-                {5, 236225}, -- Girdle of Elemental Fury
+                {2, 236225}, -- Girdle of Elemental Fury
+                {3, 236230}, -- Leggings of Elemental Fury
+
+                {5, 236228}, -- Spaulders of the Grand Crusader
                 {6, 236227}, -- Belt of the Grand Crusader
-                {7, 236230}, -- Leggings of Elemental Fury
-                {8, 236229}, -- Leggings of the Grand Crusader
-                {9, 236223}, -- Ring of the Eternal Flame
-                {10, 236224}, -- Stygian Buckler
-                {11, 236219}, -- Harbinger of Doom
-                {12, 236221}, -- Misplaced Servo Arm
+                {7, 236229}, -- Leggings of the Grand Crusader
+
+                {9, 236220}, -- Necro-Knight's Garb
+                {10, 236222}, -- Ghoul Skin Tunic
+                {11, 236223}, -- Ring of the Eternal Flame
+                {12, 236224}, -- Stygian Buckler
+                {13, 236219}, -- Harbinger of Doom
+                {14, 236221}, -- Misplaced Servo Arm
+
                 {16, 22376}, -- Wartorn Cloth Scrap
                 {17, 22373}, -- Wartorn Leather Scrap
                 {18, 22374}, -- Wartorn Chain Scrap
@@ -11382,17 +11385,20 @@ data["Naxxramas"] = {
             },
             [NORMAL_DIFF] = {
                 {1, 23664}, -- Pauldrons of Elemental Fury
-                {2, 23667}, -- Spaulders of the Grand Crusader
-                {3, 23069}, -- Necro-Knight's Garb
-                {4, 23226}, -- Ghoul Skin Tunic
-                {5, 23663}, -- Girdle of Elemental Fury
+                {2, 23663}, -- Girdle of Elemental Fury
+                {3, 23665}, -- Leggings of Elemental Fury
+
+                {5, 23667}, -- Spaulders of the Grand Crusader
                 {6, 23666}, -- Belt of the Grand Crusader
-                {7, 23665}, -- Leggings of Elemental Fury
-                {8, 23668}, -- Leggings of the Grand Crusader
-                {9, 23237}, -- Ring of the Eternal Flame
-                {10, 23238}, -- Stygian Buckler
-                {11, 23044}, -- Harbinger of Doom
-                {12, 23221}, -- Misplaced Servo Arm
+                {7, 23668}, -- Leggings of the Grand Crusader
+
+                {9, 23069}, -- Necro-Knight's Garb
+                {10, 23226}, -- Ghoul Skin Tunic
+                {11, 23237}, -- Ring of the Eternal Flame
+                {12, 23238}, -- Stygian Buckler
+                {13, 23044}, -- Harbinger of Doom
+                {14, 23221}, -- Misplaced Servo Arm
+
                 {16, 22376}, -- Wartorn Cloth Scrap
                 {17, 22373}, -- Wartorn Leather Scrap
                 {18, 22374}, -- Wartorn Chain Scrap

@@ -108,6 +108,7 @@ ALPrivate.PRICE_ICON_REPLACE = {
 	["honorA"] = 136781,
 }
 
+-- /dump bit.bor(bit.bor(2, 4), 64)
 ALPrivate.CLASS_BITS = {
     --NONE 			= 0,
     WARRIOR 		= 1,
