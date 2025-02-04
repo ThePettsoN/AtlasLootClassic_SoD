@@ -1495,10 +1495,3 @@ function Token.GetClassItemsForToken(tokenItemID, className)
 
 	return #classTokens > 0 and classTokens or nil
 end
-
--- TOKEN_TYPE_ADD_ITEM_DESCRIPTION
---[==[@debug@
-function Token.GetFullTokenTable()
-	return TOKEN
-end
---@end-debug@]==]
