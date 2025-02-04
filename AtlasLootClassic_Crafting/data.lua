@@ -238,76 +238,87 @@ data["Blacksmithing"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.BLACKSMITHING_LINK,
 	items = {
-			{
+		{
+			name = AL["SoD Phase 7"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+				{ 17, 1223791 }, -- Icebane Bracers
+				{ 18, 1223787 }, -- Icebane Breastplate
+				{ 19, 1223789 }, -- Icebane Gauntlets
+			}
+		},
+		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
-			{ 1, 1213746 }, -- Heavy Obsidian Belt
-			{ 2, 1213709 }, -- Ironvine Belt
-			{ 3, 1213711 }, -- Ironvine Gloves
-			{ 4, 1213715 }, -- Ironvine Breastplate
-			{ 5, 1213748 }, -- Light Obsidian Belt
-			{ 6, 1214274 }, -- Obsidian Mail Tunic
-			{ 7, 1213481 }, -- Razorspike Headcage
-			{ 8, 1213484 }, -- Razorspike Shoulderplate
-			{ 9, 1213490 }, -- Razorspike Battleplate
-			{ 10, 1214309 }, -- Dreamscale Visor
-			{ 11, 1215507 }, -- Thick Obsidian Breastplate
-			{ 12, 1214257 }, -- Black Grasp of the Destroyer
-			{ 14, 1214270 }, -- Jagged Obsidian Shield
-			{ 16, 1213498 }, -- Obsidian Champion
-			{ 17, 1213506 }, -- Obsidian Defender
-			{ 18, 1213500 }, -- Obsidian Destroyer
-			{ 19, 1214137 }, -- Obsidian Heartseeker
-			{ 20, 1213492 }, -- Obsidian Reaver
-			{ 21, 1213504 }, -- Obsidian Sageblade
-			{ 22, 1213502 }, -- Obsidian Stormhammer
-			{ 25, 1213643 }, -- Obsidian Grinding Stone
+				{ 1, 1213746 }, -- Heavy Obsidian Belt
+				{ 2, 1213709 }, -- Ironvine Belt
+				{ 3, 1213711 }, -- Ironvine Gloves
+				{ 4, 1213715 }, -- Ironvine Breastplate
+				{ 5, 1213748 }, -- Light Obsidian Belt
+				{ 6, 1214274 }, -- Obsidian Mail Tunic
+				{ 7, 1213481 }, -- Razorspike Headcage
+				{ 8, 1213484 }, -- Razorspike Shoulderplate
+				{ 9, 1213490 }, -- Razorspike Battleplate
+				{ 10, 1214309 }, -- Dreamscale Visor
+				{ 11, 1215507 }, -- Thick Obsidian Breastplate
+				{ 12, 1214257 }, -- Black Grasp of the Destroyer
+				{ 14, 1214270 }, -- Jagged Obsidian Shield
+				{ 16, 1213498 }, -- Obsidian Champion
+				{ 17, 1213506 }, -- Obsidian Defender
+				{ 18, 1213500 }, -- Obsidian Destroyer
+				{ 19, 1214137 }, -- Obsidian Heartseeker
+				{ 20, 1213492 }, -- Obsidian Reaver
+				{ 21, 1213504 }, -- Obsidian Sageblade
+				{ 22, 1213502 }, -- Obsidian Stormhammer
+				{ 25, 1213643 }, -- Obsidian Grinding Stone
 			}
 		},
-			{
+		{
 			name = AL["SoD Phase 4"],
 			[NORMAL_DIFF] = {
-			{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
-			{ 2, "INV_Box_01", nil, AL["Armor"], nil },
-			{ 3, 461737 }, -- Tempest Gauntlets
-			{ 4, 461739 }, -- Warcrest of the Great Chief
-			{ 5, 461735 }, -- Invincible Mail
-			{ 6, 461671 }, -- Stronger-hold Gauntlets
-			{ 7, 461667 }, -- Tempered Dark Iron Plate 227871
-			--{ 7, }, -- Argent Elite Shoulders
-			--{ 8,  }, -- Shimmering Dawnbringer Shoulders
-			--{ 9,  }, -- Radiant Gloves of the Dawn
-			--{ 10,  }, -- Radiant Girdle of the Dawn
-			--{ 11,  }, -- Dense Timbermaw Boots
-			--{ 12,  }, -- Dense Timbermaw Belt
-			--{ 16, }, -- Tempered Dark Iron Leggings 227836
-			--{ 17, }, -- Tempered Dark Iron Boots
-			--{ 18, }, -- Tempered Dark Iron Gauntlets
-			--{ 19, }, -- Molten Chain Shoulders 227834
-			--{ 20, }, -- Molten Chain Girdle 227827
-			--{ 21, }, -- Tempered Dark Iron Helm 227824
-			--{ 22, }, -- Tempered Dark Iron Bracers 227820
-			{ 16, "INV_Box_01", nil, AL["Weapons"], nil },
-			{ 17, 461716 }, -- Deadly Heartseeker
-			{ 18, 461733 }, -- Finely-Enchanted Battlehammer
-			{ 19, 461718 }, -- Tranquility
-			{ 20, 461712 }, -- Refined Hammer of the Titans
-			{ 21, 461714 }, -- Desecration
-			{ 22, 461730 }, -- Hardened Frostguard
-			{ 23, 461743 }, -- Sageblade of the Archmagus
-			{ 24, 461675 }, -- Refined Arcanite Reaper
-			{ 25, 460460 }, -- Sulfuron Hammer
-			{ 26, 461647 }, -- Skyrider's Masterwork Stormhammer
-			{ 27, 461669 }, -- Refined Arcanite Champion
-			--{ 107, }, --Hammer of the Wild Gods 227858
-			--{ 108, }, -- Ebon Fist 227842
-			--{ 109, }, -- Implacable Blackguard 227840
-			--{ 110, }, -- Tempered Black Amnesty 227832
-			--{ 111, }, -- Dark Iron Flame Reaver 227826
-			--{ 112, }, -- Molten Dark Iron Destroyer 227825
+				{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
+				{ 2, "INV_Box_01", nil, AL["Armor"], nil },
+				{ 3, 461737 }, -- Tempest Gauntlets
+				{ 4, 461739 }, -- Warcrest of the Great Chief
+				{ 5, 461735 }, -- Invincible Mail
+				{ 6, 461671 }, -- Stronger-hold Gauntlets
+				{ 7, 461667 }, -- Tempered Dark Iron Plate 227871
+				--{ 7, }, -- Argent Elite Shoulders
+				--{ 8,  }, -- Shimmering Dawnbringer Shoulders
+				--{ 9,  }, -- Radiant Gloves of the Dawn
+				--{ 10,  }, -- Radiant Girdle of the Dawn
+				--{ 11,  }, -- Dense Timbermaw Boots
+				--{ 12,  }, -- Dense Timbermaw Belt
+				--{ 16, }, -- Tempered Dark Iron Leggings 227836
+				--{ 17, }, -- Tempered Dark Iron Boots
+				--{ 18, }, -- Tempered Dark Iron Gauntlets
+				--{ 19, }, -- Molten Chain Shoulders 227834
+				--{ 20, }, -- Molten Chain Girdle 227827
+				--{ 21, }, -- Tempered Dark Iron Helm 227824
+				--{ 22, }, -- Tempered Dark Iron Bracers 227820
+				{ 16, "INV_Box_01", nil, AL["Weapons"], nil },
+				{ 17, 461716 }, -- Deadly Heartseeker
+				{ 18, 461733 }, -- Finely-Enchanted Battlehammer
+				{ 19, 461718 }, -- Tranquility
+				{ 20, 461712 }, -- Refined Hammer of the Titans
+				{ 21, 461714 }, -- Desecration
+				{ 22, 461730 }, -- Hardened Frostguard
+				{ 23, 461743 }, -- Sageblade of the Archmagus
+				{ 24, 461675 }, -- Refined Arcanite Reaper
+				{ 25, 460460 }, -- Sulfuron Hammer
+				{ 26, 461647 }, -- Skyrider's Masterwork Stormhammer
+				{ 27, 461669 }, -- Refined Arcanite Champion
+				--{ 107, }, --Hammer of the Wild Gods 227858
+				--{ 108, }, -- Ebon Fist 227842
+				--{ 109, }, -- Implacable Blackguard 227840
+				--{ 110, }, -- Tempered Black Amnesty 227832
+				--{ 111, }, -- Dark Iron Flame Reaver 227826
+				--{ 112, }, -- Molten Dark Iron Destroyer 227825
 			}
 		},
-			{
+		{
 			name = AL["SoD Phase 1-3"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
@@ -689,6 +700,23 @@ data["Enchanting"] = {
 	CorrespondingFields = private.ENCHANTING_LINK,
 	items = {
 		{
+			name = AL["SoD Phase 7"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1219580, },
+				{ 3, 1220624, },
+				{ 4, 1219587, },
+				{ 5, 1219586, },
+				{ 6, 1220623, },
+				{ 7, 1219577, },
+				{ 8, 1219579, },
+				{ 9, 1219578, },
+				{ 10, 1219581, },
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
+		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 6"], nil },
@@ -955,7 +983,16 @@ data["Engineering"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.ENGINEERING_LINK,
 	items = {
-			{
+		{
+			name = AL["SoD Phase 7"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1221012, },
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
+		{
 			name = AL["SoD Phase 1-6"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
@@ -1583,6 +1620,20 @@ data["Leatherworking"] = {
 	CorrespondingFields = private.LEATHERWORKING_LINK,
 	items = {
 		{
+			name = AL["SoD Phase 7"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+				{ 17, 1223778 }, -- Icy Scale Bracers
+				{ 18, 1223774 }, -- Icy Scale Breastplate
+				{ 19, 1223776 }, -- Icy Scale Gauntlets
+				{ 20, 1223784 }, -- Polar Bracers
+				{ 21, 1223782 }, -- Polar Gloves
+				{ 22, 1223780 }, -- Polar Tunic
+			}
+		},
+		{
 			name = AL["SoD Phase 6"],
 			[NORMAL_DIFF] = {
 				{ 1, 1213717 }, -- Sandstalker Bracers
@@ -1602,7 +1653,7 @@ data["Leatherworking"] = {
 				{ 17, 1213519 }, -- Pattern: Sharpened Chitin Armor Kit
 			}
 		},
-			{
+		{
 			name = AL["SoD Phase 4"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 4"], nil },
@@ -1643,7 +1694,7 @@ data["Leatherworking"] = {
 				--{ 111, }, -- Flamekissed Molten Helm
 				}
 		},
-			{
+		{
 			name = AL["SoD Phase 1-3"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
