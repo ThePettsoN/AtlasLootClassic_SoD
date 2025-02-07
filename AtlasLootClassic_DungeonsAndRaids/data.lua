@@ -11565,16 +11565,8 @@ data["Naxxramas"] = {
                 {10, 236340}, -- Might of Menethil
                 {11, 236346}, -- Soulseeker
                 {13, 236350}, -- The Phylactery of Kel'Thuzad
-                {16, 236105}, -- Ring of Faith
-                {17, 236085}, -- Frostfire Ring
-                {18, 236067}, -- Plagueheart Ring
-                {19, 236031}, -- Bonescythe Ring
-                {20, 236190}, -- Ring of the Dreamwalker
-                {21, 236041}, -- Ring of the Cryptstalker
-                {22, 236150}, -- Ring of the Earthshatterer
-                {23, 236116}, -- Ring of Redemption
-                {24, 236013}, -- Ring of the Dreadnaught
-                {26, 22733} -- Staff Head of Atiesh
+
+                {16, 237381}, -- Desecrated Ring
             },
             [NORMAL_DIFF] = {
                 {1, 23057}, -- Gem of Trapped Innocents

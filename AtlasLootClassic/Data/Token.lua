@@ -469,8 +469,8 @@ TOKEN_DATA.CLASSIC = {
 			}, -- Insignia of the Dawn
 	[22524] = 22523, -- Insignia of the Crusade
 
-
 	-- Naxxramas
+	[237381] = { 236198, 236216, 236207, 236190, 236041, 236056, 236085, 236093, 236150, 236157, 236167, 236176, 236116, 236139, 236130, 236105, 236112, 236031, 236034, 236067, 236074, 236013, 236022, type = 3 }, -- Desecrated Ring
 	[22520] = { 23207, 23206, type = 3 }, -- The Phylactery of Kel'Thuzad
 	[236350] = { 236351, 236352, type = 3 }, -- The Phylactery of Kel'Thuzad
 
