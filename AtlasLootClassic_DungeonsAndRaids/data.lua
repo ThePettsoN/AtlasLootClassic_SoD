@@ -376,48 +376,6 @@ local DM_BOOKS = {
     }
 }
 
-local KARA_CRYPTS_LOOT = {
-    -- Cloth
-    {1, "INV_Box_01", nil, AL["Cloth"], nil},
-    {2, 235874},
-    {3, 235878},
-    {4, 235880},
-    -- Leather
-    {7, "INV_Box_01", nil, AL["Leather"], nil},
-    {8, 235869},
-    {9, 235872},
-    {10, 235875},
-    {11, 235881},
-    -- Mail
-    {16, "INV_Box_01", nil, AL["Mail"], nil},
-    {17, 235876},
-    {18, 235870},
-    {19, 235879},
-    {20, 235882},
-    -- Plate
-    {22, "INV_Box_01", nil, AL["Plate"], nil},
-    {23, 235871},
-    {24, 235877},
-    {25, 235873},
-    {26, 235883},
-    {30, "INV_Box_01", nil, AL["Continued-->"], nil},
-    {101, "INV_Box_01", nil, AL["Weapons"], nil},
-    {102, 235891},
-    {103, 235892},
-    {104, 235888},
-    {105, 235890},
-    {106, 235894},
-    {107, 235893},
-    {108, 235868},
-    {110, 226404}, -- Tarnished Undermine Real
-    -- Jewelery
-    {116, "INV_Box_01", nil, AL["Jewelery"], nil},
-    {117, 235884},
-    {118, 235885},
-    {119, 235886},
-    {120, 235887}
-}
-
 data["Ragefire"] = {
     MapID = 2437,
     InstanceID = 389,
@@ -7422,6 +7380,424 @@ data["Stratholme"] = {
     }
 }
 
+data["DemonFallCanyon"] = {
+    MapID = 15475,
+    InstanceID = 15540,
+    ContentType = DUNGEON_CONTENT,
+    LevelRange = {60, 60, 60},
+    items = {
+        {
+            -- DFCGrimroot
+            name = AL["Grimroot"],
+            [SOD_DIFF] = {
+                {1, 228080}, -- Resin Loop
+                {2, 228081}, -- Germinating Poisonseed
+                {3, 228079}, -- Cloak of Leaves
+                {4, 228082}, -- Warsong Axe
+                {5, 228083}, -- Gloaming Treeheart
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        },
+        {
+            -- DFCDiathorus
+            name = AL["Diathorus The Seeker"],
+            [SOD_DIFF] = {
+                {1, 228106}, -- Shield of Life and Death
+                {2, 228107}, -- Fallen Huntress' Longbow
+                {3, 228094}, -- Dreadlord's Blade
+                {4, 228104}, -- Robes of Elune
+                {5, 228103}, -- Nathrezim's Greaves
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        },
+        {
+            -- DFCDestructor
+            name = AL["Destructor's Wraith"],
+            [SOD_DIFF] = {
+                {1, 228074}, -- Hands of Temptation
+                {2, 228075}, -- Spear of Destiny
+                {3, 228077}, -- Dreambough
+                {4, 228078}, -- Accursed Chalice
+                {5, 228076}, -- Burning Ring of Fire
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        },
+        {
+            -- DFCZilbagob
+            name = AL["Zilbagob"],
+            [SOD_DIFF] = {
+                {1, 228086}, -- Repurposed Shredderblade
+                {2, 228088}, -- Shredder Operator's Dogtags
+                {3, 228087}, -- Supercharged Silver Moebius
+                {4, 228084}, -- Miniaturized Fire Extinguisher
+                {5, 228085}, -- Phaseshifted Legion Band
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        },
+        {
+            -- DFCPyranis
+            name = AL["Pyranis"],
+            [SOD_DIFF] = {
+                {1, 228091}, -- Thorned Boots
+                {2, 228093}, -- Dark Heart of Darkness
+                {3, 228090}, -- Cenarion Ritual Dagger
+                {4, 228092}, -- Druidic Mantle
+                {5, 228089}, -- Woodcarved Moonstalker
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        },
+        {
+            -- DFCHellscream
+            name = AL["Hellscream's Phantom"],
+            [SOD_DIFF] = {
+                {1, 228112}, -- Nightmare Gown
+                {2, 228113}, -- Cold Embrace
+                {3, 228111}, -- Mask of the Godslayer
+                {4, 228109}, -- Legguards of Sacrifice
+                {5, 228108}, -- Shadow of Gorehowl
+                {7, 228410}, -- Dreadblade of the Destructor
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        },
+        {
+            -- DFCHellscream
+            name = AL["Azgaloth"],
+            [SOD_DIFF] = {
+                {1, 231911}, -- Signet of the Legion General
+                {2, 231910}, -- Heart of Azgaloth
+                {3, 231913}, -- Eye of the Observer
+                {4, 231460}, -- Planebreaker of Azgaloth
+                {5, 231912}, -- Blade of the Pit
+                {16, 226404} -- Tarnished Undermine Real
+            }
+        }
+    }
+}
+
+data["KarazhanCrypts"] = {
+    MapID = 16074,
+    InstanceID = 2875,
+    ContentType = DUNGEON_CONTENT,
+    LevelRange = {60, 60, 60},
+    items = {
+        {
+            name = AL["Sairuh Maryla <The Failed Apprentice>"],
+            [SOD_DIFF] = {
+                { 1, 236782 }, -- Sairuh's Collar
+
+                { 3, "INV_Box_01", nil, AL["Shared Loot"], nil },
+                { 4, 235880 }, -- Pauper Soles
+                { 5, 235894 }, -- Doomsayer's Demise
+                { 6, 235873 }, -- Crypt's Keepers
+                { 7, 235879 }, -- Nimble Links
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            name = AL["Kaigy Maryla <The Failed Apprentice>"],
+            [SOD_DIFF] = {
+                { 1, 235886 }, -- Kaigy's Clasp
+
+                { 3, "INV_Box_01", nil, AL["Shared Loot"], nil },
+                { 4, 235880 }, -- Pauper Soles
+                { 5, 235894 }, -- Doomsayer's Demise
+                { 6, 235873 }, -- Crypt's Keepers
+                { 7, 235879 }, -- Nimble Links
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            name = AL["Barian Maryla <The Failed Apprentice>"],
+            [SOD_DIFF] = {
+                { 1, 235887 }, -- Barian's Choker
+
+                { 3, "INV_Box_01", nil, AL["Shared Loot"], nil },
+                { 4, 235880 }, -- Pauper Soles
+                { 5, 235894 }, -- Doomsayer's Demise
+                { 6, 235873 }, -- Crypt's Keepers
+                { 7, 235879 }, -- Nimble Links
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            name = AL["Creeping Malison"], -- Spider
+            [SOD_DIFF] = {
+                { 1, 235881 }, -- Dreaded Treaders
+                { 2, 235885 }, -- Ghastly Ring
+                { 3, 235884 }, -- Spectral Signet
+                { 4, 235888 }, -- Clobberclub
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            name = AL["Harbinger of Sin"],
+            [SOD_DIFF] = {
+                { 1, 235869 }, -- The Master's Cowl
+                { 2, 235882 }, -- Clattering Steps
+                { 3, 235890 }, -- Shadow Weaver's Needle
+                { 4, 235891 }, -- Ol' Reliable
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            name = AL["Opera of Malediction"],
+            [SOD_DIFF] = {
+                { 1, 235870 }, -- Rattlechain Helm
+                { 2, 235889 }, -- Servant's Quarterstaff
+                { 3, 235893 }, -- Shadowbound Grimoire
+                { 4, 235883 }, -- Well Diver's Stumble
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            name = AL["Kharon"],
+            [SOD_DIFF] = {
+                -- Cloth
+                { 1, 235874 }, -- Cultist's Handwraps
+                { 2, 235878 }, -- Malefic Belt
+                { 3, 235880 }, -- Pauper Soles
+                { 4, 236642 }, -- Mender's Handwraps
+
+                -- Leather
+                { 6, 235869 }, -- The Master's Cowl
+                { 7, 235872 }, -- Stalker's Bands
+                { 8, 235875 }, -- Gravedigger's Gloves
+                { 9, 235881 }, -- Dreaded Treaders
+                { 10, 236643 }, -- Nightwatcher's Gloves
+
+                { 12, 226404 }, -- Tarnished Undermine Real
+                { 13, 238681 }, -- Dust Bag
+                { 14, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+
+                -- Mail
+                { 16, 235876 }, -- Sinner's Handguards
+                { 17, 235870 }, -- Rattlechain Helm
+                { 18, 235879 }, -- Nimble Links
+                { 19, 235882 }, -- Clattering Steps
+                { 20, 236644 }, -- Mourner's Handguards
+
+                -- Plate
+                { 22, 235871 }, -- Clutching Death Helm
+                { 23, 235877 }, -- Fanatic's Gauntlets
+                { 24, 235873 }, -- Crypt's Keepers
+                { 25, 235883 }, -- Well Diver's Stumble
+                { 26, 236645 }, -- Lightwielder's Gauntlets
+
+                { 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+
+                -- Weapons
+                { 101, 235891 }, -- Ol' Reliable
+                { 102, 235892 }, -- Darkrider's Spine
+                { 103, 235888 }, -- Clobberclub
+                { 104, 235890 }, -- Shadow Weaver's Needle
+                { 105, 235894 }, -- Doomsayer's Demise
+                { 106, 235893 }, -- Shadowbound Grimoire
+                { 107, 235868 }, -- Bulwark of Ire
+                { 108, 235889 }, -- Servant's Quarterstaff
+
+                -- Jewelery
+                { 116, 235884 }, -- Spectral Signet
+                { 117, 235885 }, -- Ghastly Ring
+                { 118, 235886 }, -- Kaigy's Clasp
+                { 119, 235887 }, -- Barian's Choker
+            }
+        },
+        {
+            name = AL["Unk'omon "],
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["Alchemy"], nil },
+                { 2, 13492 }, -- Recipe: Purification Potion
+                { 3, 13488 }, -- Recipe: Transmute Life to Earth
+                { 4, 13486 }, -- Recipe: Transmute Undeath to Water
+                { 5, 13487 }, -- Recipe: Transmute Water to Undeath
+
+                { 7, "INV_Box_01", nil, AL["Alchemy"], nil },
+                { 8, 16220 }, -- Formula: Enchant Boots - Spirit
+                { 9, 16215 }, -- Formula: Enchant Boots - Greater Stamina
+                { 10, 16218 }, -- Formula: Enchant Bracer - Superior Spirit
+                { 11, 11226 }, -- Formula: Enchant Gloves - Riding Skill
+                { 12, 16251 }, -- Formula: Enchant Bracer - Superior Stamina
+                { 13, 11224 }, -- Formula: Enchant Shield - Frost Resistance
+                { 14, 16245 }, -- Formula: Enchant Boots - Greater Agility
+
+                { 16, "INV_Box_01", nil, AL["Leatherworking"], nil },
+                { 17, 15731 }, -- Pattern: Runic Leather Gauntlets
+                { 18, 15737 }, -- Pattern: Chimeric Boots
+                { 19, 15746 }, -- Pattern: Chimeric Leggings
+                { 20, 15765 }, -- Pattern: Runic Leather Pants
+                { 21, 15745 }, -- Pattern: Runic Leather Belt
+                { 22, 15757 }, -- Pattern: Wicked Leather Pants
+                { 23, 15755 }, -- Pattern: Chimeric Vest
+                { 24, 15743 }, -- Pattern: Heavy Scorpid Belt
+
+                { 26, 11938 }, -- Sack of Gems
+                -- Hidden items
+                { 0, 17962 }, -- Blue Sack of Gems
+                { 0, 17963 }, -- Green Sack of Gems
+                { 0, 17964 }, -- Gray Sack of Gems
+                { 0, 17965 }, -- Yellow Sack of Gems
+                { 0, 17969 }, -- Red Sack of Gems
+
+                {30, "INV_Box_01", nil, AL["Continued-->"], nil},
+
+                { 101, "INV_Box_01", nil, AL["Blacksmithing"], nil },
+                { 102, 228313 }, -- Plans: Tempest Gauntlets
+                { 103, 12684 }, -- Plans: Thorium Bracers
+                { 104, 12689 }, -- Plans: Radiant Breastplate
+                { 105, 12713 }, -- Plans: Radiant Leggings
+                { 106, 12683 }, -- Plans: Thorium Belt
+                { 107, 12691 }, -- Plans: Wildthorn Mail
+                { 108, 12682 }, -- Plans: Thorium Armor
+                { 109, 12693 }, -- Plans: Thorium Boots
+                { 110, 12692 }, -- Plans: Thorium Shield Spike
+                { 111, 12694 }, -- Plans: Thorium Helm
+                { 112, 12685 }, -- Plans: Radiant Belt
+                { 113, 12697 }, -- Plans: Radiant Boots
+                { 114, 12695 }, -- Plans: Radiant Gloves
+                { 115, 12704 }, -- Plans: Thorium Leggings
+                { 116, 7991 }, -- Plans: Mithril Scale Shoulders
+                { 117, 12711 }, -- Plans: Whitesoul Helm
+                { 118, 12728 }, -- Plans: Invulnerable Mail
+                { 119, 12702 }, -- Plans: Radiant Circlet
+                { 120, 7976 }, -- Plans: Mithril Shield Spike
+
+                { 122, "INV_Box_01", nil, AL["Engineering"], nil },
+                { 123, 16051 }, -- Schematic: Thorium Shells
+                { 124, 16043 }, -- Schematic: Thorium Rifle
+                { 125, 10605 }, -- Schematic: Spellpower Goggles Xtreme
+                { 126, 16055 }, -- Schematic: Arcane Bomb
+                { 127, 10608 }, -- Schematic: Sniper Scope
+
+                {130, "INV_Box_01", nil, AL["Continued-->"], nil},
+
+                { 201, "INV_Box_01", nil, AL["Tailoring"], nil },
+                { 202, 228317, }, -- Pattern: Incandescent Mooncloth Circlet
+                { 203, 228993, }, -- Pattern: Bottomless Bag
+                { 204, 14479, }, -- Pattern: Brightcloth Gloves
+                { 205, 14506, }, -- Pattern: Felcloth Robe
+                { 206, 14466, }, -- Pattern: Frostweave Tunic
+                { 207, 14494, }, -- Pattern: Brightcloth Pants
+                { 208, 14470, }, -- Pattern: Runecloth Tunic
+                { 209, 14508, }, -- Pattern: Felcloth Shoulders
+                { 210, 14474, }, -- Pattern: Frostweave Gloves
+                { 211, 14498, }, -- Pattern: Runecloth Headband
+                { 212, 14484, }, -- Pattern: Brightcloth Cloak
+                { 213, 14467, }, -- Pattern: Frostweave Robe
+                { 214, 14478, }, -- Pattern: Brightcloth Robe
+                { 215, 14504, }, -- Pattern: Runecloth Shoulders
+                { 216, 14492, }, -- Pattern: Felcloth Boots
+                { 217, 14489, }, -- Pattern: Frostweave Pants
+                { 218, 14496, }, -- Pattern: Felcloth Hood
+                { 219, 14499, }, -- Pattern: Mooncloth Bag
+                { 220, 14491, }, -- Pattern: Runecloth Pants
+                { 221, 228316, }, -- Pattern: Incandescent Mooncloth Vest
+                { 222, 14511, }, -- Pattern: Gloves of Spell Mastery
+                { 223, 228318, }, -- Pattern: Incandescent Mooncloth Leggings
+                { 224, 14507, }, -- Pattern: Mooncloth Shoulders
+            }
+        },
+        {
+            name = AL["Dark Rider"],
+            [SOD_DIFF] = {
+                { 1, 235868, }, -- Bulwark of Ire
+                { 2, 235871, }, -- Clutching Death Helm
+                { 3, 235872, }, -- Stalker's Bands
+                { 4, 235892, }, -- Darkrider's Spine
+
+                { 16, 226404 }, -- Tarnished Undermine Real
+                { 17, 238681 }, -- Dust Bag
+                { 18, "INV_Box_01", nil, AL["Scourge Invasion Sets"], nil },
+            }
+        },
+        {
+            -- MCTrashMobs
+            name = AL["Scourge Invasion Sets"],
+            ExtraList = true,
+            [SOD_DIFF] = {
+                -- Cloth
+                { 1,  236718 }, -- Robe of Undead Cleansing
+                { 2,  236716 }, -- Bracers of Undead Cleansing
+                { 3,  236717 }, -- Gloves of Undead Cleansing
+
+                { 5, 236721 }, -- Robe of Undead Purification
+                { 6, 236719 }, -- Bracers of Undead Purification
+                { 7, 236720 }, -- Gloves of Undead Purification
+
+                { 9, 236724 }, -- Robe of Undead Warding
+                { 10, 236722 }, -- Bracers of Undead Warding
+                { 11, 236723 }, -- Gloves of Undead Warding
+
+                -- Leather
+                { 13, 236707 }, -- Tunic of Undead Slaying
+                { 14, 236711 }, -- Wristwraps of Undead Slaying
+                { 15, 236713 }, -- Handwraps of Undead Slaying
+
+                { 16, 236730 }, -- Tunic of Undead Purification
+                { 17, 236728 }, -- Wristwraps of Undead Purification
+                { 18, 236729 }, -- Handwraps of Undead Purification
+
+                { 20, 236733 },  -- Tunic of Undead Warding
+                { 21, 236731 },  -- Wristwraps of Undead Warding
+                { 22, 236732 },  -- Handwraps of Undead Warding
+
+                { 24, 236727 }, -- Tunic of Undead Cleansing
+                { 25, 236725 }, -- Wristwraps of Undead Cleansing
+                { 26, 236726 }, -- Handwraps of Undead Cleansing
+
+                { 30, "INV_Box_01", nil, AL["Continued -->"], nil },
+
+                -- Mail
+                { 101, 236709 }, -- Chestguard of Undead Slaying
+                { 102, 236710 }, -- Wristguards of Undead Slaying
+                { 103, 236715 }, -- Handguards of Undead Slaying
+
+                { 105, 236736 }, -- Chestguard of Undead Cleansing
+                { 106, 236734 }, -- Wristguards of Undead Cleansing
+                { 107, 236735 }, -- Handguards of Undead Cleansing
+
+                { 109, 236739 }, -- Chestguard of Undead Warding
+                { 110, 236737 }, -- Wristguards of Undead Warding
+                { 111, 236738 }, -- Handguards of Undead Warding
+
+                { 113, 236742 }, -- Chestguard of Undead Purification
+                { 114, 236741 }, -- Handguards of Undead Purification
+                { 115, 236740 }, -- Wristguards of Undead Purification
+
+                -- Plate
+                { 116, 236708 }, -- Breastplate of Undead Slaying
+                { 117, 236712 }, -- Bracers of Undead Slaying
+                { 118, 236714 }, -- Gauntlets of Undead Slaying
+
+                { 120, 236748 }, -- Breastplate of Undead Warding
+                { 121, 236746 }, -- Bracers of Undead Warding
+                { 122, 236747 }, -- Gauntlets of Undead Warding
+
+                { 124, 236745 }, -- Breastplate of Undead Purification
+                { 125, 236743 }, -- Bracers of Undead Purification
+                { 126, 236744 }, -- Gauntlets of Undead Purification
+            },
+        },
+    },
+}
+
 -- ########################
 -- Raids
 -- ########################
@@ -8639,137 +9015,6 @@ data["Onyxia2"] = {
                 {0, 17969} -- Red Sack of Gems
             }
         }
-    }
-}
-
-data["DemonFallCanyon"] = {
-    MapID = 15475,
-    InstanceID = 15540,
-    ContentType = DUNGEON_CONTENT,
-    LevelRange = {60, 60, 60},
-    items = {
-        {
-            -- DFCGrimroot
-            name = AL["Grimroot"],
-            [SOD_DIFF] = {
-                {1, 228080}, -- Resin Loop
-                {2, 228081}, -- Germinating Poisonseed
-                {3, 228079}, -- Cloak of Leaves
-                {4, 228082}, -- Warsong Axe
-                {5, 228083}, -- Gloaming Treeheart
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        },
-        {
-            -- DFCDiathorus
-            name = AL["Diathorus The Seeker"],
-            [SOD_DIFF] = {
-                {1, 228106}, -- Shield of Life and Death
-                {2, 228107}, -- Fallen Huntress' Longbow
-                {3, 228094}, -- Dreadlord's Blade
-                {4, 228104}, -- Robes of Elune
-                {5, 228103}, -- Nathrezim's Greaves
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        },
-        {
-            -- DFCDestructor
-            name = AL["Destructor's Wraith"],
-            [SOD_DIFF] = {
-                {1, 228074}, -- Hands of Temptation
-                {2, 228075}, -- Spear of Destiny
-                {3, 228077}, -- Dreambough
-                {4, 228078}, -- Accursed Chalice
-                {5, 228076}, -- Burning Ring of Fire
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        },
-        {
-            -- DFCZilbagob
-            name = AL["Zilbagob"],
-            [SOD_DIFF] = {
-                {1, 228086}, -- Repurposed Shredderblade
-                {2, 228088}, -- Shredder Operator's Dogtags
-                {3, 228087}, -- Supercharged Silver Moebius
-                {4, 228084}, -- Miniaturized Fire Extinguisher
-                {5, 228085}, -- Phaseshifted Legion Band
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        },
-        {
-            -- DFCPyranis
-            name = AL["Pyranis"],
-            [SOD_DIFF] = {
-                {1, 228091}, -- Thorned Boots
-                {2, 228093}, -- Dark Heart of Darkness
-                {3, 228090}, -- Cenarion Ritual Dagger
-                {4, 228092}, -- Druidic Mantle
-                {5, 228089}, -- Woodcarved Moonstalker
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        },
-        {
-            -- DFCHellscream
-            name = AL["Hellscream's Phantom"],
-            [SOD_DIFF] = {
-                {1, 228112}, -- Nightmare Gown
-                {2, 228113}, -- Cold Embrace
-                {3, 228111}, -- Mask of the Godslayer
-                {4, 228109}, -- Legguards of Sacrifice
-                {5, 228108}, -- Shadow of Gorehowl
-                {7, 228410}, -- Dreadblade of the Destructor
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        },
-        {
-            -- DFCHellscream
-            name = AL["Azgaloth"],
-            [SOD_DIFF] = {
-                {1, 231911}, -- Signet of the Legion General
-                {2, 231910}, -- Heart of Azgaloth
-                {3, 231913}, -- Eye of the Observer
-                {4, 231460}, -- Planebreaker of Azgaloth
-                {5, 231912}, -- Blade of the Pit
-                {16, 226404} -- Tarnished Undermine Real
-            }
-        }
-    }
-}
-
-data["KarazhanCrypts"] = {
-    MapID = 16074,
-    InstanceID = 2875,
-    ContentType = DUNGEON_CONTENT,
-    LevelRange = {60, 60, 60},
-    items = {
-        {
-            name = AL["The Failed Apprentice"],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Creeping Malison"], -- Spider
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Harbinger of Sin"],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Opera of Malediction"],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Kharon"],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Unk'omon "],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
-        {
-            name = AL["Dark Rider"],
-            [SOD_DIFF] = KARA_CRYPTS_LOOT
-        },
     }
 }
 
