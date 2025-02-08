@@ -1,16 +1,12 @@
 # AtlasLootClassic
 
-[![Build Status](https://github.com/Hoizame/AtlasLootClassic/workflows/CI/badge.svg)](https://github.com/Hoizame/AtlasLootClassic/actions?workflow=CI)[![AtlasLootClassic Discord](https://img.shields.io/badge/discord-atlaslootclassic-7289DA)](https://discord.gg/vMUwzPc)
+[![Build Status](https://github.com/ThePettsoN/AtlasLootClassic_SoD/workflows/CI/badge.svg)](https://github.com/ThePettsoN/AtlasLootClassic_SoD/actions?workflow=Release)
 
 AtlasLootClassic is an UI mod allowing for loot tables of bosses to be browsed whenever needed within the game.
 
 ## Download
 
-[Curseforge](https://www.curseforge.com/wow/addons/atlaslootclassic)
-
-[WoWInterface](https://www.wowinterface.com/downloads/info25185-AtlasLootClassic.html)
-
-[WagoAddons](https://addons.wago.io/addons/atlaslootclassic)
+[Curseforge](https://www.curseforge.com/wow/addons/atlasloot-sod-phase-7)
 
 ## Features
 
