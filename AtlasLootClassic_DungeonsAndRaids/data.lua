@@ -4949,7 +4949,8 @@ data["UpperBlackrockSpire"] = {
                 {11, 12709}, -- Finkle's Skinner
                 {12, 12969}, -- Seeping Willow
                 {14, 24101}, -- Book of Ferocious Bite V
-                {15, 19227} -- Ace of Beasts
+                {15, 19227}, -- Ace of Beasts
+                {16, 226404}, -- Tarnished Undermine Real
             },
             [NORMAL_DIFF] = {
                 {1, 12731}, -- Pristine Hide of the Beast
