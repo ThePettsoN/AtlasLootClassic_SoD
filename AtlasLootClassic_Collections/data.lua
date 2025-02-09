@@ -467,6 +467,19 @@ data["SoD Currency"] = {
 			},
 		},
 		{
+			name = AL["Trade Goods"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["Phase 7"], nil },
+				{ 2, 237386 }, -- Wartorn Undermine Supply Crate
+				{ 3, 236414 }, -- Damaged Undermine Supply Crate Phase 7
+
+				{ 16, 17011 }, -- Lava Core 15
+				{ 17, 17010 }, -- Fiery Core 15
+				{ 18, 17012 }, -- Core Leather 10
+			},
+
+		},
+		{
 			name = AL["Recipes"],
 			[NORMAL_DIFF] = {
 				{ 1, 228121 }, -- Pattern: Leather-Reinforced Runecloth Bag 50
@@ -476,21 +489,6 @@ data["SoD Currency"] = {
 				{ 5, 13521 }, -- Recipe: Flask of Supreme Power 50
 				{ 6, 13522 }, -- Recipe: Flask of Chromatic Resistance 50
 			},
-		},
-		{
-			name = AL["Trade Goods"],
-			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, AL["Phase 7"], nil },
-				{ 2, 236414 }, -- Damaged Undermine Supply Crate Phase 7
-
-				{ 4, "INV_Box_01", nil, AL["Phase 4"], nil },
-				{ 5, 226405 }, -- Damaged Undermine Supply Crate Phase 4
-
-				{ 7, 17011 }, -- Lava Core 15
-				{ 8, 17010 }, -- Fiery Core 15
-				{ 9, 17012 }, -- Core Leather 10
-			},
-
 		},
 		{
 			name = AL["Toys"],

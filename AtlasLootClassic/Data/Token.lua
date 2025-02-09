@@ -326,6 +326,47 @@ TOKEN_DATA.CLASSIC = {
 	[221363] = { 220626,220627,220628,220629,220630, type = 3 },
 	[221346] = { 220626,220627,220628,220629,220630, type = 3 },
 
+	-- Wartorn Undermine Supply Crate
+	[237386] = {
+		{ 22375, "1-3" }, -- Wartorn Plate Scrap
+		{ 22376, "1-3" }, -- Wartorn Cloth Scrap
+		{ 22373, "1-3" }, -- Wartorn Leather Scrap
+		{ 22374, "1-3" }, -- Wartorn Chain Scrap
+		0,
+
+		{ 13466, "5-15", }, -- Plaguebloom
+		{ 13467, "5-15", }, -- Icecap
+		{ 13465, "5-15", }, -- Mountain Silversage
+		{ 8846, "5-14", }, -- Gromsblood
+		{ 13463, "6-15", }, -- Dreamfoil
+		13468, -- Black Lotus
+		0,
+
+		{ 11370, "3-10", }, -- Dark Iron Ore
+		{ 10620, "5-10", }, -- Thorium Ore
+		{ 15417, "3-8", }, -- Devilsaur Leather
+		{ 13422, "5-15", }, -- Stonescale Eel
+		{ 13755, "5-10", }, -- Winter Squid
+		{ 12820, "5-7", }, -- Winterfall Firewater
+		0,
+
+		12360, -- Arcanite Bar
+		{ 20520, "3-5", }, -- Dark Rune
+		11382, -- Blood of the Mountain
+		{ 16203, "3-5", }, -- Greater Eternal Essence
+		{ 14344, "2-6", }, -- Large Brilliant Shard
+		0,
+
+		7080, -- Essence of Water
+		7078, -- Essence of Fire
+		7082, -- Essence of Air
+		11736, -- Libram of Resilience
+		18332, -- Libram of Rapidity
+		11737, -- Libram of Voracity
+
+		type = 2,
+	},
+
 	--25
 	[211322] = { {20744, 2}, type = 9 },
 	[211321] = { {11287, 2}, type = 9 },
