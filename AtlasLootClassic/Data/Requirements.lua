@@ -2992,6 +2992,9 @@ ReqData_RAW.CLASSIC = {
 	[24101] = {32256},
 	[24102] = {31240},
 
+	-- Phase 1
+	[209823] = {4}, -- Signet of Beasts
+
 	[231707] = {400}, -- Draconian Bindings
 	[231708] = {400}, -- Draconian Belt
 	[231712] = {400}, -- Draconian Gloves
