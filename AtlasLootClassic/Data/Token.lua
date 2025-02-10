@@ -367,6 +367,81 @@ TOKEN_DATA.CLASSIC = {
 		type = 2,
 	},
 
+	-- Damaged Undermine Supply Crate
+	[236414] = {
+		20874, -- Idol of the Sun
+		20875, -- Idol of Night
+		20876, -- Idol of Death
+		20877, -- Idol of the Sage
+		20878, -- Idol of Rebirth
+		20879, -- Idol of Life
+		20881, -- Idol of Strife
+		20882, -- Idol of War
+		0,
+
+		{ 20866, "1-2" }, -- Azure Idol
+		{ 20867, "1-2" }, -- Onyx Idol
+		{ 20868, "1-2" }, -- Lambent Idol
+		{ 20869, "1-2" }, -- Amber Idol
+		{ 20870, "1-2" }, -- Jasper Idol
+		{ 20871, "1-2" }, -- Obsidian Idol
+		{ 20872, "1-2" }, -- Vermillion Idol
+		{ 20873, "1-2" }, -- Alabaster Idol
+		0,
+
+		{ 20858, "2-5" }, -- Stone Scarab
+		{ 20859, "2-5" }, -- Gold Scarab
+		{ 20860, "2-5" }, -- Silver Scarab
+		{ 20861, "2-5" }, -- Bronze Scarab
+		{ 20862, "2-5" }, -- Crystal Scarab
+		{ 20863, "2-5" }, -- Clay Scarab
+		{ 20864, "2-5" }, -- Bone Scarab
+		{ 20865, "2-5" }, -- Ivory Scarab
+		0,
+
+		{ 22203, "1-2" }, -- Large Obsidian Shard
+		{ 234007, "1-3" }, -- Spiked Silithid Chitin
+		{ 234006, "1-3" }, -- Monstrous Silithid Chitin
+		{ 234008, "2-5" }, -- Qiraji Silk
+		{ 234011, "1-2" }, -- Qiraji Stalker Venom
+		{ 22202, "2-4" }, -- Small Obsidian Shard
+		{ 234010, "1-2" }, -- Ancient Sandworm Bile
+		{ 234012, "2-4" }, -- Hive Thistle
+		0,
+
+		{ 13466, "5-15", }, -- Plaguebloom
+		{ 13467, "5-15", }, -- Icecap
+		{ 13465, "5-15", }, -- Mountain Silversage
+		{ 8846, "5-14", }, -- Gromsblood
+		{ 13463, "6-15", }, -- Dreamfoil
+		13468, -- Black Lotus
+		0,
+
+		{ 11370, "3-10", }, -- Dark Iron Ore
+		{ 10620, "5-10", }, -- Thorium Ore
+		{ 15417, "3-8", }, -- Devilsaur Leather
+		{ 13422, "5-15", }, -- Stonescale Eel
+		{ 13755, "5-10", }, -- Winter Squid
+		{ 12820, "5-7", }, -- Winterfall Firewater
+		0,
+
+		12360, -- Arcanite Bar
+		{ 20520, "3-5", }, -- Dark Rune
+		11382, -- Blood of the Mountain
+		{ 16203, "3-5", }, -- Greater Eternal Essence
+		{ 14344, "2-6", }, -- Large Brilliant Shard
+		0,
+
+		7080, -- Essence of Water
+		7078, -- Essence of Fire
+		7082, -- Essence of Air
+		11736, -- Libram of Resilience
+		18332, -- Libram of Rapidity
+		11737, -- Libram of Voracity
+
+		type = 2,
+	},
+
 	--25
 	[211322] = { {20744, 2}, type = 9 },
 	[211321] = { {11287, 2}, type = 9 },
