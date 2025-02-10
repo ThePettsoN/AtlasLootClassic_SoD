@@ -493,25 +493,41 @@ data["SoD Currency"] = {
 		{
 			name = AL["Toys"],
 			[NORMAL_DIFF] = {
-				{ 1, 215449 }, -- World Shrinker
-				{ 2, 223160 }, -- Bargain Bush
-				{ 3, 223161 }, -- Empty Supply Crate
-				{ 4, 215437 }, -- Trogg Transfigurator 3000
-				{ 5, 220635 }, -- Atal'alarion's Enchanted Boulder
-				{ 6, 221484 }, -- Witch Doctor's Hex Stick
-				{ 7, 220638 }, -- Unorthodox Hex Stick
-				{ 8, 216494 }, -- Aragriar's Whimsical World Warper
-				{ 9, 216608 }, -- Radiant Ray Reflectors
-				{ 10, 220639 }, -- Lledra's Inanimator
-				{ 11, 220619 }, -- Atal'ai Blood Ceremony
-				{ 16, 234144 }, -- Censer of the False Prophet
-				{ 17, 234447 }, -- Bubbles' Rod of Transformation
-				{ 18, 234467 }, -- Bubbles' Rod of Dragons
-				{ 19, 234464 }, -- Bubbles' Rod of Bubbles
-				{ 20, 234142 }, -- Bottomless Noggenfogger Elixir
-				{ 21, 234143 }, -- Globe of Deception
-				{ 22, 228189 }, -- Gift of Gob 25
-				{ 23, 231996 }, -- Supercharged Gobmogrifier
+				-- Phase 7
+				{ 1, "INV_Box_01", nil, AL["Phase 7"], nil },
+				{ 2, 236657 }, -- Bubbles' Rotting Branch
+				{ 3, 236658 }, -- Bubbles' Spine Trophy
+				{ 4, 236660 }, -- Bubbles' Troll Tusk
+				{ 5, 236661 }, -- Bubbles' Ribcage of Ribaldy
+
+				-- Phase 6
+				{ 7, "INV_Box_01", nil, AL["Phase 6"], nil },
+				{ 8, 234143 }, -- Globe of Deception
+				{ 9, 234144 }, -- Censer of the False Prophet
+				{ 10, 234447 }, -- Bubbles' Rod of Transformation
+				{ 11, 234467 }, -- Bubbles' Rod of Dragons
+				{ 12, 234464 }, -- Bubbles' Rod of Bubbles
+				{ 13, 234142 }, -- Bottomless Noggenfogger Elixir
+
+				{ 16, "INV_Box_01", nil, AL["Phase 5-2"], nil },
+				-- Phase 5
+				{ 17, 231996 }, -- Supercharged Gobmogrifier
+				-- Phase 4
+				{ 18, 228189 }, -- Gift of Gob 25
+				-- Phase 3
+				{ 19, 220619 }, -- Atal'ai Blood Ceremony
+				{ 20, 220635 }, -- Atal'alarion's Enchanted Boulder
+				{ 21, 220638 }, -- Unorthodox Hex Stick
+				{ 22, 220639 }, -- Lledra's Inanimator
+				{ 23, 221484 }, -- Witch Doctor's Hex Stick
+				{ 24, 223160 }, -- Bargain Bush
+				{ 25, 223161 }, -- Empty Supply Crate
+				-- Phase 2
+				{ 26, 215437 }, -- Trogg Transfigurator 3000
+				{ 27, 215449 }, -- World Shrinker
+				{ 28, 216494 }, -- Aragriar's Whimsical World Warper
+				{ 29, 216608 }, -- Radiant Ray Reflectors
+
 			},
 		},
 		{
