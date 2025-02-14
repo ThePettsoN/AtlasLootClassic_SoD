@@ -2995,6 +2995,9 @@ ReqData_RAW.CLASSIC = {
 	-- Phase 7
 	[237041] = {4}, -- Tome of Enchanted Flare
 
+	-- Phase 1
+	[209823] = {4}, -- Signet of Beasts
+
 	[231707] = {400}, -- Draconian Bindings
 	[231708] = {400}, -- Draconian Belt
 	[231712] = {400}, -- Draconian Gloves
