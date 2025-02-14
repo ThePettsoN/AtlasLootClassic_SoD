@@ -5484,7 +5484,9 @@ data["DireMaulWest"] = {
             [SOD_DIFF] = {
                 {1, 238364}, -- Cloak of Revanchion
                 {2, 238362}, -- Bracers of Mending
-                {3, 238363} -- The Shadow's Grasp
+                {3, 238363}, -- The Shadow's Grasp
+
+                {16, 226404}, -- Tarnished Undermine Real
             },
             [NORMAL_DIFF] = {
                 {1, 23127}, -- Cloak of Revanchion
@@ -5916,7 +5918,9 @@ data["Scholomance"] = {
                 {8, 228004}, -- Windreaver Greaves
                 {9, 228005}, -- Clutch of Andros
                 {10, 228029}, -- Gravestone War Axe
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16734}, -- Boots of Valor
@@ -5947,7 +5951,9 @@ data["Scholomance"] = {
                 {8, 227997}, -- Barovian Family Sword
                 {9, 22394}, -- Staff of Metanoia
                 {12, 13523}, -- Blood of Innocents
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16701}, -- Dreadmist Mantle
@@ -5979,7 +5985,9 @@ data["Scholomance"] = {
                 {8, 227994}, -- Frightskull Shaft
                 {10, 18782}, -- Top Half of Advanced Armorsmithing: Volume II
                 {12, 13873}, -- Viewing Room Key
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16711}, -- Shadowcraft Boots
@@ -6025,7 +6033,9 @@ data["Scholomance"] = {
             [SOD_DIFF] = {
                 {1, 227992}, -- Death Knight Sabatons
                 {2, 227993}, -- Ebon Hilt of Marduk
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18692}, -- Death Knight Sabatons
@@ -6043,7 +6053,9 @@ data["Scholomance"] = {
             [SOD_DIFF] = {
                 {1, 228017}, -- Skullsmoke Pants
                 {2, 18691}, -- Dark Advisor's Pendant
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18691}, -- Dark Advisor's Pendant
@@ -6073,7 +6085,9 @@ data["Scholomance"] = {
                 {13, 13952}, -- Iceblade Hacker
                 {14, 14487}, -- Bonechill Hammer
                 {15, 13521}, -- Recipe: Flask of Supreme Power
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 13314}, -- Alanna's Embrace
@@ -6125,7 +6139,9 @@ data["Scholomance"] = {
                 {23, 226704}, -- Shadowcraft Bracers
                 {24, 23201}, -- Libram of Divinity
                 {25, 23200}, -- Totem of Sustaining
-                {27, 226404} -- Tarnished Undermine Real
+
+                {27, 226404}, -- Tarnished Undermine Real
+                {28, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18680}, -- Ancient Bone Bow
@@ -6187,7 +6203,9 @@ data["Scholomance"] = {
                 {23, 23201}, -- Libram of Divinity
                 {24, 23200}, -- Totem of Sustaining
                 {25, 14617}, -- Sawbones Shirt
-                {27, 226404} -- Tarnished Undermine Real
+
+                {27, 226404}, -- Tarnished Undermine Real
+                {28, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18680}, -- Ancient Bone Bow
@@ -6248,7 +6266,9 @@ data["Scholomance"] = {
                 {22, 18683}, -- Hammer of the Vesper
                 {23, 18682}, -- Ghoul Skin Leggings
                 {24, 18681}, -- Burial Shawl
-                {26, 226404} -- Tarnished Undermine Real
+
+                {26, 226404}, -- Tarnished Undermine Real
+                {27, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18680}, -- Ancient Bone Bow
@@ -6302,18 +6322,19 @@ data["Scholomance"] = {
                 {15, 228008}, -- Deathbone Legguards
                 {16, 227999}, -- Deathbone Sabatons
                 {17, 228016}, -- Dimly Opalescent Ring
-                {19, 226712}, -- Wildheart Belt
-                {20, 14637}, -- Cadaverous Armor
-                {21, 14640}, -- Cadaverous Gloves
-                {22, 14636}, -- Cadaverous Belt
-                {23, 14638}, -- Cadaverous Leggings
-                {24, 14641}, -- Cadaverous Walkers
-                {25, 23201}, -- Libram of Divinity
-                {26, 23200}, -- Totem of Sustaining
-                {27, 18683}, -- Hammer of the Vesper
-                {28, 18682}, -- Ghoul Skin Leggings
-                {29, 18681}, -- Burial Shawl
-                {30, 226404} -- Tarnished Undermine Real
+                {18, 226712}, -- Wildheart Belt
+                {19, 14637}, -- Cadaverous Armor
+                {20, 14640}, -- Cadaverous Gloves
+                {21, 14636}, -- Cadaverous Belt
+                {22, 14638}, -- Cadaverous Leggings
+                {23, 14641}, -- Cadaverous Walkers
+                {24, 23201}, -- Libram of Divinity
+                {25, 23200}, -- Totem of Sustaining
+                {26, 18683}, -- Hammer of the Vesper
+                {27, 18682}, -- Ghoul Skin Leggings
+                {28, 18681}, -- Burial Shawl
+                {29, 226404}, -- Tarnished Undermine Real
+                {30, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18680}, -- Ancient Bone Bow
@@ -6372,18 +6393,19 @@ data["Scholomance"] = {
                 {15, 228008}, -- Deathbone Legguards
                 {16, 227999}, -- Deathbone Sabatons
                 {17, 228016}, -- Dimly Opalescent Ring
-                {19, 226739}, -- Lightforge Bracers
-                {20, 14637}, -- Cadaverous Armor
-                {21, 14640}, -- Cadaverous Gloves
-                {22, 14636}, -- Cadaverous Belt
-                {23, 14638}, -- Cadaverous Leggings
-                {24, 14641}, -- Cadaverous Walkers
-                {25, 23201}, -- Libram of Divinity
-                {26, 23200}, -- Totem of Sustaining
-                {27, 18683}, -- Hammer of the Vesper
-                {28, 18682}, -- Ghoul Skin Leggings
-                {29, 18681}, -- Burial Shawl
-                {30, 226404} -- Tarnished Undermine Real
+                {18, 226739}, -- Lightforge Bracers
+                {19, 14637}, -- Cadaverous Armor
+                {20, 14640}, -- Cadaverous Gloves
+                {21, 14636}, -- Cadaverous Belt
+                {22, 14638}, -- Cadaverous Leggings
+                {23, 14641}, -- Cadaverous Walkers
+                {24, 23201}, -- Libram of Divinity
+                {25, 23200}, -- Totem of Sustaining
+                {26, 18683}, -- Hammer of the Vesper
+                {27, 18682}, -- Ghoul Skin Leggings
+                {28, 18681}, -- Burial Shawl
+                {29, 226404}, -- Tarnished Undermine Real
+                {30, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18680}, -- Ancient Bone Bow
@@ -6452,7 +6474,8 @@ data["Scholomance"] = {
                 {25, 18683}, -- Hammer of the Vesper
                 {26, 18682}, -- Ghoul Skin Leggings
                 {27, 18681}, -- Burial Shawl
-                {29, 226404} -- Tarnished Undermine Real
+                {29, 226404}, -- Tarnished Undermine Real
+                {30, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18680}, -- Ancient Bone Bow
@@ -6514,7 +6537,9 @@ data["Scholomance"] = {
                 {19, 19276}, -- Ace of Portals
                 {20, 13501}, -- Recipe: Major Mana Potion
                 {21, 14514}, -- Pattern: Robe of the Void
-                {23, 226404} -- Tarnished Undermine Real
+
+                {23, 226404}, -- Tarnished Undermine Real
+                {24, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 13964}, -- Witchblade
@@ -6609,7 +6634,10 @@ data["Scholomance"] = {
             [SOD_DIFF] = {
                 {1, 238361}, -- Lord Blackwood's Blade
                 {2, 238358}, -- Blackwood's Thigh
-                {3, 238360} -- Lord Blackwood's Buckler
+                {3, 238360}, -- Lord Blackwood's Buckler
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 23132}, -- Lord Blackwood's Blade
@@ -6760,7 +6788,9 @@ data["Stratholme"] = {
                 {4, 13405}, -- Wailing Nightbane Pauldrons
                 {5, 13409}, -- Tearfall Bracers
                 {6, 13408}, -- Soul Breaker
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16717}, -- Wildheart Gloves
@@ -6987,7 +7017,9 @@ data["Stratholme"] = {
                 {5, 23198}, -- Idol of Brutality
                 {6, 228516}, -- Peacemaker
                 {8, 12382}, -- Key to the City
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 18727}, -- Crimson Felt Hat
@@ -7040,7 +7072,9 @@ data["Stratholme"] = {
                 {10, 13537}, -- Chillhide Bracers
                 {11, 13539}, -- Banshee's Touch
                 {12, 13514}, -- Wail of the Banshee
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16704}, -- Dreadmist Sandals
@@ -7099,7 +7133,9 @@ data["Stratholme"] = {
                 {10, 13531}, -- Crypt Stalker Leggings
                 {11, 13530}, -- Fangdrip Runners
                 {12, 13508}, -- Eye of Arachnida
-                {16, 226404} -- Tarnished Undermine Re
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16675}, -- Beaststalker's Boots
@@ -7135,7 +7171,9 @@ data["Stratholme"] = {
                 {11, 13527}, -- Lavawalker Greaves
                 {12, 13509}, -- Clutch of Foresight
                 {14, 12833}, -- Plans: Hammer of the Titans
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16691}, -- Devout Sandals
@@ -7168,7 +7206,9 @@ data["Stratholme"] = {
                 {6, 13515}, -- Ramstein's Lightning Bolts
                 {7, 13375}, -- Crest of Retribution
                 {8, 13372}, -- Slavedriver's Cane
-                {16, 226404} -- Tarnished Undermine Real
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 16737}, -- Gauntlets of Valor
@@ -7204,16 +7244,19 @@ data["Stratholme"] = {
                 {13, 13349}, -- Scepter of the Unholy
                 {14, 13368}, -- Bonescraper
                 {15, 228542}, -- Skullforge Reaver
+
                 {16, 226404}, -- Tarnished Undermine Real
-                {18, 226747}, -- Devout Skirt
-                {19, 226727}, -- Magister's Leggings
-                {20, 226760}, -- Dreadmist Leggings
-                {21, 226705}, -- Shadowcraft Pants
-                {22, 226709}, -- Wildheart Kilt
-                {23, 226719}, -- Beaststalker's Pants
-                {24, 226750}, -- Kilt of Elements
-                {25, 226736}, -- Lightforge Legplates
-                {26, 226767} -- Legplates of Valor
+                {17, 236397}, -- Remnants of Valor
+
+                {19, 226747}, -- Devout Skirt
+                {20, 226727}, -- Magister's Leggings
+                {21, 226760}, -- Dreadmist Leggings
+                {22, 226705}, -- Shadowcraft Pants
+                {23, 226709}, -- Wildheart Kilt
+                {24, 226719}, -- Beaststalker's Pants
+                {25, 226750}, -- Kilt of Elements
+                {26, 226736}, -- Lightforge Legplates
+                {27, 226767} -- Legplates of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 13335}, -- Deathcharger's Reins
@@ -7347,7 +7390,10 @@ data["Stratholme"] = {
             [SOD_DIFF] = {
                 {1, 238356}, -- Waistband of Balzaphon
                 {2, 238355}, -- Chains of the Lich
-                {3, 238357} -- Staff of Balzaphon
+                {3, 238357}, -- Staff of Balzaphon
+
+                {16, 226404}, -- Tarnished Undermine Real
+                {17, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 23126}, -- Waistband of Balzaphon
