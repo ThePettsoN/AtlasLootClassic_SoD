@@ -11641,6 +11641,12 @@ data["Naxxramas"] = {
 
                 {16, 236397}, -- Remnants of Valor
                 {17, 237381}, -- Desecrated Ring
+
+				{ 19, "INV_Box_01", nil, AL["Mythic"], nil },
+				{ 20, 236662 }, -- Reins of War
+				{ 21, 236663 }, -- Reins of Conquest
+				{ 22, 236664 }, -- Reins of Death
+				{ 23, 236665 }, -- Reins of Famine
             },
             [NORMAL_DIFF] = {
                 {1, 23057}, -- Gem of Trapped Innocents
