@@ -11402,7 +11402,7 @@ data["Naxxramas"] = {
                 {10, 236320}, -- Warmth of Forgiveness
                 {11, 236322}, -- Soulstring
                 {12, 236321}, -- Maul of the Redeemed Crusader
-                {13, 236317}, -- Corrupted Ashbringer
+                -- {13, 236317}, -- Corrupted Ashbringer
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
