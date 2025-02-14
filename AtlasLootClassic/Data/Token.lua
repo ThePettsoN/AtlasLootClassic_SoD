@@ -326,13 +326,6 @@ TOKEN_DATA.CLASSIC = {
 	[221363] = { 220626,220627,220628,220629,220630, type = 3 },
 	[221346] = { 220626,220627,220628,220629,220630, type = 3 },
 
-
-	-- Phase 7
-	[238681] = { -- Dusty Bag
-		22484, -- Necrotic Rune
-		type = 2,
-	},
-
 	-- Wartorn Undermine Supply Crate
 	[237386] = {
 		{ 22375, "1-3" }, -- Wartorn Plate Scrap
