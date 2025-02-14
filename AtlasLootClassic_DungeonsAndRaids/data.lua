@@ -7842,6 +7842,14 @@ data["KarazhanCrypts"] = {
                 { 126, 236744 }, -- Gauntlets of Undead Purification
             },
         },
+        {
+            -- Trash
+            name = AL["Trash"],
+            ExtraList = true,
+            [SOD_DIFF] = {
+                {1, 237041}, -- Tome of Enchanted Flare
+            }
+        },
     },
 }
 
@@ -11113,7 +11121,8 @@ data["Naxxramas"] = {
                 {9, 236258}, -- Cryptfiend Silk Cloak
                 {10, 236255}, -- Wristguards of Vengeance
                 {11, 236259}, -- Band of Unanswered Prayers
-                {12, 236257} -- Gem of Nerubis
+                {12, 236257}, -- Gem of Nerubis
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11146,7 +11155,8 @@ data["Naxxramas"] = {
                 {9, 236262}, -- Polar Shoulder Pads
                 {10, 236260}, -- Icebane Pauldrons
                 {11, 236264}, -- The Widow's Embrace
-                {12, 236263} -- Widow's Remorse
+                {12, 236263}, -- Widow's Remorse
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11179,7 +11189,8 @@ data["Naxxramas"] = {
                 {9, 236267}, -- Crystal Webbed Robe
                 {10, 236268}, -- Kiss of the Spider
                 {11, 236265}, -- Wraith Blade
-                {12, 236269} -- Maexxna's Fang
+                {12, 236269}, -- Maexxna's Fang
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11215,7 +11226,8 @@ data["Naxxramas"] = {
                 {11, 236275}, -- Noth's Frigid Heart
                 {12, 236271}, -- Libram of Light
                 {13, 236276}, -- Totem of Flowing Water
-                {14, 236270} -- Hatchet of Sundered Bone
+                {14, 236270}, -- Hatchet of Sundered Bone
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11250,7 +11262,8 @@ data["Naxxramas"] = {
                 {9, 236281}, -- Icy Scale Coif
                 {10, 237275}, -- Icebane Helmet
                 {11, 236277}, -- Necklace of Necropsy
-                {12, 236280} -- Legplates of Carnage
+                {12, 236280}, -- Legplates of Carnage
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11283,7 +11296,8 @@ data["Naxxramas"] = {
                 {9, 236283}, -- Ring of Spiritual Fervor
                 {10, 236282}, -- Loatheb's Reflection
                 {11, 236285}, -- The Eye of Nerub
-                {12, 236284} -- Brimstone Staff
+                {12, 236284}, -- Brimstone Staff
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11318,7 +11332,8 @@ data["Naxxramas"] = {
                 {10, 236311}, -- Signet of the Fallen Defender
                 {11, 236308}, -- Idol of Longevity
                 {12, 236310}, -- Wand of the Whispering Dead
-                {13, 236312} -- Iblis, Blade of the Fallen Seraph
+                {13, 236312}, -- Iblis, Blade of the Fallen Seraph
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11352,7 +11367,8 @@ data["Naxxramas"] = {
                 {9, 236315}, -- Polar Helmet
                 {10, 236316}, -- Sadist's Collar
                 {11, 236313}, -- The Soul Harvester's Bindings
-                {12, 236314} -- Boots of Displacement
+                {12, 236314}, -- Boots of Displacement
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11386,7 +11402,8 @@ data["Naxxramas"] = {
                 {10, 236320}, -- Warmth of Forgiveness
                 {11, 236322}, -- Soulstring
                 {12, 236321}, -- Maul of the Redeemed Crusader
-                {13, 236317} -- Corrupted Ashbringer
+                {13, 236317}, -- Corrupted Ashbringer
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11420,7 +11437,8 @@ data["Naxxramas"] = {
                 {9, 236291}, -- Band of Reanimation
                 {10, 236290}, -- Wand of Fates
                 {11, 236288}, -- The Plague Bearer
-                {12, 236287} -- Severance
+                {12, 236287}, -- Severance
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11452,7 +11470,8 @@ data["Naxxramas"] = {
                 {9, 236294}, -- Icy Scale Spaulders
                 {10, 236293}, -- Toxin Injector
                 {11, 236292}, -- Midnight Haze
-                {12, 236297} -- The End of Dreams
+                {12, 236297}, -- The End of Dreams
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11482,18 +11501,21 @@ data["Naxxramas"] = {
                 {6, 236301}, -- Digested Hand of Power
                 {7, 236296}, -- Death's Bargain
                 {8, 236299}, -- Claymore of Unholy Might
-                {16, 236240}, -- Desecrated Shoulderpads
-                {17, 236245}, -- Desecrated Bindings
-                {18, 236244}, -- Desecrated Belt
-                {19, 236239}, -- Desecrated Sandals
-                {20, 236254}, -- Desecrated Spaulders
-                {21, 236247}, -- Desecrated Wristguards
-                {22, 236252}, -- Desecrated Girdle
-                {23, 236248}, -- Desecrated Boots
-                {24, 236237}, -- Desecrated Pauldrons
-                {25, 236235}, -- Desecrated Bracers
-                {26, 236232}, -- Desecrated Waistguard
-                {27, 236234} -- Desecrated Sabatons
+
+                {16, 236397}, -- Remnants of Valor
+
+                {18, 236240}, -- Desecrated Shoulderpads
+                {19, 236245}, -- Desecrated Bindings
+                {20, 236244}, -- Desecrated Belt
+                {21, 236239}, -- Desecrated Sandals
+                {22, 236254}, -- Desecrated Spaulders
+                {23, 236247}, -- Desecrated Wristguards
+                {24, 236252}, -- Desecrated Girdle
+                {25, 236248}, -- Desecrated Boots
+                {26, 236237}, -- Desecrated Pauldrons
+                {27, 236235}, -- Desecrated Bracers
+                {28, 236232}, -- Desecrated Waistguard
+                {29, 236234} -- Desecrated Sabatons
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11534,7 +11556,8 @@ data["Naxxramas"] = {
                 {9, 236303}, -- Leggings of Polarity
                 {10, 236302}, -- Eye of Diminution
                 {11, 236306}, -- The Castigator
-                {12, 236305} -- Spire of Twilight
+                {12, 236305}, -- Spire of Twilight
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11569,10 +11592,13 @@ data["Naxxramas"] = {
                 {8, 236330}, -- Sapphiron's Right Eye
                 {9, 236336}, -- The Face of Death
                 {10, 236338}, -- Claw of the Frost Wyrm
-                {16, 236325}, -- Fortitude of the Scourge
-                {17, 236326}, -- Might of the Scourge
-                {18, 236324}, -- Power of the Scourge
-                {19, 236323} -- Resilience of the Scourge
+
+                {16, 236397}, -- Remnants of Valor
+
+                {18, 236325}, -- Fortitude of the Scourge
+                {19, 236326}, -- Might of the Scourge
+                {20, 236324}, -- Power of the Scourge
+                {11, 236323}, -- Resilience of the Scourge
             },
             [NORMAL_DIFF] = {
                 {1, 23050}, -- Cloak of the Necropolis
@@ -11613,7 +11639,8 @@ data["Naxxramas"] = {
                 {11, 236346}, -- Soulseeker
                 {13, 236350}, -- The Phylactery of Kel'Thuzad
 
-                {16, 237381}, -- Desecrated Ring
+                {16, 236397}, -- Remnants of Valor
+                {17, 237381}, -- Desecrated Ring
             },
             [NORMAL_DIFF] = {
                 {1, 23057}, -- Gem of Trapped Innocents

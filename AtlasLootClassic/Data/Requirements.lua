@@ -2992,6 +2992,9 @@ ReqData_RAW.CLASSIC = {
 	[24101] = {32256},
 	[24102] = {31240},
 
+	-- Phase 7
+	[237041] = {4}, -- Tome of Enchanted Flare
+
 	-- Phase 1
 	[209823] = {4}, -- Signet of Beasts
 
