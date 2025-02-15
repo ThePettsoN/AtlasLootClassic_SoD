@@ -4,6 +4,13 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 [Changelog history](https://github.com/ThePettsoN/AtlasLootClassic_SoD/releases)
 
+## v1.1.5 SoD (2025-02-14)
+- Added a few missing class requirements for SoD unique items
+- Added the Dust Bag to Karazhan Crypt's loot table
+- Updated the toy section for the Tarnished Undermine Real vendor
+- Added Remnants of Valors to Strat & Scholo bosses
+- Updated Kel'Thuzad's loot table with the new mounts for mythic difficulty
+
 ## v1.1.4 SoD (2025-02-10)
 - Updated Kel'Thuzad's loot table
 - Added missing Tarnished Undermine Real to the Beast in UBRS
