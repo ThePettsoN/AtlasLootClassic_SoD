@@ -47,7 +47,7 @@ data["Alchemy"] = {
 	CorrespondingFields = private.ALCHEMY_LINK,
 	items = {
 		{
-			name = AL["SoD Phase 1-6"],
+			name = AL["SoD Phase 1-8"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["Phase 1"], nil },
 				{ 2, 426607 }, --Elixir of Coalesced Regret
@@ -68,6 +68,9 @@ data["Alchemy"] = {
 				{ 22, 1213552 }, -- Flask of Madness
 				{ 23, 1213548 }, -- Flask of the Old Gods
 				{ 24, 1213544 }, -- Flask of Unyielding Sorrow
+
+				{ 26, "INV_Box_01", nil, AL["Phase 8"], nil },
+				{ 27, 1231583 }, -- Recipe: Major Discolored Healing Potion
 			},
 		},
 		{
@@ -238,6 +241,22 @@ data["Blacksmithing"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.BLACKSMITHING_LINK,
 	items = {
+		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1224639 }, -- Plans: Scarlet Soldier's Stompers
+				{ 3, 1224632 }, -- Plans: Scarlet Soldier's Spaulders
+				{ 4, 1224631 }, -- Plans: Scarlet Soldier's Helmet
+				{ 5, 1224638 }, -- Plans: Scarlet Soldier's Legplates
+				{ 6, 1224635 }, -- Plans: Scarlet Soldier's Protectors
+				{ 7, 1224636 }, -- Plans: Scarlet Soldier's Grips
+				{ 8, 1224637 }, -- Plans: Scarlet Soldier's Waistguard
+				{ 9, 1224633 }, -- Plans: Scarlet Soldier's Chestplate
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
 		{
 			name = AL["SoD Phase 7"],
 			[NORMAL_DIFF] = {
@@ -700,6 +719,18 @@ data["Enchanting"] = {
 	CorrespondingFields = private.ENCHANTING_LINK,
 	items = {
 		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1231128 }, -- Formula: Enchant Weapon - Grand Crusader
+				{ 3, 1231139 }, -- Formula: Enchant 2H Weapon - Grand Arcanist
+				{ 4, 1231164 }, -- Formula: Enchant Weapon - Grand Sorcerer
+				{ 5, 1232172 }, -- Formula: Enchant 2H Weapon - Grand Inquisitor
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
+		{
 			name = AL["SoD Phase 7"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
@@ -984,6 +1015,20 @@ data["Engineering"] = {
 	CorrespondingFields = private.ENGINEERING_LINK,
 	items = {
 		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1228088 }, -- Schematic: Pop-Up Shrub
+				{ 3, 1226209 }, -- Schematic: Tinkerbox: Magnetic Displacement
+				{ 4, 1226208 }, -- Schematic: Tinkerbox: Nitro Boosts
+				{ 5, 1226207 }, -- Schematic: Tinkerbox: Teleport
+				{ 6, 1226206 }, -- Schematic: Tinkerbox
+				{ 7, 1226213 }, -- Schematic: Semisafe Transporter: New Avalon
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
+		{
 			name = AL["SoD Phase 7"],
 			[NORMAL_DIFF] = {
 				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
@@ -1247,6 +1292,24 @@ data["Tailoring"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.TAILORING_LINK,
 	items = {
+		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1227724, }, -- Pattern: Crimson Dawnwoven Bag
+				{ 3, 1227723, }, -- Pattern: Crusader's Knapsack
+				{ 4, 1224610, }, -- Pattern: Scarlet Augur's Cuffs
+				{ 5, 1224607, }, -- Pattern: Scarlet Augur's Hood
+				{ 6, 1224613, }, -- Pattern: Scarlet Augur's Leggings
+				{ 7, 1224608, }, -- Pattern: Scarlet Augur's Mantle
+				{ 8, 1224611, }, -- Pattern: Scarlet Augur's Mitts
+				{ 9, 1224614, }, -- Pattern: Scarlet Augur's Soles
+				{ 10, 1224612, }, -- Pattern: Scarlet Augur's Strap
+				{ 11, 1224609, }, -- Pattern: Scarlet Augur's Vestaments
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
 		{
 			name = AL["SoD Phase 7"],
 			[NORMAL_DIFF] = {
@@ -1619,6 +1682,32 @@ data["Leatherworking"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.LEATHERWORKING_LINK,
 	items = {
+		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{2, 1226689 }, -- Pattern: Scarlet Quiver
+				{3, 1226690 }, -- Pattern: Scarlet Ammo Pouch
+				{4, 1224615 }, -- Pattern: Scarlet Infiltrator's Bandana
+				{5, 1224616 }, -- Pattern: Scarlet Infiltrator's Shoulderpads
+				{6, 1224619 }, -- Pattern: Scarlet Infiltrator's Gloves
+				{7, 1224621 }, -- Pattern: Scarlet Infiltrator's Trousers
+				{8, 1224617 }, -- Pattern: Scarlet Infiltrator's Vest
+				{9, 1224618 }, -- Pattern: Scarlet Infiltrator's Bracers
+				{10, 1224622 }, -- Pattern: Scarlet Infiltrator's Shoes
+				{11, 1224620 }, -- Pattern: Scarlet Infiltrator's Belt
+				{12, 1224623 }, -- Pattern: Scarlet Huntsman's Coif
+				{13, 1224626 }, -- Pattern: Scarlet Huntsman's Wristguards
+				{14, 1224624 }, -- Pattern: Scarlet Huntsman's Pauldrons
+				{15, 1224629 }, -- Pattern: Scarlet Huntsman's Legguards
+				{16, 1224628 }, -- Pattern: Scarlet Huntsman's Clasp
+				{17, 1224625 }, -- Pattern: Scarlet Huntsman's Chain
+				{18, 1224630 }, -- Pattern: Scarlet Huntsman's Boots
+				{19, 1224627 }, -- Pattern: Scarlet Huntsman's Handguards
+
+				{ 21, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
 		{
 			name = AL["SoD Phase 7"],
 			[NORMAL_DIFF] = {
@@ -2127,6 +2216,19 @@ data["Cooking"] = {
 	TableType = PROF_ITTYPE,
 	CorrespondingFields = private.COOKING_LINK,
 	items = {
+		{
+			name = AL["SoD Phase 8"],
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["New Items"], nil },
+				{ 2, 1225759, }, -- Recipe: Filet o' Flank
+				{ 3, 1225758, }, -- Recipe: Prowler Steak
+				{ 4, 1225760, }, -- Recipe: Sunrise Omelette
+				{ 5, 1225763, }, -- Recipe: Grand Lobster Banquet
+				{ 6, 1225762, }, -- Recipe: Specklefin Feast
+
+				{ 16, "INV_Box_01", nil, AL["Updated for SoD"], nil },
+			}
+		},
 		{
 			name = AL["SoD Phase 1-6"],
 			[NORMAL_DIFF] = {
