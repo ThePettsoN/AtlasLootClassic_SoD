@@ -77,6 +77,58 @@ data["SoD Collections"] = {
 	TableType = SET_ITTYPE,
 	items = {
 		{
+			name = AL["Level 60 Tier 4"],
+			[NORMAL_DIFF] = {
+				-- Druid
+				{ 1, 1945 },
+				{ 2, 1946 },
+				{ 3, 1947 },
+				{ 4, 1948 },
+
+				-- Hunter
+				{ 6, 1936 },
+				{ 7, 1937 },
+
+				-- Mage
+				{ 9,  1943 },
+				{ 10, 1944 },
+
+				-- Shaman
+				{ 12, 1952 },
+				{ 13, 1950 },
+				{ 14, 1951 },
+				{ 15, 1949 },
+
+				-- Paladin
+				{ 16, 1940 },
+				{ 17, 1941 },
+				{ 18, 1942 },
+
+				-- Priest
+				{ 20, 1938 },
+				{ 21, 1939 },
+
+				-- Rogue
+				{ 23, 1934 },
+				{ 24, 1935 },
+
+				-- Warlock
+				{ 26, 1953 },
+				{ 27, 1954 },
+
+				-- Warrior
+				{ 29, 1932 },
+				{ 30, 1933 },
+			},
+		},
+		{
+			name = AL["Phase 8 Non-Tier sets"],
+			[NORMAL_DIFF] = {
+				{ 1, 1955 }, -- Fallen Regality
+				{ 2, 1956 }, -- Tools of the Nathrezim
+			},
+		},
+		{
 			name = AL["Level 60 Tier 3"],
 			[NORMAL_DIFF] = {
 				{ 1, 1904 }, --Balance
