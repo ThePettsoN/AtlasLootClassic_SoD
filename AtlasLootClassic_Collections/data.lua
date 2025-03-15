@@ -2088,13 +2088,21 @@ data["Mounts"] = {
 		{ -- Naxx
 			MapID = 3456,
 			[NORMAL_DIFF] = {
-				{ 1, "INV_Box_01", nil, AL["Hardmode?"], nil },
+				{ 1, "INV_Box_01", nil, AL["Mythic"], nil },
 				{ 2, 236662 }, -- Reins of War
 				{ 3, 236663 }, -- Reins of Conquest
 				{ 4, 236664 }, -- Reins of Death
 				{ 5, 236665 }, -- Reins of Famine
 			},
 		},
+		{ -- Scarlet Enclave
+			MapID = -1,
+			[NORMAL_DIFF] = {
+				{ 1, "INV_Box_01", nil, AL["Hardmode?"], nil },
+				{ 2, 239695 }, -- Scarlet Steed
+				{ 3, 239694 }, -- Covenant of Light
+			}
+		}
 	},
 }
 
