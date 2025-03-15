@@ -9,6 +9,22 @@ local format = string.format
 local bit_band = bit.band
 
 local ReqData, ReqData_RAW = AtlasLoot:GetGameVersionDataTable()
+
+-- Cheat Sheet
+-- 1	- Warrior
+-- 2	- Paladin
+-- 4 	- Hunter
+-- 8	- Rogue
+-- 16	- Priest
+-- 64	- Shaman
+-- 128	- Mage
+-- 256	- Warlock
+-- 1024 - Druid
+-- 1090 - Paladin, Shaman, Druid
+-- 133	- Warrior, Hunter, Mage
+-- 280	- Rogue, Priest, Warlock
+
+
 ReqData_RAW.CLASSIC = {
 	[787] = {32767},
 	[951] = {1},
@@ -3588,7 +3604,246 @@ ReqData_RAW.CLASSIC = {
 	[236621] = {1024},
 	[236622] = {1024},
 	[236623] = {1024},
+
+	--- SoD Phase 8 ---
+	[242364] = {4}, -- Mature Light Dragon Sinew
+	[242367] = {4}, -- Wing and String
+	[242366] = {4}, -- Inescapable Fate
+	[239196] = {7}, -- Ruined Lightforged Blade
+	[242365] = {4}, -- Wing of Balnazzar
+	[240921] = {64}, -- Scarlet Smashbringer
+	[240844] = {256}, -- Putress' Poker
+
+	[239729] = {1090}, -- Consecrated Headpiece (Paladin, Shaman, Druid)
+	[239731] = {1090}, -- Consecrated Tunic (Paladin, Shaman, Druid)
+	[239722] = {1090}, -- Consecrated Wristguards (Paladin, Shaman, Druid)
+	[239726] = {1090}, -- Consecrated Boots (Paladin, Shaman, Druid)
+	[239757] = {1090}, -- Consecrated Legguards (Paladin, Shaman, Druid)
+	[239756] = {1090}, -- Consecrated Girdle (Paladin, Shaman, Druid)
+	[239730] = {1090}, -- Consecrated Handguards (Paladin, Shaman, Druid)
+	[239758] = {1090}, -- Consecrated Spaulders (Paladin, Shaman, Druid)
+
+	[239706] = {133}, -- Consecrated Sabatons (Warrior, Hunter, Mage)
+	[239707] = {133}, -- Consecrated Helmet (Warrior, Hunter, Mage)
+	[239709] = {133}, -- Consecrated Legplates (Warrior, Hunter, Mage)
+	[239708] = {133}, -- Consecrated Pauldrons (Warrior, Hunter, Mage)
+	[239761] = {133}, -- Consecrated Breastplate (Warrior, Hunter, Mage)
+	[239762] = {133}, -- Consecrated Gauntlets (Warrior, Hunter, Mage)
+	[239760] = {133}, -- Consecrated Waistguard (Warrior, Hunter, Mage)
+	[239759] = {133}, -- Consecrated Bracers (Warrior, Hunter, Mage)
+
+	[239714] = {280}, -- Consecrated Circlet (Rogue, Priest, Warlock)
+	[239721] = {280}, -- Consecrated Leggings (Rogue, Priest, Warlock)
+	[239715] = {280}, -- Consecrated Robe (Rogue, Priest, Warlock)
+	[239716] = {280}, -- Consecrated Gloves (Rogue, Priest, Warlock)
+	[239712] = {280}, -- Consecrated Shoulderpads (Rogue, Priest, Warlock)
+	[239710] = {280}, -- Consecrated Sandals (Rogue, Priest, Warlock)
+	[239719] = {280}, -- Consecrated Bindings (Rogue, Priest, Warlock)
+	[239718] = {280}, -- Consecrated Belt (Rogue, Priest, Warlock)
+
+	-- Priest
+	[239590] = {16}, -- Belt of Revelation
+	[239588] = {16}, -- Bindings of Revelation
+	[239572] = {16}, -- Boots of Revelation
+	[239585] = {16}, -- Circlet of Revelation
+	[239565] = {16}, -- Garb of Revelation
+	[239575] = {16}, -- Crown of Revelation
+	[239582] = {16}, -- Girdle of Revelation
+	[239584] = {16}, -- Gloves of Revelation
+	[239574] = {16}, -- Hands of Revelation
+	[239587] = {16}, -- Leggings of Revelation
+	[239581] = {16}, -- Mantle of Revelation
+	[239577] = {16}, -- Pants of Revelation
+	[239591] = {16}, -- Robe of Revelation
+	[239589] = {16}, -- Sandals of Revelation
+	[239586] = {16}, -- Shoulderpads of Revelation
+	[239583] = {16}, -- Wrists of Revelation
+
+	-- Hunter
+	[239535] = {4}, -- Dawnstalker Belt
+	[239537] = {4}, -- Dawnstalker Boots
+	[239529] = {4}, -- Dawnstalker Breastplate
+	[239531] = {4}, -- Dawnstalker Gauntlets
+	[239538] = {4}, -- Dawnstalker Girdle
+	[239530] = {4}, -- Dawnstalker Greaves
+	[239539] = {4}, -- Dawnstalker Handguards
+	[239540] = {4}, -- Dawnstalker Headpiece
+	[239533] = {4}, -- Dawnstalker Leggings
+	[239541] = {4}, -- Dawnstalker Legguards
+	[239534] = {4}, -- Dawnstalker Pauldrons
+	[239542] = {4}, -- Dawnstalker Spaulders
+	[239543] = {4}, -- Dawnstalker Tunic
+	[239536] = {4}, -- Dawnstalker Vambraces
+	[239532] = {4}, -- Dawnstalker Visor
+	[239544] = {4}, -- Dawnstalker Wristguards
+
+	-- Rogue
+	[239554] = {8}, -- Duskwraith Belt
+	[239555] = {8}, -- Duskwraith Bracers
+	[239562] = {8}, -- Duskwraith Breastplate
+	[239548] = {8}, -- Duskwraith Chestguard
+	[239557] = {8}, -- Duskwraith Gauntlets
+	[239549] = {8}, -- Duskwraith Grips
+	[239560] = {8}, -- Duskwraith Helmet
+	[239551] = {8}, -- Duskwraith Leggings
+	[239561] = {8}, -- Duskwraith Legplates
+	[239552] = {8}, -- Duskwraith Mantle
+	[239550] = {8}, -- Duskwraith Mask
+	[239559] = {8}, -- Duskwraith Pauldrons
+	[239558] = {8}, -- Duskwraith Sabatons
+	[239553] = {8}, -- Duskwraith Treads
+	[239556] = {8}, -- Duskwraith Waistguard
+	[239547] = {8}, -- Duskwraith Wristguards
+
+	-- Mage
+	[240053] = {128}, -- Fireleaf Belt
+	[240052] = {128}, -- Fireleaf Bindings
+	[240050] = {128}, -- Fireleaf Boots
+	[240056] = {128}, -- Fireleaf Circlet
+	[240051] = {128}, -- Fireleaf Garb
+	[240057] = {128}, -- Fireleaf Gloves
+	[240048] = {128}, -- Fireleaf Hood
+	[240055] = {128}, -- Fireleaf Leggings
+	[240046] = {128}, -- Fireleaf Mantle
+	[240049] = {128}, -- Fireleaf Mitts
+	[240047] = {128}, -- Fireleaf Pants
+	[240059] = {128}, -- Fireleaf Robe
+	[240058] = {128}, -- Fireleaf Sandals
+	[240054] = {128}, -- Fireleaf Shoulderpads
+	[240045] = {128}, -- Fireleaf Waistguard
+	[240044] = {128}, -- Fireleaf Wristwraps
+
+	-- Warlock
+	[240144] = {256}, -- Heretic Belt
+	[240145] = {256}, -- Heretic Bindings
+	[240153] = {256}, -- Heretic Boots
+	[240141] = {256}, -- Heretic Cowl
+	[240146] = {256}, -- Heretic Garb
+	[240140] = {256}, -- Heretic Gloves
+	[240147] = {256}, -- Heretic Handguards
+	[240148] = {256}, -- Heretic Hood
+	[240142] = {256}, -- Heretic Leggings
+	[240150] = {256}, -- Heretic Mantle
+	[240149] = {256}, -- Heretic Pants
+	[240138] = {256}, -- Heretic Robe
+	[240139] = {256}, -- Heretic Sandals
+	[240143] = {256}, -- Heretic Shoulderpads
+	[240151] = {256}, -- Heretic Waistguard
+	[240152] = {256}, -- Heretic Wristguards
+
+	-- Paladin
+	[240024] = {2}, -- Inquisition Belt
+	[240022] = {2}, -- Inquisition Boots
+	[240031] = {2}, -- Inquisition Bracers
+	[240030] = {2}, -- Inquisition Breastplate
+	[240038] = {2}, -- Inquisition Chestguard
+	[240035] = {2}, -- Inquisition Crown
+	[240036] = {2}, -- Inquisition Gauntlets
+	[240043] = {2}, -- Inquisition Girdle
+	[240028] = {2}, -- Inquisition Gloves
+	[240029] = {2}, -- Inquisition Greaves
+	[240041] = {2}, -- Inquisition Handguards
+	[240040] = {2}, -- Inquisition Headpiece
+	[240027] = {2}, -- Inquisition Helmet
+	[240026] = {2}, -- Inquisition Leggings
+	[240020] = {2}, -- Inquisition Legguards
+	[240034] = {2}, -- Inquisition Legplates
+	[240033] = {2}, -- Inquisition Pauldrons
+	[240037] = {2}, -- Inquisition Sabatons
+	[240025] = {2}, -- Inquisition Shoulderplates
+	[240021] = {2}, -- Inquisition Spaulders
+	[240039] = {2}, -- Inquisition Tunic
+	[240023] = {2}, -- Inquisition Vambraces
+	[240032] = {2}, -- Inquisition Waistguard
+	[240042] = {2}, -- Inquisition Wristguards
+
+	-- Warrior
+	[239513] = {1}, -- Lightbreaker Belt
+	[239520] = {1}, -- Lightbreaker Bracers
+	[239527] = {1}, -- Lightbreaker Breastplate
+	[239519] = {1}, -- Lightbreaker Cuirass
+	[239522] = {1}, -- Lightbreaker Gauntlets
+	[239517] = {1}, -- Lightbreaker Greathelm
+	[239515] = {1}, -- Lightbreaker Greaves
+	[239514] = {1}, -- Lightbreaker Grips
+	[239525] = {1}, -- Lightbreaker Helmet
+	[239526] = {1}, -- Lightbreaker Legplates
+	[239524] = {1}, -- Lightbreaker Pauldrons
+	[239523] = {1}, -- Lightbreaker Sabatons
+	[239516] = {1}, -- Lightbreaker Shoulders
+	[239518] = {1}, -- Lightbreaker Tassets
+	[239521] = {1}, -- Lightbreaker Waistguard
+	[239512] = {1}, -- Lightbreaker Wrists
+
+	-- Shaman
+	[240128] = {64}, -- Soulcrusher Armor
+	[240136] = {64}, -- Soulcrusher Belt
+	[240127] = {64}, -- Soulcrusher Bindings
+	[240093] = {64}, -- Soulcrusher Boots
+	[240108] = {64}, -- Soulcrusher Bracers
+	[240101] = {64}, -- Soulcrusher Chestguard
+	[240126] = {64}, -- Soulcrusher Cord
+	[240123] = {64}, -- Soulcrusher Crown
+	[240109] = {64}, -- Soulcrusher Embrace
+	[240135] = {64}, -- Soulcrusher Epaulets
+	[240104] = {64}, -- Soulcrusher Faceguard
+	[240099] = {64}, -- Soulcrusher Girdle
+	[240103] = {64}, -- Soulcrusher Gloves
+	[240110] = {64}, -- Soulcrusher Greaves
+	[240130] = {64}, -- Soulcrusher Grips
+	[240095] = {64}, -- Soulcrusher Handguards
+	[240096] = {64}, -- Soulcrusher Headpiece
+	[240131] = {64}, -- Soulcrusher Helmet
+	[240124] = {64}, -- Soulcrusher Kilt
+	[240134] = {64}, -- Soulcrusher Leggings
+	[240097] = {64}, -- Soulcrusher Legguards
+	[240105] = {64}, -- Soulcrusher Legplates
+	[240125] = {64}, -- Soulcrusher Mantle
+	[240122] = {64}, -- Soulcrusher Mitts
+	[240106] = {64}, -- Soulcrusher Pauldrons
+	[240102] = {64}, -- Soulcrusher Sabatons
+	[240098] = {64}, -- Soulcrusher Spaulders
+	[240129] = {64}, -- Soulcrusher Treads
+	[240092] = {64}, -- Soulcrusher Tunic
+	[240137] = {64}, -- Soulcrusher Vambraces
+	[240107] = {64}, -- Soulcrusher Waistguard
+	[240100] = {64}, -- Soulcrusher Wristguards
+
+	-- Druid
+	[240083] = {1024}, -- Waywatcher Armor
+	[240068] = {1024}, -- Waywatcher Bindings
+	[240090] = {1024}, -- Waywatcher Boots
+	[240076] = {1024}, -- Waywatcher Bracers
+	[240069] = {1024}, -- Waywatcher Cord
+	[240064] = {1024}, -- Waywatcher Cowl
+	[240081] = {1024}, -- Waywatcher Gauntlets
+	[240085] = {1024}, -- Waywatcher Girdle
+	[240065] = {1024}, -- Waywatcher Grips
+	[240089] = {1024}, -- Waywatcher Handguards
+	[240080] = {1024}, -- Waywatcher Headdress
+	[240088] = {1024}, -- Waywatcher Headpiece
+	[240072] = {1024}, -- Waywatcher Hood
+	[240071] = {1024}, -- Waywatcher Kilt
+	[240075] = {1024}, -- Waywatcher Leathers
+	[240079] = {1024}, -- Waywatcher Leggings
+	[240087] = {1024}, -- Waywatcher Legguards
+	[240070] = {1024}, -- Waywatcher Mantle
+	[240073] = {1024}, -- Waywatcher Mitts
+	[240078] = {1024}, -- Waywatcher Pauldrons
+	[240082] = {1024}, -- Waywatcher Sabatons
+	[240074] = {1024}, -- Waywatcher Sandals
+	[240061] = {1024}, -- Waywatcher Sash
+	[240062] = {1024}, -- Waywatcher Shoulderpads
+	[240086] = {1024}, -- Waywatcher Spaulders
+	[240066] = {1024}, -- Waywatcher Stompers
+	[240063] = {1024}, -- Waywatcher Trousers
+	[240091] = {1024}, -- Waywatcher Tunic
+	[240067] = {1024}, -- Waywatcher Vest
+	[240077] = {1024}, -- Waywatcher Waistguard
+	[240060] = {1024}, -- Waywatcher Wraps
+	[240084] = {1024}, -- Waywatcher Wristguards
 }
+
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     ReqData_RAW.BCC = {
