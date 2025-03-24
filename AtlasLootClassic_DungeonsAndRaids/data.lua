@@ -11727,3 +11727,55 @@ data["Naxxramas"] = {
         T3_SET_SOD
     }
 }
+
+data["ScarletEnclave"] = {
+    MapID = 16236,
+    InstanceID = 2856,
+    AtlasModule = ATLAS_MODULE_NAME,
+    AtlasMapID = "ScarletEnclave",
+    AtlasMapFile = "CL_Naxxramas",
+    AtlasMapFile_AL = "Naxxramas",
+    ContentType = RAID_CONTENT,
+    ContentPhase = 7,
+    LevelRange = GetForVersion({60, 60, 60}, {60, 60, 60}),
+    items = {
+        {
+            name = AL["Balnazzar"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Beatrix"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Lillian Voss"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Beastmaster"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Mason"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Solistrasza"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Reborn Council"],
+            [SOD_DIFF] = {}
+        },
+        {
+            name = AL["Caldoran"],
+            [SOD_DIFF] = {}
+        },
+        {
+            -- Trash
+            name = AL["Trash"],
+            ExtraList = true,
+            [SOD_DIFF] = {}
+        },
+    },
+}
