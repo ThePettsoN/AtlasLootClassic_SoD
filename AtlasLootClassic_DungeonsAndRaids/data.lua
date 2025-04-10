@@ -11731,51 +11731,65 @@ data["Naxxramas"] = {
 data["ScarletEnclave"] = {
     MapID = 16236,
     InstanceID = 2856,
-    AtlasModule = ATLAS_MODULE_NAME,
-    AtlasMapID = "ScarletEnclave",
-    AtlasMapFile = "CL_Naxxramas",
-    AtlasMapFile_AL = "Naxxramas",
     ContentType = RAID_CONTENT,
-    ContentPhase = 7,
+    ContentPhase = 6,
     LevelRange = GetForVersion({60, 60, 60}, {60, 60, 60}),
     items = {
         {
             name = AL["Balnazzar"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Beatrix"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Lillian Voss"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Beastmaster"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Mason"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Solistrasza"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Reborn Council"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             name = AL["Caldoran"],
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
         {
             -- Trash
             name = AL["Trash"],
             ExtraList = true,
-            [SOD_DIFF] = {}
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["TBD"], nil },
+            }
         },
-    },
+    }
 }
