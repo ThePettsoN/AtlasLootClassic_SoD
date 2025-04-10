@@ -1635,36 +1635,36 @@ PROFESSION_DATA.CLASSIC = {
 	--- SoD Phase 8 ---
 
 	-- Alchemy
-	[1231583] = { 241650, 4, 250, 262, 275, {3164,2447,3371,238780}, {1,1,1,1} }, -- Recipe: Major Discolored Healing Potion
+	[1231583] = { 241650, 4, 250, 262, 275, {241652,13466,8925}, {1,2,1} }, -- Recipe: Major Discolored Healing Potion
 
 	-- Blacksmithing
-	[1224639] = { 238295, 2, 280, 290, 300, { 12811, 12359 }, 				{ 2, 18 } }, 	-- Plans: Scarlet Soldier's Stompers
-	[1224632] = { 238289, 2, 280, 290, 300, { 12811, 12359 }, 				{ 2, 18 } }, 	-- Plans: Scarlet Soldier's Spaulders
-	[1224631] = { 238288, 2, 280, 290, 300, { 12938, 12811, 12359 }, 		{ 1, 3,18 } }, 	-- Plans: Scarlet Soldier's Helmet
-	[1224638] = { 238294, 2, 280, 290, 300, { 12938, 12811, 12359 }, 		{ 1, 3,18 } }, 	-- Plans: Scarlet Soldier's Legplates
-	[1224635] = { 238291, 2, 280, 290, 300, { 12811, 12359 }, 				{ 1, 18 } }, 	-- Plans: Scarlet Soldier's Protectors
-	[1224636] = { 238292, 2, 280, 290, 300, { 12811, 12359 }, 				{ 2, 18 } }, 	-- Plans: Scarlet Soldier's Grips
-	[1224637] = { 238293, 2, 280, 290, 300, { 12811, 12359 }, 				{ 2, 18 } }, 	-- Plans: Scarlet Soldier's Waistguard
-	[1224633] = { 238290, 2, 280, 290, 300, { 12938, 12811, 12359 }, 		{ 1, 3, 18 } }, -- Plans: Scarlet Soldier's Chestplate
+	[1224639] = { 238295, 2, 280, 290, 300, { 12811, 12359 }, 								{ 2, 20 } }, 			-- Plans: Scarlet Soldier's Stompers
+	[1224632] = { 238289, 2, 280, 290, 300, { 12811, 12359 }, 								{ 2, 20 } }, 			-- Plans: Scarlet Soldier's Spaulders
+	[1224631] = { 238288, 2, 280, 290, 300, { 12938, 12811, 12359 }, 						{ 1, 2, 24 } }, 		-- Plans: Scarlet Soldier's Helmet
+	[1224638] = { 238294, 2, 280, 290, 300, { 12938, 12811, 12359 }, 						{ 1, 2, 20 } }, 		-- Plans: Scarlet Soldier's Legplates
+	[1224635] = { 238291, 2, 280, 290, 300, { 12359 }, 										{ 16 } }, 				-- Plans: Scarlet Soldier's Protectors
+	[1224636] = { 238292, 2, 280, 290, 300, { 12811, 12359 }, 								{ 2, 20 } }, 			-- Plans: Scarlet Soldier's Grips
+	[1224637] = { 238293, 2, 280, 290, 300, { 12811, 12359 }, 								{ 2, 20 } }, 			-- Plans: Scarlet Soldier's Waistguard
+	[1224633] = { 238290, 2, 280, 290, 300, { 12938, 12811, 12359 }, 						{ 1, 1, 24 } }, 		-- Plans: Scarlet Soldier's Chestplate
 
 	-- Tailoring
-	[1227724] = { 239148, 8, 280, 290, 300, { 12938, 14048, 2604, 12808 }, 	{ 1, 14, 4, 2 } }, 	-- Pattern: Crimson Dawnwoven Bag
-	[1227723] = { 239147, 8, 280, 290, 300, { 12811, 14048, 2604, 14227 }, 	{ 1, 12, 8, 3 } }, 	-- Pattern: Crusader's Knapsack
-	[1224610] = { 238267, 8, 280, 290, 300, { 12811, 14048 }, 				{ 1, 16 } }, 		-- Pattern: Scarlet Augur's Cuffs
-	[1224607] = { 238264, 8, 280, 290, 300, { 12938, 12811, 14048 }, 		{ 1, 3, 16 } }, 	-- Pattern: Scarlet Augur's Hood
-	[1224613] = { 238270, 8, 280, 290, 300, { 12938, 12811, 14048 }, 		{ 1, 3, 16 } }, 	-- Pattern: Scarlet Augur's Leggings
-	[1224608] = { 238265, 8, 280, 290, 300, { 12811, 14048 }, 				{ 2, 16 } }, 		-- Pattern: Scarlet Augur's Mantle
-	[1224611] = { 238268, 8, 280, 290, 300, { 12811, 14048 }, 				{ 2, 16 } }, 		-- Pattern: Scarlet Augur's Mitts
-	[1224614] = { 238271, 8, 280, 290, 300, { 12811, 14048 }, 				{ 2, 16 } }, 		-- Pattern: Scarlet Augur's Soles
-	[1224612] = { 238269, 8, 280, 290, 300, { 12811, 14048 }, 				{ 2, 16 } }, 		-- Pattern: Scarlet Augur's Strap
-	[1224609] = { 238266, 8, 280, 290, 300, { 12938, 12811, 14048 }, 		{ 1, 3, 16 } }, 	-- Pattern: Scarlet Augur's Vestaments
+	[1227724] = { 239148, 8, 280, 290, 300, { 12938, 14048, 2604, 12808, 12811 }, 			{ 1, 24, 4, 2, 2 } }, 	-- Pattern: Crimson Dawnwoven Bag
+	[1227723] = { 239147, 8, 280, 290, 300, { 12811, 14048, 2604, 14227 }, 					{ 1, 14, 8, 3 } }, 		-- Pattern: Crusader's Knapsack
+	[1224610] = { 238267, 8, 280, 290, 300, { 14048 }, 										{ 8 } }, 				-- Pattern: Scarlet Augur's Cuffs
+	[1224607] = { 238264, 8, 280, 290, 300, { 12938, 12811, 14048 }, 						{ 1, 2, 12 } }, 		-- Pattern: Scarlet Augur's Hood
+	[1224613] = { 238270, 8, 280, 290, 300, { 12938, 12811, 14048 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Augur's Leggings
+	[1224608] = { 238265, 8, 280, 290, 300, { 12811, 14048 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Augur's Mantle
+	[1224611] = { 238268, 8, 280, 290, 300, { 12811, 14048 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Augur's Mitts
+	[1224614] = { 238271, 8, 280, 290, 300, { 12811, 14048 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Augur's Soles
+	[1224612] = { 238269, 8, 280, 290, 300, { 12811, 14048 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Augur's Strap
+	[1224609] = { 238266, 8, 280, 290, 300, { 12938, 12811, 14048 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Augur's Vestaments
 
 	-- Cooking
-	[1225759] = { 238638, 6, 280, 290, 300, { 12203, 239016 }, 				{ 2, 1 } }, 	-- Recipe: Filet o' Flank
-	[1225758] = { 238637, 6, 280, 290, 300, { 12202, 239016 }, 				{ 2, 1 } }, 	-- Recipe: Prowler Steak
-	[1225760] = { 238639, 6, 280, 290, 300, { 12207, 239016 }, 				{ 2, 1 } }, 	-- Recipe: Sunrise Omelette
-	[1225763] = { 238642, 6, 280, 290, 300, { 13888, 3712, 239017 }, 		{ 12, 3, 1 } }, -- Recipe: Grand Lobster Banquet
-	[1225762] = { 238641, 6, 280, 290, 300, { 4603, 12184, 239017 }, 		{ 12, 3, 1 } }, -- Recipe: Specklefin Feast
+	[1225759] = { 238638, 6, 280, 290, 300, { 12203, 239016 }, 								{ 2, 1 } }, 			-- Recipe: Filet o' Flank
+	[1225758] = { 238637, 6, 280, 290, 300, { 12202, 239016 }, 								{ 2, 1 } }, 			-- Recipe: Prowler Steak
+	[1225760] = { 238639, 6, 280, 290, 300, { 12207, 239016 }, 								{ 2, 1 } }, 			-- Recipe: Sunrise Omelette
+	[1225763] = { 238642, 6, 280, 290, 300, { 13888, 3712, 3404, 239017 }, 					{ 12, 4, 3, 1 } }, 		-- Recipe: Grand Lobster Banquet
+	[1225762] = { 238641, 6, 280, 290, 300, { 4603, 12184, 6362, 239017 }, 					{ 12, 4, 3, 1 } }, 		-- Recipe: Specklefin Feast
 
 	-- Engineering
 	[1228088] = { 237023, 9, 260, 262, 265, { 15994, 10560, 4382 }, 						{ 1, 1, 1 } }, 			-- Schematic: Pop-Up Shrub
@@ -1675,30 +1675,31 @@ PROFESSION_DATA.CLASSIC = {
 	[1226213] = { 238781, 9, 295, 297, 300, { 16006, 18631, 10560, 10561, 10588, 12811 }, 	{ 1, 2, 1, 2, 2, 1 } }, -- Schematic: Semisafe Transporter: New Avalon
 
 	-- Enchanting
-	[1231128] = { nil, 10, 320, 340, 360, {14344, 12811, 20725, 12938 }, 	{ 6, 3, 2, 1 } }, 	-- Formula: Enchant Weapon - Grand Crusader
-	[1231139] = { nil, 10, 320, 340, 360, { 16204, 12811 }, 				{ 15, 1 } }, 		-- Formula: Enchant 2H Weapon - Grand Arcanist
-	[1231164] = { nil, 10, 320, 340, 360, { 16204, 12811 }, 				{ 15, 1 } }, 		-- Formula: Enchant Weapon - Grand Sorcerer
-	[1232172] = { nil, 10, 320, 340, 360, { 16204, 12811 }, 				{ 15, 1 } }, 		-- Formula: Enchant 2H Weapon - Grand Inquisitor
+	[1231128] = { nil, 10, 320, 340, 360, { 14344, 12811, 20725, 12938 }, 					{ 5, 2, 2, 1 } }, 		-- Formula: Enchant Weapon - Grand Crusader
+	[1231139] = { nil, 10, 320, 340, 360, { 14344, 12811, 20725, 12938 }, 					{ 10, 4, 4, 1 } }, 		-- Formula: Enchant 2H Weapon - Grand Arcanist
+	[1231164] = { nil, 10, 320, 340, 360, { 14344, 12811, 20725, 12938 }, 					{ 6, 3, 2, 1 } }, 		-- Formula: Enchant Weapon - Grand Sorcerer
+	[1232172] = { nil, 10, 320, 340, 360, { 14344, 12811, 20725, 12938 }, 					{ 10, 6, 4, 1 } }, 		-- Formula: Enchant 2H Weapon - Grand Inquisitor
 
 	-- Leatherworking
-	[1226689] = { 238925, 3, 270, 275, 280, { 12811, 8170, 15407 }, 		{ 1, 24, 2 } }, 	-- Pattern: Scarlet Quiver
-	[1226690] = { 238926, 3, 270, 275, 280, { 12811, 15408, 15407 }, 		{ 1, 24, 2 } }, 	-- Pattern: Scarlet Ammo Pouch
-	[1224615] = { 238272, 3, 280, 290, 300, { 12938, 12811, 8170, 15407 }, 	{ 1, 3, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Bandana
-	[1224616] = { 238273, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Shoulderpads
-	[1224619] = { 238276, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Gloves
-	[1224621] = { 238278, 3, 280, 290, 300, { 12938, 12811, 8170, 15407 }, 	{ 1, 3, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Trousers
-	[1224617] = { 238274, 3, 280, 290, 300, { 12938, 12811, 8170, 15407 }, 	{ 1, 3, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Vest
-	[1224618] = { 238275, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 1, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Bracers
-	[1224622] = { 238279, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Shoes
-	[1224620] = { 238277, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 24, 2 } }, 	-- Pattern: Scarlet Infiltrator's Belt
-	[1224623] = { 238280, 3, 280, 290, 300, { 12938, 12811, 8170, 15407 }, 	{ 1, 3, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Coif
-	[1224626] = { 238283, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Wristguards
-	[1224624] = { 238281, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Pauldrons
-	[1224629] = { 238286, 3, 280, 290, 300, { 12938, 12811, 8170, 15407 }, 	{ 1, 3, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Legguards
-	[1224628] = { 238285, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Clasp
-	[1224625] = { 238282, 3, 280, 290, 300, { 12938, 12811, 8170, 15407 }, 	{ 1, 3, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Chain
-	[1224630] = { 238287, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Boots
-	[1224627] = { 238284, 3, 280, 290, 300, { 12811, 8170, 15407 }, 		{ 2, 16, 4 } }, 	-- Pattern: Scarlet Huntsman's Handguards
+	[1226689] = { 238925, 3, 270, 275, 280, { 12811, 8170, 15407 }, 						{ 1, 24, 2 } }, 		-- Pattern: Scarlet Quiver
+	[1226690] = { 238926, 3, 270, 275, 280, { 12811, 15408, 15407 }, 						{ 1, 24, 2 } }, 		-- Pattern: Scarlet Ammo Pouch
+	[1224615] = { 238272, 3, 280, 290, 300, { 12938, 12811, 8170 }, 						{ 1, 2, 12 } }, 		-- Pattern: Scarlet Infiltrator's Bandana
+	[1224616] = { 238273, 3, 280, 290, 300, { 12811, 8170 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Infiltrator's Shoulderpads
+	[1224619] = { 238276, 3, 280, 290, 300, { 12811, 8170 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Infiltrator's Gloves
+	[1224621] = { 238278, 3, 280, 290, 300, { 12938, 12811, 8170 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Infiltrator's Trousers
+	[1224617] = { 238274, 3, 280, 290, 300, { 12938, 12811, 8170 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Infiltrator's Vest
+	[1224618] = { 238275, 3, 280, 290, 300, { 8170 }, 										{ 8 } }, 				-- Pattern: Scarlet Infiltrator's Bracers
+	[1224622] = { 238279, 3, 280, 290, 300, { 12811, 8170 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Infiltrator's Shoes
+	[1224620] = { 238277, 3, 280, 290, 300, { 12811, 8170 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Infiltrator's Belt
+	[1224623] = { 238280, 3, 280, 290, 300, { 12938, 12811, 15408 }, 						{ 1, 2, 12 } }, 		-- Pattern: Scarlet Huntsman's Coif
+	[1224626] = { 238283, 3, 280, 290, 300, { 15408 }, 										{ 8} }, 				-- Pattern: Scarlet Huntsman's Wristguards
+	[1224624] = { 238281, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Pauldrons
+	[1224629] = { 238286, 3, 280, 290, 300, { 12938, 12811, 15408 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Huntsman's Legguards
+
+	[1224628] = { 238285, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Clasp
+	[1224625] = { 238282, 3, 280, 290, 300, { 12938, 12811, 15408 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Huntsman's Chain
+	[1224630] = { 238287, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Boots
+	[1224627] = { 238287, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Handguards
 }
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     PROFESSION_DATA.BCC = {
