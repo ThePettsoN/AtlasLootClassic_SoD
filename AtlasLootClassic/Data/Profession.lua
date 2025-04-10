@@ -1635,7 +1635,7 @@ PROFESSION_DATA.CLASSIC = {
 	--- SoD Phase 8 ---
 
 	-- Alchemy
-	[1231583] = { 241650, 4, 250, 262, 275, {241652,13466,8925}, {1,2,1} }, -- Recipe: Major Discolored Healing Potion
+	[1231583] = { 241650, 4, 250, 262, 275, { 241652, 13466, 8925 }, { 1, 2, 1 } }, 								-- Recipe: Major Discolored Healing Potion
 
 	-- Blacksmithing
 	[1224639] = { 238295, 2, 280, 290, 300, { 12811, 12359 }, 								{ 2, 20 } }, 			-- Plans: Scarlet Soldier's Stompers
@@ -1692,14 +1692,14 @@ PROFESSION_DATA.CLASSIC = {
 	[1224622] = { 238279, 3, 280, 290, 300, { 12811, 8170 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Infiltrator's Shoes
 	[1224620] = { 238277, 3, 280, 290, 300, { 12811, 8170 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Infiltrator's Belt
 	[1224623] = { 238280, 3, 280, 290, 300, { 12938, 12811, 15408 }, 						{ 1, 2, 12 } }, 		-- Pattern: Scarlet Huntsman's Coif
-	[1224626] = { 238283, 3, 280, 290, 300, { 15408 }, 										{ 8} }, 				-- Pattern: Scarlet Huntsman's Wristguards
+	[1224626] = { 238283, 3, 280, 290, 300, { 15408 }, 										{ 8 } }, 				-- Pattern: Scarlet Huntsman's Wristguards
 	[1224624] = { 238281, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Pauldrons
 	[1224629] = { 238286, 3, 280, 290, 300, { 12938, 12811, 15408 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Huntsman's Legguards
 
 	[1224628] = { 238285, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Clasp
 	[1224625] = { 238282, 3, 280, 290, 300, { 12938, 12811, 15408 }, 						{ 1, 1, 12 } }, 		-- Pattern: Scarlet Huntsman's Chain
 	[1224630] = { 238287, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Boots
-	[1224627] = { 238287, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Handguards
+	[1224627] = { 238284, 3, 280, 290, 300, { 12811, 15408 }, 								{ 1, 10 } }, 			-- Pattern: Scarlet Huntsman's Handguards
 }
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then
     PROFESSION_DATA.BCC = {
