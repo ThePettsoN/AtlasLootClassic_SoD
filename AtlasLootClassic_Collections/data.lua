@@ -413,109 +413,119 @@ data["SoD Currency"] = {
 		{
 			name = AL["Tarnished Undermine Real Rewards"],
 			[NORMAL_DIFF] = {
-				{ 1, 231707 }, -- Draconian Bindings
-				{ 2, 231708 }, -- Draconian Belt
-				{ 3, 231712 }, -- Draconian Gloves
-				{ 4, 231713 }, -- Draconian Boots
+				{ 1, 231814 }, -- Chromatic Heart
+				{ 2, 231882 }, -- Suppression Device Receipt
+				{ 3, 230904 }, -- Scroll: SEENECS FO RIEF
+				{ 4, 231452 }, -- Blood of the Lightbringer
+				{ 5, 229906 }, -- Tarnished Bronze Scale
+				{ 6, 229352 }, -- Intelligence Findings
+				{ 7, 231995 }, -- Hardened Elementium Slag
+				{ 8, 231722 }, -- Depleted Scythe of Chaos
+				{ 9, 231378 }, -- Shimmering Golden Disk
 
-				{ 6, 231715 }, -- Primeval Bindings
-				{ 7, 231716 }, -- Primeval Belt
-				{ 8, 231720 }, -- Primeval Gloves
-				{ 9, 231721 }, -- Primeval Boots
+				{ 11, 231707 }, -- Draconian Bindings
+				{ 12, 231708 }, -- Draconian Belt
+				{ 13, 231712 }, -- Draconian Gloves
+				{ 14, 231713 }, -- Draconian Boots
 
-				{ 11, 231724 }, -- Ancient Bindings
-				{ 12, 231725 }, -- Ancient Belt
-				{ 13, 231729 }, -- Ancient Gloves
-				{ 14, 231730 }, -- Ancient Boots
+				{ 16, 231715 }, -- Primeval Bindings
+				{ 17, 231716 }, -- Primeval Belt
+				{ 18, 231720 }, -- Primeval Gloves
+				{ 19, 231721 }, -- Primeval Boots
 
-				{ 16, 232390 }, -- Idol of Celestial Focus
-				{ 17, 232391 }, -- Idol of Feline Focus
-				{ 18, 232423 }, -- Idol of Nurture
-				{ 19, 232424 }, -- Idol of Cruelty
+				{ 21, 231724 }, -- Ancient Bindings
+				{ 22, 231725 }, -- Ancient Belt
+				{ 23, 231729 }, -- Ancient Gloves
+				{ 24, 231730 }, -- Ancient Boots
 
-				{ 21, 231811 }, -- Libram of Awe
-				{ 22, 232389 }, -- Libram of Plenty
-				{ 23, 232420 }, -- Libram of Wrath
-				{ 24, 232421 }, -- Libram of Avenging
+				{ 29, "INV_Box_01", nil, AL["Continued -->"], nil },
 
-				{ 26, 232392 }, -- Totem of Relentless Thunder
-				{ 27, 232409 }, -- Totem of the Elements
-				{ 28, 232416 }, -- Totem of Astral Flow
-				{ 29, 232419 }, -- Totem of Conductive Elements
+				{ 101, 232390 }, -- Idol of Celestial Focus
+				{ 102, 232391 }, -- Idol of Feline Focus
+				{ 103, 232423 }, -- Idol of Nurture
+				{ 104, 232424 }, -- Idol of Cruelty
 
-				{ 30, "INV_Box_01", nil, AL["Phase 4 Rewards-->"], nil },
+				{ 106, 231811 }, -- Libram of Awe
+				{ 107, 232389 }, -- Libram of Plenty
+				{ 108, 232420 }, -- Libram of Wrath
+				{ 109, 232421 }, -- Libram of Avenging
 
-				{ 101, 227532 }, -- Incandescent Hood
-				{ 102, 227534 }, -- Incandescent Leggings
-				{ 103, 227535 }, -- Incandescent Robe
-				{ 104, 227537 }, -- Incandescent Shoulderpads
-				{ 105, 227536 }, -- Incandescent Boots
-				{ 106, 227530 }, -- Incandescent Belt
-				{ 107, 227531 }, -- Incandescent Bindings
-				{ 108, 227533 }, -- Incandescent Gloves
+				{ 111, 232392 }, -- Totem of Relentless Thunder
+				{ 112, 232409 }, -- Totem of the Elements
+				{ 113, 232416 }, -- Totem of Astral Flow
+				{ 114, 232419 }, -- Totem of Conductive Elements
 
-				{ 110, 227755 }, -- Molten Scaled Helm
-				{ 111, 227754 }, -- Molten Scaled Leggings
-				{ 112, 227758 }, -- Molten Scaled Chest
-				{ 113, 227752 }, -- Molten Scaled Boots
-				{ 114, 227757 }, -- Molten Scaled Shoulderpads
-				{ 115, 227751 }, -- Molten Scaled Belt
-				{ 116, 227750 }, -- Molten Scaled Bindings
-				{ 117, 227756 }, -- Molten Scaled Gloves
-
-				{ 119, 227764 }, -- Scorched Core Helm
-				{ 120, 227763 }, -- Scorched Core Leggings
-				{ 121, 227766 }, -- Scorched Core Chest
-				{ 122, 227762 }, -- Scorched Core Shoulderpads
-				{ 123, 227765 }, -- Scorched Core Boots
-				{ 124, 227761 }, -- Scorched Core Belt
-				{ 125, 227760 }, -- Scorched Core Bindings
-				{ 126, 227759 }, -- Scorched Core Gloves
+				{ 116, 227532 }, -- Incandescent Hood
+				{ 117, 227534 }, -- Incandescent Leggings
+				{ 118, 227535 }, -- Incandescent Robe
+				{ 119, 227537 }, -- Incandescent Shoulderpads
+				{ 120, 227536 }, -- Incandescent Boots
+				{ 121, 227530 }, -- Incandescent Belt
+				{ 122, 227531 }, -- Incandescent Bindings
+				{ 123, 227533 }, -- Incandescent Gloves
 
 				{ 130, "INV_Box_01", nil, AL["Continued -->"], nil },
 
-				{ 201, 227284 }, -- Band of the Beast 50
-				{ 202, 227279 }, -- Loop of the Magister 50
-				{ 203, 227280 }, -- Craft of the Shadows 50
-				{ 204, 227282 }, -- Ring of the Dreaded Mist 50
-				{ 205, 228432 }, -- Whistle of the Beast 50
-				{ 206, 228168 }, -- Goblin Gear Grinder 50
-				{ 207, 228169 }, -- The Attitude Adjustor 50
-				{ 208, 228170 }, -- Makeshift South Sea Oar 50
-				{ 209, 228185 }, -- Broken Bottle of Goblino Noir 50
-				{ 210, 228184 }, -- Goblin Clothesline 25
+				{ 201, 227755 }, -- Molten Scaled Helm
+				{ 202, 227754 }, -- Molten Scaled Leggings
+				{ 203, 227758 }, -- Molten Scaled Chest
+				{ 204, 227752 }, -- Molten Scaled Boots
+				{ 205, 227757 }, -- Molten Scaled Shoulderpads
+				{ 206, 227751 }, -- Molten Scaled Belt
+				{ 207, 227750 }, -- Molten Scaled Bindings
+				{ 208, 227756 }, -- Molten Scaled Gloves
 
-				{ 212, 228186 }, -- Abandoned Wedding Band 25
-				{ 213, 228187 }, -- Stick of the South Sea 50
+				{ 210, 227764 }, -- Scorched Core Helm
+				{ 211, 227763 }, -- Scorched Core Leggings
+				{ 212, 227766 }, -- Scorched Core Chest
+				{ 213, 227762 }, -- Scorched Core Shoulderpads
+				{ 214, 227765 }, -- Scorched Core Boots
+				{ 215, 227761 }, -- Scorched Core Belt
+				{ 216, 227760 }, -- Scorched Core Bindings
+				{ 217, 227759 }, -- Scorched Core Gloves
 
-				{ 216, 227990 }, -- Hand of Injustice 50
-				{ 217, 228171 }, -- Kezan Cash Carrier 25
-
-				{ 219, 220597 }, -- Drakestone of the Dream Harbinger
-				{ 220, 220598 }, -- Drakestone of the Nightmare Harbinger
-				{ 221, 220599 }, -- Drakestone of the Blood Prophet
+				{ 219, 227284 }, -- Band of the Beast 50
+				{ 220, 227279 }, -- Loop of the Magister 50
+				{ 221, 227280 }, -- Craft of the Shadows 50
+				{ 222, 227282 }, -- Ring of the Dreaded Mist 50
+				{ 223, 228432 }, -- Whistle of the Beast 50
+				{ 224, 228168 }, -- Goblin Gear Grinder 50
+				{ 225, 228169 }, -- The Attitude Adjustor 50
+				{ 226, 228170 }, -- Makeshift South Sea Oar 50
+				{ 227, 228185 }, -- Broken Bottle of Goblino Noir 50
+				{ 228, 228184 }, -- Goblin Clothesline 25
 
 				{ 230, "INV_Box_01", nil, AL["Continued -->"], nil },
 
-				{ 301, 228173 }, -- Libram of the Consecrated 15
-				{ 302, 228174 }, -- Libram of the Devoted 15
-				{ 303, 228175 }, -- Libram of Holy Alacrity 15
+				{ 301, 228186 }, -- Abandoned Wedding Band 25
+				{ 302, 228187 }, -- Stick of the South Sea 50
 
-				{ 305, 228176 }, -- Totem of Thunder 15
-				{ 306, 228177 }, -- Totem of Raging Fire 15
-				{ 307, 228178 }, -- Totem of Earthen Vitality 15
-				{ 308, 228179 }, -- Totem of the Plains 15
+				{ 304, 227990 }, -- Hand of Injustice 50
+				{ 305, 228171 }, -- Kezan Cash Carrier 25
 
-				{ 310, 228180 }, -- Idol of the Swarm 15
-				{ 311, 228181 }, -- Idol of Exsanguination (Cat) 15
-				{ 312, 228182 }, -- Idol of Exsanguination (Bear) 15
-				{ 313, 228183 }, -- Idol of the Grove 15
+				{ 307, 220597 }, -- Drakestone of the Dream Harbinger
+				{ 308, 220598 }, -- Drakestone of the Nightmare Harbinger
+				{ 309, 220599 }, -- Drakestone of the Blood Prophet
 
-				{ 316, "INV_Box_01", nil, AL["Dungeon Sets:"], nil },
-				{ 317, "INV_Box_01", nil, AL["Bracers: 15 Reals"], nil },
-				{ 318, "INV_Box_01", nil, AL["Boots, Gloves: 25 Reals"], nil },
-				{ 319, "INV_Box_01", nil, AL["Shoulders, Belt: 25 Reals"], nil },
-				{ 320, "INV_Box_01", nil, AL["Helm, Chest, Legs: 50 Reals"], nil },
+				{ 311, 228173 }, -- Libram of the Consecrated 15
+				{ 312, 228174 }, -- Libram of the Devoted 15
+				{ 313, 228175 }, -- Libram of Holy Alacrity 15
+
+				{ 316, 228176 }, -- Totem of Thunder 15
+				{ 317, 228177 }, -- Totem of Raging Fire 15
+				{ 318, 228178 }, -- Totem of Earthen Vitality 15
+				{ 319, 228179 }, -- Totem of the Plains 15
+
+				{ 321, 228180 }, -- Idol of the Swarm 15
+				{ 322, 228181 }, -- Idol of Exsanguination (Cat) 15
+				{ 323, 228182 }, -- Idol of Exsanguination (Bear) 15
+				{ 324, 228183 }, -- Idol of the Grove 15
+
+				{ 326, "INV_Box_01", nil, AL["Dungeon Sets:"], nil },
+				{ 327, "INV_Box_01", nil, AL["Bracers: 15 Reals"], nil },
+				{ 328, "INV_Box_01", nil, AL["Boots, Gloves: 25 Reals"], nil },
+				{ 329, "INV_Box_01", nil, AL["Shoulders, Belt: 25 Reals"], nil },
+				{ 330, "INV_Box_01", nil, AL["Helm, Chest, Legs: 50 Reals"], nil },
 			},
 		},
 		{
