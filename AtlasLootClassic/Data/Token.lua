@@ -442,6 +442,42 @@ TOKEN_DATA.CLASSIC = {
 		type = 2,
 	},
 
+	-- Phase 8
+	[239248] = { -- Scarlet Junkbox
+		12811, -- Righteous Orb
+		{ 242465, "1-3" }, -- Jostled Chalice Fragment
+		12938, -- Blood of Heroes
+		{ 226404, "12-15" }, -- Tarnished Undermine Real
+
+		{ 239017, "5" }, -- Exquisite Spices
+		{ 239016, "2-6" }, -- Holy Salts
+		{ 12359, "6-8" }, -- Thorium Bar
+		{ 8172, "1-2" }, -- Cured Thick Hide
+		{ 8170, "9-12" }, -- Rugged Leather
+		{ 4304, "10-16" }, -- Thick Leather
+		{ 13468, "1-2" }, -- Black Lotus
+		{ 13463, "5-6" }, -- Dreamfoil
+		{ 13467, "5-6" }, -- Icecap
+		{ 13465, "5-6" }, -- Mountain Silversage
+		{ 13466, "5-6" }, -- Plaguebloom
+		238302, -- Pattern: Scarlet Augur's Mitts
+		238303, -- Pattern: Scarlet Augur's Strap
+		238321, -- Pattern: Scarlet Huntsman's Boots
+		238319, -- Pattern: Scarlet Huntsman's Clasp
+		238318, -- Pattern: Scarlet Huntsman's Handguards
+		238320, -- Pattern: Scarlet Huntsman's Legguards
+		238317, -- Pattern: Scarlet Huntsman's Wristguards
+		238311, -- Pattern: Scarlet Infiltrator's Belt
+		238309, -- Pattern: Scarlet Infiltrator's Bracers
+		238310, -- Pattern: Scarlet Infiltrator's Gloves
+		238313, -- Pattern: Scarlet Infiltrator's Shoes
+		238328, -- Plans: Scarlet Soldier's Legplates
+		238329, -- Plans: Scarlet Soldier's Stompers
+		238327, -- Plans: Scarlet Soldier's Waistguard
+
+		type = 2,
+	},
+
 	--25
 	[211322] = { {20744, 2}, type = 9 },
 	[211321] = { {11287, 2}, type = 9 },
