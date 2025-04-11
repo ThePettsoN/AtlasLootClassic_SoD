@@ -8243,7 +8243,65 @@ data["WorldBosses2"] = {
                 {0, 17965}, -- Yellow Sack of Gems
                 {0, 17969} -- Red Sack of Gems
             }
-        }
+        },
+        {
+            -- DYsondre
+            name = AL["Shared Loot"],
+            ExtraList = true,
+            [SOD_DIFF] = {
+                {1, 233370}, -- Qiraji Bindings of Command
+                {2, 233369}, -- Qiraji Bindings of Dominance
+                {3, 233371}, -- Qiraji Bindings of Sovereignty
+                {4, 233365}, -- Intact Viscera
+                {5, 233367}, -- Intact Peritoneum
+                {6, 233368}, -- Intact Entrails
+
+                {8, 230237}, -- Arcane Infused Gem
+                {9, 230238}, -- The Black Book
+                {10, 230243}, -- Mind Quickening Gem
+                {11, 230244}, -- Shapeshifter's Sigil
+                {12, 230249}, -- Lifegiving Gem
+                {13, 230250}, -- Venomous Totem
+                {14, 230273}, -- Natural Alignment Crystal
+                {15, 230272}, -- Scrolls of Blinding Light
+                {16, 230280}, -- Aegis of Preservation
+
+                {18, 231727}, -- Ancient Leggings
+                {19, 231718}, -- Primeval Leggings
+                {20, 231710}, -- Draconian Leggings
+                {21, 231728}, -- Ancient Helm
+                {22, 231719}, -- Primeval Helm
+                {23, 231711}, -- Draconian Hood
+                {24, 231726}, -- Ancient Shoulderpads
+                {25, 231717}, -- Primeval Shoulderpads
+                {26, 231709}, -- Draconian Shoulderpads
+                {27, 231731}, -- Ancient Chest
+                {28, 231723}, -- Primeval Chest
+                {29, 231714}, -- Draconian Robe
+
+                {30, "INV_Box_01", nil, AL["Continued-->"], nil},
+
+                {101, 18292}, -- Schematic: Core Marksman Rifle
+                {102, 18291}, -- Schematic: Force Reactive Disk
+                {103, 18290}, -- Schematic: Biznicks 247x128 Accurascope
+
+                {105, 18259}, -- Formula: Enchant Weapon - Spell Power
+                {106, 18260}, -- Formula: Enchant Weapon - Healing Power
+
+                {116, 20728}, -- Formula: Enchant Gloves - Frost Power
+                {117, 20731}, -- Formula: Enchant Gloves - Superior Agility
+                {118, 20734}, -- Formula: Enchant Cloak - Stealth
+                {119, 20729}, -- Formula: Enchant Gloves - Fire Power
+                {120, 20736}, -- Formula: Enchant Cloak - Dodge
+                {121, 20730}, -- Formula: Enchant Gloves - Healing Power
+                {122, 20727}, -- Formula: Enchant Gloves - Shadow Power
+                {123, 233998}, -- Formula: Enchant Gloves - Holy Power
+                {124, 233999}, -- Formula: Enchant Gloves - Arcane Power
+                {125, 235526}, -- Formula: Enchant Bracer - Spell Power
+                {126, 235528}, -- Formula: Enchant Bracer - Agility
+                {127, 233997} -- Formula: Living Stats
+            }
+        },
     }
 }
 
