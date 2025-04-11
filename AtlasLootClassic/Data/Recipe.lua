@@ -1105,6 +1105,80 @@ RECIPE_DATA.CLASSIC = {
 	[232437] = {6,300,470359}, -- Recipe: Darkclaw Bisque
 	[232443] = {6,300,470370}, -- Recipe: Smoked Redgill
 	[232434] = {1,225,470349}, -- Dense Runecloth Bandage
+
+
+
+	-- [itemID] = { profession, profRank, creationSpell }
+
+	--- SoD Phase 8 ---
+
+	-- Alchemy
+	[241651] = { 4, 250, 1231583 }, -- Recipe: Major Discolored Healing Potion
+
+	-- Blacksmithing
+	[238329] = { 2, 270, 1224639 }, -- Plans: Scarlet Soldier's Stompers
+	[238323] = { 2, 270, 1224632 }, -- Plans: Scarlet Soldier's Spaulders
+	[238322] = { 2, 270, 1224631 }, -- Plans: Scarlet Soldier's Helmet
+	[238328] = { 2, 270, 1224638 }, -- Plans: Scarlet Soldier's Legplates
+	[238325] = { 2, 270, 1224635 }, -- Plans: Scarlet Soldier's Protectors
+	[238326] = { 2, 270, 1224636 }, -- Plans: Scarlet Soldier's Grips
+	[238327] = { 2, 270, 1224637 }, -- Plans: Scarlet Soldier's Waistguard
+	[238324] = { 2, 270, 1224633 }, -- Plans: Scarlet Soldier's Chestplate
+
+	-- Tailoring
+	[239150] = { 8, 270, 1227724 }, -- Pattern: Crimson Dawnwoven Bag
+	[239149] = { 8, 270, 1227723 }, -- Pattern: Crusader's Knapsack
+	[238301] = { 8, 270, 1224610 }, -- Pattern: Scarlet Augur's Cuffs
+	[238298] = { 8, 270, 1224607 }, -- Pattern: Scarlet Augur's Hood
+	[238304] = { 8, 270, 1224613 }, -- Pattern: Scarlet Augur's Leggings
+	[238299] = { 8, 270, 1224608 }, -- Pattern: Scarlet Augur's Mantle
+	[238302] = { 8, 270, 1224611 }, -- Pattern: Scarlet Augur's Mitts
+	[238305] = { 8, 270, 1224614 }, -- Pattern: Scarlet Augur's Soles
+	[238303] = { 8, 270, 1224612 }, -- Pattern: Scarlet Augur's Strap
+	[238300] = { 8, 270, 1224609 }, -- Pattern: Scarlet Augur's Vestaments
+
+	-- Cooking
+	[238646] = { 6, 280, 1225759 }, -- Recipe: Filet o' Flank
+	[239021] = { 6, 280, 1227080 }, -- Carrie's Cookbook
+	[238645] = { 6, 280, 1225758 }, -- Recipe: Prowler Steak
+	[238647] = { 6, 280, 1225760 }, -- Recipe: Sunrise Omelette
+	[238650] = { 6, 280, 1225763 }, -- Recipe: Grand Lobster Banquet
+	[238649] = { 6, 280, 1225762 }, -- Recipe: Specklefin Feast
+
+	-- Engineering
+	[239222] = { 9, 250, 1228088 }, -- Schematic: Pop-Up Shrub
+	[238785] = { 9, 280, 1226209 }, -- Schematic: Tinkerbox: Magnetic Displacement
+	[238784] = { 9, 280, 1226208 }, -- Schematic: Tinkerbox: Nitro Boosts
+	[238783] = { 9, 280, 1226207 }, -- Schematic: Tinkerbox: Teleport
+	[238782] = { 9, 250, 1226206 }, -- Schematic: Tinkerbox
+	[238789] = { 9, 295, 1226213 }, -- Schematic: Semisafe Transporter: New Avalon
+	[240018] = { 9, 250, 1229402 } , -- Fizzlefuse's Tinker Manual
+
+	-- Enchanting
+	[241191] = { 10, 320, 1231128 }, -- Formula: Enchant Weapon - Grand Crusader
+	[241195] = { 10, 320, 1231139 }, -- Formula: Enchant 2H Weapon - Grand Arcanist
+	[241201] = { 10, 320, 1231164 }, -- Formula: Enchant Weapon - Grand Sorcerer
+	[242361] = { 10, 320, 1232172 }, -- Formula: Enchant 2H Weapon - Grand Inquisitor
+
+	-- Leatherworking
+	[238927] = { 3, 270, 1226689 }, -- Pattern: Scarlet Quiver
+	[238928] = { 3, 270, 1226690 }, -- Pattern: Scarlet Ammo Pouch
+	[238306] = { 3, 270, 1224615 }, -- Pattern: Scarlet Infiltrator's Bandana
+	[238307] = { 3, 270, 1224616 }, -- Pattern: Scarlet Infiltrator's Shoulderpads
+	[238310] = { 3, 270, 1224619 }, -- Pattern: Scarlet Infiltrator's Gloves
+	[238312] = { 3, 270, 1224621 }, -- Pattern: Scarlet Infiltrator's Trousers
+	[238308] = { 3, 270, 1224617 }, -- Pattern: Scarlet Infiltrator's Vest
+	[238309] = { 3, 270, 1224618 }, -- Pattern: Scarlet Infiltrator's Bracers
+	[238313] = { 3, 270, 1224622 }, -- Pattern: Scarlet Infiltrator's Shoes
+	[238311] = { 3, 270, 1224620 }, -- Pattern: Scarlet Infiltrator's Belt
+	[238314] = { 3, 270, 1224623 }, -- Pattern: Scarlet Huntsman's Coif
+	[238317] = { 3, 270, 1224626 }, -- Pattern: Scarlet Huntsman's Wristguards
+	[238315] = { 3, 270, 1224624 }, -- Pattern: Scarlet Huntsman's Pauldrons
+	[238320] = { 3, 270, 1224629 }, -- Pattern: Scarlet Huntsman's Legguards
+	[238319] = { 3, 270, 1224628 }, -- Pattern: Scarlet Huntsman's Clasp
+	[238316] = { 3, 270, 1224625 }, -- Pattern: Scarlet Huntsman's Chain
+	[238321] = { 3, 270, 1224630 }, -- Pattern: Scarlet Huntsman's Boots
+	[238318] = { 3, 270, 1224627 }, -- Pattern: Scarlet Huntsman's Handguards
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

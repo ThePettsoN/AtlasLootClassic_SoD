@@ -611,6 +611,17 @@ VENDOR_PRICES_RAW.CLASSIC = {
      [236622] = "argenttoken:5",
      [236623] = "argenttoken:5",
 
+     -- Phase 8
+     [231814] = "TUR:150",
+     [231882] = "TUR:150",
+     [230904] = "TUR:150",
+     [231452] = "TUR:150",
+     [229906] = "TUR:150",
+     [229352] = "TUR:150",
+     [231995] = "TUR:150",
+     [231722] = "TUR:150",
+     [231378] = "TUR:150",
+
 }
 
 if AtlasLoot:GameVersion_GE(AtlasLoot.BC_VERSION_NUM) then

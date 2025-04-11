@@ -8243,7 +8243,65 @@ data["WorldBosses2"] = {
                 {0, 17965}, -- Yellow Sack of Gems
                 {0, 17969} -- Red Sack of Gems
             }
-        }
+        },
+        {
+            -- DYsondre
+            name = AL["Shared Loot"],
+            ExtraList = true,
+            [SOD_DIFF] = {
+                {1, 233370}, -- Qiraji Bindings of Command
+                {2, 233369}, -- Qiraji Bindings of Dominance
+                {3, 233371}, -- Qiraji Bindings of Sovereignty
+                {4, 233365}, -- Intact Viscera
+                {5, 233367}, -- Intact Peritoneum
+                {6, 233368}, -- Intact Entrails
+
+                {8, 230237}, -- Arcane Infused Gem
+                {9, 230238}, -- The Black Book
+                {10, 230243}, -- Mind Quickening Gem
+                {11, 230244}, -- Shapeshifter's Sigil
+                {12, 230249}, -- Lifegiving Gem
+                {13, 230250}, -- Venomous Totem
+                {14, 230273}, -- Natural Alignment Crystal
+                {15, 230272}, -- Scrolls of Blinding Light
+                {16, 230280}, -- Aegis of Preservation
+
+                {18, 231727}, -- Ancient Leggings
+                {19, 231718}, -- Primeval Leggings
+                {20, 231710}, -- Draconian Leggings
+                {21, 231728}, -- Ancient Helm
+                {22, 231719}, -- Primeval Helm
+                {23, 231711}, -- Draconian Hood
+                {24, 231726}, -- Ancient Shoulderpads
+                {25, 231717}, -- Primeval Shoulderpads
+                {26, 231709}, -- Draconian Shoulderpads
+                {27, 231731}, -- Ancient Chest
+                {28, 231723}, -- Primeval Chest
+                {29, 231714}, -- Draconian Robe
+
+                {30, "INV_Box_01", nil, AL["Continued-->"], nil},
+
+                {101, 18292}, -- Schematic: Core Marksman Rifle
+                {102, 18291}, -- Schematic: Force Reactive Disk
+                {103, 18290}, -- Schematic: Biznicks 247x128 Accurascope
+
+                {105, 18259}, -- Formula: Enchant Weapon - Spell Power
+                {106, 18260}, -- Formula: Enchant Weapon - Healing Power
+
+                {116, 20728}, -- Formula: Enchant Gloves - Frost Power
+                {117, 20731}, -- Formula: Enchant Gloves - Superior Agility
+                {118, 20734}, -- Formula: Enchant Cloak - Stealth
+                {119, 20729}, -- Formula: Enchant Gloves - Fire Power
+                {120, 20736}, -- Formula: Enchant Cloak - Dodge
+                {121, 20730}, -- Formula: Enchant Gloves - Healing Power
+                {122, 20727}, -- Formula: Enchant Gloves - Shadow Power
+                {123, 233998}, -- Formula: Enchant Gloves - Holy Power
+                {124, 233999}, -- Formula: Enchant Gloves - Arcane Power
+                {125, 235526}, -- Formula: Enchant Bracer - Spell Power
+                {126, 235528}, -- Formula: Enchant Bracer - Agility
+                {127, 233997} -- Formula: Living Stats
+            }
+        },
     }
 }
 
@@ -11093,7 +11151,7 @@ data["TheTempleofAhnQiraj"] = {
 
 data["Naxxramas"] = {
     MapID = 3456,
-    InstanceID = AtlasLoot:GameVersion_LT(AtlasLoot.WRATH_VERSION_NUM, 533, nil),
+    InstanceID = 533,
     AtlasModule = ATLAS_MODULE_NAME,
     AtlasMapID = "Naxxramas",
     AtlasMapFile = "CL_Naxxramas",
@@ -11122,6 +11180,8 @@ data["Naxxramas"] = {
                 {10, 236255}, -- Wristguards of Vengeance
                 {11, 236259}, -- Band of Unanswered Prayers
                 {12, 236257}, -- Gem of Nerubis
+                {13, 236228}, -- Spaulders of the Grand Crusader
+                {14, 236226}, -- Pauldrons of Elemental Fury
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11156,6 +11216,7 @@ data["Naxxramas"] = {
                 {10, 236260}, -- Icebane Pauldrons
                 {11, 236264}, -- The Widow's Embrace
                 {12, 236263}, -- Widow's Remorse
+                {13, 236223}, -- Ring of the Eternal Flame
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11217,9 +11278,11 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236244}, -- Desecrated Belt
                 {5, 236252}, -- Desecrated Girdle
                 {6, 236232}, -- Desecrated Waistguard
+
                 {8, 236272}, -- Cloak of the Scourge
                 {9, 236273}, -- Band of the Inevitable
                 {10, 236274}, -- Hailstone Band
@@ -11227,7 +11290,10 @@ data["Naxxramas"] = {
                 {12, 236271}, -- Libram of Light
                 {13, 236276}, -- Totem of Flowing Water
                 {14, 236270}, -- Hatchet of Sundered Bone
-                {16, 236397}, -- Remnants of Valor
+                {15, 236229}, -- Leggings of the Grand Crusader
+                {16, 236230}, -- Leggings of Elemental Fury
+
+                {18, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11255,14 +11321,18 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236244}, -- Desecrated Belt
                 {5, 236252}, -- Desecrated Girdle
                 {6, 236232}, -- Desecrated Waistguard
+
                 {8, 236279}, -- Preceptor's Hat
                 {9, 236281}, -- Icy Scale Coif
                 {10, 237275}, -- Icebane Helmet
                 {11, 236277}, -- Necklace of Necropsy
                 {12, 236280}, -- Legplates of Carnage
+                {13, 236219}, -- Harbinger of Doom
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11289,14 +11359,17 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236246}, -- Desecrated Leggings
                 {5, 236253}, -- Desecrated Legguards
                 {6, 236238}, -- Desecrated Legplates
+
                 {8, 236286}, -- Band of Unnatural Forces
                 {9, 236283}, -- Ring of Spiritual Fervor
                 {10, 236282}, -- Loatheb's Reflection
                 {11, 236285}, -- The Eye of Nerub
                 {12, 236284}, -- Brimstone Staff
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11324,15 +11397,19 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236239}, -- Desecrated Sandals
                 {5, 236248}, -- Desecrated Boots
                 {6, 236234}, -- Desecrated Sabatons
+
                 {8, 236307}, -- Veil of Eclipse
                 {9, 236309}, -- Girdle of the Mentor
                 {10, 236311}, -- Signet of the Fallen Defender
                 {11, 236308}, -- Idol of Longevity
                 {12, 236310}, -- Wand of the Whispering Dead
                 {13, 236312}, -- Iblis, Blade of the Fallen Seraph
+                {14, 236220}, -- Necro-Knight's Garb
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11360,14 +11437,19 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236239}, -- Desecrated Sandals
                 {5, 236248}, -- Desecrated Boots
                 {6, 236234}, -- Desecrated Sabatons
+
                 {8, 236278}, -- Glacial Headdress
                 {9, 236315}, -- Polar Helmet
                 {10, 236316}, -- Sadist's Collar
                 {11, 236313}, -- The Soul Harvester's Bindings
                 {12, 236314}, -- Boots of Displacement
+                {13, 236227}, -- Belt of the Grand Crusader
+                {14, 236225}, -- Girdle of Elemental Fury
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11394,15 +11476,18 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236242}, -- Desecrated Robe
                 {5, 236251}, -- Desecrated Tunic
                 {6, 236231}, -- Desecrated Breastplate
+
                 {8, 236319}, -- Leggings of Apocalypse
                 {9, 236318}, -- Seal of the Damned
                 {10, 236320}, -- Warmth of Forgiveness
                 {11, 236322}, -- Soulstring
                 {12, 236321}, -- Maul of the Redeemed Crusader
-                -- {13, 236317}, -- Corrupted Ashbringer
+                {13, 237512}, -- Blade of Inquisition
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11430,14 +11515,18 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236240}, -- Desecrated Shoulderpads
                 {5, 236254}, -- Desecrated Spaulders
                 {6, 236237}, -- Desecrated Pauldrons
+
                 {8, 236289}, -- Cloak of Suturing
                 {9, 236291}, -- Band of Reanimation
                 {10, 236290}, -- Wand of Fates
                 {11, 236288}, -- The Plague Bearer
                 {12, 236287}, -- Severance
+                {13, 236222}, -- Ghoul Skin Tunic
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11463,14 +11552,18 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236240}, -- Desecrated Shoulderpads
                 {5, 236254}, -- Desecrated Spaulders
                 {6, 236237}, -- Desecrated Pauldrons
+
                 {8, 236295}, -- Glacial Mantle
                 {9, 236294}, -- Icy Scale Spaulders
                 {10, 236293}, -- Toxin Injector
                 {11, 236292}, -- Midnight Haze
                 {12, 236297}, -- The End of Dreams
+                {13, 236221}, -- Misplaced Servo Arm
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11496,11 +11589,14 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236298}, -- Rime Covered Mantle
                 {5, 236300}, -- Gluth's Missing Collar
                 {6, 236301}, -- Digested Hand of Power
                 {7, 236296}, -- Death's Bargain
                 {8, 236299}, -- Claymore of Unholy Might
+                {9, 236224}, -- Stygian Buckler
+                {10, 237577}, -- Totem of Unholy Might
 
                 {16, 236397}, -- Remnants of Valor
 
@@ -11549,14 +11645,17 @@ data["Naxxramas"] = {
             [SOD_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
+
                 {4, 236241}, -- Desecrated Circlet
                 {5, 236249}, -- Desecrated Headpiece
                 {6, 236236}, -- Desecrated Helmet
+
                 {8, 236304}, -- Plated Abomination Ribcage
                 {9, 236303}, -- Leggings of Polarity
                 {10, 236302}, -- Eye of Diminution
                 {11, 236306}, -- The Castigator
                 {12, 236305}, -- Spire of Twilight
+
                 {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
@@ -11592,13 +11691,24 @@ data["Naxxramas"] = {
                 {8, 236330}, -- Sapphiron's Right Eye
                 {9, 236336}, -- The Face of Death
                 {10, 236338}, -- Claw of the Frost Wyrm
+                {11, 236335}, -- Fists of the Unrelenting
 
-                {16, 236397}, -- Remnants of Valor
+                {13, 236397}, -- Remnants of Valor
 
-                {18, 236325}, -- Fortitude of the Scourge
-                {19, 236326}, -- Might of the Scourge
-                {20, 236324}, -- Power of the Scourge
-                {11, 236323}, -- Resilience of the Scourge
+                {16, 236246}, -- Desecrated Leggings
+                {17, 236253}, -- Desecrated Legguards
+                {18, 236238}, -- Desecrated Legplates
+                {19, 236241}, -- Desecrated Circlet
+                {20, 236249}, -- Desecrated Headpiece
+                {21, 236236}, -- Desecrated Helmet
+                {22, 236242}, -- Desecrated Robe
+                {23, 236251}, -- Desecrated Tunic
+                {24, 236231}, -- Desecrated Breastplate
+
+                {26, 236325}, -- Fortitude of the Scourge
+                {27, 236326}, -- Might of the Scourge
+                {28, 236324}, -- Power of the Scourge
+                {29, 236323}, -- Resilience of the Scourge
             },
             [NORMAL_DIFF] = {
                 {1, 23050}, -- Cloak of the Necropolis
@@ -11678,27 +11788,12 @@ data["Naxxramas"] = {
             name = AL["Trash"],
             ExtraList = true,
             [SOD_DIFF] = {
-                {1, 236226}, -- Pauldrons of Elemental Fury
-                {2, 236225}, -- Girdle of Elemental Fury
-                {3, 236230}, -- Leggings of Elemental Fury
-
-                {5, 236228}, -- Spaulders of the Grand Crusader
-                {6, 236227}, -- Belt of the Grand Crusader
-                {7, 236229}, -- Leggings of the Grand Crusader
-
-                {9, 236220}, -- Necro-Knight's Garb
-                {10, 236222}, -- Ghoul Skin Tunic
-                {11, 236223}, -- Ring of the Eternal Flame
-                {12, 236224}, -- Stygian Buckler
-                {13, 236219}, -- Harbinger of Doom
-                {14, 236221}, -- Misplaced Servo Arm
-
-                {16, 22376}, -- Wartorn Cloth Scrap
-                {17, 22373}, -- Wartorn Leather Scrap
-                {18, 22374}, -- Wartorn Chain Scrap
-                {19, 22375}, -- Wartorn Plate Scrap
-                {21, 237773}, -- Word of Thawing
-                {22, 236656} -- Frozen Rune
+                {1, 22376}, -- Wartorn Cloth Scrap
+                {2, 22373}, -- Wartorn Leather Scrap
+                {3, 22374}, -- Wartorn Chain Scrap
+                {4, 22375}, -- Wartorn Plate Scrap
+                {6, 237773}, -- Word of Thawing
+                {7, 236656} -- Frozen Rune
             },
             [NORMAL_DIFF] = {
                 {1, 23664}, -- Pauldrons of Elemental Fury
@@ -11725,5 +11820,232 @@ data["Naxxramas"] = {
             }
         },
         T3_SET_SOD
+    }
+}
+
+data["ScarletEnclave"] = {
+    MapID = 16236,
+    InstanceID = 2856,
+    ContentType = RAID_CONTENT,
+    ContentPhase = 6,
+    LevelRange = GetForVersion({60, 60, 60}, {60, 60, 60}),
+    items = {
+        {
+            name = AL["Balnazzar"],
+            npcID = 240811,
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+
+                { 3, 240922 }, -- Deception
+                { 4, 241017 }, -- Demon's Folly
+                { 5, 241018 }, -- Nathrezim Heart
+                { 6, 241171 }, -- Gloves of Departed Souls
+                { 7, 241176 }, -- Diesalven's Demise
+                { 8, 241184 }, -- Savior Sandals
+                { 9, 241152 }, -- Dawnwrought Shoulders
+                { 10, 241179 }, -- Leggings of Catastrophe
+                { 11, 241178 }, -- Stalwart Pain Plate
+                { 12, 241028 }, -- Nathrezim Loop
+
+                { 14, 242365 }, -- Wing of Balnazzar
+            }
+        },
+        {
+            name = AL["High Commander Beatrix"],
+            npcID = 240812,
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+
+                { 3, 240997 }, -- Fratley's Spur
+                { 4, 241077 }, -- Cardinal's Chapeau
+                { 5, 241159 }, -- Monastery Garb
+                { 6, 241173 }, -- High Wizard Wrap
+                { 7, 241177 }, -- Kilt of the Scarlet Arcanist
+                { 8, 241076 }, -- Cowl of the Covenant
+                { 9, 241074 }, -- Helm of the Red Crusade
+                { 10, 241170 }, -- Enclave Protectors
+                { 11, 241068 }, -- Stiltz's Standard
+                { 12, 241027 }, -- Shield Warden's Guard
+                { 13, 241026 }, -- Cardinal's Shawl
+            }
+        },
+        {
+            name = AL["Lillian Voss"],
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+            }
+        },
+        {
+            name = AL["Alexei the Beastlord"],
+            npcID = 240794,
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+
+                { 3, 240849 }, -- Staff of the Glade
+                { 4, 241162 }, -- Sunblessed Leathers
+                { 5, 241158 }, -- Chains of the Abandoned
+                { 6, 240849 }, -- Staff of the Glade
+                { 7, 241162 }, -- Sunblessed Leathers
+                { 8, 241158 }, -- Chains of the Abandoned
+            }
+        },
+        {
+            name = AL["Mason the Echo"],
+            npcID = 241021,
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+
+                { 3, 241011 }, -- Greatstaff of Fealty
+                { 4, 241071 }, -- Talisman of the Scarlet Scoundrel
+                { 5, 240925 }, -- Experiment-800M
+                { 6, 241183 }, -- Ashwalkers
+                { 7, 242793 }, -- Portable Cannon
+                { 8, 241030 }, -- Mason's Fraternity Ring
+                { 9, 241023 }, -- Drape of the Dastardly
+            }
+        },
+        {
+            name = AL["Solistrasza"],
+            npcID = 238954,
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+
+                { 3, 236317 }, -- Vis'era the Gutrender
+                { 4, 241186 }, -- Polished Scarlet Mail Boots
+                { 5, 241166 }, -- Dawnstripped Bands
+                { 6, 241022 }, -- Dawnbringer's Cloak
+                { 7, 241073 }, -- Touch of Light
+                { 9, 242364 }, -- Mature Light Dragon Sinew
+            }
+        },
+        {
+            name = AL["Reborn Council"],
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+            }
+        },
+        {
+            name = AL["Caldoran"],
+            [SOD_DIFF] = {
+                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+            }
+        },
+        {
+            -- Trash
+            name = AL["TBD"],
+            ExtraList = true,
+            [SOD_DIFF] = {
+                -- One-Hand Weapons TBD
+                { 1, 240851 }, -- Regicide
+                { 2, 240923 }, -- Duplicity
+                { 3, 241002 }, -- Remnants of the Red
+                { 4, 240841 }, -- High Commander's Guard
+                { 5, 240853 }, -- Queensfall
+                { 6, 240174 }, -- Solistra, Fang of the First Light
+                { 7, 241123 }, -- Reborn Dagger
+                { 8, 240998 }, -- Soporific Blade
+                { 9, 240839 }, -- Thal'kituun, the Unseen Guest
+                { 10, 240850 }, -- Lightfist Hammer
+                { 11, 241001 }, -- Tyr's Fall
+                { 12, 241006 }, -- Spire of Sacrifice
+                { 13, 239060 }, -- Will of the Mountain
+                { 14, 240852 }, -- Crimson Cleaver
+                { 15, 240854 }, -- Mercy
+
+                -- Two-Hand Weapons TBD
+                { 16, 240924 }, -- Poleaxe of the Beast
+                { 17, 240842 }, -- Scarlet Rotbringer
+                { 18, 241008 }, -- Condemnation
+                { 19, 241003 }, -- Mirage, Rod of Illusion
+                { 20, 240195 }, -- Invisible Sword
+                { 21, 239301 }, -- Corrupted Ashbringer
+                { 22, 241082 }, -- Ashbringer
+                { 23, 238961 }, -- Caladbolg
+                { 24, 240920 }, -- Leogan
+                { 25, 238945 }, -- Caladboulder
+                { 26, 240921 }, -- Scarlet Smashbringer
+                { 27, 240919 }, -- Ravagane
+
+                { 30, "INV_Box_01", nil, AL["Continued-->"], nil },
+
+                -- Ranged TBD
+                { 101, 240837 }, -- Strings of Fate
+                { 102, 240844 }, -- Putress' Poker
+                { 103, 241004 }, -- Conundrum
+                { 104, 241012 }, -- Wand of Reanimation
+                { 105, 240843 }, -- Starter's Pistol
+                { 106, 241212 }, -- Cluck Cannon
+
+                -- Shields TBD
+                { 108, 241015 }, -- Aegis of the Scarlet Bastion
+
+                -- Off-Hands TBD
+                { 110, 241020 }, -- Putress' Completed Diary
+                { 111, 241021 }, -- The Light
+
+                -- Cloth Armor TBD
+                { 116, 241078 }, -- Shroud of the Embalmed
+                { 117, 241153 }, -- Doan's Mantle
+                { 118, 241156 }, -- Blighted Robes
+                { 119, 241165 }, -- Penitent Wraps
+                { 120, 241168 }, -- Sunblaze Grips
+                { 121, 241167 }, -- Prisoner Shackles
+
+                -- Leather Armor TBD
+                { 123, 241079 }, -- Weight of the World
+                { 124, 241154 }, -- Bearskin Mantle
+                { 125, 241164 }, -- Scrapped Argent Leathers
+                { 126, 241175 }, -- Torturer's Toolbelt
+                { 127, 241180 }, -- Lightscale Leggings
+                { 128, 241185 }, -- Bear Training Boots
+
+                { 130, "INV_Box_01", nil, AL["Continued-->"], nil },
+
+                -- Mail Armor TBD
+                { 201, 241075 }, -- Raging Destroyer's Helm
+                { 202, 241160 }, -- Dawnworn Chainmail
+                { 203, 241163 }, -- Sunblaze Bracers
+                { 204, 241175 }, -- Torturer's Toolbelt
+                { 205, 241181 }, -- Dawnworn Chain Leggings
+
+                -- Plate Armor TBD
+                { 207, 241080 }, -- Herod's Pauldron
+                { 208, 241161 }, -- Templar Breastplate
+                { 209, 241157 }, -- Scarlet Chestplate
+                { 210, 241174 }, -- Girdle of the Reborn Champion
+                { 211, 241182 }, -- Templar Plate Legguards
+                { 212, 241187 }, -- Crimson Wartreads
+
+                -- Trinkets TBD
+                { 216, 241039 }, -- Infusion of Souls
+                { 217, 242314 }, -- Cinders of the Fallen Crusade
+                { 218, 242317 }, -- Desecrated Prayerbook
+                { 219, 241038 }, -- Sir Dornel's Didgeridoo
+                { 220, 242315 }, -- Ashes of Arrogance
+                { 221, 242316 }, -- Dust of the Defiant
+                { 222, 241034 }, -- Heart of Light
+                { 223, 241037 }, -- Abandoned Experiment
+                { 224, 241241 }, -- Lucky Doubloon
+
+                -- Rings TBD
+                { 226, 241029 }, -- Baelin's Band
+                { 227, 241032 }, -- Ring of Resurrection
+                { 228, 241031 }, -- Barthalomew's Promise
+
+                { 230, "INV_Box_01", nil, AL["Continued-->"], nil },
+
+                -- Back TBD
+                { 301, 241025 }, -- Flag of the Broken Admiral
+                { 302, 241024 }, -- Scarlet Commander's Cape
+
+                -- Necklaces TBD
+                { 304, 241070 }, -- Hope of Herod
+                { 305, 241069 }, -- Choke Chain
+                { 306, 241072 }, -- Vial of Pus
+
+                -- Misc TBD
+                { 308, 239117 }, -- Crusader's Chalice
+            }
+        },
     }
 }
