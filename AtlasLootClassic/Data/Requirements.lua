@@ -3619,6 +3619,7 @@ ReqData_RAW.CLASSIC = {
 	[240920] = {2}, 	-- Leogan (Paladin)
 	[241039] = {1490}, 	-- Infusion of Souls (Paladin, Priest, Shaman, Mage, Warlock, Druid)
 	[243230] = {7}, 	-- Ruined Lightforged Blade (Warrior, Paladin, Hunter)
+	[243198] = {4},		-- Poultry Precision Scope
 
 	[241020] = {1424}, -- Putress' Completed Diary (Priest, Mage, Warlock, Druid)
 	[242427] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
