@@ -11206,18 +11206,18 @@ data["Naxxramas"] = {
             AtlasMapBossID = "2",
             NameColor = BLUE,
             [SOD_DIFF] = {
-                    {1, 22726}, -- Splinter of Atiesh
-                    {2, 22727}, -- Frame of Atiesh
-                    {4, 236245}, -- Desecrated Bindings
-                    {5, 236247}, -- Desecrated Wristguards
-                    {6, 236235}, -- Desecrated Bracers
-                    {8, 236261}, -- Malice Stone Pendant
-                    {9, 236262}, -- Polar Shoulder Pads
-                    {10, 236260}, -- Icebane Pauldrons
-                    {11, 236264}, -- The Widow's Embrace
-                    {12, 236263}, -- Widow's Remorse
-                    {13, 236223}, -- Ring of the Eternal Flame
-                    {16, 236397}, -- Remnants of Valor
+                {1, 22726}, -- Splinter of Atiesh
+                {2, 22727}, -- Frame of Atiesh
+                {4, 236245}, -- Desecrated Bindings
+                {5, 236247}, -- Desecrated Wristguards
+                {6, 236235}, -- Desecrated Bracers
+                {8, 236261}, -- Malice Stone Pendant
+                {9, 236262}, -- Polar Shoulder Pads
+                {10, 236260}, -- Icebane Pauldrons
+                {11, 236264}, -- The Widow's Embrace
+                {12, 236263}, -- Widow's Remorse
+                {13, 236223}, -- Ring of the Eternal Flame
+                {16, 236397}, -- Remnants of Valor
             },
             [NORMAL_DIFF] = {
                 {1, 22726}, -- Splinter of Atiesh
@@ -11590,13 +11590,13 @@ data["Naxxramas"] = {
                 {1, 22726}, -- Splinter of Atiesh
                 {2, 22727}, -- Frame of Atiesh
 
-                    {4, 236298}, -- Rime Covered Mantle
-                    {5, 236300}, -- Gluth's Missing Collar
-                    {6, 236301}, -- Digested Hand of Power
-                    {7, 236296}, -- Death's Bargain
-                    {8, 236299}, -- Claymore of Unholy Might
-                    {9, 236224}, -- Stygian Buckler
-                    {10, 237577}, -- Totem of Unholy Might
+                {4, 236298}, -- Rime Covered Mantle
+                {5, 236300}, -- Gluth's Missing Collar
+                {6, 236301}, -- Digested Hand of Power
+                {7, 236296}, -- Death's Bargain
+                {8, 236299}, -- Claymore of Unholy Might
+                {9, 236224}, -- Stygian Buckler
+                {10, 237577}, -- Totem of Unholy Might
 
                 {16, 236397}, -- Remnants of Valor
 
@@ -11681,34 +11681,34 @@ data["Naxxramas"] = {
             AtlasMapBossID = "1",
             NameColor = GREEN,
             [SOD_DIFF] = {
-                    {1, 236327}, -- Cloak of the Necropolis
-                    {2, 236333}, -- Shroud of Dominion
-                    {3, 236337}, -- Glyph of Deflection
-                    {4, 236329}, -- Eye of the Dead
-                    {5, 236334}, -- Slayer's Crest
-                    {6, 236331}, -- The Restrained Essence of Sapphiron
-                    {7, 236328}, -- Sapphiron's Left Eye
-                    {8, 236330}, -- Sapphiron's Right Eye
-                    {9, 236336}, -- The Face of Death
-                    {10, 236338}, -- Claw of the Frost Wyrm
-                    {11, 236335}, -- Fists of the Unrelenting
+                {1, 236327}, -- Cloak of the Necropolis
+                {2, 236333}, -- Shroud of Dominion
+                {3, 236337}, -- Glyph of Deflection
+                {4, 236329}, -- Eye of the Dead
+                {5, 236334}, -- Slayer's Crest
+                {6, 236331}, -- The Restrained Essence of Sapphiron
+                {7, 236328}, -- Sapphiron's Left Eye
+                {8, 236330}, -- Sapphiron's Right Eye
+                {9, 236336}, -- The Face of Death
+                {10, 236338}, -- Claw of the Frost Wyrm
+                {11, 236335}, -- Fists of the Unrelenting
 
-                    {13, 236397}, -- Remnants of Valor
+                {13, 236397}, -- Remnants of Valor
 
-                    {16, 236246}, -- Desecrated Leggings
-                    {17, 236253}, -- Desecrated Legguards
-                    {18, 236238}, -- Desecrated Legplates
-                    {19, 236241}, -- Desecrated Circlet
-                    {20, 236249}, -- Desecrated Headpiece
-                    {21, 236236}, -- Desecrated Helmet
-                    {22, 236242}, -- Desecrated Robe
-                    {23, 236251}, -- Desecrated Tunic
-                    {24, 236231}, -- Desecrated Breastplate
+                {16, 236246}, -- Desecrated Leggings
+                {17, 236253}, -- Desecrated Legguards
+                {18, 236238}, -- Desecrated Legplates
+                {19, 236241}, -- Desecrated Circlet
+                {20, 236249}, -- Desecrated Headpiece
+                {21, 236236}, -- Desecrated Helmet
+                {22, 236242}, -- Desecrated Robe
+                {23, 236251}, -- Desecrated Tunic
+                {24, 236231}, -- Desecrated Breastplate
 
-                    {26, 236325}, -- Fortitude of the Scourge
-                    {27, 236326}, -- Might of the Scourge
-                    {28, 236324}, -- Power of the Scourge
-                    {29, 236323}, -- Resilience of the Scourge
+                {26, 236325}, -- Fortitude of the Scourge
+                {27, 236326}, -- Might of the Scourge
+                {28, 236324}, -- Power of the Scourge
+                {29, 236323}, -- Resilience of the Scourge
             },
             [NORMAL_DIFF] = {
                 {1, 23050}, -- Cloak of the Necropolis
