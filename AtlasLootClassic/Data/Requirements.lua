@@ -14,6 +14,7 @@ local ReqData, ReqData_RAW = AtlasLoot:GetGameVersionDataTable()
 -- 1	- Warrior
 -- 2	- Paladin
 -- 4 	- Hunter
+-- 7	- Warrior, Paladin, Hunter
 -- 8	- Rogue
 -- 16	- Priest
 -- 64	- Shaman
@@ -23,6 +24,8 @@ local ReqData, ReqData_RAW = AtlasLoot:GetGameVersionDataTable()
 -- 1090 - Paladin, Shaman, Druid
 -- 133	- Warrior, Hunter, Mage
 -- 280	- Rogue, Priest, Warlock
+-- 1424 - Priest, Mage, Warlock, Druid
+-- 1490 - Paladin, Priest, Shaman, Mage, Warlock, Druid
 
 
 ReqData_RAW.CLASSIC = {
@@ -3606,13 +3609,31 @@ ReqData_RAW.CLASSIC = {
 	[236623] = {1024},
 
 	--- SoD Phase 8 ---
-	[242364] = {4}, -- Mature Light Dragon Sinew
-	[242367] = {4}, -- Wing and String
-	[242366] = {4}, -- Inescapable Fate
-	[239196] = {7}, -- Ruined Lightforged Blade
-	[242365] = {4}, -- Wing of Balnazzar
-	[240921] = {64}, -- Scarlet Smashbringer
-	[240844] = {256}, -- Putress' Poker
+	[242364] = {4}, 	-- Mature Light Dragon Sinew (Hunter)
+	[242367] = {4}, 	-- Wing and String (Hunter)
+	[242366] = {4}, 	-- Inescapable Fate (Hunter)
+	[239196] = {7}, 	-- Ruined Lightforged Blade (Warrior, Paladin, Hunter)
+	[242365] = {4}, 	-- Wing of Balnazzar (Hunter)
+	[240921] = {64}, 	-- Scarlet Smashbringer (Shaman)
+	[240844] = {256}, 	-- Putress' Poker (Warlock)
+	[240920] = {2}, 	-- Leogan (Paladin)
+	[241039] = {1490}, 	-- Infusion of Souls (Paladin, Priest, Shaman, Mage, Warlock, Druid)
+	[243230] = {7}, 	-- Ruined Lightforged Blade (Warrior, Paladin, Hunter)
+
+	[241020] = {1424}, -- Putress' Completed Diary (Priest, Mage, Warlock, Druid)
+	[242427] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
+	[242429] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
+	[242432] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
+	[242434] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
+	[242435] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
+	[242436] = {1424}, -- Putress' Diary (Priest, Mage, Warlock, Druid)
+
+	[242425] = {1424}, -- Torn Diary Page - Page 1 (Priest, Mage, Warlock, Druid)
+	[242426] = {1424}, -- Torn Diary Page - Page 2 (Priest, Mage, Warlock, Druid)
+	[242428] = {1424}, -- Torn Diary Page - Page 3 (Priest, Mage, Warlock, Druid)
+	[242430] = {1424}, -- Torn Diary Page - Page 4 (Priest, Mage, Warlock, Druid)
+	[242431] = {1424}, -- Torn Diary Page - Page 5 (Priest, Mage, Warlock, Druid)
+	[242433] = {1424}, -- Torn Diary Page - Page 6 (Priest, Mage, Warlock, Druid)
 
 	[239729] = {1090}, -- Consecrated Headpiece (Paladin, Shaman, Druid)
 	[239731] = {1090}, -- Consecrated Tunic (Paladin, Shaman, Druid)
