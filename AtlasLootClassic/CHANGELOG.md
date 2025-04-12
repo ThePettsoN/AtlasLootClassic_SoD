@@ -4,6 +4,21 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 [Changelog history](https://github.com/ThePettsoN/AtlasLootClassic_SoD/releases)
 
+## v1.2.0 SoD (2025-05-12)
+### Phase 8
+- Add profession recipes & mats
+- Add new mounts
+- Add class requirements for new items
+- Add new item sets
+- Add Scarlet Enclave raid and known loot tables
+- Add new chests and content
+### Misc
+- Fix armor types for older item sets
+- Update loot tables for Nightmare Dragons
+- Add new items to Tarnished Undermine Real vendor
+- Fix token type for older tiers
+- Update Naxx loot tables
+
 ## v1.1.5 SoD (2025-02-14)
 - Added a few missing class requirements for SoD unique items
 - Added the Dust Bag to Karazhan Crypt's loot table
