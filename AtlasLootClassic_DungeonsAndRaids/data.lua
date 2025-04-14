@@ -11849,8 +11849,12 @@ data["ScarletEnclave"] = {
                 { 13, 240839 }, -- Thal'kituun, the Unseen Guest
                 { 14, 241157 }, -- Scarlet Chestplate
 
-                { 16, 239117 }, -- Crusader's Chalice
-                { 17, 242365 }, -- Wing of Balnazzar
+                { 16, 239719 }, -- Consecrated Bindings
+                { 17, 239759 }, -- Consecrated Bracers
+                { 18, 239722 }, -- Consecrated Wristguards
+
+                { 20, 239117 }, -- Crusader's Chalice
+                { 21, 242365 }, -- Wing of Balnazzar
             }
         },
         {
@@ -11870,6 +11874,13 @@ data["ScarletEnclave"] = {
                 { 11, 241068 }, -- Stiltz's Standard
                 { 12, 241027 }, -- Shield Warden's Guard
                 { 13, 241026 }, -- Cardinal's Shawl
+
+                { 16, 239760 }, -- Consecrated Waistguard
+
+                { 27, 238300 }, -- Pattern: Scarlet Augur's Vestaments
+                { 28, 238324 }, -- Plans: Scarlet Soldier's Chestplate
+
+                { 30, 239196 }, -- Ruined Lightforged Blade
             }
         },
         {
@@ -11879,6 +11890,8 @@ data["ScarletEnclave"] = {
 
                 { 3, 240923 }, -- Duplicity
                 { 4, 241031 }, -- Barthalomew's Promise
+                { 5, 241176 }, -- Diesalven's Demise
+                { 6, 241173 }, -- High Wizard Wrap
             }
         },
         {
@@ -11932,8 +11945,11 @@ data["ScarletEnclave"] = {
                 { 10, 240174 }, -- Solistra, Fang of the First Light
                 { 11, 241180 }, -- Lightscale Leggings
                 { 12, 241163 }, -- Sunblaze Bracers
+                { 13, 241034 }, -- Heart of Light
 
-                { 16, 239117 }, -- Crusader's Chalice
+                { 16, 239729 }, -- Consecrated Headpiece
+
+                { 18, 239117 }, -- Crusader's Chalice
             }
         },
         {
@@ -12046,9 +12062,8 @@ data["ScarletEnclave"] = {
                 { 203, 242317 }, -- Desecrated Prayerbook
                 { 204, 242315 }, -- Ashes of Arrogance
                 { 205, 242316 }, -- Dust of the Defiant
-                { 206, 241034 }, -- Heart of Light
-                { 207, 241037 }, -- Abandoned Experiment
-                { 208, 241241 }, -- Lucky Doubloon
+                { 206, 241037 }, -- Abandoned Experiment
+                { 207, 241241 }, -- Lucky Doubloon
 
                 -- Misc TBD
                 { 210, 239117 }, -- Crusader's Chalice
