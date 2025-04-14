@@ -4,6 +4,12 @@ This mod is distributed under Version 2 of the GPL.  A copy of the GPL is includ
 
 [Changelog history](https://github.com/ThePettsoN/AtlasLootClassic_SoD/releases)
 
+## v1.2.1 SoD (2025-05-12)
+### Phase 8
+- Update tier 4 tokens to show what gear pieces they convert to
+- Update the Scarlet Enclave loot tables with the latest available data
+- Add a tier 4 loot page for the Scarlet Enclave
+
 ## v1.2.0 SoD (2025-05-12)
 ### Phase 8
 - Add profession recipes & mats
