@@ -11834,145 +11834,209 @@ data["ScarletEnclave"] = {
             name = AL["Balnazzar"],
             npcID = 240811,
             [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+                { 1, 240839 }, -- Thal'kituun, the Unseen Guest
+                { 2, 240922 }, -- Deception
+                { 3, 241017 }, -- Demon's Folly
+                { 4, 241018 }, -- Nathrezim Heart
+                { 5, 241028 }, -- Nathrezim Loop
+                { 6, 241152 }, -- Dawnwrought Shoulders
+                { 7, 241157 }, -- Scarlet Chestplate
+                { 8, 241171 }, -- Gloves of Departed Souls
+                { 9, 241176 }, -- Diesalven's Demise
+                { 10, 241178 }, -- Stalwart Pain Plate
+                { 11, 241179 }, -- Leggings of Catastrophe
+                { 12, 241184 }, -- Savior Sandals
 
-                { 3, 240922 }, -- Deception
-                { 4, 241017 }, -- Demon's Folly
-                { 5, 241018 }, -- Nathrezim Heart
-                { 6, 241171 }, -- Gloves of Departed Souls
-                { 7, 241176 }, -- Diesalven's Demise
-                { 8, 241184 }, -- Savior Sandals
-                { 9, 241152 }, -- Dawnwrought Shoulders
-                { 10, 241179 }, -- Leggings of Catastrophe
-                { 11, 241178 }, -- Stalwart Pain Plate
-                { 12, 241028 }, -- Nathrezim Loop
-                { 13, 240839 }, -- Thal'kituun, the Unseen Guest
-                { 14, 241157 }, -- Scarlet Chestplate
+                { 16, 239719 }, -- Consecrated Bindings (Rogue, Priest, Warlock)
+                { 17, 239722 }, -- Consecrated Wristguards (Paladin, Shaman, Druid)
+                { 18, 239759 }, -- Consecrated Bracers (Warrior, Hunter, Mage)
 
-                { 16, 239719 }, -- Consecrated Bindings
-                { 17, 239759 }, -- Consecrated Bracers
-                { 18, 239722 }, -- Consecrated Wristguards
-
-                { 20, 239117 }, -- Crusader's Chalice
-                { 21, 242365 }, -- Wing of Balnazzar
+                { 20, 242365 }, -- Wing of Balnazzar
             }
         },
         {
             name = AL["High Commander Beatrix"],
             npcID = 240812,
             [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+                { 1, 240997 }, -- Fratley's Spur
+                { 2, 241026 }, -- Cardinal's Shawl
+                { 3, 241027 }, -- Shield Warden's Guard
+                { 4, 241068 }, -- Stiltz's Standard
+                { 5, 241074 }, -- Helm of the Red Crusade
+                { 6, 241076 }, -- Cowl of the Covenant
+                { 7, 241077 }, -- Cardinal's Chapeau
+                { 8, 241159 }, -- Monastery Garb
+                { 9, 241170 }, -- Enclave Protectors
+                { 10, 241173 }, -- High Wizard Wrap
+                { 11, 241177 }, -- Kilt of the Scarlet Arcanist
 
-                { 3, 240997 }, -- Fratley's Spur
-                { 4, 241077 }, -- Cardinal's Chapeau
-                { 5, 241159 }, -- Monastery Garb
-                { 6, 241173 }, -- High Wizard Wrap
-                { 7, 241177 }, -- Kilt of the Scarlet Arcanist
-                { 8, 241076 }, -- Cowl of the Covenant
-                { 9, 241074 }, -- Helm of the Red Crusade
-                { 10, 241170 }, -- Enclave Protectors
-                { 11, 241068 }, -- Stiltz's Standard
-                { 12, 241027 }, -- Shield Warden's Guard
-                { 13, 241026 }, -- Cardinal's Shawl
+                { 16, 239718 }, -- Consecrated Belt (Rogue, Priest, Warlock)
+                { 17, 239756 }, -- Consecrated Girdle (Paladin, Shaman, Druid)
+                { 18, 239760 }, -- Consecrated Waistguard (Warrior, Hunter, Mage)
 
-                { 16, 239760 }, -- Consecrated Waistguard
+                { 20, 238300 }, -- Pattern: Scarlet Augur's Vestaments
+                { 21, 238324 }, -- Plans: Scarlet Soldier's Chestplate
 
-                { 27, 238300 }, -- Pattern: Scarlet Augur's Vestaments
-                { 28, 238324 }, -- Plans: Scarlet Soldier's Chestplate
+                { 23, 239694 }, -- Covenant of Light
 
-                { 30, 239196 }, -- Ruined Lightforged Blade
-            }
-        },
-        {
-            name = AL["Lillian Voss"],
-            [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+                { 25, 239196 }, -- Ruined Lightforged Blade
+                { 26, 239216 }, -- Lightforged Iron
 
-                { 3, 240923 }, -- Duplicity
-                { 4, 241031 }, -- Barthalomew's Promise
-                { 5, 241176 }, -- Diesalven's Demise
-                { 6, 241173 }, -- High Wizard Wrap
-            }
-        },
-        {
-            name = AL["Alexei the Beastlord"],
-            npcID = 240794,
-            [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
-
-                { 3, 240849 }, -- Staff of the Glade
-                { 4, 241162 }, -- Sunblessed Leathers
-                { 5, 241158 }, -- Chains of the Abandoned
-                { 6, 240849 }, -- Staff of the Glade
-                { 7, 241162 }, -- Sunblessed Leathers
-                { 8, 241158 }, -- Chains of the Abandoned
-                { 9, 240924 }, -- Poleaxe of the Beast
-                { 10, 241079 }, -- Weight of the World
-                { 11, 241038 }, -- Sir Dornel's Didgeridoo
-                { 12, 241069 }, -- Choke Chain
-            }
-        },
-        {
-            name = AL["Mason the Echo"],
-            npcID = 241021,
-            [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
-
-                { 3, 241011 }, -- Greatstaff of Fealty
-                { 4, 241071 }, -- Talisman of the Scarlet Scoundrel
-                { 5, 240925 }, -- Experiment-800M
-                { 6, 241183 }, -- Ashwalkers
-                { 7, 242793 }, -- Portable Cannon
-                { 8, 241030 }, -- Mason's Fraternity Ring
-                { 9, 241023 }, -- Drape of the Dastardly
-                { 10, 240843 }, -- Starter's Pistol
-                { 11, 241181 }, -- Dawnworn Chain Leggings
             }
         },
         {
             name = AL["Solistrasza"],
             npcID = 238954,
             [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
-
-                { 3, 236317 }, -- Vis'era the Gutrender
-                { 4, 241186 }, -- Polished Scarlet Mail Boots
-                { 5, 241166 }, -- Dawnstripped Bands
-                { 6, 241022 }, -- Dawnbringer's Cloak
+                { 1, 236317 }, -- Vis'era the Gutrender
+                { 2, 240174 }, -- Solistra, Fang of the First Light
+                { 3, 240850 }, -- Lightfist Hammer
+                { 4, 241002 }, -- Remnants of the Red
+                { 5, 241022 }, -- Dawnbringer's Cloak
+                { 6, 241034 }, -- Heart of Light
                 { 7, 241073 }, -- Touch of Light
-                { 8, 242364 }, -- Mature Light Dragon Sinew
-                { 9, 241002 }, -- Remnants of the Red
-                { 10, 240174 }, -- Solistra, Fang of the First Light
+                { 8, 241163 }, -- Sunblaze Bracers
+                { 9, 241166 }, -- Dawnstripped Bands
+                { 10, 241168 }, -- Sunblaze Grips
                 { 11, 241180 }, -- Lightscale Leggings
-                { 12, 241163 }, -- Sunblaze Bracers
-                { 13, 241034 }, -- Heart of Light
+                { 12, 241186 }, -- Polished Scarlet Mail Boots
 
-                { 16, 239729 }, -- Consecrated Headpiece
+                { 16, 239714 }, -- Consecrated Circlet (Rogue, Priest, Warlock)
+                { 17, 239729 }, -- Consecrated Headpiece (Paladin, Shaman, Druid)
+                { 18, 239707 }, -- Consecrated Helmet (Warrior, Hunter, Mage)
 
-                { 18, 239117 }, -- Crusader's Chalice
+                { 20, 242364 }, -- Mature Light Dragon Sinew
+                { 21, 239216 }, -- Lightforged Iron
+            }
+        },
+        {
+            name = AL["Alexei the Beastlord"],
+            npcID = 240794,
+            [SOD_DIFF] = {
+                { 1, 240849 }, -- Staff of the Glade
+                { 2, 240924 }, -- Poleaxe of the Beast
+                { 3, 241038 }, -- Sir Dornel's Didgeridoo
+                { 4, 241069 }, -- Choke Chain
+                { 5, 241079 }, -- Weight of the World
+                { 6, 241154 }, -- Bearskin Mantle
+                { 7, 241158 }, -- Chains of the Abandoned
+                { 8, 241162 }, -- Sunblessed Leathers
+                { 9, 241164 }, -- Scrapped Argent Leathers
+                { 10, 241165 }, -- Penitent Wraps
+                { 11, 241167 }, -- Prisoner Shackles
+                { 12, 241185 }, -- Bear Training Boots
+                { 13, 241212 }, -- Cluck Cannon
+
+                { 16, 239710 }, -- Consecrated Sandals (Rogue, Priest, Warlock)
+                { 17, 239726 }, -- Consecrated Boots (Paladin, Shaman, Druid)
+                { 18, 239706 }, -- Consecrated Sabatons (Warrior, Hunter, Mage)
+
+                { 20, 239216 }, -- Lightforged Iron
+            }
+        },
+        {
+            name = AL["Mason the Echo"],
+            npcID = 241021,
+            [SOD_DIFF] = {
+                { 1, 239060 }, -- Will of the Mountain
+                { 2, 240843 }, -- Starter's Pistol
+                { 3, 240925 }, -- Experiment-800M
+                { 4, 241011 }, -- Greatstaff of Fealty
+                { 5, 241023 }, -- Drape of the Dastardly
+                { 6, 241025 }, -- Flag of the Broken Admiral
+                { 7, 241030 }, -- Mason's Fraternity Ring
+                { 8, 241071 }, -- Talisman of the Scarlet Scoundrel
+                { 9, 241181 }, -- Dawnworn Chain Leggings
+                { 10, 241182 }, -- Templar Plate Legguards
+                { 11, 241183 }, -- Ashwalkers
+                { 12, 241187 }, -- Crimson Wartreads
+                { 13, 242793 }, -- Portable Cannon
+
+                { 16, 239716 }, -- Consecrated Gloves (Rogue, Priest, Warlock)
+                { 17, 239730 }, -- Consecrated Handguards (Paladin, Shaman, Druid)
+                { 18, 239762 }, -- Consecrated Gauntlets (Warrior, Hunter, Mage)
+
+                { 20, 239216 }, -- Lightforged Iron
             }
         },
         {
             name = AL["Reborn Council"],
             [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+                { 1, 240853 }, -- Queensfall
+                { 2, 240854 }, -- Mercy
+                { 3, 240919 }, -- Ravagane
+                { 4, 240998 }, -- Soporific Blade
+                { 5, 241003 }, -- Mirage, Rod of Illusion
+                { 6, 241008 }, -- Condemnation
+                { 7, 241015 }, -- Aegis of the Scarlet Bastion
+                { 8, 241070 }, -- Hope of Herod
+                { 9, 241075 }, -- Raging Destroyer's Helm
+                { 10, 241080 }, -- Herod's Pauldron
+                { 11, 241153 }, -- Doan's Mantle
+                { 12, 241174 }, -- Girdle of the Reborn Champion
+                { 13, 241175 }, -- Torturer's Toolbelt
 
-                { 3, 241008 }, -- Condemnation
-                { 4, 241003 }, -- Mirage, Rod of Illusion
-                { 5, 241075 }, -- Raging Destroyer's Helm
-                { 6, 241070 }, -- Hope of Herod
+                { 16, 239712 }, -- Consecrated Shoulderpads (Rogue, Priest, Warlock)
+                { 17, 239758 }, -- Consecrated Spaulders (Paladin, Shaman, Druid)
+                { 18, 239708 }, -- Consecrated Pauldrons (Warrior, Hunter, Mage)
+                { 19, 239117, nil, nil, "Token for any Tier 4 piece" }, -- Crusader's Chalice
 
-                { 16, 239117 }, -- Crusader's Chalice
+                { 21, 237302 }, -- Tabard of the Scarlet Enclave
+
+                { 23, 239216 }, -- Lightforged Iron
+            }
+        },
+        {
+            name = AL["Lillian Voss"],
+            [SOD_DIFF] = {
+                { 1, 240842 }, -- Scarlet Rotbringer
+                { 2, 240844 }, -- Putress' Poker
+                { 3, 240923 }, -- Duplicity
+                { 4, 241004 }, -- Conundrum
+                { 5, 241012 }, -- Wand of Reanimation
+                { 6, 241020 }, -- Putress' Completed Diary
+                { 7, 241031 }, -- Barthalomew's Promise
+                { 8, 241037 }, -- Abandoned Experiment
+                { 9, 241072 }, -- Vial of Pus
+                { 10, 241078 }, -- Shroud of the Embalmed
+                { 11, 241156 }, -- Blighted Robes
+                { 12, 241160 }, -- Dawnworn Chainmail
+                { 13, 241161 }, -- Templar Breastplate
+
+                { 16, 239721 }, -- Consecrated Leggings (Rogue, Priest, Warlock)
+                { 17, 239757 }, -- Consecrated Legguards (Paladin, Shaman, Druid)
+                { 18, 239709 }, -- Consecrated Legplates (Warrior, Hunter, Mage)
+                { 19, 239117, nil, nil, "Token for any Tier 4 piece" }, -- Crusader's Chalice
+
+                { 21, 239216 }, -- Lightforged Iron
             }
         },
         {
             name = AL["Grand Crusader Caldoran"],
             npcID = 241006,
             [SOD_DIFF] = {
-                { 1, "INV_Box_01", nil, AL["More items will be added as..."], "...the loot tables are figured out", nil },
+                { 1, 240841 }, -- High Commander's Guard
+                { 2, 240851 }, -- Regicide
+                { 3, 240852 }, -- Crimson Cleaver
+                { 4, 240920 }, -- Leogan
+                { 5, 240921 }, -- Scarlet Smashbringer
+                { 6, 241001 }, -- Tyr's Fall
+                { 7, 241006 }, -- Spire of Sacrifice
+                { 8, 241021 }, -- The Light
+                { 9, 241029 }, -- Baelin's Band
+                { 10, 241032 }, -- Ring of Resurrection
+                { 11, 241039 }, -- Infusion of Souls
+                { 12, 241172 }, -- Caldoran's Locked Gauntlets
 
-                { 3, 240921 }, -- Scarlet Smashbringer
-                { 4, 241029 }, -- Baelin's Band
+                { 16, 239715 }, -- Consecrated Robe (Rogue, Priest, Warlock)
+                { 17, 239731 }, -- Consecrated Tunic (Paladin, Shaman, Druid)
+                { 18, 239761 }, -- Consecrated Breastplate (Warrior, Hunter, Mage)
+                { 19, 239117, nil, nil, "Token for any Tier 4 piece" }, -- Crusader's Chalice
+
+                { 21, 239215 }, -- Charred Emblem
+                { 22, 242366 }, -- Inescapable Fate
+
+                { 24, 239695 }, -- Scarlet Steed
             }
         },
         {
@@ -11980,93 +12044,12 @@ data["ScarletEnclave"] = {
             name = AL["TBD"],
             ExtraList = true,
             [SOD_DIFF] = {
-                -- One-Hand Weapons TBD
-                { 1, 240851 }, -- Regicide
-                { 2, 240841 }, -- High Commander's Guard
-                { 3, 240853 }, -- Queensfall
-                { 4, 241123 }, -- Reborn Dagger
-                { 5, 240998 }, -- Soporific Blade
-                { 6, 240850 }, -- Lightfist Hammer
-                { 7, 241001 }, -- Tyr's Fall
-                { 8, 241006 }, -- Spire of Sacrifice
-                { 9, 239060 }, -- Will of the Mountain
-                { 10, 240852 }, -- Crimson Cleaver
-                { 11, 240854 }, -- Mercy
-
-                -- Shields TBD
-                { 12, 241015 }, -- Aegis of the Scarlet Bastion
-
-                -- Off-Hands TBD
-                { 14, 241020 }, -- Putress' Completed Diary
-                { 15, 241021 }, -- The Light
-
-                -- Two-Hand Weapons TBD
-                { 16, 240842 }, -- Scarlet Rotbringer
-                { 17, 240195 }, -- Invisible Sword
-                { 18, 239301 }, -- Corrupted Ashbringer
-                { 19, 241082 }, -- Ashbringer
-                { 20, 238961 }, -- Caladbolg
-                { 21, 240920 }, -- Leogan
-                { 22, 238945 }, -- Caladboulder
-                { 23, 240919 }, -- Ravagane
-
-                -- Back TBD
-                { 25, 241025 }, -- Flag of the Broken Admiral
-                { 26, 241024 }, -- Scarlet Commander's Cape
-
-                -- Rings TBD
-                { 28, 241032 }, -- Ring of Resurrection
-
-                { 30, "INV_Box_01", nil, AL["Continued-->"], nil },
-
-                -- Cloth Armor TBD
-                { 101, 241078 }, -- Shroud of the Embalmed
-                { 102, 241153 }, -- Doan's Mantle
-                { 103, 241156 }, -- Blighted Robes
-                { 104, 241165 }, -- Penitent Wraps
-                { 105, 241168 }, -- Sunblaze Grips
-                { 106, 241167 }, -- Prisoner Shackles
-
-                -- Leather Armor TBD
-                { 108, 241154 }, -- Bearskin Mantle
-                { 109, 241164 }, -- Scrapped Argent Leathers
-                { 110, 241175 }, -- Torturer's Toolbelt
-                { 111, 241185 }, -- Bear Training Boots
-
-                -- Mail Armor TBD
-                { 113, 241160 }, -- Dawnworn Chainmail
-                { 114, 241175 }, -- Torturer's Toolbelt
-
-                -- Plate Armor TBD
-                { 116, 241080 }, -- Herod's Pauldron
-                { 117, 241161 }, -- Templar Breastplate
-                { 118, 241174 }, -- Girdle of the Reborn Champion
-                { 119, 241182 }, -- Templar Plate Legguards
-                { 120, 241187 }, -- Crimson Wartreads
-
-                -- Ranged TBD
-                { 122, 240837 }, -- Strings of Fate
-                { 123, 240844 }, -- Putress' Poker
-                { 124, 241004 }, -- Conundrum
-                { 125, 241012 }, -- Wand of Reanimation
-                { 126, 241212 }, -- Cluck Cannon
-
-                -- Necklaces TBD
-                { 128, 241072 }, -- Vial of Pus
-
-                { 130, "INV_Box_01", nil, AL["Continued-->"], nil },
-
-                -- Trinkets TBD
-                { 201, 241039 }, -- Infusion of Souls
-                { 202, 242314 }, -- Cinders of the Fallen Crusade
-                { 203, 242317 }, -- Desecrated Prayerbook
-                { 204, 242315 }, -- Ashes of Arrogance
-                { 205, 242316 }, -- Dust of the Defiant
-                { 206, 241037 }, -- Abandoned Experiment
-                { 207, 241241 }, -- Lucky Doubloon
-
-                -- Misc TBD
-                { 210, 239117 }, -- Crusader's Chalice
+                { 1, 238945 }, -- Caladboulder
+                { 2, 238961 }, -- Caladbolg
+                { 3, 240195 }, -- Invisible Sword
+                { 4, 241024 }, -- Scarlet Commander's Cape
+                { 5, 241123 }, -- Reborn Dagger
+                { 6, 241241 }, -- Lucky Doubloon
             }
         },
         {
