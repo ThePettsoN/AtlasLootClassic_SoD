@@ -1,16 +1,22 @@
-# AtlasLootClassic
+# AtlasLootClassic SoD
 
 This mod is distributed under Version 2 of the GPL.  A copy of the GPL is included in this zip file with links to non-english translations.
 
 [Changelog history](https://github.com/ThePettsoN/AtlasLootClassic_SoD/releases)
 
-## v1.2.1 SoD (2025-05-12)
+## v1.2.2 SoD (2025-04-24)
+### Phase 8
+- Update loot tables for Scarlet Enclave
+- Fix ordering of bosses
+- Map new tokens to their corresponding item(s)
+
+## v1.2.1 SoD (2025-04-15)
 ### Phase 8
 - Update tier 4 tokens to show what gear pieces they convert to
 - Update the Scarlet Enclave loot tables with the latest available data
 - Add a tier 4 loot page for the Scarlet Enclave
 
-## v1.2.0 SoD (2025-05-12)
+## v1.2.0 SoD (2025-04-12)
 ### Phase 8
 - Add profession recipes & mats
 - Add new mounts
