@@ -496,14 +496,21 @@ TOKEN_DATA.CLASSIC = {
 	[239759] = { ICONS.WARRIOR, 239512, 239520, 0, ICONS.HUNTER, 239536, 239544, 0, ICONS.MAGE, 240052, 240044, 0, type = 6 }, -- Consecrated Bracers (Warrior, Hunter, Mage)
 	[239762] = { ICONS.WARRIOR, 239514, 239522, 0, ICONS.HUNTER, 239531, 239539, 0, ICONS.MAGE, 240057, 240049, 0, type = 6 }, -- Consecrated Gauntlets (Warrior, Hunter, Mage)
 
-	[239714] = { ICONS.ROGUE, 239560, 239550, 0, ICONS.PRIEST, 239575, 239585, 0, ICONS.WARLOCK, 240148, 240141, type = 6 }, -- Consecrated Circlet (Rogue, Priest, Warlock)
-	[239721] = { ICONS.ROGUE, 239561, 239551, 0, ICONS.PRIEST, 239577, 239587, 0, ICONS.WARLOCK, 240149, 240142, type = 6 }, -- Consecrated Leggings (Rogue, Priest, Warlock)
-	[239715] = { ICONS.ROGUE, 239562, 239548, 0, ICONS.PRIEST, 239565, 239591, 0, ICONS.WARLOCK, 240146, 240138, type = 6 }, -- Consecrated Robe (Rogue, Priest, Warlock)
-	[239716] = { ICONS.ROGUE, 239557, 239549, 0, ICONS.PRIEST, 239574, 239584, 0, ICONS.WARLOCK, 240147, 240140, type = 6 }, -- Consecrated Gloves (Rogue, Priest, Warlock)
-	[239712] = { ICONS.ROGUE, 239559, 239552, 0, ICONS.PRIEST, 239581, 239586, 0, ICONS.WARLOCK, 240150, 240143, type = 6 }, -- Consecrated Shoulderpads (Rogue, Priest, Warlock)
-	[239710] = { ICONS.ROGUE, 239558, 239553, 0, ICONS.PRIEST, 239572, 239589, 0, ICONS.WARLOCK, 240153, 240139, type = 6 }, -- Consecrated Sandals (Rogue, Priest, Warlock)
-	[239719] = { ICONS.ROGUE, 239555, 239547, 0, ICONS.PRIEST, 239583, 239588, 0, ICONS.WARLOCK, 240152, 240145, type = 6 }, -- Consecrated Bindings (Rogue, Priest, Warlock)
-	[239718] = { ICONS.ROGUE, 239556, 239554, 0, ICONS.PRIEST, 239582, 239590, 0, ICONS.WARLOCK, 240151, 240144, type = 6 }, -- Consecrated Belt (Rogue, Priest, Warlock)
+	[239714] = { ICONS.ROGUE, 239560, 239550, 0, ICONS.PRIEST, 239575, 239585, 0, ICONS.WARLOCK, 240148, 240141, 0, type = 6 }, -- Consecrated Circlet (Rogue, Priest, Warlock)
+	[239721] = { ICONS.ROGUE, 239561, 239551, 0, ICONS.PRIEST, 239577, 239587, 0, ICONS.WARLOCK, 240149, 240142, 0, type = 6 }, -- Consecrated Leggings (Rogue, Priest, Warlock)
+	[239715] = { ICONS.ROGUE, 239562, 239548, 0, ICONS.PRIEST, 239565, 239591, 0, ICONS.WARLOCK, 240146, 240138, 0, type = 6 }, -- Consecrated Robe (Rogue, Priest, Warlock)
+	[239716] = { ICONS.ROGUE, 239557, 239549, 0, ICONS.PRIEST, 239574, 239584, 0, ICONS.WARLOCK, 240147, 240140, 0, type = 6 }, -- Consecrated Gloves (Rogue, Priest, Warlock)
+	[239712] = { ICONS.ROGUE, 239559, 239552, 0, ICONS.PRIEST, 239581, 239586, 0, ICONS.WARLOCK, 240150, 240143, 0, type = 6 }, -- Consecrated Shoulderpads (Rogue, Priest, Warlock)
+	[239710] = { ICONS.ROGUE, 239558, 239553, 0, ICONS.PRIEST, 239572, 239589, 0, ICONS.WARLOCK, 240153, 240139, 0, type = 6 }, -- Consecrated Sandals (Rogue, Priest, Warlock)
+	[239719] = { ICONS.ROGUE, 239555, 239547, 0, ICONS.PRIEST, 239583, 239588, 0, ICONS.WARLOCK, 240152, 240145, 0, type = 6 }, -- Consecrated Bindings (Rogue, Priest, Warlock)
+	[239718] = { ICONS.ROGUE, 239556, 239554, 0, ICONS.PRIEST, 239582, 239590, 0, ICONS.WARLOCK, 240151, 240144, 0, type = 6 }, -- Consecrated Belt (Rogue, Priest, Warlock)
+
+	[239196] = { 239301, type = 3 }, -- Ruined Lightforged Blade
+	[242365] = { 240837, type = 3 }, -- Wing of Balnazzar
+	[239216] = { 239301, type = 5 }, -- Lightforged Iron
+	[242364] = { 240837, type = 5 }, -- Mature Light Dragon Sinew
+	[239215] = { 242314, 242317, 242315, 242316, type = 3 }, -- Charred Emblem
+	[242366] = { 240837, type = 5 }, -- Inescapable Fate
 
 	--25
 	[211322] = { {20744, 2}, type = 9 },
